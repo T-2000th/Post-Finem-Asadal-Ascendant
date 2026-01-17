@@ -1,0 +1,15 @@
+#2778 - Werder
+owner = MFZ
+controller = MFZ
+culture = qarifan
+religion = sunni
+capital = "Wardheer"
+trade_goods = livestock
+is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+add_core = MFZ

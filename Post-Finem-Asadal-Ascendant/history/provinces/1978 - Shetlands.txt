@@ -1,0 +1,18 @@
+#1978 - Shetlands
+base_tax = 1
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Lerwick"
+is_city = yes# Estimated
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = NRD
+owner = NRD
+controller = NRD
+culture = norwegian
+religion = norse_pagan_reformed
+discovered_by = west_mongol_group

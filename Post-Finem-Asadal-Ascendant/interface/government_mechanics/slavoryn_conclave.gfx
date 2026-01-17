@@ -1,0 +1,22 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_slavoryn_conclave_adm_button"
+		texturefile = "gfx/interface/government_mechanics/slavoryn_conclave/slavoryn_conclave_adm_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_slavoryn_conclave_dip_button"
+		texturefile = "gfx/interface/government_mechanics/slavoryn_conclave/slavoryn_conclave_dip_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_slavoryn_conclave_mil_button"
+		texturefile = "gfx/interface/government_mechanics/slavoryn_conclave/slavoryn_conclave_mil_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

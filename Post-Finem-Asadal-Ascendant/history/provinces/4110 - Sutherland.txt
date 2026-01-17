@@ -1,0 +1,20 @@
+#4110 - Sutherland
+base_tax = 3
+base_production = 2
+trade_goods = lumber
+base_manpower = 2
+capital = "Inbhir Uige"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = NRD
+add_core = PTC
+owner = NRD
+controller = NRD
+culture = old_highland_scottish
+religion = norse_pagan_reformed
+center_of_trade = 1
+discovered_by = west_mongol_group

@@ -1,0 +1,20 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_italia_adm_button"
+		texturefile = "gfx//interface//government_mechanics//italian_abilities//italia_adm_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_italia_dip_button"
+		texturefile = "gfx//interface//government_mechanics//italian_abilities//italia_dip_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_italia_mil_button"
+		texturefile = "gfx//interface//government_mechanics//italian_abilities//italia_mil_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

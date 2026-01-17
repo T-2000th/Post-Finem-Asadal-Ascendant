@@ -1,0 +1,25 @@
+#2961 - Lwow
+latent_trade_goods = { 
+	coal 
+}
+capital = "Lwów"
+trade_goods = dyes#Polish cochineal
+base_tax = 3
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+extra_cost = 8
+center_of_trade = 1
+religion = slavic_religion
+culture = volhynian
+owner = RCH
+controller = RCH
+add_core = RCH
+add_core = VOL

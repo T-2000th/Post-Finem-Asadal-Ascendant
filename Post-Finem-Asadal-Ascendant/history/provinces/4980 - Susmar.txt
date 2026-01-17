@@ -1,0 +1,24 @@
+# 4980 - Susmar
+owner = SOS
+controller = SOS
+add_core = SOS
+# culture = 
+# religion = 
+# hre = yes
+is_city = yes
+capital = "Susmar"
+trade_goods = sugar
+# Total development: 3
+base_tax = 2
+base_production = 1
+base_manpower = 1
+# fort_15th = yes
+# center_of_trade = 
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+culture = maurian
+religion = punic_religion
+discovered_by = west_mongol_group

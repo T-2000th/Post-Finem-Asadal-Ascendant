@@ -1,0 +1,28 @@
+# 5066 - 5066
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Thrasos"
+trade_goods = wool
+# Total development: 7
+base_tax = 1
+base_production = 3
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+add_core = MAC
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+discovered_by = nomad_group
+owner = MAC
+culture = thracian
+religion = zalmozeios
+controller = MAC
+is_city = no

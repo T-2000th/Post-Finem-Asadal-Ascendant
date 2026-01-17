@@ -1,0 +1,21 @@
+#206 - Galicia
+base_tax = 3
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Korune"
+is_city = yes
+# Santiago de Compostela pilgrimage
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = SUE
+controller = SUE
+add_core = SUE
+religion = punic_religion
+culture = varangar
+center_of_trade = 1
+add_core = PTM
+discovered_by = west_mongol_group

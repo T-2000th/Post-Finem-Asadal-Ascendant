@@ -1,0 +1,38 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_three_tiers_bg"
+		texturefile = "gfx/interface/government_mechanics/triarchy_three_tiers/three_tiers_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_judiciary_interaction"
+		texturefile = "gfx/interface/government_mechanics/triarchy_three_tiers/judiciary_interaction.dds"
+	}
+
+	spriteType = {
+		name = "GFX_legislation_interaction"
+		texturefile = "gfx/interface/government_mechanics/triarchy_three_tiers/legislation_interaction.dds"
+	}
+
+	spriteType = {
+		name = "GFX_executive_interaction"
+		texturefile = "gfx/interface/government_mechanics/triarchy_three_tiers/executive_interaction.dds"
+	}
+
+	spriteType = {
+		name = "GFX_three_tiers_frame"
+		texturefile = "gfx/interface/government_mechanics/triarchy_three_tiers/crown_consensus_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_three_tiers_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/triarchy_three_tiers/crown_consensus_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/triarchy_three_tiers/crown_consensus_progress_bar_empty.dds"
+		size = { x = 185 y = 14 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

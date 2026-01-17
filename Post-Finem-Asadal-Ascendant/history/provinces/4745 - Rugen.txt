@@ -1,0 +1,22 @@
+# 4745 - R�gen
+base_tax = 4
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Arkona"
+is_city = yes
+unrest = 8#pirate independence of thought
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+add_core = DRK
+owner = DRK
+add_core = RGN
+controller = DRK
+religion = slavic_religion
+culture = polabian
+
+center_of_trade = 1
+discovered_by = west_mongol_group

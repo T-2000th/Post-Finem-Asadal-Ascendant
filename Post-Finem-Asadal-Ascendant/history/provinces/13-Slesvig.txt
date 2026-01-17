@@ -1,0 +1,19 @@
+#Sönderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
+base_tax = 3
+base_production = 2
+trade_goods = horses
+base_manpower = 2
+capital = "Schleswig"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+add_core = JUT
+owner = JUT
+controller = JUT
+religion = norse_pagan_reformed
+culture = angle
+discovered_by = west_mongol_group
+fort_15th = yes

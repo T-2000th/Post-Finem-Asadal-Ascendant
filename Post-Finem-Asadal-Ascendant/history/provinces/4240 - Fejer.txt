@@ -1,0 +1,20 @@
+#4240 - Fejér (Fejér + Veszprém + Györ + parts of Komárom)
+capital = "Feyara"
+trade_goods = horses
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+culture = fyrnir
+religion = south_germanic_religion
+add_core = OST
+owner = OST
+controller = OST
+
+discovered_by = west_mongol_group

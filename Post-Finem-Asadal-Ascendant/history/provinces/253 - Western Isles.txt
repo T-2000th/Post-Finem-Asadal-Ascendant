@@ -1,0 +1,19 @@
+#253 - Western Isles
+base_tax = 2
+base_production = 2
+trade_goods = lumber
+base_manpower = 1
+capital = "Autsian"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = CEL
+add_core = PTC
+owner = CEL
+controller = CEL
+culture = old_highland_scottish
+religion = dubhnoic
+discovered_by = west_mongol_group

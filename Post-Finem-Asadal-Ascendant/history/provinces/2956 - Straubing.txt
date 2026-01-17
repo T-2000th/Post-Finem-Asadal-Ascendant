@@ -1,0 +1,21 @@
+#64 - Straubing
+base_tax = 2
+base_production = 3
+trade_goods = glass
+base_manpower = 3
+capital = "Stroubinga"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+#Last of the Landshuter Wittelsbachs dies, Bavaria reunited
+culture = marcomanni
+religion = germanic_religion
+add_core = BAV
+owner = BAV
+controller = BAV
+discovered_by = west_mongol_group
+add_core = NGM

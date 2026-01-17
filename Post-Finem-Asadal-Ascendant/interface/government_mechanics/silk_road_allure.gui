@@ -1,0 +1,30 @@
+guiTypes = {
+	windowType = {
+		name = "silk_road_allure_gov_mech"
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 300 y = 82 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		#bar and frame
+		iconType = {
+			name = "silk_road_allure_bg"
+			spriteType = "GFX_silk_road_allure_bg"
+			position = { x = 10 y = -10 }
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "government_power_bar"
+			spriteType = "GFX_allure_power_bar"
+			position = { x = 26 y = 60 }
+		}
+		iconType = {
+			name = "trinovantes_cohesion_frame"
+			spriteType = "GFX_allure_frame"
+			position = { x = 10 y = 11 }
+			alwaystransparent = yes
+		}
+	}
+}

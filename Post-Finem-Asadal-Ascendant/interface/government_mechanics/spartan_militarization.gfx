@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_spartan_militarisation_bg"
+		texturefile = "gfx/interface/government_mechanics/spartan_militarization/spartan_militarisation_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_spartan_militarisation_frame"
+		texturefile = "gfx/interface/government_mechanics/spartan_militarization/spartan_militarisation_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_spartan_militarisation_power_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/spartan_militarization/spartan_militarisation_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/spartan_militarization/spartan_militarisation_empty.dds"
+		size = { x = 180 y = 18 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_buy_militarization_button"
+		texturefile = "gfx\\interface\\militarization_increase_button.dds"
+	}
+}

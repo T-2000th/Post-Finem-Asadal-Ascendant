@@ -1,0 +1,10 @@
+guiTypes = {
+	windowType = { # Copied and adjusted from government_interaction_type
+		name = "nek_learning_gov_mech"
+		size = { x = 1 y = 1 }
+		moveable = 0
+		
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+#
+	}
+}

@@ -1,0 +1,20 @@
+#East Karelia
+capital = "Valko-Karjala"
+is_city = yes
+base_tax = 2
+base_production = 1
+trade_goods = salt
+base_manpower = 1
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_local_autonomy = 25
+add_core = KRL
+owner = KRL
+controller = KRL
+religion = suomenusko
+culture = karelian
+discovered_by = ottoman
+
+discovered_by = west_mongol_group

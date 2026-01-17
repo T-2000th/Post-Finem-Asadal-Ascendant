@@ -1,0 +1,19 @@
+#Bergenshus, 
+base_tax = 3
+base_production = 2
+trade_goods = naval_supplies
+base_manpower = 2
+is_city = yes
+capital = "Bergen"
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+extra_cost = 16
+owner = HTH
+controller = HTH
+culture = norwegian
+religion = norse_pagan_reformed
+discovered_by = west_mongol_group
+discovered_by = ottoman
+add_core = HTH

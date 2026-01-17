@@ -1,0 +1,23 @@
+#208 - León
+latent_trade_goods = { 
+	coal 
+}
+base_tax = 3
+base_production = 2
+trade_goods = livestock
+base_manpower = 3
+capital = "Leuban"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+extra_cost = 8
+owner = SUE
+controller = SUE
+add_core = SUE
+religion = punic_religion
+culture = varangar
+add_core = PTM
+discovered_by = west_mongol_group

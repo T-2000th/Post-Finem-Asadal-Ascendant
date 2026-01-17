@@ -1,0 +1,20 @@
+#237 - Oxfordshire
+#Oxfordshire+Bukinghamshire+Berkshire
+base_tax = 2
+base_production = 2
+trade_goods = livestock
+base_manpower = 2
+capital = "Tarwabrith"
+is_city = yes
+seat_in_parliament = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = CVI
+owner = CVI
+controller = CVI
+culture = briton
+religion = druidic
+discovered_by = west_mongol_group

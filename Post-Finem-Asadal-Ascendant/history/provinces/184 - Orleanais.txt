@@ -1,0 +1,20 @@
+# 184 Orléannais + Blois - Principal cities: Orléans
+capital = "Aurelianis"
+is_city = yes
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 3
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = BVA
+controller = BVA
+add_core = SNN
+culture = senonian
+religion = druidic
+discovered_by = west_mongol_group
+add_core = BVA

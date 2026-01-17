@@ -1,0 +1,21 @@
+# 203 Lyonnais - Principal cities: Lyon
+capital = "Lugdunon"
+is_city = yes
+base_tax = 2
+base_production = 3
+trade_goods = paper#Great printing industry form the 15th century and french center of paperproduction in Ambert close by (even though not the main trade good for that province).
+base_manpower = 2
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 16
+owner = ARV
+controller = ARV
+culture = arverni
+religion = druidic
+add_core = ARV
+discovered_by = west_mongol_group
+fort_15th = yes

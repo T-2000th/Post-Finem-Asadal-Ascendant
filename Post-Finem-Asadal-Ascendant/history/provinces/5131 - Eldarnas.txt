@@ -1,0 +1,26 @@
+# 5131 - Eldarnas
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Eldarnas"
+trade_goods = grain
+#Total development: 3
+base_tax = 4
+base_production = 4
+base_manpower = 5
+# fort_15th = yes
+# center_of_trade = 
+add_core = SWE
+owner = SWE
+culture = swedish
+religion = norse_pagan_reformed
+controller = SWE
+is_city = no
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = west_mongol_group
+discovered_by = celtic_tech
+discovered_by = ottoman

@@ -1,0 +1,21 @@
+#1774 - Treviso
+base_tax = 4
+base_production = 3
+trade_goods = paper
+base_manpower = 2
+capital = "Tarvisium"
+is_city = yes# Estimated 
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = SZA
+controller = SZA
+hre = yes
+culture = venetii
+religion = romana
+
+add_core = SZA
+discovered_by = west_mongol_group

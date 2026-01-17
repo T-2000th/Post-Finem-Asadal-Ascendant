@@ -1,0 +1,20 @@
+#Elfsborgs Län
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+capital = "Elfsborg"
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+extra_cost = 8
+owner = TVD
+controller = TVD
+culture = skogungar
+religion = norse_pagan_reformed
+is_city = no
+discovered_by = west_mongol_group
+add_core = TVD
+fort_15th = yes

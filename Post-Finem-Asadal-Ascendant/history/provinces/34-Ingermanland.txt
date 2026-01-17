@@ -1,0 +1,18 @@
+#Ingermanland, incl. Ivangorod, Jama, and Kopore.
+base_tax = 2
+base_production = 4
+trade_goods = fur
+base_manpower = 2
+capital = "Laumava"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+religion = romuva
+culture = laumyras
+add_core = GDJ
+owner = GDJ
+controller = GDJ
+discovered_by = ottoman
+discovered_by = west_mongol_group

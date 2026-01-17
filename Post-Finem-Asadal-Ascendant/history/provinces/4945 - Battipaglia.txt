@@ -1,0 +1,33 @@
+### Modified 2/8/2025 5:01:56 PM ###
+# Fertum
+# 4945 Fertum - 2/8/2025 5:01:56 PM 
+ 
+add_core = SNO
+owner = SNO
+controller = SNO
+base_tax = 4
+base_production = 4
+base_manpower = 4
+
+trade_goods = olives
+
+culture = lucanian
+religion = punic_religion
+capital = "Fertum"
+
+hre = yes
+is_city = yes
+
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+
+
+
+
+
+

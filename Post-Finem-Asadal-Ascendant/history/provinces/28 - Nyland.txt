@@ -1,0 +1,19 @@
+#Nyland, incl. Raseborg, Borgå, Helsingfors.
+base_tax = 3
+base_production = 3
+trade_goods = lumber
+base_manpower = 4
+capital = "Uusimaa"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = FIN
+owner = FIN
+controller = FIN
+culture = finnish
+religion = suomenusko
+discovered_by = ottoman
+
+discovered_by = west_mongol_group

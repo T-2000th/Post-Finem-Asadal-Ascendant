@@ -1,0 +1,25 @@
+#246 - Northumberland
+#+Durham
+latent_trade_goods = { 
+	coal 
+}
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 2
+capital = "Norland"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = NRD
+owner = NRD
+controller = NRD
+culture = pictish
+religion = dubhnoic
+add_core = BGT
+add_core = GDD
+add_core = PTC
+discovered_by = west_mongol_group

@@ -1,0 +1,21 @@
+spriteTypes = {
+	#Gallic Lugundites vs. Gallians
+
+	spriteType = {
+		name = "GFX_lugundites_vs_gallians_frame"
+		texturefile = "gfx/interface/government_mechanics/lugundites_vs_gallians/lugundites_vs_gallians_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+
+	progressbartype = {
+		name = "GFX_lugundites_vs_gallians_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/lugundites_vs_gallians/lugundites_vs_gallians_progressbar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/lugundites_vs_gallians/lugundites_vs_gallians_progressbar_empty.dds"
+		size = { x = 228 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

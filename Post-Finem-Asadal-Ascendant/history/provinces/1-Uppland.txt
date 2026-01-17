@@ -1,0 +1,21 @@
+#Uppland, contains Stockholm, Uppsala & Nyköping.
+base_tax = 5
+base_production = 5
+trade_goods = grain
+base_manpower = 6
+capital = "Uppsala"
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+add_core = SWE
+owner = SWE
+controller = SWE
+culture = swedish
+religion = norse_pagan_reformed
+center_of_trade = 2
+add_province_triggered_modifier = religious_center
+is_city = no
+discovered_by = west_mongol_group
+fort_15th = yes

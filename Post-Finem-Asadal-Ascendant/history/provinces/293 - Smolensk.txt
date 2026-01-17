@@ -1,0 +1,27 @@
+#293 - Smolensk
+base_tax = 4
+base_production = 3
+trade_goods = grain
+latent_trade_goods = { 
+	steel 
+}
+base_manpower = 4
+capital = "Smolga"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = nomad_group
+religion = slavic_religion
+culture = khetu
+owner = SUT
+controller = SUT
+discovered_by = ottoman
+
+
+discovered_by = CRI
+add_core = SUT
+center_of_trade = 1
+discovered_by = west_mongol_group
+discovered_by = muslim

@@ -1,0 +1,24 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_althing_consensus_frame"
+		texturefile = "gfx/interface/government_mechanics/althing_consensus/althing_consensus_bar_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_althing_consensus_progress_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/althing_consensus/althing_consensus_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/althing_consensus/althing_consensus_progress_bar_empty.dds"
+		size = { x = 262 y = 27 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_althing_consensus_introduce_law"
+		texturefile = "gfx/interface/government_mechanics/althing_consensus/introduce_law.dds"
+	}
+}

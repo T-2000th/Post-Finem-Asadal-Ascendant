@@ -1,0 +1,22 @@
+guiTypes = {
+	windowType = { # Copied and adjusted from government_interaction_type, visible as the interaction specifies this, has cost_type specified to the power, and the power doesn't have a UI
+		name = "car_rabim_qahal_gov_mech"
+		size = { x = 330 y = 100 }
+		moveable = 0
+
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = {
+			name = "government_power_bar"
+			spriteType = "GFX_rabim_qahal_progressbar"
+			position = { x = 42 y = 61 }
+		}
+
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_car_rabim_qahal_frame"
+			position = { x = -10 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+}

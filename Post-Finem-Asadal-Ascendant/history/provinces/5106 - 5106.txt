@@ -1,0 +1,32 @@
+# 5106 - 5106
+# controller = KRA
+# owner = KRA
+# add_core = KRA
+# culture = 
+# religion = 
+# hre = yes
+capital = "Drakovar"
+# trade_goods = 
+#Total development: 3
+base_tax = 3
+base_production = 5
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+owner = SOV
+culture = lutovian
+controller = SOV
+trade_goods = copper
+religion = slavic_religion
+latent_trade_goods = { 
+	coal 
+}
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = SOV

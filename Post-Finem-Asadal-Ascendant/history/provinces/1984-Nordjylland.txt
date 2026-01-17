@@ -1,0 +1,18 @@
+#Nordjylland incl. Aalborg, Hjorring, Thisted, and Viborg
+base_tax = 2
+base_production = 3
+trade_goods = fish
+base_manpower = 2
+capital = "Aalborg"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = ottoman
+owner = VST
+controller = VST
+culture = jutar
+religion = norse_pagan_reformed
+discovered_by = west_mongol_group
+add_core = VST

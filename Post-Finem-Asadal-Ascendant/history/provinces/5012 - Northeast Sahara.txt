@@ -1,0 +1,2 @@
+# 5012 - Northeast Sahara
+is_city = no

@@ -1,0 +1,19 @@
+name = "First War of the Grand Alliance"
+war_goal = {
+	type = blockade_ports
+	casus_belli = cb_trade_conflict
+}
+
+1443.2.1 = {
+	add_attacker = RMA
+	add_attacker = SZA
+	add_defender = ITY
+	add_defender = FER
+}
+
+1444.8.10 = {
+	rem_attacker = RMA
+	rem_attacker = SZA
+	rem_defender = ITY
+	rem_defender = FER
+}

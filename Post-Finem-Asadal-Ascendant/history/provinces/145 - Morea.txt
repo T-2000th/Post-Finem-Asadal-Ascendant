@@ -1,0 +1,39 @@
+### Modified 2/8/2025 5:01:56 PM ###
+# Morea
+# 145 Morea - 2/8/2025 5:01:56 PM 
+ 
+add_core = MOE
+owner = MOE
+controller = MOE
+base_tax = 3
+base_production = 5
+base_manpower = 3
+
+trade_goods = olives
+
+culture = peloponnesian
+religion = hellenic
+capital = "Mystras"
+
+is_city = yes
+fort_15th = yes
+
+add_permanent_province_modifier = {
+	name = laconian_oil_presses
+	duration = -1
+}
+
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = nomad_group
+discovered_by = west_mongol_group
+
+
+
+
+
+

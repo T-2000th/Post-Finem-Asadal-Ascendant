@@ -1,0 +1,25 @@
+#1951 - Hunyad
+capital = "Jubelnza"
+trade_goods = cloth
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = zalmozeios
+culture = haldyr
+add_core = TRA
+owner = TRA
+controller = TRA
+
+discovered_by = west_mongol_group
+add_core = RGC
+add_province_modifier = {
+	name = dko_compact_of_severos
+	duration = -1
+}

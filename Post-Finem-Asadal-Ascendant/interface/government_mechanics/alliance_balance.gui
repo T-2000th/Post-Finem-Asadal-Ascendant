@@ -1,0 +1,75 @@
+guitypes = {
+    # GUI for Aztec Alliance Balance
+	windowType = {
+		name = "alliance_balance_bar_1_gui"		# tlacopan
+		size = { x = 300 y = 30 }
+		moveable = 0
+
+		# background
+		#iconType = {
+		#	name = "alliance_balance_bg"
+		#	spriteType = "GFX_alliance_balance_bg"
+		#	position = { x = 10 y = -30 }
+		#	alwaystransparent = yes
+		#}
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_tlacopan_power_progressbar"
+			position = { x = 18 y = 4 }
+		}	
+
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_tlacopan_power_frame"
+			position = { x = 10 y = 0 }
+			alwaystransparent = yes
+		}
+		
+		
+	}
+	windowType = {
+		name = "alliance_balance_bar_2_gui"		# tenochtitlan
+		size = { x = 300 y = 30 }
+		moveable = 0
+		
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_tenochtitlan_power_progressbar"
+			position = { x = 18 y = 4 }
+		}	
+
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_tenochtitlan_power_frame"
+			position = { x = 10 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+	windowType = {
+		name = "alliance_balance_bar_3_gui"			# texcoco
+		size = { x = 300 y = 30 }
+		moveable = 0
+
+		
+
+		
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_texcoco_power_progressbar"
+			position = { x = 18 y = 4 }
+		}	
+
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_texcoco_power_frame"
+			position = { x = 10 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+}

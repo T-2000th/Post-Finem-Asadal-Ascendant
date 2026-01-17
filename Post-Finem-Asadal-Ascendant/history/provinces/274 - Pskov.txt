@@ -1,0 +1,21 @@
+#274 - Pskov
+base_tax = 2
+base_production = 2
+trade_goods = livestock
+base_manpower = 2
+capital = "Pskova"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+extra_cost = 8
+center_of_trade = 1
+religion = romuva
+culture = laumyras
+add_core = VZA
+owner = VZA
+controller = VZA
+discovered_by = ottoman
+
+discovered_by = west_mongol_group

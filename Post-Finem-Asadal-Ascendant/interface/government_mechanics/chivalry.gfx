@@ -1,0 +1,17 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_chivalry_frame"
+		texturefile = "gfx/interface/government_mechanics/chivalry/chivalry_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_chivalry_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/chivalry/chivalry_progressbar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/chivalry/chivalry_progressbar_full.dds"
+		size = { x = 274 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

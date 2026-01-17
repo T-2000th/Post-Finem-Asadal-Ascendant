@@ -1,0 +1,29 @@
+# 5105 - 5105
+# controller = POL
+# owner = POL
+# add_core = POL
+# culture = 
+# religion = 
+# hre = yes
+capital = "Ludimir"
+# trade_goods = 
+#Total development: 3
+base_tax = 4
+base_production = 3
+base_manpower = 4
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+owner = PNK
+culture = merszci
+religion = slavic_religion
+controller = PNK
+trade_goods = grain
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = PNK

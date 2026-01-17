@@ -1,0 +1,19 @@
+#2089 - Chaul (Chaul+Janjira+Kolaba)
+owner = SIM
+controller = SIM
+culture = yavana
+religion = hellenic
+capital = "Janjira"
+trade_goods = cloth
+base_tax = 5
+base_production = 4
+base_manpower = 2
+is_city = yes
+add_core = SIM
+discovered_by = indian
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = chinese
+discovered_by = east_african
+extra_cost = 16
+center_of_trade = 2

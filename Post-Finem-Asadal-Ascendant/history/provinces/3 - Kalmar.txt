@@ -1,0 +1,18 @@
+#Eastern and Northern Småland - Includes parts under Östgötalag
+base_tax = 2
+base_production = 3
+trade_goods = lumber
+base_manpower = 1
+capital = "Kalmar"
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = ottoman
+owner = SGT
+controller = SGT
+culture = gautar
+religion = norse_pagan_reformed
+is_city = no
+discovered_by = west_mongol_group
+add_core = SGT

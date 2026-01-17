@@ -1,0 +1,26 @@
+# 4983 - 3
+owner = CAR
+controller = CAR
+add_core = CAR
+# culture = 
+# religion = 
+# hre = yes
+is_city = yes
+capital = "Soldae"
+trade_goods = livestock
+# Total development: 6
+base_tax = 3
+base_production = 4
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+culture = punic_culture
+religion = punic_religion
+add_core = NMD
+discovered_by = west_mongol_group

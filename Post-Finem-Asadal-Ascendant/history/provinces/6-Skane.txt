@@ -1,0 +1,21 @@
+#Skåne
+base_tax = 4
+base_production = 5
+#trade_goods = grain
+trade_goods = fish#The Great Herring Market of Skåne
+base_manpower = 4
+capital = "Lund"
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = SKD
+controller = SKD
+culture = skarnir
+religion = norse_pagan_reformed
+center_of_trade = 1
+add_core = SKD
+is_city = yes
+discovered_by = west_mongol_group
+fort_15th = yes

@@ -1,0 +1,18 @@
+#4366 - Montgomery + Radnor
+base_tax = 3
+base_production = 2
+trade_goods = iron
+base_manpower = 2
+capital = "Trefaldwyn"
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = CYM
+owner = CYM
+controller = CYM
+culture = old_welsh
+religion = dubhnoic
+is_city = no
+discovered_by = west_mongol_group

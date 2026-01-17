@@ -1,0 +1,28 @@
+# 5092 - 5092
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Velocavi" #Uxel
+# trade_goods = 
+#Total development: 3
+base_tax = 2
+base_production = 3
+base_manpower = 2
+# fort_15th = yes
+# center_of_trade = 
+owner = PCT
+culture = pictonian
+trade_goods = livestock
+religion = druidic
+controller = PCT
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = PCT
+is_city = no

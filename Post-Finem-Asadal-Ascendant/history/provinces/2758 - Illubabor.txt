@@ -1,0 +1,16 @@
+#2758 - Illubabor
+owner = ZHM
+controller = ZHM
+culture = berqani
+religion = sunni
+capital = "Illubabor"
+is_city = yes
+base_manpower = 2
+trade_goods = copper
+base_tax = 2
+base_production = 3
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = ZHM

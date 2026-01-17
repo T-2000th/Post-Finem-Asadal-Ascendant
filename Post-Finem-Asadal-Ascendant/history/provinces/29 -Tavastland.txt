@@ -1,0 +1,19 @@
+#Tavastland, incl. Tavastehus.
+base_tax = 3
+base_production = 3
+trade_goods = fur
+base_manpower = 3
+capital = "Häme"
+is_city = yes
+add_core = FIN
+owner = FIN
+controller = FIN
+culture = finnish
+religion = suomenusko
+discovered_by = ottoman
+
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = west_mongol_group

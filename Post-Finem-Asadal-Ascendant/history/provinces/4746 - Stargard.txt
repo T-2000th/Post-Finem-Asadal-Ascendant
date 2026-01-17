@@ -1,0 +1,21 @@
+# 4746 - Stargard
+base_tax = 3
+base_production = 3
+trade_goods = lumber
+base_manpower = 3
+capital = "Norgard"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = NAD
+controller = NAD
+religion = slavic_religion
+culture = vezarin
+
+discovered_by = west_mongol_group
+add_core = NAD
+fort_15th = yes

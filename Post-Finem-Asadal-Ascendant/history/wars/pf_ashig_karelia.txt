@@ -1,0 +1,27 @@
+name = "Karelian Wars"
+war_goal = {
+	type = superiority_horde
+	casus_belli = cb_horde_vs_civ
+	province =  32
+}
+
+1439.5.12 = {
+	add_attacker = ASG
+	add_defender = KRL
+}
+
+1439.6.16 = {
+	add_defender = SMI
+}
+
+1439.6.27 = {
+	add_defender = FIN
+}
+
+#End War
+1444.9.11 = {
+	rem_attacker = ASG
+	rem_defender = KRL
+	rem_defender = SMI
+	rem_defender = FIN
+}

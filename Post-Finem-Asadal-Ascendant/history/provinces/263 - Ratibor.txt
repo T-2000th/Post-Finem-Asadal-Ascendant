@@ -1,0 +1,24 @@
+#263 - Upper Silesia
+latent_trade_goods = { 
+	coal 
+}
+base_tax = 4
+base_production = 5
+capital = "Ratibor"
+is_city = yes
+trade_goods = iron
+base_manpower = 4
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = slavic_religion
+add_core = SIL
+owner = SIL
+controller = SIL
+culture = tarnic
+
+discovered_by = west_mongol_group
+fort_15th = yes

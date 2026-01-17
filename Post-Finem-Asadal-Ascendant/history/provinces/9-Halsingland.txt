@@ -1,0 +1,19 @@
+#Hälsingland-Gästrikland-Medelpad, from Gävle to Näs
+base_tax = 2
+base_production = 2
+trade_goods = fish
+base_manpower = 2
+capital = "Gävle"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+owner = SWE
+controller = SWE
+culture = swedish
+religion = norse_pagan_reformed
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = SWE
+# fort_15th = yes

@@ -1,0 +1,21 @@
+# 4741 - Halle
+base_tax = 2
+base_production = 3
+trade_goods = salt#the name "Halle" apparently might even derive from the Indo-Germanic word for salt
+base_manpower = 2
+capital = "Hallin"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = germanic_religion
+culture = cherusci
+add_core = ANH
+owner = ANH
+controller = ANH
+
+discovered_by = west_mongol_group
+fort_15th = yes

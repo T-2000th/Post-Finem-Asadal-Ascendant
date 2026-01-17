@@ -1,0 +1,25 @@
+#326 - Ankara
+capital = "Ankyra"
+trade_goods = cloth
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+add_local_autonomy = 70
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+religion = hellenic
+owner = AGR
+culture = anatolian
+controller = AGR
+center_of_trade = 1
+discovered_by = west_mongol_group
+add_core = AGR
+add_core = FEO
+
+add_devastation = 30

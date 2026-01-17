@@ -1,0 +1,19 @@
+#245 - Yorkshire - East Riding
+base_tax = 4
+base_production = 5
+trade_goods = lumber
+base_manpower = 3
+capital = "Afonul"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = BGT
+owner = BGT
+controller = BGT
+culture = briton
+religion = druidic
+add_core = ELM
+discovered_by = west_mongol_group

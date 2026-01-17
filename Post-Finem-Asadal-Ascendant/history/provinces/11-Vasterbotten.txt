@@ -1,0 +1,20 @@
+#Västerbotten-Ångermanland, from Sundsvall/Härnösand over Umeå to Torneå
+base_tax = 1
+base_production = 3
+base_manpower = 2
+trade_goods = fur
+capital = "Umeå"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+owner = KDV
+controller = KDV
+add_core = SMI
+culture = sapmi
+religion = norse_pagan_reformed
+discovered_by = ottoman
+center_of_trade = 1
+discovered_by = west_mongol_group
+add_core = KDV

@@ -1,0 +1,20 @@
+# 4728 - Pavia
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 5
+capital = "Ticinum"
+is_city = yes# Estimated
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+hre = yes
+add_core = ITY
+owner = ITY
+controller = ITY
+culture = ligurii
+religion = punic_religion
+discovered_by = west_mongol_group

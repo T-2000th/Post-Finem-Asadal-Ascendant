@@ -1,0 +1,19 @@
+# Meppen
+trade_goods = wool
+capital = "Meppen"
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = germanic_religion
+culture = cherusci
+add_core = FRI
+owner = FRI
+controller = FRI
+discovered_by = west_mongol_group

@@ -1,0 +1,22 @@
+#4785 - Yorkshire - South Riding
+base_tax = 3
+base_production = 4
+trade_goods = iron
+latent_trade_goods = { 
+	steel 
+}
+base_manpower = 2
+capital = "Afonshaf"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = BGT
+owner = BGT
+controller = BGT
+culture = briton
+religion = dubhnoic
+add_core = ELM
+discovered_by = west_mongol_group

@@ -1,0 +1,17 @@
+#1207 - Ogaden
+owner = BKS
+controller = BKS
+culture = hadrawi
+religion = sunni
+capital = "Bale"
+native_size = 40
+native_ferocity = 4
+native_hostileness = 9
+trade_goods = incense
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = muslim
+is_city = no
+add_core = BKS

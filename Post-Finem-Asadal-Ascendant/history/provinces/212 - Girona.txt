@@ -1,0 +1,20 @@
+#212 - Girona
+base_tax = 3
+base_production = 2
+trade_goods = livestock
+base_manpower = 2
+capital = "Spese"
+is_city = yes# census of 1462, also includes the town of Figueres 
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+add_core = ORA
+owner = ORA
+controller = ORA
+religion = punic_religion
+culture = volcaran
+discovered_by = west_mongol_group
+fort_15th = yes

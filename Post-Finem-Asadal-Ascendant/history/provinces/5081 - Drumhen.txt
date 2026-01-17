@@ -1,0 +1,25 @@
+# 5081 - 5081
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Drumhen"#Total development: 3
+base_tax = 3
+base_production = 3
+base_manpower = 5
+# fort_15th = yes
+# center_of_trade = 
+add_core = CEL
+owner = CEL
+culture = old_irish
+trade_goods = lumber
+religion = dubhnoic
+controller = CEL
+is_city = no
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = west_mongol_group

@@ -1,0 +1,31 @@
+# 5107 - 5107
+# controller = CHR
+# owner = CHR
+# add_core = CHR
+# culture = 
+# religion = 
+# hre = yes
+capital = "Mylogora"
+# trade_goods = 
+#Total development: 3
+base_tax = 4
+base_production = 3
+base_manpower = 2
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+owner = PNK
+culture = volhynian
+religion = slavic_religion
+controller = PNK
+trade_goods = grain
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = PNK
+add_core = VOL
+add_core = ZKA

@@ -1,0 +1,21 @@
+#157 - Bihar
+capital = "Vihor"
+trade_goods = lumber
+base_tax = 5
+base_production = 4
+base_manpower = 5
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = slavic_religion
+culture = drakova
+add_core = TRA
+owner = TRA
+controller = TRA
+
+discovered_by = west_mongol_group
+fort_15th = yes

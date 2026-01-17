@@ -1,0 +1,40 @@
+spriteTypes = {
+	##Elephant rearing and training for Calicut
+
+	spriteType = {
+		name = "GFX_elephant_stables_bar_frame"
+		texturefile = "gfx/interface/government_mechanics/elephant_stables/elephant_stables_bar_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_elephant_stables_progress_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/elephant_stables/elephant_stables_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/elephant_stables/elephant_stables_progress_bar_empty.dds"
+		size = { x = 258 y = 25 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_elephant_button_1"
+		texturefile = "gfx/interface/government_mechanics/elephant_stables/elephant_button_1.dds"
+	}
+	spriteType = {
+		name = "GFX_elephant_button_2"
+		texturefile = "gfx/interface/government_mechanics/elephant_stables/elephant_button_2.dds"
+	}
+	spriteType = {
+		name = "GFX_elephant_button_3"
+		texturefile = "gfx/interface/government_mechanics/elephant_stables/elephant_button_3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_elephant_stables_bg"
+		texturefile = "gfx/interface/government_mechanics/elephant_stables/elephant_stables_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

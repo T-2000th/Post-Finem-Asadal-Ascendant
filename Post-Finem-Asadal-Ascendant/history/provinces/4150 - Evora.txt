@@ -1,0 +1,19 @@
+#4150 - Alto Alentejo
+capital = "Ebroak"
+trade_goods = wine
+base_tax = 3
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+owner = SUE
+controller = SUE
+add_core = SUE
+religion = punic_religion
+culture = thornen
+add_core = AUR
+discovered_by = west_mongol_group

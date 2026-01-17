@@ -1,0 +1,18 @@
+#4151 - Most of Kemi Lappmark: Enare/Inari, Sodankylä, Kemikyla, Utsjoki, Kittila, Sombio
+base_tax = 1
+base_production = 2
+trade_goods = fur
+base_manpower = 1
+capital = "Anár"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+add_core = SMI
+owner = SMI
+controller = SMI
+culture = sapmi
+religion = suomenusko
+discovered_by = ottoman
+discovered_by = west_mongol_group

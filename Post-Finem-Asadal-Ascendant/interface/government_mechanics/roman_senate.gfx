@@ -1,0 +1,21 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_rome_adm_button"
+		texturefile = "gfx//interface//government_mechanics//roman_senate//rome_adm_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_rome_dip_button"
+		texturefile = "gfx//interface//government_mechanics//roman_senate//rome_dip_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_rome_mil_button"
+		texturefile = "gfx//interface//government_mechanics//roman_senate//rome_mil_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

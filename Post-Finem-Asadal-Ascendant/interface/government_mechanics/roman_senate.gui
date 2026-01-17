@@ -1,0 +1,47 @@
+guiTypes = {
+	windowType = { # Copied and adjusted from government_interaction_type, visible as the interaction specifies this, has cost_type specified to the power, and the power doesn't have a UI
+		name = "senate_support_bar_gov_mech"
+		size = { x = 300 y = 100 }
+		moveable = 0
+
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = {
+			name = "government_power_bar"
+			spriteType = "GFX_senate_support_progress_bar"
+			position = { x = 0 y = 0 }
+		}
+	}
+	windowType = { # Copied and adjusted from government_interaction_type, visible as the interaction specifies this, has cost_type specified to the power, and the power doesn't have a UI
+		name = "consul_popularity_bar_gov_mech"
+		size = { x = 300 y = 100 }
+		moveable = 0
+
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = {
+			name = "government_power_bar"
+			spriteType = "GFX_popularity_progress_bar"
+			position = { x = 0 y = 0 }
+		}
+	}
+
+	windowType = {
+		name = "roman_senate_task_button"
+		size = { x = 32 y = 32 }
+		moveable = 0
+
+		#iconType = {
+		#	name = "background"
+		#	position = { x = -5 y = 10 }
+		#	spriteType = "GFX_per_centralization_background"
+		#}
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			position = { x = 300 y = 0 }
+			quadTextureSprite = "GFX_ask_for_senate_task"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+}

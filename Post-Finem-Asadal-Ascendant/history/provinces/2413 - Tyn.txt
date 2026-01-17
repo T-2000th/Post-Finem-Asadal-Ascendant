@@ -1,0 +1,24 @@
+#2413 - Tyn
+latent_trade_goods = { 
+	coal 
+}
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 3
+capital = "Tyn"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+religion = tengri_pagan_reformed
+culture = kuban
+add_core = BUL
+owner = BUL
+controller = BUL
+add_core = KZR
+discovered_by = west_mongol_group

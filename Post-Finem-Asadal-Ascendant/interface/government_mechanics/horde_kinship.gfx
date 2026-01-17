@@ -1,0 +1,27 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_horde_kinship_bg"
+		texturefile = "gfx/interface/government_mechanics/horde_kinship/horde_kinship_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_organize_raiding_parties_button"
+		texturefile = "gfx//interface//government_mechanics/horde_kinship/organize_raiding_parties_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_inter_tribal_marriages_button"
+		texturefile = "gfx//interface//government_mechanics/horde_kinship/inter_tribal_marriages_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_encourage_tribal_settlement_button"
+		texturefile = "gfx//interface//government_mechanics/horde_kinship/encourage_tribal_settlement_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

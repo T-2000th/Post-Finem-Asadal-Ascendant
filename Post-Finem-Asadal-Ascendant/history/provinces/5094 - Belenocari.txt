@@ -1,0 +1,27 @@
+# 5094 - 5094
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Belenocari" #Burgundy
+# trade_goods = 
+#Total development: 3
+base_tax = 2
+base_production = 5
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+add_core = GAU
+owner = GAU
+culture = senonian
+trade_goods = livestock
+religion = druidic
+controller = GAU
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group

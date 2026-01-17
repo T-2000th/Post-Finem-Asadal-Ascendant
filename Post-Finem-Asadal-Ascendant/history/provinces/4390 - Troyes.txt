@@ -1,0 +1,19 @@
+# 4390 - Troyes
+capital = "Augustobona"
+is_city = yes
+base_tax = 2
+base_production = 3
+trade_goods = iron
+base_manpower = 2
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = GAU
+controller = GAU
+add_core = GAU
+culture = parisian
+religion = druidic
+discovered_by = west_mongol_group

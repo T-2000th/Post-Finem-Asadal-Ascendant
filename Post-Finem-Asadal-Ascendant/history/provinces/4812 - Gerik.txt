@@ -1,0 +1,13 @@
+owner = PAT
+controller = PAT
+culture = malayan
+religion = buddhism
+capital = "Gerik"
+trade_goods = tropical_wood
+base_tax = 2
+base_production = 2
+base_manpower = 1
+is_city = yes
+add_core = PAT
+discovered_by = chinese
+discovered_by = indian

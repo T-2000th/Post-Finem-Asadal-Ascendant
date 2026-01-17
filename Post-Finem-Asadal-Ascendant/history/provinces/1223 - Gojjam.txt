@@ -1,0 +1,17 @@
+#1223 - Gojjam
+owner = DWA
+controller = DWA
+culture = zaharan
+religion = sunni
+capital = "Debre Asbo"
+is_city = yes
+base_manpower = 2
+trade_goods = coffee
+base_tax = 2
+base_production = 3
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = indian
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = DWA

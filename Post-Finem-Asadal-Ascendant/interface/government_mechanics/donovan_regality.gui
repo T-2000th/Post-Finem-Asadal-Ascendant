@@ -1,0 +1,55 @@
+guiTypes = {
+	windowType = { # Copied and adjusted from government_interaction_type
+		name = "donovan_regality_gov_mech"
+		size = { x = 340 y = 0 }
+		moveable = 0
+		
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_donovan_regality_bar"
+			position = { x = 23 y = -61 }
+		}
+
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_donovan_regality_frame"
+			position = { x = 24 y = -64 }
+			alwaystransparent = yes
+		}
+	}
+
+	windowType = {
+		name = "donovan_regality_diplo_button"
+		size = { x = 0 y = 120 }
+		moveable = 0
+		
+
+		iconType = {
+			name = "background"
+			position = { x = 0 y = 6 }
+			spriteType = "GFX_donovan_regality_bg"
+			# alwaystransparent = yes
+		}
+		guiButtonType = {
+			name = "government_interaction_button"
+			position = { x = 67 y = 20 }
+			quadTextureSprite = "GFX_donovan_regality_diplo_button"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "donovan_regality_war_button"
+		size = { x = 0 y = 120 }
+		moveable = 0
+		guiButtonType = {
+			name = "government_interaction_button"
+			position = { x = 233 y = 20 }
+			quadTextureSprite = "GFX_donovan_regality_war_button"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+}

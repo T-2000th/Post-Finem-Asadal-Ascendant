@@ -1,0 +1,18 @@
+#2785 - El Buur
+owner = MFZ
+controller = MFZ
+culture = majidi
+religion = sunni
+capital = "El Buur"
+trade_goods = iron
+latent_trade_goods = { 
+	steel 
+}
+is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+add_core = MFZ

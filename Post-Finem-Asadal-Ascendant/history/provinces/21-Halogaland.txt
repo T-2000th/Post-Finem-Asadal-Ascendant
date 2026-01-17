@@ -1,0 +1,20 @@
+#Hålogaland, incl. Steig, Vågan, Trondenes, Andenes, Alstahaug
+base_tax = 1
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Steig"
+add_local_autonomy = 25
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = SMI
+add_core = NOR
+owner = NOR
+controller = NOR
+culture = sapmi
+religion = norse_pagan_reformed
+discovered_by = ottoman
+discovered_by = west_mongol_group

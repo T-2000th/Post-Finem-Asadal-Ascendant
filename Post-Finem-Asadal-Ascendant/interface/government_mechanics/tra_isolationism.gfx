@@ -1,0 +1,26 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_tra_isolationism_bg"
+		texturefile = "gfx/interface/government_mechanics/tra_isolation/tra_isolationism_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tra_isolationism_1_button"
+		texturefile = "gfx/interface/government_mechanics/tra_isolation/strigodol_gov_1.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tra_isolationism_2_button"
+		texturefile = "gfx/interface/government_mechanics/tra_isolation/strigodol_gov_2.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_tra_isolationism_3_button"
+		texturefile = "gfx/interface/government_mechanics/tra_isolation/strigodol_gov_3.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

@@ -1,0 +1,21 @@
+guiTypes = {
+	windowType = { # Copied and adjusted from government_interaction_type
+		name = "sgs_coup_gov_mech"
+		size = { x = 300 y = 82 }
+		moveable = 0
+		
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_sgs_coup_progressbar"
+			position = { x = 26 y = 60 }
+		}
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_sgs_coup_frame"
+			position = { x = 10 y = 10 }
+			alwaystransparent = yes
+		}
+	}
+}

@@ -1,0 +1,27 @@
+# 5087 - 5087
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Garanwyn" #Anglia
+# trade_goods = 
+#Total development: 3
+base_tax = 3
+base_production = 3
+base_manpower = 2
+# fort_15th = yes
+# center_of_trade = 
+add_core = TRN
+owner = TRN
+culture = briton
+trade_goods = fish
+religion = druidic
+controller = TRN
+is_city = no
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = west_mongol_group

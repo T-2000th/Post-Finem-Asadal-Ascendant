@@ -1,0 +1,19 @@
+# 4111 - Saintonge and Aunis
+capital = "Santonica"
+is_city = yes
+base_tax = 2
+base_production = 3
+trade_goods = grain
+base_manpower = 3
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = PCT
+controller = PCT
+culture = pictonian
+religion = druidic
+add_core = PCT
+discovered_by = west_mongol_group

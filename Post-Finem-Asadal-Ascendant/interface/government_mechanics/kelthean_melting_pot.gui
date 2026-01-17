@@ -1,0 +1,20 @@
+guiTypes = {
+	windowType = { 
+		name = "kelthean_melting_pot_gov_mech"
+		size = { x = 293 y = 100 }
+		moveable = 0
+		
+		iconType = { 
+			name = "government_power_bar"
+			spriteType = "GFX_kelthean_melting_pot_progress_bar"
+			position = { x = 36 y = 60 }
+		}	
+
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_kelthean_melting_pot_frame"
+			position = { x = 7 y = 0 }
+			alwaystransparent = yes
+		}
+	}
+}

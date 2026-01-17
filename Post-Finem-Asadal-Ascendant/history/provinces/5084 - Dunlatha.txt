@@ -1,0 +1,28 @@
+# 5084 - 5084
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Dunlatha" #Iverness
+# trade_goods = 
+#Total development: 3
+base_tax = 2
+base_production = 2
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+add_core = NRD
+add_core = PTC
+owner = NRD
+culture = old_highland_scottish
+trade_goods = fish
+religion = norse_pagan_reformed
+controller = NRD
+is_city = no
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = west_mongol_group
+discovered_by = euro_pagan_tech

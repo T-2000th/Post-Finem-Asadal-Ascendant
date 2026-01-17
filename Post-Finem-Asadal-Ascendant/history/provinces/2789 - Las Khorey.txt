@@ -1,0 +1,15 @@
+#2789 - Las Khorey
+owner = SDN
+controller = SDN
+culture = qarifan
+religion = sunni
+capital = "Las Khorey"
+trade_goods = incense
+is_city = yes
+base_tax = 2
+base_production = 2
+base_manpower = 1
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+add_core = SDN

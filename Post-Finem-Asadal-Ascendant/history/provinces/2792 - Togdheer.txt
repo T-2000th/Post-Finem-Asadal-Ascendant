@@ -1,0 +1,15 @@
+#2792 - Togdheer
+owner = SDN
+controller = SDN
+culture = qarifan
+religion = sunni
+capital = "Togdheer"
+is_city = yes
+base_manpower = 1
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = indian
+add_core = SDN

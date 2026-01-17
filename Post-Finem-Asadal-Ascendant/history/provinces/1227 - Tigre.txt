@@ -1,0 +1,20 @@
+#1227 - Tigre
+owner = ABR
+controller = ABR
+culture = tahsili
+religion = sunni#But also significant Jewish minority
+capital = "Debarwa"
+is_city = yes
+base_manpower = 4
+trade_goods = grain
+latent_trade_goods = { 
+	steel 
+}
+base_tax = 3
+base_production = 3
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = indian
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = ABR

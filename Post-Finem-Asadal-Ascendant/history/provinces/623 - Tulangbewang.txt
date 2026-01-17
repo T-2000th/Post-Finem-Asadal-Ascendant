@@ -1,0 +1,23 @@
+#623 - Tulangbewang
+culture = sumatran
+religion = hinduism
+capital = "Tulangbewang"
+trade_goods = spices
+base_tax = 1
+base_production = 5
+base_manpower = 1
+native_size = 30
+native_ferocity = 9
+native_hostileness = 7
+discovered_by = chinese
+discovered_by = indian
+1444.1.1 = { 
+	owner = PLB
+	controller = PLB
+	trade_goods = Spices
+}
+add_core = PLB
+add_core = PLB
+add_core = BAN
+discovered_by = MNG
+is_city = no

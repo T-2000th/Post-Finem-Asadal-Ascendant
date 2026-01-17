@@ -1,0 +1,21 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_silk_road_allure_bg"
+		texturefile = "gfx/interface/government_mechanics/silk_road_allure/silk_road_allure_bg.dds"
+	}
+	spriteType = {
+		name = "GFX_allure_frame"
+		texturefile = "gfx/interface/government_mechanics/silk_road_allure/allure_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	progressbartype = {
+		name = "GFX_allure_power_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/silk_road_allure/allure_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/silk_road_allure/allure_empty.dds"
+		size = { x = 260 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

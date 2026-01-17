@@ -1,0 +1,21 @@
+#48 - Kolberg
+base_tax = 2
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Kolobrzeg"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = NAD
+controller = NAD
+religion = slavic_religion
+culture = vezarin
+
+discovered_by = west_mongol_group
+add_core = NAD
+fort_15th = yes

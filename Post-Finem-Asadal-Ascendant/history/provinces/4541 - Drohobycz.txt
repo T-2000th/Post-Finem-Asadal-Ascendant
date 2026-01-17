@@ -1,0 +1,20 @@
+#4541 - Drohobycz
+base_tax = 2
+base_production = 2
+trade_goods = livestock
+base_manpower = 4
+capital = "Drohobycz"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = muslim
+religion = slavic_religion
+culture = costoban
+add_core = VOL
+owner = VOL
+controller = VOL
+
+discovered_by = west_mongol_group

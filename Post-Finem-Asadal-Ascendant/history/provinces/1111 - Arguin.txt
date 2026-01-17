@@ -1,0 +1,11 @@
+#1111 - Arguin
+
+capital = "Argunum"
+trade_goods = unknown
+hre = no
+religion = shamanism
+base_tax = 1 
+base_production = 1
+base_manpower = 1
+native_ferocity = 0
+native_hostileness = 0

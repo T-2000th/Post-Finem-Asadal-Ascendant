@@ -1,0 +1,29 @@
+# 5108 - 5108
+# controller = POL
+# owner = POL
+# add_core = POL
+# culture = 
+# religion = 
+# hre = yes
+capital = "Beretyn"
+# trade_goods = 
+#Total development: 3
+base_tax = 4
+base_production = 3
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+add_core = CHR
+owner = CHR
+culture = bukovinian
+religion = slavic_religion
+controller = CHR
+trade_goods = grain
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group

@@ -1,0 +1,16 @@
+#2762 - Damot
+owner = SFD
+controller = SFD
+culture = zaharan
+religion = sunni
+capital = "Nekemte"
+is_city = yes
+base_manpower = 2
+trade_goods = gold
+base_tax = 2
+base_production = 3
+discovered_by = muslim
+discovered_by = indian
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = SFD

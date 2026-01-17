@@ -1,0 +1,21 @@
+# 196 Toulouse - Principal cities: Toulouse
+capital = "Tolosar"
+is_city = yes
+base_tax = 6
+base_production = 5
+trade_goods = cloth
+base_manpower = 4
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+add_core = ORA
+owner = ORA
+controller = ORA
+culture = arverni
+religion = punic_religion
+add_core = ARV
+discovered_by = west_mongol_group
+fort_15th = yes

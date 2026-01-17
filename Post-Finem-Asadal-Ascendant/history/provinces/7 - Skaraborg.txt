@@ -1,0 +1,20 @@
+#Skaraborg, contains Skara, Skövde etc.
+base_tax = 3
+base_production = 4
+trade_goods = grain
+base_manpower = 3
+capital = "Skara"
+#"Domkyrkan i Skara"
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = VSG
+controller = VSG
+culture = skogungar
+religion = norse_pagan_reformed
+is_city = no
+discovered_by = west_mongol_group
+add_core = VSG
+fort_15th = yes

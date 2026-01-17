@@ -1,0 +1,20 @@
+# 187 Barrois - Principal cities: Verdun
+capital = "Barriacum"
+is_city = yes
+base_tax = 2
+base_production = 3
+trade_goods = wool
+base_manpower = 1
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = TVA
+controller = TVA
+add_core = LNN
+culture = lingonian
+religion = druidic
+discovered_by = west_mongol_group
+add_core = TVA

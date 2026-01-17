@@ -1,0 +1,16 @@
+name = "Macedonian Conquest of Pontus"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 2299
+}
+
+1441.5.22 = {
+	add_attacker = MAC
+	add_defender = FEO
+}
+
+1443.11.11 = {
+	rem_attacker = MAC
+	rem_defender = FEO
+}

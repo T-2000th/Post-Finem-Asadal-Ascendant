@@ -1,0 +1,26 @@
+# 5130 - Klingeby
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Klingeby"
+trade_goods = grain
+#Total development: 3
+base_tax = 3
+base_production = 4
+base_manpower = 4
+# fort_15th = yes
+# center_of_trade = 
+owner = GMH
+culture = swedish
+religion = norse_pagan_reformed
+controller = GMH
+is_city = no
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = GMH

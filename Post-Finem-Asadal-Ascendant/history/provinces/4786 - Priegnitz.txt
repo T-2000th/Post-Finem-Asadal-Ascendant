@@ -1,0 +1,24 @@
+#4786 - Prignitz
+base_tax = 3
+base_production = 4
+trade_goods = livestock
+base_manpower = 2
+capital = "Pankow"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = SXY
+controller = SXY
+religion = germanic_religion
+culture = old_saxon
+add_core = SXY
+
+add_permanent_province_modifier = { 
+	name = pf_sxy_unexplored_marsh
+	duration = -1
+}
+discovered_by = west_mongol_group

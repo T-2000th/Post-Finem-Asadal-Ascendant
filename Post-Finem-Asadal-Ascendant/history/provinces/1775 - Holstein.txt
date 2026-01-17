@@ -1,0 +1,21 @@
+#1775 - Holstein
+base_tax = 3
+base_production = 4
+trade_goods = amber
+base_manpower = 3
+capital = "Holsteyn"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+owner = SXY
+controller = SXY
+religion = germanic_religion
+culture = old_saxon
+add_core = SXY
+
+discovered_by = west_mongol_group

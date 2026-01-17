@@ -1,0 +1,23 @@
+# 4978 - Draalim
+owner = TFL
+controller = TFL
+add_core = TFL
+# culture = 
+# religion = 
+# hre = yes
+is_city = yes
+capital = "Draalim"
+trade_goods = livestock
+# Total development: 3
+base_tax = 3
+base_production = 1
+base_manpower = 2
+# fort_15th = yes
+# center_of_trade = 
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+culture = gaetulian
+religion = animism
+discovered_by = west_mongol_group

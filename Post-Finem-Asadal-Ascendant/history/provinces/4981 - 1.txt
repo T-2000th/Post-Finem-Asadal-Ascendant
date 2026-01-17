@@ -1,0 +1,26 @@
+# 4981 - 1
+owner = NMD
+controller = NMD
+add_core = NMD
+# culture = 
+# religion = 
+# hre = yes
+is_city = yes
+capital = "Saidesh"
+trade_goods = livestock
+# Total development: 4
+base_tax = 2
+base_production = 3
+base_manpower = 1
+# fort_15th = yes
+# center_of_trade = 
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+culture = numidian
+religion = punic_religion
+add_core = CAR
+discovered_by = west_mongol_group

@@ -1,0 +1,16 @@
+#2433 - Kemerovo
+owner = KZH
+controller = KZH
+culture = ostyaki
+religion = tengri_pagan_reformed
+capital = "Vah"
+trade_goods = fur
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = nomad_group
+unrest = 15
+add_core = KZH
+discovered_by = SIB
+discovered_by = west_mongol_group

@@ -1,0 +1,22 @@
+#2424 - Przemysl
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 4
+capital = "Przemysl"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = muslim
+religion = slavic_religion
+culture = volhynian
+add_core = VOL
+owner = VOL
+controller = VOL
+
+discovered_by = west_mongol_group
+add_core = ZKA
+fort_15th = yes

@@ -1,0 +1,20 @@
+#143 - Vlorë - Southern Albania
+capital = "Aulon"
+trade_goods = wool#or salt
+base_tax = 2
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+owner = NEK
+controller = NEK
+add_core = NEK
+religion = hellenic
+culture = epirote
+
+discovered_by = west_mongol_group

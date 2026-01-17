@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_might_vs_mercy_frame"
+		texturefile = "gfx/interface/government_mechanics/might_vs_mercy/might_vs_mercy_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_might_vs_mercy_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/might_vs_mercy/might_vs_mercy_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/might_vs_mercy/might_vs_mercy_bar_frame.dds"
+		size = { x = 208 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

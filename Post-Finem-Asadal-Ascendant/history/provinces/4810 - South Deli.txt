@@ -1,0 +1,14 @@
+owner = DLI
+controller = DLI
+culture = sumatran
+religion = hinduism
+capital = "Deli"
+trade_goods = spices
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = DLI
+discovered_by = chinese
+discovered_by = indian
+1405.1.1 = { discovered_by = MNG }

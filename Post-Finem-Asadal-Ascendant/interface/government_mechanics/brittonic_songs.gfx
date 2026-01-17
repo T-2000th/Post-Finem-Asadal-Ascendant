@@ -1,0 +1,62 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_bri_song_bg"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/bri_song_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_bri_song_1_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/bri_song_1_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_bri_song_2_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/bri_song_2_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_bri_song_3_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/bri_song_3_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_saga_1_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/saga_1.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_saga_2_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/saga_2.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_saga_3_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/saga_3.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_saga_4_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/saga_4.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_saga_5_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/saga_5.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_saga_6_button"
+		texturefile = "gfx/interface/government_mechanics/brittonic_song/saga_6.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

@@ -1,0 +1,19 @@
+#Sjaelland, incl. København, Roskilde, Helsingør, Ringsted
+base_tax = 5
+base_production = 5
+trade_goods = fish
+base_manpower = 2
+capital = "København"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+add_core = DRK
+owner = DRK
+controller = DRK
+culture = danish
+religion = norse_pagan_reformed
+center_of_trade = 2
+discovered_by = west_mongol_group

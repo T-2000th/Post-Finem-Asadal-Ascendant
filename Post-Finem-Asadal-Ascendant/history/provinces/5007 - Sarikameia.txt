@@ -1,0 +1,27 @@
+# 5007 - Sarikameia
+owner = ARM
+controller = ARM
+add_core = ARM
+# culture = 
+# religion = 
+# hre = yes
+capital = "Sarikameia"
+# trade_goods = 
+# Total development: 7
+base_tax = 4
+base_production = 3
+base_manpower = 2
+# fort_15th = yes
+# center_of_trade = 
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+culture = vanite
+religion = hellenic
+trade_goods = livestock
+discovered_by = west_mongol_group
+is_city = no

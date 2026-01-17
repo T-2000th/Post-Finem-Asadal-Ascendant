@@ -1,0 +1,22 @@
+#1952 - Máramaros
+capital = "Huszcz"
+trade_goods = lumber
+base_tax = 3
+base_production = 4
+base_manpower = 3
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = slavic_religion
+culture = drakova
+owner = DNB
+controller = DNB
+
+discovered_by = west_mongol_group
+add_core = DNB
+add_core = TRA
+fort_15th = yes

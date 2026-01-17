@@ -1,0 +1,20 @@
+#Finland, incl. Åbo.
+base_tax = 4
+base_production = 3
+trade_goods = grain
+base_manpower = 2
+capital = "Turku"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = FIN
+owner = FIN
+controller = FIN
+culture = finnish
+religion = norse_pagan_reformed
+discovered_by = ottoman
+
+center_of_trade = 1
+discovered_by = west_mongol_group

@@ -1,0 +1,4 @@
+#2426 - Yamal
+discovered_by = NOV
+discovered_by = west_mongol_group
+is_city = no

@@ -1,0 +1,22 @@
+﻿l_english:
+
+#Trade Nodes
+
+
+#Regions 
+ korea_region_name: "Choseon"
+ korea_region_adj: "Choseon"
+
+#Dae-Geum as Korea rename
+
+#PROVINCE BASE NAMES
+
+
+
+#Area Names
+ western_korea_area_name: "Gyeonggi"
+ western_korea_area_adj: "Gyeonggi"
+ eastern_korea_area_name: "Gyeongsang"
+ eastern_korea_area_adj: "Gyeongsang"
+ south_korea_area_name: "Byeonjin"
+ south_korea_area_adj: "Byeonjin"

@@ -1,0 +1,21 @@
+#4244 - Trubchevsk (Trubchevsk+Starodub+Pochep)
+base_tax = 2
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Trubchak"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = nomad_group
+religion = slavic_religion
+culture = khetu
+owner = SUT
+controller = SUT
+discovered_by = ottoman
+add_core = SUT
+discovered_by = west_mongol_group
+discovered_by = muslim
+fort_15th = yes

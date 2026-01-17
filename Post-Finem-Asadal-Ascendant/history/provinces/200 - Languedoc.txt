@@ -1,0 +1,20 @@
+# 200 Languedoc - Principal cities: Montpellier
+capital = "Vivaris"
+is_city = yes
+base_tax = 4
+base_production = 3
+trade_goods = wine
+base_manpower = 2
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+hre = yes
+religion = punic_religion
+culture = celtipunian
+add_core = MPM
+owner = MPM
+controller = MPM
+discovered_by = west_mongol_group

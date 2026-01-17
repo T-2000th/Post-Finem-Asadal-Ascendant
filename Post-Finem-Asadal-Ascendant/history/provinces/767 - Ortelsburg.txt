@@ -1,0 +1,21 @@
+# - Ortelsburg
+capital = "Szcytno"
+trade_goods = lumber
+base_tax = 4
+base_production = 3
+base_manpower = 3
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+add_core = KSB
+owner = KSB
+controller = KSB
+religion = romuva
+culture = pruthenian
+
+discovered_by = west_mongol_group
+fort_15th = yes

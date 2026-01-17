@@ -1,0 +1,16 @@
+name = "Gallic Conquest of Bruges"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 90
+}
+
+1438.11.10 = {
+	add_attacker = GAU
+	add_defender = BRG
+}
+
+1442.11.10 = {
+	rem_attacker = GAU
+	rem_defender = BRG
+}

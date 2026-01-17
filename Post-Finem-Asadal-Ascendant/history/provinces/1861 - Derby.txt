@@ -1,0 +1,23 @@
+#1861 - Derby
+#Derbyshire+Nottinghamshire
+latent_trade_goods = { 
+	coal 
+}
+base_tax = 2
+base_production = 3
+trade_goods = iron
+base_manpower = 3
+capital = "CarwlynLigor"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = BGT
+owner = BGT
+controller = BGT
+culture = briton
+religion = druidic
+add_core = ELM
+discovered_by = west_mongol_group

@@ -1,0 +1,19 @@
+#Eastern Jutland, incl. Vejle, Skanderborg, Kolding, and Fredericia.
+base_tax = 4
+base_production = 5
+trade_goods = livestock
+base_manpower = 3
+capital = "Kolding"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = JUT
+owner = JUT
+controller = JUT
+culture = angle
+religion = norse_pagan_reformed
+fort_15th = yes

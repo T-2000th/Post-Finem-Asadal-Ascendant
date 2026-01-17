@@ -1,0 +1,22 @@
+#254 - Notec
+capital = "Naklo"
+trade_goods = horses
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = KSB
+controller = KSB
+add_core = KSB
+religion = slavic_religion
+culture = vezarin
+
+
+discovered_by = west_mongol_group
+fort_15th = yes

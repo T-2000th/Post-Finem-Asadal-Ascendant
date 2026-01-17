@@ -1,0 +1,39 @@
+guiTypes = {
+	windowType = {
+		name = "spartan_militarisation_gov_mech"
+		backGround = ""
+		position = { x = 0 y = 0 }
+		size = { x = 300 y = 90 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder = ""
+
+		#bar and frame
+		#iconType = {
+		#	name = "spartan_militarisation_bg"
+		#	spriteType = "GFX_spartan_militarisation_bg"
+		#	position = { x = 10 y = -10 }
+		#	alwaystransparent = yes
+		#}
+		iconType = {
+			name = "government_power_bar"
+			spriteType = "GFX_spartan_militarisation_power_bar"
+			position = { x = 94 y = 51 }
+		}
+		iconType = {
+			name = "spartan_militarisation_frame"
+			spriteType = "GFX_spartan_militarisation_frame"
+			position = { x = 25 y = 16 }
+			alwaystransparent = yes
+		}
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			position = { x = 205 y = -2 }
+			quadTextureSprite = "GFX_buy_militarization_button"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+}

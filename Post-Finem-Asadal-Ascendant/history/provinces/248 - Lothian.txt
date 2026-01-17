@@ -1,0 +1,23 @@
+#248 - Lothian + Fife + Sterling
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 4
+capital = "Edinburgh"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+extra_cost = 16
+add_core = NRD
+owner = NRD
+controller = NRD
+culture = pictish
+religion = norse_pagan_reformed
+add_core = CEL
+center_of_trade = 2
+add_core = GDD
+add_core = PTC
+discovered_by = west_mongol_group

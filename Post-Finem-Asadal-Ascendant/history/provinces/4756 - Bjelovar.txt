@@ -1,0 +1,22 @@
+# 4756 - Bjelovar
+capital = "Belovarum"
+trade_goods = grain
+base_tax = 2
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = south_germanic_religion
+culture = illyrian
+add_core = OST
+owner = OST
+controller = OST
+
+discovered_by = west_mongol_group
+add_core = SVA
+fort_15th = yes

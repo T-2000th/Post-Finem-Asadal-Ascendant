@@ -1,0 +1,29 @@
+# 5109 - 5109
+# controller = VOL
+# owner = VOL
+# add_core = VOL
+# culture = 
+# religion = 
+# hre = yes
+capital = "Sviren"
+# trade_goods = 
+#Total development: 3
+base_tax = 4
+base_production = 5
+base_manpower = 4
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+owner = VSK
+culture = moldavian
+religion = slavic_religion
+controller = VSK
+trade_goods = grain
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = VSK

@@ -1,0 +1,20 @@
+# 180 Haut-Poitou. Principal cities: Poitiers
+capital = "Uxeldunon"
+is_city = yes
+base_tax = 3
+base_production = 2
+trade_goods = livestock
+base_manpower = 2
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = GAU
+controller = GAU
+add_core = GAU
+culture = pictonian
+religion = druidic
+add_core = PCT
+discovered_by = west_mongol_group

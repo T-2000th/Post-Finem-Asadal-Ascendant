@@ -1,0 +1,15 @@
+#2782 - Warsheikh
+owner = BKS
+controller = BKS
+culture = majidi
+religion = sunni
+capital = "Warsheikh"
+is_city = yes
+base_manpower = 1
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+add_core = BKS

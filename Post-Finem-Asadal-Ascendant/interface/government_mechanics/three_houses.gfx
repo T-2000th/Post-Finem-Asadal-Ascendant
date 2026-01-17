@@ -1,0 +1,26 @@
+spriteTypes = {
+	# spriteType = {
+	# 	name = "GFX_tra_isolationism_bg"
+	# 	texturefile = "gfx/interface/government_mechanics/tra_isolation/tra_isolationism_bg.dds"
+	# 	loadType = "INGAME"
+	# 	transparencecheck = yes
+	# }
+	spriteType = {
+		name = "GFX_house_alenkov_interaction"
+		texturefile = "gfx/interface/government_mechanics/three_houses/alenkov_banner.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_house_velchev_interaction"
+		texturefile = "gfx/interface/government_mechanics/three_houses/velchev_banner.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_house_tarnavich_interaction"
+		texturefile = "gfx/interface/government_mechanics/three_houses/tarnavich_banner.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

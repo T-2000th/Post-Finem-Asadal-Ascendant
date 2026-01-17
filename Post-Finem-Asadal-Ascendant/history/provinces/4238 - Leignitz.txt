@@ -1,0 +1,21 @@
+#4238 - Liegnitz (Liegnitz+Schweidnitz+Jauer+Glatz+Neisse+Münsterberg)
+#Coal
+capital = "Bolkow"
+trade_goods = glass
+base_tax = 2
+base_production = 3
+is_city = yes
+base_manpower = 3
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = slavic_religion
+owner = DVN
+controller = DVN
+culture = podlachian
+
+discovered_by = west_mongol_group
+add_core = DVN

@@ -1,0 +1,28 @@
+#262 - Krakow
+latent_trade_goods = { 
+	coal 
+}
+capital = "Kraków"
+base_tax = 6
+base_production = 5
+trade_goods = salt
+base_manpower = 4
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 16
+center_of_trade = 2
+religion = slavic_religion
+culture = tarnic
+add_core = KRA
+owner = KRA
+controller = KRA
+
+discovered_by = west_mongol_group
+add_core = POL
+add_core = TRK
+fort_15th = yes

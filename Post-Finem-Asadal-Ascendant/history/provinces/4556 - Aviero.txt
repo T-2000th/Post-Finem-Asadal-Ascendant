@@ -1,0 +1,19 @@
+#Aviero
+capital = "Aveirak"
+trade_goods = salt
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+#fort_15th = yes
+owner = SUE
+controller = SUE
+add_core = SUE
+religion = punic_religion
+culture = haldorian
+discovered_by = west_mongol_group

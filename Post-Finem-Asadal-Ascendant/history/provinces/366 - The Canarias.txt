@@ -1,0 +1,20 @@
+#366 - The Canarias
+capital = "Kanar"
+trade_goods = unknown
+base_tax = 2
+base_production = 2
+base_manpower = 1
+native_size = 5
+native_ferocity = 1
+native_hostileness = 0
+is_city = yes
+religion = animism
+add_core = SOS
+owner = SOS
+controller = SOS
+culture = maurian
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = west_mongol_group

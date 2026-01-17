@@ -1,0 +1,21 @@
+# 170 Finistère - Principal cities: Brest
+capital = "Armorica"
+is_city = yes
+base_tax = 3
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 3
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+extra_cost = 8
+owner = CNT
+controller = CNT
+culture = carnute
+religion = druidic
+center_of_trade = 1
+add_core = CNT
+discovered_by = west_mongol_group

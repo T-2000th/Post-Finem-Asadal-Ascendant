@@ -1,0 +1,15 @@
+#2777 - Bardera
+owner = BKS
+controller = BKS
+culture = majidi
+religion = sunni
+capital = "Baardheere"
+trade_goods = grain
+is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+add_core = BKS

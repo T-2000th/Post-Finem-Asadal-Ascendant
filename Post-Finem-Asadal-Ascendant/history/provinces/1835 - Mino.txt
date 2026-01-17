@@ -1,0 +1,24 @@
+#1835 - Mino
+
+owner = TKI
+controller = TKI
+culture = togoku
+religion = shinto
+capital = "Inabayama"
+trade_goods = paper
+hre = no
+base_tax = 4
+base_manpower = 3
+base_production = 4
+is_city = yes
+add_core = TKI
+fort_15th = yes #Inabayama Castle
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+discovered_by = ANU
+
+
+#1440.1.1 = { fort_15th = yes } # Inabayama (later Gifu) Castle, Estimation

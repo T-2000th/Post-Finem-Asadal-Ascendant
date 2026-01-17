@@ -1,0 +1,26 @@
+# 5133 - Eystridalr
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Eystridalr"
+trade_goods = copper
+#Total development: 3
+base_tax = 1
+base_production = 1
+base_manpower = 1
+# fort_15th = yes
+# center_of_trade = 
+owner = VFD
+culture = innmarkar
+religion = norse_pagan_reformed
+controller = VFD
+is_city = no
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = west_mongol_group
+discovered_by = celtic_tech
+discovered_by = ottoman
+add_core = VFD

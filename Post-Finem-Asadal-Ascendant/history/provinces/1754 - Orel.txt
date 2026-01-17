@@ -1,0 +1,21 @@
+#1754 - Murom ( formerly Orel)
+base_tax = 1
+base_production = 2
+trade_goods = grain
+base_manpower = 2
+capital = "Murom"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = nomad_group
+religion = tengri_pagan_reformed
+culture = metuk
+owner = TKH
+controller = TKH
+discovered_by = ottoman
+add_core = TKH
+add_core = ULK
+discovered_by = west_mongol_group
+discovered_by = muslim

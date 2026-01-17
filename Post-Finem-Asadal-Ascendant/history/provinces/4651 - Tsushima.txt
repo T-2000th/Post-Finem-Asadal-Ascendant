@@ -1,0 +1,25 @@
+#4651 - Tsushima
+
+owner = SOO
+controller = SOO
+culture = kyushuan
+religion = shinto
+capital = "Tsushima"
+trade_goods = chinaware
+hre = no
+base_tax = 2
+base_manpower = 1
+base_production = 1
+is_city = yes
+add_core = SOO
+discovered_by = chinese
+discovered_by = MCH
+discovered_by = KHA
+discovered_by = OIR
+discovered_by = QNG
+
+#Battle of Okitanawate
+#Hideyoshi's conquest of Kyushu
+#Battle of Sekigahara - Kobayakawa changes sides
+#1603.3.24 = { owner = JAP controller = JAP add_core = JAP remove_core = TKG }
+# Tokugawa shogunate founded

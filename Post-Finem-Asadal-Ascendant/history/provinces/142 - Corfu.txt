@@ -1,0 +1,25 @@
+#142 - Corfu
+capital = "Corfu"
+trade_goods = fish
+base_tax = 3
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = NEK
+controller = NEK
+add_core = NEK
+hre = yes
+religion = hellenic
+culture = epirote
+
+
+discovered_by = CRI
+add_core = CEP
+discovered_by = west_mongol_group
+center_of_trade = 1

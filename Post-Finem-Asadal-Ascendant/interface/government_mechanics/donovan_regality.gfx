@@ -1,0 +1,36 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_donovan_regality_bg"
+		texturefile = "gfx/interface/government_mechanics/donovan_regality/donovan_regality_bg.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_donovan_regality_frame"
+		texturefile = "gfx/interface/government_mechanics/donovan_regality/donovan_regality_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_donovan_regality_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/donovan_regality/donovan_regality_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/donovan_regality/donovan_regality_bar_empty.dds"
+		size = { x = 255 y = 22 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_donovan_regality_diplo_button"
+		texturefile = "gfx/interface/government_mechanics/donovan_regality/donovan_regality_diplo_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_donovan_regality_war_button"
+		texturefile = "gfx/interface/government_mechanics/donovan_regality/donovan_regality_war_button.dds"
+	}
+	
+}

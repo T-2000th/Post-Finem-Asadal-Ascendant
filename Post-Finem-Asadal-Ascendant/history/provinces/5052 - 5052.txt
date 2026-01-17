@@ -1,0 +1,27 @@
+# 5052 - 5052
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Dodona"
+trade_goods = iron
+# Total development: 6
+base_tax = 2
+base_production = 1
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+add_core = EPI
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+owner = EPI
+culture = epirote
+religion = hellenic
+controller = EPI
+is_city = no

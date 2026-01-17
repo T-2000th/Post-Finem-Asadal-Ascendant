@@ -1,0 +1,20 @@
+spriteTypes = {
+	##Gaul Confederation
+	
+	spriteType = {
+		name = "GFX_mac_war_cabinet_frame"
+		texturefile = "gfx/interface/government_mechanics/mac_war_cabinet/mac_war_cabinet_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_mac_war_cabinet_progress_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/mac_war_cabinet/mac_war_cabinet_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/mac_war_cabinet/mac_war_cabinet_progress_bar_empty.dds"
+		size = { x = 225 y = 18 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

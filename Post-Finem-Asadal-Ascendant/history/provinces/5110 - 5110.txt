@@ -1,0 +1,30 @@
+# 5110 - 5110
+# controller = TRA
+# owner = TRA
+# add_core = TRA
+# culture = 
+# religion = 
+# hre = yes
+capital = "Radava"
+# trade_goods = 
+#Total development: 3
+base_tax = 1
+base_production = 3
+base_manpower = 3
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+owner = RCH
+culture = costoban
+religion = slavic_religion
+controller = RCH
+trade_goods = grain
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = RCH
+add_core = DBY

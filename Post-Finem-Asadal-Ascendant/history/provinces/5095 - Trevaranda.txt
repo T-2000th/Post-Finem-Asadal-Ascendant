@@ -1,0 +1,17 @@
+owner = ARV
+culture = senonian
+trade_goods = livestock
+religion = druidic
+controller = ARV
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+base_tax = 2
+base_manpower = 3
+base_production = 3
+add_core = ARV
+is_city = no

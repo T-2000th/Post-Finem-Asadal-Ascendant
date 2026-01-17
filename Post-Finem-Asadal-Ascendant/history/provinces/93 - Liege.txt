@@ -1,0 +1,33 @@
+# 93 Liège - Principal cities: Liège & Namur
+capital = "Leodium"
+is_city = yes
+base_tax = 2
+base_production = 3
+trade_goods = glass
+base_manpower = 3
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+add_local_autonomy = 50
+add_nationalism = 15
+owner = GAU
+controller = GAU
+add_core = BRG
+culture = nervian
+religion = druidic
+1442.11.10 = { 
+	owner = GAU
+	controller = GAU
+}
+1444.6.23 = { 
+	add_core = GAU
+}
+discovered_by = west_mongol_group
+add_core = GAU
+1444.11.11 = { 
+	remove_core = GAU
+}
+add_devastation = 35

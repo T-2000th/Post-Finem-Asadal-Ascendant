@@ -1,0 +1,16 @@
+name = "Pinsk Conquest of Lida"
+war_goal = {
+	type = take_claim
+	casus_belli = cb_conquest
+	province = 4536
+}
+
+1441.7.24 = {
+	add_attacker = LIT
+	add_defender = PNS
+}
+
+1442.5.12 = {
+	rem_attacker = LIT
+	rem_defender = PNS
+}

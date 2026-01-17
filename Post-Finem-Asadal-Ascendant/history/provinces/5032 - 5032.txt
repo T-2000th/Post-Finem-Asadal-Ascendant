@@ -1,0 +1,28 @@
+# 5032 - 5032
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Zeprus"
+# trade_goods = 
+#Total development: 3
+base_tax = 2
+base_production = 2
+base_manpower = 1
+# fort_15th = yes
+# center_of_trade = 
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = indian
+discovered_by = east_african
+owner = SRJ
+culture = merabite
+trade_goods = wool
+controller = SRJ
+religion = jewish
+add_core = SRJ
+is_city = no
+discovered_by = euro_pagan_tech
+discovered_by = nomad_group
+fort_15th = yes

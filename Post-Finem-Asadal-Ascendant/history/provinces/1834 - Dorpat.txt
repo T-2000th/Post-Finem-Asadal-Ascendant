@@ -1,0 +1,19 @@
+#Dorpat
+base_tax = 3
+base_production = 3
+trade_goods = lumber
+base_manpower = 1
+capital = "Dorpat"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+religion = romuva
+culture = laumyras
+add_core = VZA
+owner = VZA
+controller = VZA
+discovered_by = ottoman
+
+discovered_by = west_mongol_group

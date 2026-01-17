@@ -1,0 +1,2 @@
+# 5011 - Northern Sahara
+is_city = no

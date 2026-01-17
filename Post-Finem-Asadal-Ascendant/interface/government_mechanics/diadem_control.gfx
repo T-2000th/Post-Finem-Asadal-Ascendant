@@ -1,0 +1,20 @@
+spriteTypes = {
+	##Gaul Confederation
+	
+	spriteType = {
+		name = "GFX_diadem_control_frame"
+		texturefile = "gfx/interface/government_mechanics/diadem_control/diadem_control_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_diadem_control_progress_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/diadem_control/diadem_control_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/diadem_control/diadem_control_progress_bar_empty.dds"
+		size = { x = 257 y = 24 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

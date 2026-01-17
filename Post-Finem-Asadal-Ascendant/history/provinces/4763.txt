@@ -1,0 +1,14 @@
+discovered_by = ASH
+discovered_by = BUL
+
+discovered_by = ASG
+discovered_by = BRT
+discovered_by = CRI
+discovered_by = KIE
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = west_mongol_group
+is_city = no
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = ottoman

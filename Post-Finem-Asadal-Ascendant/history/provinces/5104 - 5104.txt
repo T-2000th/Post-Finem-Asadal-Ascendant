@@ -1,0 +1,29 @@
+# 5104 - 5104
+# controller = PNS
+# owner = PNS
+# add_core = PNS
+# culture = 
+# religion = 
+# hre = yes
+capital = "Narvek"
+# trade_goods = 
+#Total development: 3
+base_tax = 3
+base_production = 3
+base_manpower = 5
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+add_core = PNS
+owner = PNS
+culture = slavic_galician
+religion = slavic_religion
+controller = PNS
+trade_goods = wool
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group

@@ -1,0 +1,17 @@
+#1205 - Mogadishu
+owner = BKS
+controller = BKS
+culture = majidi
+religion = sunni
+capital = "Maqdishu"
+is_city = yes
+base_manpower = 2
+trade_goods = ivory
+base_tax = 4
+base_production = 4
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+extra_cost = 16
+center_of_trade = 2
+add_core = BKS

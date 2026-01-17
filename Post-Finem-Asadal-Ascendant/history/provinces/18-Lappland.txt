@@ -1,0 +1,21 @@
+#Ume, Åsele, Piteå Lappmarks
+capital = "Arvidsjaur"
+base_tax = 2
+base_production = 3
+trade_goods = lumber
+base_manpower = 2
+native_hostileness = 1
+native_size = 3
+native_ferocity = 2
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+owner = GRG
+controller = GRG
+is_city = yes
+culture = nordungar
+religion = norse_pagan_reformed
+discovered_by = ottoman
+discovered_by = west_mongol_group
+add_core = GRG

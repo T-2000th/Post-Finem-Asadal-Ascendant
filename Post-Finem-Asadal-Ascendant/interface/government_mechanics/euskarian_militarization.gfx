@@ -1,0 +1,20 @@
+spriteTypes = {
+	#Euskarian Militarization
+	
+	spriteType = {
+		name = "GFX_euskarian_militarization_frame"
+		texturefile = "gfx/interface/government_mechanics/euskarian_militarization/euskarian_militarization_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_euskarian_militarization_progress_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/euskarian_militarization/euskarian_militarization_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/euskarian_militarization/euskarian_militarization_progress_bar_empty.dds"
+		size = { x = 262 y = 18 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

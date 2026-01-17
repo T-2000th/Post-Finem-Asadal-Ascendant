@@ -1,0 +1,20 @@
+#4729 - Padova, Padua
+base_tax = 5
+base_production = 3
+trade_goods = paper
+base_manpower = 3
+capital = "Padova"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = ITY
+controller = ITY
+hre = yes
+add_core = ITY
+culture = venetii
+religion = romana
+discovered_by = west_mongol_group

@@ -1,0 +1,20 @@
+#2685 - Gayo
+owner = PSA
+controller = PSA
+culture = acehnese
+religion = hinduism
+capital = "Gayo"
+trade_goods = tropical_wood
+base_tax = 3
+base_production = 3
+base_manpower = 1
+is_city = yes
+add_core = PSA
+discovered_by = chinese
+discovered_by = indian
+1405.1.1 = { discovered_by = MNG }
+1444.1.1 = { 
+	owner = ATJ
+	controller = ATJ
+	add_core = ATJ
+}

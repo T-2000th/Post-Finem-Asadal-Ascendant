@@ -1,0 +1,17 @@
+#1225 - Butana
+owner = NBS
+controller = NBS
+culture = nubian
+religion = kemetic
+capital = "Qarri"
+base_manpower = 1
+base_tax = 1
+base_production = 1
+is_city = yes
+trade_goods = ivory
+add_local_autonomy = 60
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = NBS

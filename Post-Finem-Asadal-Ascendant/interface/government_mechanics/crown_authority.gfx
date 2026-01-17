@@ -1,0 +1,14 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_increase_crown_authority"
+		texturefile = "gfx/interface/government_mechanics/crown_authority/increase_crown_authority.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_decrease_crown_authority"
+		texturefile = "gfx/interface/government_mechanics/crown_authority/decrease_crown_authority.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

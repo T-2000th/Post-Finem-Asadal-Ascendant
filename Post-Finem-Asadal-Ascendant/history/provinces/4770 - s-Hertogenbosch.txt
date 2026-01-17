@@ -1,0 +1,20 @@
+# 4770 - Den Bosch/'s-Hertogenbosch.
+is_city = yes
+capital = "Busken"
+base_tax = 2
+base_production = 3
+trade_goods = paper
+base_manpower = 3
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+culture = old_frisian
+religion = germanic_religion
+add_core = BRG
+owner = BRG
+controller = BRG
+discovered_by = west_mongol_group
+add_devastation = 35

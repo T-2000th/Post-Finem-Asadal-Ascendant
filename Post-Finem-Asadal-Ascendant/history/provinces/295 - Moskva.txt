@@ -1,0 +1,25 @@
+#295 - Moskva
+base_tax = 3
+base_production = 3
+trade_goods = iron
+latent_trade_goods = { 
+	steel 
+}
+base_manpower = 3
+capital = "Moskh"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = nomad_group
+extra_cost = 16
+center_of_trade = 1
+religion = tengri_pagan_reformed
+culture = aqsi
+owner = AQM
+controller = AQM
+discovered_by = ottoman
+add_core = AQM
+discovered_by = west_mongol_group
+discovered_by = muslim

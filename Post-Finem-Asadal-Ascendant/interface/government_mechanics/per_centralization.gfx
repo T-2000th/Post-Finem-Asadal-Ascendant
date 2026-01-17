@@ -1,0 +1,37 @@
+spriteTypes = {
+	##Persian Centralization
+
+	spriteType = {
+		name = "GFX_per_centralization_background"
+		texturefile = "gfx/interface/government_mechanics/per_centralization/per_centralization_background.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	spriteType = {
+		name = "GFX_per_centralization_frame"
+		texturefile = "gfx/interface/government_mechanics/per_centralization/per_centralization_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_per_centralization_progress_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/per_centralization/per_centralization_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/per_centralization/per_centralization_progress_bar_empty.dds"
+		size = { x = 258 y = 25 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_per_centralization_sieze"
+		texturefile = "gfx/interface/government_mechanics/per_centralization/per_centralization_sieze.dds"
+	}
+
+	spriteType = {
+		name = "GFX_per_centralization_concessions"
+		texturefile = "gfx/interface/government_mechanics/per_centralization/per_centralization_concessions.dds"
+	}
+}

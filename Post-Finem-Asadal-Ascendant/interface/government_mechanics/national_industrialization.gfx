@@ -1,0 +1,20 @@
+spriteTypes = {
+	##Gaul Confederation
+	
+	spriteType = {
+		name = "GFX_national_industrialization_frame"
+		texturefile = "gfx/interface/government_mechanics/national_industrialization/national_industrialization_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_single_government_power_bar_national_industrialization"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/national_industrialization/national_industrialization_active.dds"
+		textureFile2 = "gfx/interface/government_mechanics/national_industrialization/national_industrialization_pasive.dds"
+		size = { x = 274 y = 110 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

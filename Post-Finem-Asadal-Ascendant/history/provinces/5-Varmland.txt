@@ -1,0 +1,19 @@
+#Värmland
+base_tax = 2
+base_production = 2
+trade_goods = iron
+base_manpower = 1
+capital = "Karlstad"
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = VSG
+controller = VSG
+culture = skogungar
+religion = norse_pagan_reformed
+is_city = no
+discovered_by = west_mongol_group
+add_core = VSG
+fort_15th = yes

@@ -1,0 +1,19 @@
+#234 - Hampshire + Wiltshire
+base_tax = 4
+base_production = 3
+trade_goods = fish
+base_manpower = 3
+capital = "Salisbury"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = CVI
+owner = CVI
+controller = CVI
+culture = old_cornish
+religion = dubhnoic
+center_of_trade = 1
+discovered_by = west_mongol_group

@@ -1,0 +1,19 @@
+#273 - Latgalia / Inflanty Duchy
+capital = "Laumara"
+trade_goods = horses
+base_tax = 3
+base_production = 2
+base_manpower = 3
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+religion = romuva
+culture = kurunai
+add_core = RYT
+owner = RYT
+controller = RYT
+discovered_by = ottoman
+
+discovered_by = west_mongol_group

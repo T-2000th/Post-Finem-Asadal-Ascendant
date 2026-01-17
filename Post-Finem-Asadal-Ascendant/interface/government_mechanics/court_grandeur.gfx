@@ -1,0 +1,27 @@
+spriteTypes = {
+	#Spartan Militarizatin
+
+	spriteType = {
+		name = "GFX_court_grandeur_frame"
+		texturefile = "gfx/interface/government_mechanics/court_grandeur/court_grandeur_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+	progressbartype = {
+		name = "GFX_court_grandeur_power_bar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/court_grandeur/court_grandeur_progress_bar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/court_grandeur/court_grandeur_progress_bar_empty.dds"
+		size = { x = 260 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_boost_court_grandeur"
+		texturefile = "gfx/interface/government_mechanics/court_grandeur/boost_court_grandeur.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

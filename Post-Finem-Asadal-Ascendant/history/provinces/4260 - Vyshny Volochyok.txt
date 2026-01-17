@@ -1,0 +1,23 @@
+#4260 - Vyshny Volochyok
+base_tax = 3
+base_production = 3
+trade_goods = lumber
+base_manpower = 4
+capital = "Volokh"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = nomad_group
+religion = suomenusko
+culture = rusnok
+add_core = ASG
+owner = ASG
+controller = ASG
+discovered_by = ottoman
+discovered_by = ASG
+discovered_by = ZLT
+add_core = CZY
+discovered_by = west_mongol_group
+discovered_by = muslim

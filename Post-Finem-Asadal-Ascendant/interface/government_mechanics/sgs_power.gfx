@@ -1,0 +1,34 @@
+spriteTypes = {
+	#Carthage Rabim Qahal
+
+	spriteType = {
+		name = "GFX_sgs_frame"
+		texturefile = "gfx/interface/government_mechanics/sgs_power/sgs_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+
+	progressbartype = {
+		name = "GFX_sgs_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/sgs_power/sgs_progressbar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/sgs_power/sgs_progressbar_frame.dds"
+		size = { x = 230 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+
+	spriteType = {
+		name = "GFX_sgs_button_1"
+		texturefile = "gfx/interface/government_mechanics/sgs_power/sgs_button_1.dds"
+	}
+	spriteType = {
+		name = "GFX_sgs_button_2"
+		texturefile = "gfx/interface/government_mechanics/sgs_power/sgs_button_2.dds"
+	}
+	spriteType = {
+		name = "GFX_sgs_button_3"
+		texturefile = "gfx/interface/government_mechanics/sgs_power/sgs_button_3.dds"
+	}
+}

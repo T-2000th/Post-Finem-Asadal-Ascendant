@@ -1,0 +1,16 @@
+#2776 - Afgooye
+owner = BKS
+controller = BKS
+add_core = GLE
+culture = majidi
+religion = sunni
+capital = "Afgooye"
+trade_goods = grain
+is_city = yes
+base_tax = 1
+base_production = 1
+base_manpower = 1
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+add_core = BKS

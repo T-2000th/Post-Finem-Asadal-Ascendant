@@ -1,0 +1,20 @@
+#4362 - West March (Dumfriesshire+Kircudbrightshire)
+base_tax = 3
+base_production = 3
+trade_goods = wool
+base_manpower = 3
+capital = "Burthix"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+owner = CEL
+controller = CEL
+add_core = CEL
+culture = pictish
+religion = dubhnoic
+add_core = RHG
+add_core = PTC
+discovered_by = west_mongol_group

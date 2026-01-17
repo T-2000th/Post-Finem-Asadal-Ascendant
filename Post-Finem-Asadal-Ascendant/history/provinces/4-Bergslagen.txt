@@ -1,0 +1,21 @@
+#Bergslagen, contains Falun, Västerås etc.
+base_tax = 2
+base_production = 3
+trade_goods = iron
+latent_trade_goods = { 
+	steel 
+}
+base_manpower = 2
+capital = "Västerås"
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = GMH
+controller = GMH
+culture = swedish
+religion = norse_pagan_reformed
+is_city = no
+discovered_by = west_mongol_group
+add_core = GMH

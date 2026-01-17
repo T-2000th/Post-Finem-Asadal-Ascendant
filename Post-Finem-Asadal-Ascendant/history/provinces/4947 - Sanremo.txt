@@ -1,0 +1,34 @@
+### Modified 2/8/2025 8:05:26 PM ###
+# Remora
+# 4947 Remora - 2/8/2025 8:05:26 PM 
+ 
+add_core = LGA
+owner = LGA
+controller = LGA
+base_tax = 5
+base_production = 5
+base_manpower = 4
+
+center_of_trade = 1
+trade_goods = olives
+
+culture = ligurii
+religion = punic_religion
+capital = "Remora"
+
+hre = yes
+is_city = yes
+
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+
+
+
+
+
+

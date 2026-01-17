@@ -1,0 +1,22 @@
+#617 - Lamuri
+owner = PSA
+controller = PSA
+culture = acehnese
+religion = hinduism
+capital = "Lamuri"
+trade_goods = spices
+base_tax = 4
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = PSA
+discovered_by = indian
+discovered_by = chinese
+extra_cost = 8
+center_of_trade = 1
+1405.1.1 = { discovered_by = MNG }
+1444.1.1 = { 
+	owner = ATJ
+	controller = ATJ
+	add_core = ATJ
+}

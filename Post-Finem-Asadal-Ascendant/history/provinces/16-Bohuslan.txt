@@ -1,0 +1,18 @@
+#Bohuslän, contains Marstrand, Uddevalla, Strömstad.
+base_tax = 4
+base_production = 4
+trade_goods = fish
+base_manpower = 3
+capital = "Marstrand"
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = JSK
+controller = JSK
+culture = norwegian
+religion = norse_pagan_reformed
+discovered_by = west_mongol_group
+add_core = JSK

@@ -1,0 +1,19 @@
+#4118 - Earldom of Desmond
+base_tax = 4
+base_production = 3
+trade_goods = copper
+base_manpower = 2
+capital = "Cork"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+extra_cost = 8
+owner = CEL
+controller = CEL
+add_core = CEL
+culture = old_irish
+religion = dubhnoic
+discovered_by = west_mongol_group

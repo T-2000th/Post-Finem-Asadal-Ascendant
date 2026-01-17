@@ -1,0 +1,18 @@
+#Agdesiden (incl Lister Len, Mandals Len, Nedenes len and Råbyggelaget len)
+base_tax = 3
+base_production = 2
+trade_goods = iron
+base_manpower = 2
+capital = "Mandal"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = NOR
+owner = NOR
+controller = NOR
+culture = norwegian
+religion = norse_pagan_reformed
+discovered_by = west_mongol_group

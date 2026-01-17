@@ -1,0 +1,21 @@
+#Belz
+capital = "Belz"
+trade_goods = horses
+base_tax = 3
+base_production = 3
+base_manpower = 4
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = slavic_religion
+culture = volhynian
+add_core = VOL
+owner = VOL
+controller = VOL
+
+discovered_by = west_mongol_group
+add_core = ZKA

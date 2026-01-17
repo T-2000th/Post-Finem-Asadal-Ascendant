@@ -1,0 +1,71 @@
+guiTypes = {
+	windowType = { # Copied and adjusted from government_interaction_type, visible as the interaction specifies this, has cost_type specified to the power, and the power doesn't have a UI
+		name = "pf_sgs_gov_mech"
+		size = { x = 335 y = 61 }
+		moveable = 0
+
+		# bar and frame for the power type associated with this interaction (if it's unique to the interaction - if not, these will be hidden)
+		iconType = {
+			name = "government_power_bar"
+			spriteType = "GFX_sgs_progressbar"
+			position = { x = 42 y = -22 }
+		}
+
+		# Frame
+		iconType = {
+			name = "government_power_bar_frame"
+			spriteType = "GFX_sgs_frame"
+			position = { x = -10 y = -81 }
+			alwaystransparent = yes
+		}
+	}
+
+	windowType = {
+		name = "sgs_button_1"
+		size = { x = 0 y = 120 }
+		moveable = 0
+
+		#iconType = {
+		#	name = "background"
+		#	position = { x = -5 y = 10 }
+		#	spriteType = "GFX_pf_espionage_policy_background"
+		#}
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			position = { x = 45 y = 20 }
+			quadTextureSprite = "GFX_sgs_button_1"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "sgs_button_2"
+		size = { x = 0 y = 120 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			position = { x = 120 y = 20 }
+			quadTextureSprite = "GFX_sgs_button_2"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+	windowType = {
+		name = "sgs_button_3"
+		size = { x = 0 y = 120 }
+		moveable = 0
+
+		# Interaction button, graphics replaced from the interaction icon specification
+		guiButtonType = {
+			name = "government_interaction_button"
+			position = { x = 195 y = 20 }
+			quadTextureSprite = "GFX_sgs_button_3"
+			buttonFont = "vic_18"
+			clicksound = back_click
+		}
+	}
+}

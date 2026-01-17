@@ -1,0 +1,20 @@
+#4368 - Yorkshire - North Riding
+base_tax = 3
+base_production = 3
+trade_goods = lumber
+base_manpower = 4
+capital = "Carregmor"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = BGT
+owner = BGT
+controller = BGT
+culture = briton
+religion = dubhnoic
+add_core = GDD
+add_core = ELM
+discovered_by = west_mongol_group

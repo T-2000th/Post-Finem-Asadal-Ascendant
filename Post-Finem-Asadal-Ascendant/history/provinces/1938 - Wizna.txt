@@ -1,0 +1,22 @@
+#Wizna
+capital = "Wizna"
+trade_goods = lumber
+base_tax = 4
+base_production = 3
+base_manpower = 2
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+owner = KSV
+controller = KSV
+religion = slavic_religion
+culture = mazovian
+
+discovered_by = west_mongol_group
+add_core = KSV
+add_core = MIV
+add_core = ZVK

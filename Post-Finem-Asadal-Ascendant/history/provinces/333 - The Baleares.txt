@@ -1,0 +1,32 @@
+### Modified 2/8/2025 8:05:26 PM ###
+# Majarka
+# 333 Majarka - 2/8/2025 8:05:26 PM 
+ 
+add_core = KLI
+owner = KLI
+controller = KLI
+base_tax = 3
+base_production = 3
+base_manpower = 2
+
+trade_goods = olives
+
+culture = carventian
+religion = punic_religion
+capital = "Majarka"
+
+is_city = yes
+
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group
+
+
+
+
+
+

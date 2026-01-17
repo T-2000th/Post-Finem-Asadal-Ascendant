@@ -1,0 +1,21 @@
+spriteTypes = {
+	#Carthage Rabim Qahal
+
+	spriteType = {
+		name = "GFX_icelandic_unity_frame"
+		texturefile = "gfx/interface/government_mechanics/icelandic_unity/icelandic_unity_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+
+	progressbartype = {
+		name = "GFX_icelandic_unity_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/icelandic_unity/icelandic_unity_progressbar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/icelandic_unity/icelandic_unity_progressbar_frame.dds"
+		size = { x = 230 y = 20 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

@@ -1,0 +1,19 @@
+#15 - Western Jutland, incl. Ribe and Ringkøbing
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+capital = "Ribe"
+is_city = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = ottoman
+add_core = JUT
+owner = JUT
+controller = JUT
+culture = angle
+religion = norse_pagan_reformed
+
+discovered_by = west_mongol_group

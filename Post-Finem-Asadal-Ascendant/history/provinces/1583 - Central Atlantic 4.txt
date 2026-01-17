@@ -1,0 +1,1 @@
+1492.10.1 = { discovered_by = CAS } # Christopher Columbus

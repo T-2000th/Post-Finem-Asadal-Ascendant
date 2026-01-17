@@ -1,0 +1,22 @@
+#4174 - Durres
+capital = "Dyrrachion"
+trade_goods = salt
+base_tax = 5
+base_production = 4
+base_manpower = 3
+is_city = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+extra_cost = 8
+center_of_trade = 2
+owner = NEK
+controller = NEK
+add_core = NEK
+religion = jewish
+culture = hebren
+
+discovered_by = west_mongol_group

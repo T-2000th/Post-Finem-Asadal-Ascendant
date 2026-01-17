@@ -1,0 +1,19 @@
+culture = bornean
+religion = hinduism
+capital = "Pontiniak"
+trade_goods = gold
+base_tax = 5
+base_production = 5
+base_manpower = 3
+native_size = 40
+native_ferocity = 8
+native_hostileness = 5
+discovered_by = chinese
+discovered_by = indian
+1444.1.1 = { 
+	owner = SMB
+	controller = SMB
+	add_core = SMB
+	city = yes
+}
+is_city = no

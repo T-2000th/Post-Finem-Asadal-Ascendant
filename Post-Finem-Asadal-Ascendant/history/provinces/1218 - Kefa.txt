@@ -1,0 +1,17 @@
+#1218 - Sidamo
+owner = MKD
+controller = MKD
+culture = berqani
+religion = sunni
+capital = "Irgalem"
+is_city = yes
+base_manpower = 2
+trade_goods = coffee
+base_tax = 2
+base_production = 3
+discovered_by = east_african
+discovered_by = muslim
+discovered_by = indian
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+add_core = MKD

@@ -1,0 +1,27 @@
+# 5120 - Bjorklinge
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Bjorklinge"
+trade_goods = salt
+#Total development: 3
+base_tax = 3
+base_production = 3
+base_manpower = 2
+# fort_15th = yes
+# center_of_trade = 
+add_core = DRK
+owner = DRK
+culture = danish
+religion = norse_pagan_reformed
+controller = DRK
+is_city = no
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = ottoman
+discovered_by = west_mongol_group
+fort_15th = yes

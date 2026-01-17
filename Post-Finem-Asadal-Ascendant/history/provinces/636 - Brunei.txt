@@ -1,0 +1,16 @@
+#636 - Brunei
+owner = BEI
+controller = BEI
+culture = bornean
+religion = mahayana
+capital = "Brunei"
+trade_goods = spices
+base_tax = 5
+base_production = 5
+base_manpower = 3
+is_city = yes
+add_core = BEI
+discovered_by = chinese
+discovered_by = indian
+extra_cost = 16
+center_of_trade = 2

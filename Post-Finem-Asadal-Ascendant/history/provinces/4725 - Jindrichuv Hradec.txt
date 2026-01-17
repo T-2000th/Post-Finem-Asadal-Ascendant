@@ -1,0 +1,19 @@
+capital = "Hindburg"
+trade_goods = grain
+base_tax = 3
+base_production = 3
+base_manpower = 4
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = south_germanic_religion
+culture = marcomanni
+add_core = MVA
+owner = MVA
+controller = MVA
+
+is_city = yes
+discovered_by = west_mongol_group

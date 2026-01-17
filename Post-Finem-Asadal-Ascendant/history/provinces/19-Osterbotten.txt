@@ -1,0 +1,20 @@
+#Österbotten, down to Vasa.
+base_tax = 3
+base_production = 2
+trade_goods = fur
+base_manpower = 2
+capital = "Pohjanmaa"
+is_city = yes
+#fort_15th = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+add_core = FIN
+owner = FIN
+controller = FIN
+culture = finnish
+religion = suomenusko
+discovered_by = ottoman
+
+discovered_by = west_mongol_group

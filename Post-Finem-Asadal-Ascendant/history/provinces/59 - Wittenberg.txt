@@ -1,0 +1,20 @@
+#59 - Wittenberg
+capital = "Witenberk"
+trade_goods = wool
+base_tax = 2
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = germanic_religion
+culture = semnones
+add_core = SMN
+owner = SMN
+controller = SMN
+
+discovered_by = west_mongol_group

@@ -1,0 +1,19 @@
+# 4769 - Jülich
+trade_goods = grain
+capital = "Julich"
+base_tax = 2
+base_production = 3
+is_city = yes
+base_manpower = 3
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = muslim
+discovered_by = ottoman
+religion = germanic_religion
+culture = bructeri
+add_core = AAC
+owner = AAC
+controller = AAC
+discovered_by = west_mongol_group

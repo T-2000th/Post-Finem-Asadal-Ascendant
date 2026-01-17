@@ -1,0 +1,8 @@
+#Zagros
+discovered_by = muslim
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = west_mongol_group
+is_city = no

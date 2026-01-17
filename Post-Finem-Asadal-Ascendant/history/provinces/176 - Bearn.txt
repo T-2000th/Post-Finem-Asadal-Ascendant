@@ -1,0 +1,19 @@
+# 176 Béarn - Principal cities: Pau
+capital = "Tursbalat"
+is_city = yes
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 2
+add_core = TRV
+owner = TRV
+controller = TRV
+religion = druidic
+culture = volcaran
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group

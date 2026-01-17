@@ -1,0 +1,18 @@
+#Dal
+base_tax = 2
+base_production = 2
+trade_goods = lumber
+base_manpower = 2
+capital = "Dalaborg"
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = JSK
+controller = JSK
+culture = skogungar
+religion = norse_pagan_reformed
+is_city = yes
+discovered_by = west_mongol_group
+add_core = JSK

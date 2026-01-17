@@ -1,0 +1,21 @@
+spriteTypes = {
+	#Svetovid Dedicaiton
+
+	spriteType = {
+		name = "GFX_svetovid_dedication_frame"
+		texturefile = "gfx/interface/government_mechanics/svetovid_dedication/svetovid_dedication_frame.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+
+
+	progressbartype = {
+		name = "GFX_svetovid_dedication_progressbar"
+		color = { 1.0 0.0 0.0 }
+		colortwo = { 1.0 1.0 1.0 }
+		textureFile1 = "gfx/interface/government_mechanics/svetovid_dedication/svetovid_dedication_progressbar.dds"
+		textureFile2 = "gfx/interface/government_mechanics/svetovid_dedication/svetovid_dedication_progressbar_frame.dds"
+		size = { x = 300 y = 14 }
+		effectFile = "gfx/FX/progress.lua"
+	}
+}

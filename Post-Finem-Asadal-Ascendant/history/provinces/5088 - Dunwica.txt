@@ -1,0 +1,27 @@
+# 5088 - 5088
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Dunwica" #Near London
+# trade_goods = 
+#Total development: 3
+base_tax = 3
+base_production = 4
+base_manpower = 2
+# fort_15th = yes
+# center_of_trade = 
+add_core = CVI
+owner = CVI
+culture = briton
+trade_goods = fish
+religion = druidic
+controller = CVI
+is_city = no
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = west_mongol_group

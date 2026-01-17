@@ -1,0 +1,16 @@
+version="1.3"
+tags={
+	"Alternative History"
+	"Gameplay"
+	"National Ideas"
+	"Religion"
+	"New Nations"
+	"Trade"
+	"Missions And Decisions"
+	"Map"
+	"Events"
+}
+replace_path="common/bookmarks"
+replace_path="gfx/loadingscreens"
+name="post-finem-1.65_InitialRelease"
+supported_version="v1.37.*"

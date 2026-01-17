@@ -1,0 +1,16 @@
+#2786 - Bosaso
+owner = SDN
+controller = SDN
+culture = qarifan
+religion = sunni
+capital = "Bosaso"
+trade_goods = incense
+is_city = yes
+base_tax = 3
+base_production = 3
+base_manpower = 2
+discovered_by = east_african
+discovered_by = indian
+discovered_by = muslim
+add_core = SDN
+fort_15th = yes

@@ -1,0 +1,21 @@
+# 100 Friesland - Principal cities: Leeuwarden & Harlingen 
+capital = "Frisland"
+is_city = yes
+base_tax = 4
+base_production = 3
+trade_goods = livestock
+base_manpower = 4
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+add_core = LAG
+owner = LAG
+controller = LAG
+culture = old_frisian
+religion = germanic_religion
+add_core = FRI
+discovered_by = west_mongol_group
+fort_15th = yes

@@ -1,0 +1,20 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_society_research_button"
+		texturefile = "gfx/interface/government_mechanics/islamic_technocracy/society_research_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_industrial_research_button"
+		texturefile = "gfx/interface/government_mechanics/islamic_technocracy/industrial_research_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+	spriteType = {
+		name = "GFX_military_research_button"
+		texturefile = "gfx/interface/government_mechanics/islamic_technocracy/military_research_button.dds"
+		loadType = "INGAME"
+		transparencecheck = yes
+	}
+}

@@ -1,0 +1,20 @@
+#Orense
+base_tax = 2
+base_production = 2
+trade_goods = naval_supplies
+base_manpower = 3
+capital = "Oren"
+is_city = yes
+# Santiago de Compostela pilgrimage
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = ottoman
+owner = SUE
+controller = SUE
+add_core = SUE
+religion = punic_religion
+culture = varangar
+add_core = PTM
+discovered_by = west_mongol_group

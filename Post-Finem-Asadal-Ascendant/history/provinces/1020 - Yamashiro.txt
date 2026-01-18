@@ -1,7 +1,6 @@
 #1020 - Yamashiro (Kyoto)
 
-owner = ASK
-controller = ASK
+
 culture = japanese
 religion = shinto
 capital = "Kyoto"
@@ -10,8 +9,8 @@ hre = no
 base_tax = 6
 base_production = 5
 base_manpower = 2
-is_city = yes
-add_core = ASK
+
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

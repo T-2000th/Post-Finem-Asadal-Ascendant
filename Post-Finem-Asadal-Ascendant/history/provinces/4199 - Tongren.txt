@@ -1,8 +1,6 @@
 #4199 - Tongren
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = miao
 religion = animism
 capital = "Tongren"
@@ -11,8 +9,8 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-is_city = yes
-add_core = CMI
+
+
 
 
 discovered_by = chinese

@@ -1,8 +1,6 @@
 #685 - Huai'an (can't change file name)
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = jianghuai
 religion = confucianism
 capital = "Yangzhou"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 12 
 base_production = 12
 base_manpower = 2
-is_city = yes
+
 
 
 discovered_by = chinese

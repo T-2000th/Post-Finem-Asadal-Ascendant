@@ -1,7 +1,6 @@
 #2389 - Phra Bang
 
-owner = SUK
-controller = SUK
+
 culture = central_thai
 religion = buddhism
 capital = "Phra Bang"
@@ -10,8 +9,8 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 3
-is_city = yes
-add_core = SUK
+
+
 
 
 
@@ -20,5 +19,5 @@ discovered_by = indian
 
 
 1438.1.1 = {	
-	add_core = AYU
+	
 } # Sukhothai is under Personal Union with Ayutthaya

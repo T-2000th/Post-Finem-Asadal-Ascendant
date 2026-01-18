@@ -1,8 +1,6 @@
 #688 - Kaifeng (can't change file name)
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = zhongyuan
 religion = confucianism
 capital = "Kaifeng"
@@ -11,8 +9,8 @@ hre = no
 base_tax = 8 
 base_production = 8
 base_manpower = 4
-is_city = yes
-add_core = LNG
+
+
 
 
 

@@ -13,11 +13,6 @@ discovered_by = chinese
 discovered_by = indian
 extra_cost = 8
 center_of_trade = 1
-1444.1.1 = { 
-	owner = PLB
-	controller = PLB
-	add_core = PLB
-	trade_goods = Spices
-}
-discovered_by = MNG
+
+
 is_city = no

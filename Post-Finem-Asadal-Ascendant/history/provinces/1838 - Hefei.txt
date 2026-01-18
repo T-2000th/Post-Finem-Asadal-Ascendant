@@ -1,8 +1,6 @@
 #1838 - Hefei
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = jianghuai
 religion = confucianism
 capital = "Hefei"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 3
-is_city = yes
+
 
 
 

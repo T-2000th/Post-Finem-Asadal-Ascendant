@@ -1,8 +1,6 @@
 #696 - Baoding
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = chihan
 religion = confucianism
 capital = "Baoding"
@@ -11,8 +9,7 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-is_city = yes
-add_core = YAN
+
 
 
 

@@ -1,5 +1,4 @@
-owner = BNE
-controller = BNE
+
 culture = sulawesi
 religion = animism
 capital = "Bone"
@@ -7,7 +6,7 @@ trade_goods = spices
 base_tax = 3
 base_production = 4
 base_manpower = 2
-is_city = yes
-add_core = BNE
+
+
 discovered_by = chinese
 discovered_by = indian

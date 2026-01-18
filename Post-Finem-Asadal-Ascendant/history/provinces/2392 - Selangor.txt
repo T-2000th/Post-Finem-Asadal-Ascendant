@@ -1,6 +1,5 @@
 #2392 - Selangor
-owner = MLC
-controller = MLC
+
 culture = malayan
 religion = buddhism
 capital = "Kelang"
@@ -8,8 +7,7 @@ trade_goods = grain
 base_tax = 3
 base_production = 3
 base_manpower = 2
-is_city = yes
-add_core = MLC
-add_core = PRK
+
+
 discovered_by = chinese
 discovered_by = indian

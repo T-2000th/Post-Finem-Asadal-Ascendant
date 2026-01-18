@@ -1,8 +1,6 @@
 # 2143 - Fengyang
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = zhongyuan
 religion = confucianism
 capital = "Fengyang"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 2 
 base_production = 1
 base_manpower = 1
-is_city = yes
+
 
 
 

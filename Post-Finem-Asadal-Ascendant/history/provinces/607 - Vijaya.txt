@@ -1,6 +1,5 @@
 #607 - Vijaya
-owner = CHA
-controller = CHA
+
 culture = cham
 religion = hinduism
 capital = "Vijaya"
@@ -8,10 +7,10 @@ trade_goods = tropical_wood
 base_tax = 5
 base_production = 5
 base_manpower = 2
-is_city = yes
-add_core = CHA
+
+
 discovered_by = chinese
 discovered_by = indian
 extra_cost = 8
 center_of_trade = 1
-fort_15th = yes
+

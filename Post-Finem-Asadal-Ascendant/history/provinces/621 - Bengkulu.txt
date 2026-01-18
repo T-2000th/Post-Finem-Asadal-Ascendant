@@ -14,7 +14,6 @@ native_ferocity = 7
 native_hostileness = 5
 discovered_by = chinese
 discovered_by = indian
-add_core = BAN
-add_core = BAN
-discovered_by = MNG
+
+
 is_city = no

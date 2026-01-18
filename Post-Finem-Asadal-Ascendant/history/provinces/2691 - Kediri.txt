@@ -1,7 +1,6 @@
 #2691 - Kediri
-owner = MAJ
-controller = MAJ
-add_core = MAJ
+
+
 culture = javanese
 religion = hinduism
 capital = "Kediri"
@@ -9,6 +8,6 @@ trade_goods = fish
 base_tax = 2
 base_production = 2
 base_manpower = 2
-is_city = yes
+
 discovered_by = chinese
 discovered_by = indian

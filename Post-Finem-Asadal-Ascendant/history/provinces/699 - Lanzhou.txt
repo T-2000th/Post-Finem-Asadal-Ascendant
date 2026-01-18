@@ -1,8 +1,6 @@
 #699 - Lanzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = xibei
 religion = confucianism
 capital = "Lanzhou"
@@ -11,8 +9,7 @@ hre = no
 base_tax = 6 
 base_production = 6
 base_manpower = 3
-is_city = yes
-add_core = CSH
+
 
 
 

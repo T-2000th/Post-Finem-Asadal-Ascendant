@@ -1,6 +1,5 @@
 #593 - Nakhon Si Thammarat
-owner = LIG
-controller = LIG
+
 culture = central_thai
 religion = buddhism
 capital = "Nakhon Si Thammarat"
@@ -8,7 +7,7 @@ trade_goods = tropical_wood
 base_tax = 5
 base_production = 5
 base_manpower = 2
-is_city = yes
-add_core = LIG
+
+
 discovered_by = chinese
 discovered_by = indian

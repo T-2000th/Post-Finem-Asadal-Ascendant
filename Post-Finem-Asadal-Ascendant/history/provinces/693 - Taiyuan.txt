@@ -1,8 +1,6 @@
 #693 - Taiyuan
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = jin
 religion = confucianism
 capital = "Taiyuan"
@@ -11,8 +9,6 @@ hre = no
 base_tax = 6 
 base_production = 6
 base_manpower = 3
-is_city = yes
-add_core = JIN
 center_of_trade = 1
 
 

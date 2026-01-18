@@ -1,6 +1,5 @@
 #2676 - Indragiri
-owner = SAK
-controller = SAK
+
 culture = sumatran
 religion = hinduism
 capital = "Indragiri"
@@ -8,8 +7,8 @@ trade_goods = copper
 base_tax = 2
 base_production = 2
 base_manpower = 3
-is_city = yes
-add_core = SAK
+
+
 discovered_by = chinese
 discovered_by = indian
-1405.1.1 = { discovered_by = MNG }
+

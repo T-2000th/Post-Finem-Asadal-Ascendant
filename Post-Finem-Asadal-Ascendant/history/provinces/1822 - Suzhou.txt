@@ -1,8 +1,6 @@
 #1822 - Suzhou
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = wu
 religion = confucianism
 capital = "Suzhou"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 9 
 base_production = 9
 base_manpower = 2
-is_city = yes
+
 
 
 

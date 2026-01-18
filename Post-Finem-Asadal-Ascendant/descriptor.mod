@@ -1,16 +1,18 @@
-version="1.3"
+version="1.0"
+picture="thumbnail.png"
 tags={
 	"Alternative History"
 	"Gameplay"
 	"National Ideas"
 	"Religion"
 	"New Nations"
-	"Trade"
 	"Missions And Decisions"
 	"Map"
 	"Events"
 }
-replace_path="common/bookmarks"
-replace_path="gfx/loadingscreens"
-name="post-finem-1.65_InitialRelease"
+name="Post-Finem Asadal-Ascendant"
+dependencies={
+	"Post Finem"
+}
 supported_version="v1.37.*"
+path="mod/Post-Finem-Asadal-Ascendant"

@@ -1,7 +1,6 @@
 #601 - Sukhothai
 
-owner = SUK
-controller = SUK
+
 culture = central_thai
 religion = buddhism
 capital = "Sukhothai"
@@ -10,16 +9,11 @@ hre = no
 base_tax = 6
 base_production = 6
 base_manpower = 3
-is_city = yes
-fort_15th = yes
-add_core = SUK
+
+
+
 
 
 
 discovered_by = chinese
 discovered_by = indian
-
-
-1438.1.1 = {	
-	add_core = AYU
-} # Sukhothai is under Personal Union with Ayutthaya

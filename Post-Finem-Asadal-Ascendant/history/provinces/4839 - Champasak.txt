@@ -1,5 +1,4 @@
-owner = LXA
-controller = LXA
+
 culture = lao
 religion = animism
 capital = "Champasak"
@@ -8,9 +7,8 @@ hre = no
 base_tax = 4
 base_production = 3
 base_manpower = 3
-is_city = yes
-add_core = LXA
-add_core = CHK
+
+
 
 
 discovered_by = chinese

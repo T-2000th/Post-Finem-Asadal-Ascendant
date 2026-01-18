@@ -1,8 +1,6 @@
 # 2162 - Ngchow
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = cantonese
 religion = confucianism
 capital = "Ngchow"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 2
-is_city = yes
+
 
 
 

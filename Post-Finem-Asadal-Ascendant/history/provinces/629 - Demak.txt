@@ -1,7 +1,6 @@
 #629 - Demak
-owner = MAJ
-controller = MAJ
-add_core = MAJ
+
+
 culture = javanese
 religion = hinduism
 capital = "Demak"
@@ -9,7 +8,7 @@ trade_goods = cotton
 base_tax = 5
 base_production = 5
 base_manpower = 3
-is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
 extra_cost = 8

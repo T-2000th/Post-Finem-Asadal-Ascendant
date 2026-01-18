@@ -1,8 +1,6 @@
 #2697 - Tondo
 
-owner = TDO
-controller = TDO
-add_core = TDO
+
 culture = filipino
 religion = animism
 capital = "Tondo"
@@ -11,6 +9,6 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 2
-is_city = yes
+
 discovered_by = chinese
 

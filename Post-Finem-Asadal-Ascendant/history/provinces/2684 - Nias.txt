@@ -11,5 +11,5 @@ native_ferocity = 2
 native_hostileness = 2
 discovered_by = chinese
 discovered_by = indian
-discovered_by = MNG
+
 is_city = no

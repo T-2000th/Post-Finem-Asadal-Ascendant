@@ -10,11 +10,5 @@ native_ferocity = 8
 native_hostileness = 5
 discovered_by = chinese
 discovered_by = indian
-1444.1.1 = { 
-	owner = BNJ
-	controller = BNJ
-	add_core = BNJ
-	city = yes
-	trade_goods = Spices
-}
+
 is_city = no

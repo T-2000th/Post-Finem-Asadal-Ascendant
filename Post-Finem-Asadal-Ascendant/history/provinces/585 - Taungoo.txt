@@ -1,7 +1,6 @@
 #585 - Toungoo
 
-owner = TAU
-controller = TAU
+
 culture = burmese
 religion = buddhism
 capital = "Toungoo"
@@ -10,8 +9,8 @@ hre = no
 base_tax = 5
 base_production = 5
 base_manpower = 4
-is_city = yes
-add_core = TAU
+
+
 
 
 

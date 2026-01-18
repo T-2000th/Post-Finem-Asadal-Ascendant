@@ -1,5 +1,4 @@
-owner = BRS
-controller = BRS
+
 culture = sumatran
 religion = hinduism
 capital = "Barus"
@@ -7,8 +6,8 @@ trade_goods = spices
 base_tax = 4
 base_production = 4
 base_manpower = 3
-is_city = yes
-add_core = BRS
+
+
 discovered_by = chinese
 discovered_by = indian
-discovered_by = MNG
+

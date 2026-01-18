@@ -1,8 +1,6 @@
 #664 - Lingyun
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = zhuang
 religion = confucianism
 capital = "Lingyun"
@@ -11,8 +9,8 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-is_city = yes
-add_core = CGS
+
+
 
 
 

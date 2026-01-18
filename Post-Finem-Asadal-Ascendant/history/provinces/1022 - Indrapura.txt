@@ -1,6 +1,5 @@
 #1022 - Indrapura
-owner = CHA
-controller = CHA
+
 culture = cham
 religion = hinduism
 capital = "Indrapura"
@@ -8,13 +7,9 @@ trade_goods = incense
 base_tax = 4
 base_production = 4
 base_manpower = 2
-is_city = yes
-add_core = CHA
-add_core = ANN
+
+
+
 discovered_by = chinese
 discovered_by = indian
-1407.3.1 = { 
-	owner = DAI
-	controller = DAI
-	add_core = DAI
-}
+

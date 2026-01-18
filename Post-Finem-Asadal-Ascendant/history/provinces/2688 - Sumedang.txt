@@ -1,6 +1,4 @@
-owner = SUN
-controller = SUN
-add_core = SUN
+
 culture = sundanese
 religion = hinduism
 capital = "Sumedang"
@@ -8,7 +6,7 @@ trade_goods = spices
 base_tax = 3
 base_production = 3
 base_manpower = 2
-is_city = yes
+
 discovered_by = chinese
 discovered_by = indian
-discovered_by = POR
+

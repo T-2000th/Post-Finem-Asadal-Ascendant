@@ -1,7 +1,6 @@
 #1025 - Dewa
 
-owner = SBA
-controller = SBA
+
 culture = togoku
 religion = shinto
 capital = "Yamagata"
@@ -10,8 +9,8 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 3
-is_city = yes
-add_core = SBA
+
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

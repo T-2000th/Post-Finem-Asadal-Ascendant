@@ -1,8 +1,7 @@
 # 2166 - Dehong
 
-owner = MMA
-controller = MMA
-add_core = MMA
+
+
 culture = shan
 religion = buddhism
 capital = "Dehong"
@@ -11,7 +10,7 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 2
-is_city = yes
+
 
 
 

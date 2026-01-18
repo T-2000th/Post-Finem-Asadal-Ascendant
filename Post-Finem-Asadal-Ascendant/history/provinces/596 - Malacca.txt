@@ -1,6 +1,5 @@
 #596 - Malacca
-owner = MLC
-controller = MLC
+
 culture = malayan
 religion = buddhism
 capital = "Malacca"
@@ -8,8 +7,8 @@ trade_goods = spices
 base_tax = 7
 base_production = 7
 base_manpower = 3
-is_city = yes
-add_core = MLC
+
+
 discovered_by = chinese
 discovered_by = indian
 extra_cost = 16

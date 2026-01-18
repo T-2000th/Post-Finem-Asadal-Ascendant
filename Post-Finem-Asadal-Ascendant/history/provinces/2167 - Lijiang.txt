@@ -1,9 +1,7 @@
 # 2167 - Lijiang
 
-owner = MNG
-controller = MNG
-add_core = MNG
-add_core = CDL
+
+
 culture = bai
 religion = buddhism
 capital = "Lijiang"
@@ -12,7 +10,7 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-is_city = yes
+
 
 
 

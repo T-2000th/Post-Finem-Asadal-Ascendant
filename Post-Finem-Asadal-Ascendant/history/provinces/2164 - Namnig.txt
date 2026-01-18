@@ -1,8 +1,6 @@
 # 2164 - Namning
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = zhuang
 religion = confucianism
 capital = "Namning"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 2
-is_city = yes
+
 
 
 

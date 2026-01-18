@@ -1,6 +1,5 @@
 #603 - Nakhon Thung Yai
-owner = AYU
-controller = AYU
+
 culture = central_thai
 religion = buddhism
 capital = "Nakhon Thung Yai"
@@ -8,7 +7,7 @@ trade_goods = gems#Rubies etc
 base_tax = 4
 base_production = 4
 base_manpower = 3
-is_city = yes
-add_core = AYU
+
+
 discovered_by = chinese
 discovered_by = indian

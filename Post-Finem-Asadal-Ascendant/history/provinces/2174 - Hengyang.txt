@@ -1,9 +1,7 @@
 # 2174 - Hengyang
 
-owner = MNG
-controller = MNG
-add_core = MNG
-add_core = CMI
+
+
 culture = xiang
 religion = animism
 capital = "Hengyang"
@@ -12,8 +10,8 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 3
-is_city = yes
-add_core = CHC
+
+
 
 
 

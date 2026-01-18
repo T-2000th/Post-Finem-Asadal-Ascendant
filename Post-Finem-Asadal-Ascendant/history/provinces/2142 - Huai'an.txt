@@ -1,8 +1,6 @@
 # 2142 - Huai'an
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = jianghuai
 religion = confucianism
 capital = "Huai'an"
@@ -11,7 +9,7 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 2
-is_city = yes
+
 
 
 

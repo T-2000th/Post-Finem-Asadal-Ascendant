@@ -1,7 +1,6 @@
 #1012 - Satsuma
 
-owner = SMZ
-controller = SMZ
+
 culture = kyushuan
 religion = shinto
 capital = "Kagoshima"
@@ -10,8 +9,8 @@ hre = no
 base_tax = 3
 base_manpower = 3
 base_production = 3
-is_city = yes
-add_core = SMZ
+
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

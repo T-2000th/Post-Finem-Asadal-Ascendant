@@ -1,7 +1,5 @@
 #665 - Jiangmen
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = cantonese
 religion = confucianism
 capital = "Shiuhing"
@@ -9,8 +7,8 @@ trade_goods = chinaware
 base_tax = 4
 base_production = 4
 base_manpower = 3
-is_city = yes
-add_core = YUE
+
+
 discovered_by = chinese
 discovered_by = indian
 discovered_by = nomad_group

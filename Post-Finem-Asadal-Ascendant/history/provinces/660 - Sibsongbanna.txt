@@ -1,8 +1,7 @@
 #660 - Xishuan Banna
 
-owner = MMA
-controller = MMA
-add_core = MMA
+
+
 culture = shan
 religion = buddhism
 capital = "Sibsongbanna"
@@ -11,7 +10,7 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-is_city = yes
+
 
 
 

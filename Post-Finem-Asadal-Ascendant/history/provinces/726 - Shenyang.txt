@@ -1,8 +1,6 @@
 #726 - Liaodong
 
-owner = MNG
-controller = MNG
-add_core = MNG
+
 culture = manchu
 religion = confucianism
 capital = "Shenyang"
@@ -11,8 +9,7 @@ hre = no
 base_tax = 5 
 base_production = 5
 base_manpower = 2
-is_city = yes
-fort_15th = yes #the Nine Garrisons
+
 
 
 discovered_by = chinese

@@ -1,5 +1,5 @@
 
-culture = vietnamese
+culture = tay
 religion = mahayana
 capital = "Nghe An"
 trade_goods = grain

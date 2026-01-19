@@ -2,7 +2,7 @@
 
 
 culture = bai
-religion = buddhism
+religion = mahayana
 capital = "Pu'er"
 trade_goods = tea
 hre = no

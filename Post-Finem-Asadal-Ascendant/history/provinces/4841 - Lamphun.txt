@@ -1,7 +1,7 @@
 #1817 - Nan
 
 
-culture = northern_thai
+culture = yonok
 religion = buddhism
 capital = "Lamphun"
 trade_goods = grain

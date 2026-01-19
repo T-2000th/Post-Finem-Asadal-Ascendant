@@ -1,7 +1,7 @@
 #2390 - Chaiya
 
-culture = central_thai
-religion = buddhism
+culture = malayan
+religion = mahayana
 capital = "Chaiya"
 trade_goods = fish
 base_tax = 2

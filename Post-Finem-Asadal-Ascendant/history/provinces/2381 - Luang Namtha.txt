@@ -2,7 +2,7 @@
 
 
 culture = lao
-religion = animism
+religion = mahayana
 capital = "Luang Namtha"
 trade_goods = tea
 hre = no

@@ -1,7 +1,7 @@
 #2393 - Terengganu
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Terengganu"
 trade_goods = fish
 base_tax = 2

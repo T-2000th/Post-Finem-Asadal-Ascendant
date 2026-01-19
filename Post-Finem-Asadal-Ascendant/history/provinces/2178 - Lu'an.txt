@@ -2,7 +2,7 @@
 
 
 culture = jin
-religion = confucianism
+religion = vajrayana
 capital = "Lu'an"
 trade_goods = iron
 hre = no

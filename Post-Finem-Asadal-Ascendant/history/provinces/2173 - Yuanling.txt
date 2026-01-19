@@ -3,7 +3,7 @@
 
 
 culture = miao
-religion = animism
+religion = mahayana
 capital = "Yuanling"
 trade_goods = tea
 hre = no

@@ -2,7 +2,7 @@
 
 
 culture = chimin
-religion = confucianism
+religion = mahayana
 capital = "Chaochow"
 trade_goods = chinaware
 hre = no

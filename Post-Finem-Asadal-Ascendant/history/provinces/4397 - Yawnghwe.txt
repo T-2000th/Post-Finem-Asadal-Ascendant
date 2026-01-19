@@ -1,7 +1,7 @@
 #4397 - Yawnghwe
 
 
-culture = shan
+culture = karen
 religion = buddhism
 capital = "Yawnghwe"
 trade_goods = cotton

@@ -2,7 +2,7 @@
 
 
 culture = shan
-religion = animism
+religion = mahayana
 capital = "Mawkmai"
 trade_goods = grain
 hre = no

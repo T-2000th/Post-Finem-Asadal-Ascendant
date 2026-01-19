@@ -1,7 +1,7 @@
 #2686 - Bintan
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Tanjungpinaung"
 trade_goods = naval_supplies
 base_tax = 3

@@ -2,7 +2,7 @@
 
 
 culture = shan
-religion = buddhism
+religion = mahayana
 capital = "Hsipaw"
 trade_goods = grain
 hre = no

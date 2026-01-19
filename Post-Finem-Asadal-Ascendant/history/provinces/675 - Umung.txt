@@ -3,7 +3,7 @@
 
 
 culture = yi
-religion = animism
+religion = mahayana
 capital = "Umung"
 trade_goods = copper
 hre = no

@@ -2,8 +2,8 @@
 
 
 
-culture = shan
-religion = buddhism
+culture = bai
+religion = mahayana
 capital = "Sibsongbanna"
 trade_goods = tea
 hre = no

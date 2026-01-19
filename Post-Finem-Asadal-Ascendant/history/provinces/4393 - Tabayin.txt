@@ -1,8 +1,11 @@
 #4393 - Tabayin
 
-
-culture = burmese
-religion = buddhism
+owner = MLB
+controller = MLB
+is_city = yes
+add_core = MLB
+culture = chin
+religion = animism
 capital = "Tabayin"
 trade_goods = cotton
 hre = no

@@ -1,7 +1,7 @@
 #596 - Malacca
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Malacca"
 trade_goods = spices
 base_tax = 7

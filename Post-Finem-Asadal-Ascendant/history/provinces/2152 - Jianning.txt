@@ -2,7 +2,7 @@
 
 
 culture = chimin
-religion = confucianism
+religion = mahayana
 capital = "Jianning"
 trade_goods = tea
 hre = no

@@ -1,7 +1,7 @@
 #694 - Luzhou
 
 culture = jin
-religion = confucianism
+religion = vajrayana
 capital = "Pingyang"
 trade_goods = iron
 hre = no

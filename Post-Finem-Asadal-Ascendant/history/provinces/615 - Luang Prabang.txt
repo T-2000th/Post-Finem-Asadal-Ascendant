@@ -2,7 +2,7 @@
 
 
 culture = lao
-religion = animism
+religion = buddhism
 capital = "Xieng Tong"
 trade_goods = chinaware
 hre = no

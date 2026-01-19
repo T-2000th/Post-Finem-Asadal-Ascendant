@@ -1,6 +1,6 @@
 #2387 - Phetchaburi
 
-culture = central_thai
+culture = lawa
 religion = buddhism
 capital = "Phetchaburi"
 trade_goods = tropical_wood

@@ -2,7 +2,7 @@
 
 
 culture = xibei
-religion = confucianism
+religion = vajrayana
 capital = "Lanzhou"
 trade_goods = grain
 hre = no

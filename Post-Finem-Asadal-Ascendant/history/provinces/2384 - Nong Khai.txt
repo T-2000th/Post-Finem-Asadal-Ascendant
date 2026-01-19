@@ -1,7 +1,7 @@
 #2384 - Nong Khai
 
 
-culture = lao
+culture = khmer
 religion = buddhism
 capital = "Nong Khai"
 trade_goods = silk

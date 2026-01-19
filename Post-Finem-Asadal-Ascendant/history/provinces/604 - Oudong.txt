@@ -2,7 +2,7 @@
 
 
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Oudong"
 trade_goods = incense
 hre = no

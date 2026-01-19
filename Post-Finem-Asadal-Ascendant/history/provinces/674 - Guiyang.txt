@@ -3,7 +3,7 @@
 
 
 culture = yi
-religion = animism
+religion = mahayana
 capital = "Guiyang"
 trade_goods = iron
 hre = no

@@ -1,7 +1,7 @@
 #600 - Ayutthaya
 
 
-culture = central_thai
+culture = lawa
 religion = buddhism
 capital = "Ayutthaya"
 trade_goods = ivory

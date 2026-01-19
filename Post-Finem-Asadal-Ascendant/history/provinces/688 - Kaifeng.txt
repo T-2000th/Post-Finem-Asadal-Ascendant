@@ -2,7 +2,7 @@
 
 
 culture = zhongyuan
-religion = confucianism
+religion = vajrayana
 capital = "Kaifeng"
 trade_goods = chinaware
 hre = no

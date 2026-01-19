@@ -1,8 +1,8 @@
 #2382 - Savanh Nakhone
 
 
-culture = lao
-religion = animism
+culture = khmer
+religion = buddhism
 capital = "Luang Namtha"
 trade_goods = copper
 hre = no

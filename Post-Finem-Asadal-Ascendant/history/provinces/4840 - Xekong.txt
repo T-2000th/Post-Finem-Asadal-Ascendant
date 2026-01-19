@@ -1,6 +1,6 @@
 
-culture = lao
-religion = animism
+culture = khmer
+religion = buddhism
 capital = "Xekong"
 trade_goods = ivory
 hre = no

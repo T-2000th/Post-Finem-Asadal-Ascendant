@@ -1,8 +1,11 @@
 #582 - Mong Yang
 
-
-culture = shan
-religion = buddhism
+owner = MLB
+controller = MLB
+is_city = yes
+add_core = MLB
+culture = chin
+religion = mahayana
 capital = "Mong Yang"
 trade_goods = copper
 hre = no

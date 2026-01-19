@@ -2,7 +2,7 @@
 
 
 culture = khmer
-religion = animism
+religion = hinduism
 capital = "Kratie"
 trade_goods = grain
 hre = no

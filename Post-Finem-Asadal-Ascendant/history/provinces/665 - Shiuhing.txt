@@ -1,7 +1,7 @@
 #665 - Jiangmen
 
 culture = cantonese
-religion = confucianism
+religion = mahayana
 capital = "Shiuhing"
 trade_goods = chinaware
 base_tax = 4

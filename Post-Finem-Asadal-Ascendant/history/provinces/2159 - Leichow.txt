@@ -2,7 +2,7 @@
 
 
 culture = chimin
-religion = confucianism
+religion = mahayana
 capital = "Leichow"
 trade_goods = sugar
 hre = no

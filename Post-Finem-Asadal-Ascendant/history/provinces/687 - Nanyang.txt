@@ -2,7 +2,7 @@
 
 
 culture = zhongyuan
-religion = confucianism
+religion = vajrayana
 capital = "Nanyang"
 trade_goods = gems #Duyo Jade
 hre = no

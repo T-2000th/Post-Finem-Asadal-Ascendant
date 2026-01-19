@@ -1,8 +1,11 @@
 #581 - Sagaing
 
-
-culture = burmese
-religion = buddhism
+owner = MLB
+controller = MLB
+is_city = yes
+add_core = MLB
+culture = chin
+religion = animism
 capital = "Sagaing"
 trade_goods = cotton
 hre = no

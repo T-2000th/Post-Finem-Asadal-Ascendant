@@ -2,7 +2,7 @@
 
 
 culture = cantonese
-religion = confucianism
+religion = mahayana
 capital = "Ngchow"
 trade_goods = copper
 hre = no

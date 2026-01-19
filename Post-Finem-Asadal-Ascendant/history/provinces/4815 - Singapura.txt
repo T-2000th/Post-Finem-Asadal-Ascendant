@@ -1,6 +1,6 @@
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Singapura"
 trade_goods = fish
 latent_trade_goods = { 

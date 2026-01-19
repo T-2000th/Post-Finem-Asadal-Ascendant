@@ -1,7 +1,7 @@
 #594 - Pattani
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Pattani"
 trade_goods = tropical_wood
 base_tax = 6

@@ -2,7 +2,7 @@
 
 
 culture = hakka
-religion = confucianism
+religion = mahayana
 capital = "Waichow"
 trade_goods = grain
 hre = no

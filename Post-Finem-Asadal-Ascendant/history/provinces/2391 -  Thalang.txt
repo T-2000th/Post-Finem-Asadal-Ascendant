@@ -1,7 +1,7 @@
 #2391 - Thalang
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Thalang"
 trade_goods = fish
 base_tax = 4

@@ -1,7 +1,7 @@
 #597 - Johor
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Johor"
 trade_goods = chinaware
 base_tax = 5

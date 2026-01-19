@@ -2,7 +2,7 @@
 
 
 culture = lao
-religion = animism
+religion = buddhism
 capital = "Sikhottabong"
 trade_goods = grain
 hre = no

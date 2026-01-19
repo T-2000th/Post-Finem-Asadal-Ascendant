@@ -1,5 +1,5 @@
 
-culture = central_thai
+culture = mon
 religion = buddhism
 capital = "Kanchanaburi"
 trade_goods = ivory

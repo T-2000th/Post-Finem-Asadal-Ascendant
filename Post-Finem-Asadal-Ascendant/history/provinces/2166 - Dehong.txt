@@ -2,8 +2,8 @@
 
 
 
-culture = shan
-religion = buddhism
+culture = bai
+religion = mahayana
 capital = "Dehong"
 trade_goods = tropical_wood
 hre = no

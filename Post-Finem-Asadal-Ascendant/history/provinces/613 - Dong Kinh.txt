@@ -1,6 +1,6 @@
 #613 - Dong Kinh
 
-culture = vietnamese
+culture = tay
 religion = mahayana
 capital = "Dong Kinh"
 trade_goods = chinaware

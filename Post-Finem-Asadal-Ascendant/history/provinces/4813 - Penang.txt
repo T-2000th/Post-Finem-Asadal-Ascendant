@@ -1,6 +1,6 @@
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Pengang"
 trade_goods = tropical_wood
 base_tax = 2

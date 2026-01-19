@@ -1,8 +1,8 @@
 #2371 - Song La
 
 
-culture = lao
-religion = animism
+culture = tay
+religion = mahayana
 capital = "Song La"
 trade_goods = tea
 hre = no

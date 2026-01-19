@@ -1,5 +1,5 @@
 
-culture = central_thai
+culture = lawa
 religion = buddhism
 capital = "Rayong"
 trade_goods = grain

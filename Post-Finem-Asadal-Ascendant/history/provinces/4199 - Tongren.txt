@@ -2,7 +2,7 @@
 
 
 culture = miao
-religion = animism
+religion = mahayana
 capital = "Tongren"
 trade_goods = tea
 hre = no

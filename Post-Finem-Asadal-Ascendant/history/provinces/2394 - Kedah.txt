@@ -1,7 +1,7 @@
 #2394 - Kedah
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Kedah"
 trade_goods = grain
 base_tax = 4

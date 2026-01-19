@@ -1,8 +1,11 @@
 #4405 - Katha
 
-
-culture = shan
-religion = buddhism
+owner = MLB
+controller = MLB
+is_city = yes
+add_core = MLB
+culture = chin
+religion = vajrayana
 capital = "Katha"
 trade_goods = tea
 hre = no

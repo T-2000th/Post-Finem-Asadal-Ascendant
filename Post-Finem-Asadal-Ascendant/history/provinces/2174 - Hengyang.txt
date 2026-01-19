@@ -3,7 +3,7 @@
 
 
 culture = xiang
-religion = animism
+religion = mahayana
 capital = "Hengyang"
 trade_goods = gold
 hre = no

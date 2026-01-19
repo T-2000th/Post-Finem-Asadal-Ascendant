@@ -2,7 +2,7 @@
 
 
 culture = karen
-religion = animism
+religion = buddhism
 capital = "Mong Pai"
 trade_goods = tropical_wood
 hre = no

@@ -1,7 +1,7 @@
 #668 - Macau
 
 culture = cantonese
-religion = confucianism
+religion = mahayana
 capital = "Macau"
 trade_goods = fish
 base_tax = 3

@@ -1,6 +1,6 @@
 
 
-culture = northern_thai
+culture = yonok
 religion = buddhism
 capital = "Lakhon"
 trade_goods = grain

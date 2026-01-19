@@ -1,7 +1,7 @@
 #599 - Kelantan
 
 culture = malayan
-religion = buddhism
+religion = mahayana
 capital = "Kelantan"
 trade_goods = naval_supplies
 base_tax = 2

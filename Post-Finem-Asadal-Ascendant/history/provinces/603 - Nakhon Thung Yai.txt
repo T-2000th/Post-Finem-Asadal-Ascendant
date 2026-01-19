@@ -1,6 +1,6 @@
 #603 - Nakhon Thung Yai
 
-culture = central_thai
+culture = khmer
 religion = buddhism
 capital = "Nakhon Thung Yai"
 trade_goods = gems#Rubies etc

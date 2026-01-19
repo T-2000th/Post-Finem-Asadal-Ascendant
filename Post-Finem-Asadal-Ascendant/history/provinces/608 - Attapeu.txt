@@ -1,6 +1,6 @@
 
-culture = lao
-religion = animism
+culture = khmer
+religion = hinduism
 capital = "Attapeu"
 trade_goods = ivory
 hre = no

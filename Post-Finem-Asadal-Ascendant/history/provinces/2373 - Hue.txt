@@ -1,12 +1,12 @@
 #2373 - Hue
 
-culture = vietnamese
-religion = mahayana
+culture = cham
+religion = hinduism
 capital = "Hue"
 trade_goods = incense
-base_tax = 5
-base_production = 5
-base_manpower = 3
+base_tax = 3
+base_production = 2
+base_manpower = 2
 
 discovered_by = chinese
 discovered_by = indian

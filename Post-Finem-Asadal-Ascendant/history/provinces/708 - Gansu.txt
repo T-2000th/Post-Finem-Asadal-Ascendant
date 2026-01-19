@@ -1,7 +1,7 @@
 #708 - Gansu
 
 culture = xibei
-religion = confucianism
+religion = vajrayana
 capital = "Zhangye"
 trade_goods = horses
 base_tax = 3

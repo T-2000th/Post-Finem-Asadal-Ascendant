@@ -1,7 +1,7 @@
 #602 - Chiang Rai
 
 
-culture = northern_thai
+culture = lao
 religion = buddhism
 capital = "Chiang Rai"
 trade_goods = grain 

@@ -1,7 +1,7 @@
 #2372 - Hai Phong
 
 
-culture = vietnamese
+culture = tay
 religion = mahayana
 capital = "Hai Phong"
 trade_goods = naval_supplies

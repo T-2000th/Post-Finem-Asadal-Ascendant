@@ -2,7 +2,7 @@
 
 
 culture = zhuang
-religion = confucianism
+religion = mahayana
 capital = "Guilin"
 trade_goods = silk
 hre = no

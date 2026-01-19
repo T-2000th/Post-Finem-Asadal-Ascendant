@@ -1,7 +1,7 @@
 # 2160 - Ngaichow
 
 culture = chimin
-religion = confucianism
+religion = mahayana
 capital = "Ngaichow"
 trade_goods = incense
 base_tax = 1

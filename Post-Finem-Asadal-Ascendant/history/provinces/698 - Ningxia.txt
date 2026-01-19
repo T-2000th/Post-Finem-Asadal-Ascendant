@@ -2,7 +2,7 @@
 
 
 culture = mongol
-religion = confucianism
+religion = vajrayana
 capital = "Ningxia"
 trade_goods = salt
 hre = no

@@ -1,6 +1,9 @@
 #2399 - Pagan
 
-
+owner = MLB
+controller = MLB
+is_city = yes
+add_core = MLB
 culture = burmese
 religion = buddhism
 capital = "Pagan"

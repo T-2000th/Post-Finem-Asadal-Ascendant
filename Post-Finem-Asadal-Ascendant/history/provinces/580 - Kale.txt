@@ -1,6 +1,9 @@
 #580 - Kale
 
-
+owner = MLB
+controller = MLB
+is_city = yes
+add_core = MLB
 culture = chin
 religion = animism
 capital = "Kale"

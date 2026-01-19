@@ -1,6 +1,6 @@
 #610 - Thanh Hoa
 
-culture = vietnamese
+culture = tay
 religion = mahayana
 capital = "Minh Quang"
 trade_goods = grain

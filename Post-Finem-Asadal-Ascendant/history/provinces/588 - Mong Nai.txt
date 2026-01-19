@@ -1,7 +1,7 @@
 #588 - Mong Nai
 
 
-culture = shan
+culture = karen
 religion = buddhism
 capital = "Mong Nai"
 trade_goods = cotton

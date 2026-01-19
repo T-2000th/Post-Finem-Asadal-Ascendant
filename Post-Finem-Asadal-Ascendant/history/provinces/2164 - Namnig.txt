@@ -2,7 +2,7 @@
 
 
 culture = zhuang
-religion = confucianism
+religion = mahayana
 capital = "Namning"
 trade_goods = grain
 hre = no

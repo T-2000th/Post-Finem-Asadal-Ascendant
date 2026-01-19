@@ -2,7 +2,7 @@
 
 
 culture = kachin
-religion = animism
+religion = vajrayana
 capital = "Hkamti Long"
 trade_goods = grain
 hre = no

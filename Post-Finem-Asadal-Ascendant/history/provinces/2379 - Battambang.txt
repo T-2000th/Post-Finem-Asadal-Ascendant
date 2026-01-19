@@ -2,7 +2,7 @@
 
 
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Battambang"
 trade_goods = ivory
 hre = no

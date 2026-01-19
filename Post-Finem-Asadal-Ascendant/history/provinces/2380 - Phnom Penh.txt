@@ -1,7 +1,7 @@
 #2380 - Phnom Penh
 
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Chaktomuk"
 trade_goods = iron
 base_tax = 5

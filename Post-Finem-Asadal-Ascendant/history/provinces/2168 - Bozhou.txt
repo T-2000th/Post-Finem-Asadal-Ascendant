@@ -3,7 +3,7 @@
 
 
 culture = yi
-religion = animism
+religion = mahayana
 capital = "Bozhou"
 trade_goods = grain
 hre = no

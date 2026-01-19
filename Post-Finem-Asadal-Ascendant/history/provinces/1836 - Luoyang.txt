@@ -6,7 +6,7 @@ latent_trade_goods = {
 
 
 culture = zhongyuan
-religion = confucianism
+religion = vajrayana
 capital = "Luoyang"
 trade_goods = chinaware
 hre = no

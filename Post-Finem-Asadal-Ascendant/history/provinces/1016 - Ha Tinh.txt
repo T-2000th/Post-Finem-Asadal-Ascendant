@@ -1,6 +1,6 @@
 #1016 - Ha Tinh
 
-culture = vietnamese
+culture = tay
 religion = mahayana
 capital = "Ha Tinh"
 trade_goods = fish

@@ -1,6 +1,6 @@
 
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Pursat"
 trade_goods = grain
 hre = no

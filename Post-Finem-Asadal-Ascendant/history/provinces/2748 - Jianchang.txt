@@ -4,7 +4,7 @@
 
 
 culture = yi
-religion = animism
+religion = mahayana
 capital = "Jianchang"
 trade_goods = grain
 hre = no

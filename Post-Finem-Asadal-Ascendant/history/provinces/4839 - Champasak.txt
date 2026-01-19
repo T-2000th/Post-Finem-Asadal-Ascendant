@@ -1,6 +1,6 @@
 
-culture = lao
-religion = animism
+culture = khmer
+religion = hinduism
 capital = "Champasak"
 trade_goods = tea
 hre = no

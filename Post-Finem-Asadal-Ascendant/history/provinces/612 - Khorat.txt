@@ -2,7 +2,7 @@
 
 
 culture = khmer
-religion = buddhism
+religion = hinduism
 capital = "Khorat"
 trade_goods = silk
 hre = no

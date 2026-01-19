@@ -1,6 +1,6 @@
 
 culture = lao
-religion = animism
+religion = mahayana
 capital = "Muang Ngoi"
 trade_goods = ivory
 hre = no

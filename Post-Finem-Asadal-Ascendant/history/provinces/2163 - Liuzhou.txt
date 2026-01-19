@@ -2,7 +2,7 @@
 
 
 culture = zhuang
-religion = confucianism
+religion = mahayana
 capital = "Liuzhou"
 trade_goods = salt
 hre = no

@@ -3,7 +3,7 @@
 
 
 culture = bai
-religion = buddhism
+religion = mahayana
 capital = "Lijiang"
 trade_goods = tea
 hre = no

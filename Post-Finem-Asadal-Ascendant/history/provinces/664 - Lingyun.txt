@@ -2,7 +2,7 @@
 
 
 culture = zhuang
-religion = confucianism
+religion = mahayana
 capital = "Lingyun"
 trade_goods = tea
 hre = no

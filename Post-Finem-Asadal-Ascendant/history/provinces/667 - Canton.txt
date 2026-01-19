@@ -1,7 +1,7 @@
 #667 - Guangzhou
 
 culture = cantonese
-religion = confucianism
+religion = mahayana
 capital = "Canton"
 trade_goods = incense
 base_tax = 12

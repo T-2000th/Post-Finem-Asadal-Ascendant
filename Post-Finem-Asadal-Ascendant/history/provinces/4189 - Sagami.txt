@@ -1,8 +1,8 @@
 #4189 - Sagami
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Kamakura"
 trade_goods = iron
 hre = no

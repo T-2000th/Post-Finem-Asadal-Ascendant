@@ -1,8 +1,8 @@
 #4191 - Shimotsuke
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Utsunomiya"
 trade_goods = grain
 hre = no

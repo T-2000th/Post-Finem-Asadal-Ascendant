@@ -1,8 +1,8 @@
 #1820 - Awa
 
 
-culture = japanese
-religion = shinto
+culture = jinguk
+religion = mahayana
 capital = "Tokushima"
 trade_goods = fish
 hre = no

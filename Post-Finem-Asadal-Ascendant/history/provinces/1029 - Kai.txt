@@ -1,8 +1,8 @@
 #1029 - Kai
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Kofu"
 trade_goods = livestock
 hre = no

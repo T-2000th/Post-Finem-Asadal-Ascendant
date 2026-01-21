@@ -1,8 +1,8 @@
 #4180 - Hyuga
 
 
-culture = kyushuan
-religion = shinto
+culture = koguk
+religion = confucianism
 capital = "Obi"
 trade_goods = livestock
 hre = no

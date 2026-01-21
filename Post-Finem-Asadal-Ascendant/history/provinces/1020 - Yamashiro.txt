@@ -1,7 +1,7 @@
 #1020 - Yamashiro (Kyoto)
 
 
-culture = japanese
+culture = waeguk
 religion = shinto
 capital = "Kyoto"
 trade_goods = silk

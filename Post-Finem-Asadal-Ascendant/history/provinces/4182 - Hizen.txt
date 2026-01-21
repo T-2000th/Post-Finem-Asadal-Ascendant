@@ -1,8 +1,8 @@
 #4182 - Hizen
 
 
-culture = kyushuan
-religion = shinto
+culture = koguk
+religion = confucianism
 capital = "Nagasaki"
 trade_goods = naval_supplies
 hre = no

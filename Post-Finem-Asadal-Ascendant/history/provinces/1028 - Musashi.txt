@@ -1,8 +1,8 @@
 #1028 - Musashi
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Kawagoe"
 trade_goods = fish
 hre = no

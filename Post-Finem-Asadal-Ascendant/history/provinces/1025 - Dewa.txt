@@ -1,8 +1,8 @@
 #1025 - Dewa
 
 
-culture = togoku
-religion = shinto
+culture = ainu
+religion = animism
 capital = "Yamagata"
 trade_goods = grain
 hre = no

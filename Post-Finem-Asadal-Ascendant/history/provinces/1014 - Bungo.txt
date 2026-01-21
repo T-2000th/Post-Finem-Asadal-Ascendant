@@ -1,8 +1,8 @@
 #1014 - Bungo
 
 
-culture = kyushuan
-religion = shinto
+culture = koguk
+religion = confucianism
 capital = "Funai"
 trade_goods = tropical_wood
 latent_trade_goods = { 

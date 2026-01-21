@@ -1,7 +1,7 @@
 #4187 - Kii
 
 
-culture = japanese
+culture = waeguk
 religion = shinto
 capital = "Wakayama"
 trade_goods = naval_supplies

@@ -1,8 +1,8 @@
 #4186 - Iyo
 
 
-culture = japanese
-religion = shinto
+culture = jinguk
+religion = mahayana
 capital = "Yuzuki"
 trade_goods = copper
 hre = no

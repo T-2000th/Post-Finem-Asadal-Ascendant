@@ -1,8 +1,8 @@
 #1830 - Tajima
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Tottori"
 trade_goods = grain
 hre = no

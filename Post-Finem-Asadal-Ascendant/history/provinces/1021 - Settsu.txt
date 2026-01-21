@@ -1,7 +1,7 @@
 #1021 - Settsu
 
 
-culture = japanese
+culture = waeguk
 religion = shinto
 capital = "Naniwa"
 trade_goods = chinaware

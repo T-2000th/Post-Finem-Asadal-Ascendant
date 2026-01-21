@@ -1,8 +1,8 @@
 #1017 - Suo
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Yamaguchi"
 trade_goods = silk
 hre = no

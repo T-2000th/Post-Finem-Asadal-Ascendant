@@ -1,8 +1,8 @@
 #1012 - Satsuma
 
 
-culture = kyushuan
-religion = shinto
+culture = koguk
+religion = confucianism
 capital = "Kagoshima"
 trade_goods = iron
 hre = no

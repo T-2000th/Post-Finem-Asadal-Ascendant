@@ -1,8 +1,8 @@
 #4183 - Iwami
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Hamada"
 trade_goods = fish
 hre = no

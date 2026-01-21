@@ -1,8 +1,8 @@
 #1837 - Etchu
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Kanazawa"
 trade_goods = grain
 hre = no

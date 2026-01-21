@@ -1,8 +1,8 @@
 #1019 - Harima
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Himeji"
 trade_goods = grain
 hre = no

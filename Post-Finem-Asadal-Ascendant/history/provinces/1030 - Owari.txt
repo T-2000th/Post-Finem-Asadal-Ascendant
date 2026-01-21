@@ -1,7 +1,7 @@
 #1030 - Owari
 
 
-culture = togoku
+culture = waeguk
 religion = shinto
 capital = "Kiyosu"
 trade_goods = dyes

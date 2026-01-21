@@ -1,8 +1,8 @@
 #1027 - Hitachi
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Ota"
 trade_goods = fish
 hre = no

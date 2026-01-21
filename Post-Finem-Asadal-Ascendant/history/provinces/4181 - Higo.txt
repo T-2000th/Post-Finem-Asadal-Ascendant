@@ -1,8 +1,8 @@
 #4181 - Higo
 
 
-culture = kyushuan
-religion = shinto
+culture = koguk
+religion = confucianism
 capital = "Kumamoto"
 trade_goods = fish
 hre = no

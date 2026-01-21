@@ -1,8 +1,8 @@
 #4651 - Tsushima
 
 
-culture = kyushuan
-religion = shinto
+culture = koguk
+religion = confucianism
 capital = "Tsushima"
 trade_goods = chinaware
 hre = no

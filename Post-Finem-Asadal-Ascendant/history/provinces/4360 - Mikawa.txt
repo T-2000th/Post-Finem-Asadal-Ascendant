@@ -1,8 +1,8 @@
 #4360 - Mikawa
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Okazaki"
 trade_goods = grain
 hre = no

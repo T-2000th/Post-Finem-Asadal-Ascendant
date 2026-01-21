@@ -1,8 +1,8 @@
 #1026 - Mutsu
 
 
-culture = togoku
-religion = shinto
+culture = ainu
+religion = animism
 capital = "Aizu"
 trade_goods = grain
 hre = no

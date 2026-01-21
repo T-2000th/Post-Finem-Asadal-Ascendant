@@ -5,8 +5,8 @@ latent_trade_goods = {
 }
 
 
-culture = kyushuan
-religion = shinto
+culture = koguk
+religion = confucianism
 capital = "Hakata"
 trade_goods = chinaware
 hre = no

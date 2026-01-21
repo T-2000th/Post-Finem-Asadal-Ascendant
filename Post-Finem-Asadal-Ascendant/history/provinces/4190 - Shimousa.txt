@@ -1,8 +1,8 @@
 #4190 - Shimousa
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Sakura"
 trade_goods = fish
 hre = no

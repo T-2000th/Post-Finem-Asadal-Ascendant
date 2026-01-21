@@ -1,8 +1,8 @@
 #4185 - Tango
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Miyazu"
 trade_goods = fish
 hre = no

@@ -1,7 +1,7 @@
 #1839 - Suruga
 
 
-culture = togoku
+culture = waeguk
 religion = shinto
 capital = "Sunpu"
 trade_goods = tea

@@ -1,8 +1,8 @@
 #1835 - Mino
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Inabayama"
 trade_goods = paper
 hre = no

@@ -1,8 +1,8 @@
 #1843 - Kozuke
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Mayabashi"
 trade_goods = livestock
 hre = no

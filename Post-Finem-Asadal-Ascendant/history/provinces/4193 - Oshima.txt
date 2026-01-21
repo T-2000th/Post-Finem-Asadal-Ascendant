@@ -1,7 +1,7 @@
 #4193 - Oshima
 
-culture = togoku
-religion = shinto
+culture = ainu
+religion = animism
 capital = "Katsuyama"
 trade_goods = fish
 hre = no

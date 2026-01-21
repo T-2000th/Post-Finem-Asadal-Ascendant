@@ -1,8 +1,8 @@
 #1024 - Echigo
 
 
-culture = togoku
-religion = shinto
+culture = waeguk
+religion = vajrayana
 capital = "Naoetsu"
 trade_goods = grain
 latent_trade_goods = { 

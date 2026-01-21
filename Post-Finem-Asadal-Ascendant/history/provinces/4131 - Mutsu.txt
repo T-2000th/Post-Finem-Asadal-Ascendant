@@ -1,8 +1,8 @@
 #Northern Mutsu
 
 
-culture = togoku
-religion = shinto
+culture = ainu
+religion = animism
 capital = "Sannohe"
 trade_goods = livestock
 hre = no

@@ -1,8 +1,8 @@
 #1018 - Izumo
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Matsue"
 trade_goods = iron
 hre = no

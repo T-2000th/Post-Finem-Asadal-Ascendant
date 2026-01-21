@@ -1,8 +1,8 @@
 #1023 - Echizen
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Takefu"
 trade_goods = paper
 hre = no

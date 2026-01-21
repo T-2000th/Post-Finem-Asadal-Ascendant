@@ -1,8 +1,8 @@
 #1825 - Aki
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Tomo"
 trade_goods = grain
 hre = no

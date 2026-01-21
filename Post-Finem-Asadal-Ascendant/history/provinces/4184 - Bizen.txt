@@ -1,8 +1,8 @@
 #4184 - Bizen
 
 
-culture = japanese
-religion = shinto
+culture = biguk
+religion = confucianism
 capital = "Okayama"
 trade_goods = iron
 hre = no

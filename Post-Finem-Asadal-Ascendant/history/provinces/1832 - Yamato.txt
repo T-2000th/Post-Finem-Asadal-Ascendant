@@ -1,7 +1,7 @@
 #1832 - Yamato
 
 
-culture = japanese
+culture = waeguk
 religion = shinto
 capital = "Nara"
 trade_goods = tea

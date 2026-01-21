@@ -1,7 +1,7 @@
 #1819 - Tosa
 
-culture = japanese
-religion = shinto
+culture = jinguk
+religion = mahayana
 capital = "Nakamura"
 trade_goods = lumber
 base_tax = 2

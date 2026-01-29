@@ -1,0 +1,14 @@
+rome_hellenic_integration_reform = {
+	icon = "modernized_furusiyya_reform"
+	potential = {
+		has_country_flag = pf_unlock_hellenic_integration_reform
+	}
+	modifiers = {	
+		army_tradition = 0.5
+		shock_damage_received = -0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}

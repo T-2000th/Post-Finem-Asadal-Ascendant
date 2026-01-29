@@ -1,8 +1,11 @@
 # 2176 - Shangqiu
 
-
+owner = YAN
+controller = YAN
+add_core = YAN
+is_city = yes
 culture = zhongyuan
-religion = vajrayana
+religion = confucianism
 capital = "Shangqiu"
 trade_goods = cloth
 hre = no

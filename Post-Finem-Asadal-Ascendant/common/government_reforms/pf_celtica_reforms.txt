@@ -1,0 +1,328 @@
+pf_shattered_gaelic_league_reform = {
+	icon = "irish_highkingdom"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		has_country_flag = cel_did_not_establish_parliament
+	}
+	modifiers = {
+		max_absolutism = 5
+		global_autonomy = -0.05
+		nobles_influence_modifier = -0.15
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_great_compromise_reform = {
+	icon = "paper_with_seal"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		has_country_flag = cel_established_parliament
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	custom_attributes = {
+		celtic_parliament = yes
+	}
+
+	modifiers = {
+		all_estate_loyalty_equilibrium = 0.1
+		nobles_influence_modifier = -0.1
+		burghers_influence_modifier = 0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_celtic_union_reform = {
+	icon = "tribal_centralize_power"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		mission_completed = cel_celtic_union
+	}
+
+	modifiers = {
+		years_of_nationalism = -5
+		num_accepted_cultures = 3
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_teach_na_gcoiteann_reform = {
+	icon = "parliament_hall"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		has_country_flag = cel_unlock_lower_house_reform
+	}
+	custom_attributes = {
+		cel_lower_unrest_in_parliament_seats = yes
+	}
+
+	modifiers = {
+		global_unrest = -1
+		parliament_effect_duration = 5
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_right_of_conquest_reform = {
+	icon = "soldiers_4"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		mission_completed = cel_absolutism_mission_2
+	}
+
+	modifiers = {
+		core_creation = -0.1
+		yearly_corruption = -0.05
+		years_of_nationalism = 3
+		all_estate_loyalty_equilibrium = -0.05
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_monopoly_on_distilling_reform = {
+	icon = "monastic_breweries_reform"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		mission_completed = cel_orchard_county
+	}
+	custom_attributes = {
+		cel_trading_in_grain_grants_extra_bonus = yes
+	}
+
+	modifiers = {
+		global_trade_goods_size_modifier = 0.05
+		land_morale = 0.1
+		improve_relation_modifier = -0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_appoint_taioseach_reform = {
+	icon = "commander_king_reform"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+	}
+
+	modifiers = {
+		governing_capacity_modifier = 0.1
+		diplomatic_reputation = 1
+		all_estate_influence_modifier = -0.05	
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_birthplace_of_liberalism_reform = {
+	icon = "constitution"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		mission_completed = cel_parliament_mission_3
+	}
+
+	modifiers = {
+		max_absolutism = -10
+		idea_cost = -0.1
+		stability_cost_modifier = -0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_celtic_absolutism_reform = {
+	icon = "soldiers_6"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		OR = {
+			mission_completed = cel_absolutism_mission_3
+			mission_completed = cel_capitulation_mission_3
+		}
+	}
+
+	modifiers = {
+		max_absolutism = 10
+		monarch_admin_power = 1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_reformed_celtic_lordship_reform = {
+	icon = "celtic_king"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		has_country_flag = cel_unlock_t1_reform
+		NOT = {
+			has_country_flag = cel_can_become_uk
+		}
+	}
+
+	lock_level_when_selected = yes
+	modifiers = {
+		improve_relation_modifier = 0.25
+		monarch_diplomatic_power = 1
+		diplomatic_upkeep = 2
+	}
+	custom_attributes = {
+		has_tributaries = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+pf_crown_of_brennonia_reform = {
+	icon = "english_monarchy"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		has_country_flag = cel_unlock_t1_reform
+		NOT = {
+			has_country_flag = cel_chose_lordship_flag
+		}
+	}
+
+	lock_level_when_selected = yes
+	modifiers = {
+		global_unrest = -1
+		governing_capacity = 100
+		manpower_in_own_culture_provinces = 0.2
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+pf_cooperate_with_gaelic_league_reform = {
+	icon = "tanistry"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		has_country_flag = cel_surrendered_to_gaelic_league
+	}
+
+	modifiers = {
+		nobles_influence_modifier = 0.1
+		nobles_loyalty_modifier = 0.1
+		global_manpower_modifier = 0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_celtic_admiralty = {
+	icon = "council"
+
+	potential = {
+		OR = {
+			tag = CEL
+			tag = BRN
+			tag = IRE
+		}
+		mission_completed = cel_board_of_admirals
+	}
+
+	modifiers = {
+		navy_tradition_decay = -0.02
+		naval_forcelimit_modifier = 0.2
+		max_flagships = 1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}

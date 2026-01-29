@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = celestial_empire
+government_rank = 3
+technology_group = chinese
+religion = confucianism
+add_harmonized_religion = tengri_pagan_reformed
+primary_culture = korean_new
+capital = 735	# Han

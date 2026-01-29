@@ -1,7 +1,7 @@
 #733 - Hwangju
 
 
-culture = korean
+culture = korean_new
 religion = confucianism
 capital = "Hwangju"
 trade_goods = fish
@@ -9,7 +9,10 @@ hre = no
 base_tax = 2
 base_production = 2
 base_manpower = 2
-
+is_city = yes
+owner = THW
+controller = THW
+add_core = THW
 
 discovered_by = chinese
 discovered_by = nomad_group

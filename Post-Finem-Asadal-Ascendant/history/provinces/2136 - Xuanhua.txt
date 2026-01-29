@@ -1,7 +1,7 @@
 # 2136 - Xuanhua
 
 
-culture = jin
+culture = wuhuan
 religion = vajrayana
 capital = "Xuanhua"
 trade_goods = grain
@@ -9,10 +9,10 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-
-
-
-
+owner = WEI
+controller = WEI
+add_core = WEI
+is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 

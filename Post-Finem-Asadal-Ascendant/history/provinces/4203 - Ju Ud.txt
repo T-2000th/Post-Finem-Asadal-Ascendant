@@ -1,8 +1,8 @@
 #4203 - Ju Ud
 
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = YAN
+controller = YAN
+add_core = YAN
 culture = mongol
 religion = vajrayana
 capital = "Ulanhad"

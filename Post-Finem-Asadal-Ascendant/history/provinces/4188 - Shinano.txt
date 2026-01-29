@@ -9,6 +9,10 @@ hre = no
 base_tax = 2
 base_manpower = 2
 base_production = 2
+is_city = yes
+owner = KOS
+controller = KOS
+add_core = KOS
 
 add_core = OGS
 discovered_by = chinese

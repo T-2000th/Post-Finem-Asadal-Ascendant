@@ -1,0 +1,117 @@
+gemot_alliance_reform = {
+	icon = "cuman_lancers_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANG
+			was_tag = ANG
+		}
+	}
+	trigger = {
+	}
+	modifiers = {
+		manpower_recovery_speed = 0.05
+		nobles_privilege_slots = 1
+		nobles_influence_modifier = 0.10
+	}
+	conditional = {
+		allow = { has_dlc = "Domination" }
+		custom_attributes = {
+			has_ruler_election = yes
+			can_elect_from_relative = yes
+		}
+	}
+	lock_level_when_selected = yes
+	ai = {
+		factor = 10
+	}
+}
+weregild_reform = {
+	icon = "restore_the_master_of_offices_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANG
+			was_tag = ANG
+		}
+	}
+	trigger = {
+	}
+	modifiers = {
+		global_unrest = -1
+		autonomy_change_time = -0.25
+		nobles_influence_modifier = -0.05
+	}
+	custom_attributes = {
+		money_from_defeating_rebels = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+wool_trade_reform = {
+	icon = "landscape"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANG
+			was_tag = ANG
+		}
+	}
+	trigger = {
+		OR = {
+			mission_completed = pf_ang_refine_wool_industry
+			has_country_flag = unlocked_wool_trade_reform
+		}
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = wool
+					development = 20
+				}
+				change_trade_goods = cloth
+			}
+		}
+	}
+	modifiers = {
+		trade_efficiency = 0.10
+		mercantilism_cost = -0.20
+	}
+	custom_attributes = {
+		wool_bonus_mechanic = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+realm_of_the_angelcynn_reform = {
+	icon = "english_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANG
+			was_tag = ANG
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = unlocked_via_mission_tt
+			has_country_flag = unlock_realm_of_the_angelcynn_reform_flag
+		}
+	}
+	modifiers = {
+		army_tradition_decay = -0.01
+		amount_of_carolean = 0.10
+		governing_capacity = 100
+		max_absolutism = 5
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_nobles = yes
+	}
+	# lock_level_when_selected = yes
+	ai = {
+		factor = 10
+	}
+}

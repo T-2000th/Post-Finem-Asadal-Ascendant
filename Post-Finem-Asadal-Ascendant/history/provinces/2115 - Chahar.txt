@@ -3,7 +3,7 @@
 owner = KHA
 controller = KHA
 add_core = KHA
-culture = mongol
+culture = mohe
 religion = vajrayana
 capital = "Chahar"
 trade_goods = livestock

@@ -1,7 +1,7 @@
 #689 - Hanzhong
 
 
-culture = xibei
+culture = tabgatch
 religion = confucianism
 capital = "Hanzhong"
 trade_goods = iron

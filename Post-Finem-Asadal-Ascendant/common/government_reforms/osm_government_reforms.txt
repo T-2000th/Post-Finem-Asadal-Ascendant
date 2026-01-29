@@ -1,0 +1,35 @@
+osm_ashen_trials = {
+	icon = "gothic_monarchy_reform"
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = osm_ashen_trials
+		}
+	}
+	modifiers = {	
+		shock_damage = 0.1
+		drill_gain_modifier = 0.4
+		drill_decay_modifier = -0.4
+		army_tradition_decay = -0.01
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+osm_gothic_monarchy = {
+	icon = "soldiers_5"
+	potential = {
+		tag = OSG
+	}
+	modifiers = {	
+		max_absolutism = 10
+		legitimacy = 1
+		culture_conversion_time = -0.1
+		culture_conversion_cost = -0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}

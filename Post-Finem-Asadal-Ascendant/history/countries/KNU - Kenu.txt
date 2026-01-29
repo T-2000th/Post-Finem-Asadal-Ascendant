@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = plutocratic_reform
+government_rank = 1
+primary_culture = waeguk
+add_accepted_culture = ainu
+religion = vajrayana
+technology_group = chinese
+capital = 1028

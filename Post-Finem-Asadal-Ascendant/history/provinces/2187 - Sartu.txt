@@ -1,7 +1,7 @@
 # 2187 - Sartu
-owner = KRC
-controller = KRC
-add_core = KRC
+owner = THW
+controller = THW
+add_core = THW
 culture = chahar
 religion = tengri_pagan_reformed
 capital = "Sartu"

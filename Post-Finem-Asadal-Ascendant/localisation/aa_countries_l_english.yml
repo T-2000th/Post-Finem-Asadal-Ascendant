@@ -1,3 +1,130 @@
 ﻿l_english:
 
+ KNU: "Kenu"
+ KNU_ADJ: "Kenu"
+ KNU_ADJ2: "Kenu"
+ 
+ KOS: "Koshi"
+ KOS_ADJ: "Tashikinin"
+ KOS_ADJ2: "Tashikinin"
+ 
+ OWR: "Owari"
+ OWR_ADJ: "Owari"
+ OWR_ADJ2: "Owari"
+ 
+ YMT: "Yamatai"
+ YMT_ADJ: "Yamato"
+ YMT_ADJ2: "Yamato"
+ 
+ IZM: "Izumo"
+ IZM_ADJ: "Izumo"
+ IZM_ADJ2: "Izumo"
+ 
+ KIB: "Kibi"
+ KIB_ADJ: "Kii"
+ KIB_ADJ2: "Kii"
+ 
+ TKS: "Tsukishi"
+ TKS_ADJ: "Tsukishi"
+ TKS_ADJ2: "Tsukishi"
+ 
+ KUD: "Kudara"
+ KUD_ADJ: "Kudaran"
+ KUD_ADJ2: "Kudaran"
+ 
+ THW: "Tae-Hwan"
+ THW_ADJ: "Hwan"
+ THW_ADJ2: "Hwan"
+ 
+ MNE: "Mien"
+ MNE_ADJ: "Mien"
+ MNE_ADJ2: "Mien"
+ 
+ GAN: "Gan"
+ GAN_ADJ: "Gan"
+ GAN_ADJ2: "Gan"
+ 
+ SNG: "Song"
+ SNG_ADJ: "Song"
+ SNG_ADJ2: "Song"
+ 
+ GUN: "Guang"
+ GUN_ADJ: "Guang"
+ GUN_ADJ2: "Guang"
+ 
+ CBO: "Bo"
+ CBO_ADJ: "Bo"
+ CBO_ADJ2: "Bo"
+ 
+ MYI: "Mayi"
+ MYI_ADJ: "Mayi"
+ MYI_ADJ2: "Mayi"
+ 
+ WEI: "Wei"
+ WEI_ADJ: "Wei"
+ WEI_ADJ2: "Wei"
+ 
+ KWB: "Kawsambi"
+ KWB_ADJ: "Kawsambi"
+ KWB_ADJ2: "Kawsambi"
+ 
+ SCT: "Sibsongchautai"
+ SCT_ADJ: "Sibsongchautai"
+ SCT_ADJ2: "Sibsongchautai"
+ 
+ YNK: "Yonok"
+ YNK_ADJ: "Yonok"
+ YNK_ADJ2: "Yonok"
+ 
+ TNA: "Nan"
+ TNA_ADJ: "Nan"
+ TNA_ADJ2: "Nan"
+ 
+ RTK: "Ratnakiri"
+ RTK_ADJ: "Ratnakiri"
+ RTK_ADJ2: "Ratnakiri"
+ 
+ CTK: "Chaktomuk"
+ CTK_ADJ: "Chaktomuk"
+ CTK_ADJ2: "Chaktomuk"
+ 
+ SVP: "Sovannaphum"
+ SVP_ADJ: "Sovannaphum"
+ SVP_ADJ2: "Sovannaphum"
+ 
+ PHI: "Phimai"
+ PHI_ADJ: "Phimai"
+ PHI_ADJ2: "Phimai"
+ 
+ CIG: "Chaliang"
+ CIG_ADJ: "Chaliang"
+ CIG_ADJ2: "Chaliang"
+ 
+ DVR: "Dvaravati"
+ DVR_ADJ: "Dvaravati"
+ DVR_ADJ2: "Dvaravati"
+ 
+ TWB: "Thuwanaphu"
+ TWB_ADJ: "Thuwanaphu"
+ TWB_ADJ2: "Thuwanaphu"
+ 
+ RMD: "Ramadesa"
+ RMD_ADJ: "Ramadesa"
+ RMD_ADJ2: "Ramadesa"
+ 
+ KYA: "Kayah"
+ KYA_ADJ: "Kayah"
+ KYA_ADJ2: "Kayah"
+ 
+ SKT: "Sri Kshetra"
+ SKT_ADJ: "Sri Kshetra"
+ SKT_ADJ2: "Sri Kshetra"
+ 
+ TKL: "Takola"
+ TKL_ADJ: "Takola"
+ TKL_ADJ2: "Takola"
+ 
+ THA: "Thammarat"
+ THA_ADJ: "Thammarat"
+ THA_ADJ2: "Thammarat"
  

@@ -1,0 +1,85 @@
+nor_althingi = {
+	icon = "queen"	
+
+	potential = {
+		has_country_flag = nor_unlock_parliament_reform
+	}
+	custom_attributes = {
+		has_parliament = yes
+		cel_lower_unrest_in_parliament_seats = yes
+	}
+
+	modifiers = {
+		global_unrest = -1
+		core_creation = -0.05
+	}
+
+	ai = {
+		factor = 1 #generic
+	}
+}
+
+nor_modern_norse_kingdom = {
+	icon = "viking"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	fixed_rank = 2
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = nor_modern_norse_kingdom
+		}
+	}
+	modifiers = {
+		naval_forcelimit_modifier = 0.15
+		manpower_in_true_faith_provinces = 0.1
+		governing_capacity = 50
+		may_perform_slave_raid = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+nse_great_norse_admiralty = {
+	icon = "war_ship"
+	allow_normal_conversion = no
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = nse_great_norse_admiralty
+		}
+	}
+	custom_attributes = {
+		marine_buff = yes
+	}
+	modifiers = {
+		navy_tradition_decay = -0.01
+		global_naval_engagement_modifier = 0.1
+		admiral_cost = -0.25
+		has_galleass = yes
+		allowed_galleass_fraction = 0.2
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+nse_scandinavian_industrialism = {
+	icon = industrialists_reform
+	allow_normal_conversion = no
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = nse_scandinavian_industrialism 
+		}
+	}
+	custom_attributes = {
+		enables_estate_industrialists = yes
+		building_manufacturies_reduces_dev_cost = yes
+	}
+	modifiers = {
+		global_allowed_num_of_manufactories = 1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}

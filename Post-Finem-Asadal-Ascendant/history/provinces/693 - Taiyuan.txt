@@ -1,7 +1,7 @@
 #693 - Taiyuan
 
 
-culture = jin
+culture = wuhuan
 religion = vajrayana
 capital = "Taiyuan"
 trade_goods = iron
@@ -10,7 +10,10 @@ base_tax = 6
 base_production = 6
 base_manpower = 3
 center_of_trade = 1
-
+owner = WEI
+controller = WEI
+add_core = WEI
+is_city = yes
 
 discovered_by = chinese
 discovered_by = nomad_group

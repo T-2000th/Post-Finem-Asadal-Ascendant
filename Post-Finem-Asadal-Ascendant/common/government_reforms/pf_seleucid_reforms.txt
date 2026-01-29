@@ -1,0 +1,113 @@
+slc_hellenic_empire_reform = {
+	icon = "pf_argead_aegis"
+	lock_level_when_selected = yes
+	potential = {
+		tag = SLC
+		has_country_flag = unlock_hellenic_empire
+	}
+	modifiers = {	
+		years_of_nationalism = -10
+		allowed_streltsy_fraction = 0.25
+		yearly_absolutism = 1
+		max_absolutism = 20
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+	government_abilities = {
+		slc_hellenic_militarization_mechanic
+	}
+	conditional = {
+		allow = { has_dlc = "Third Rome" }
+		claim_states = yes
+	}
+}
+
+slc_promote_hyspaspistai_reform = {
+	icon = "modernized_furusiyya_reform"
+	potential = {
+		tag = SLC
+		mission_completed = slc_the_phalanx
+	}
+	modifiers = {	
+		army_tradition = 0.5
+		movement_speed = 0.05
+		nobles_influence_modifier = 0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+slc_hellenization_reform = {
+	icon = "parliament"
+	potential = {
+		OR = {
+			has_unlocked_government_reform = {
+				government_reform = slc_hellenization_reform
+			}
+			mission_completed = slc_return_to_bactria
+		}
+	}
+	modifiers = {	
+		# years_of_nationalism = 3
+		culture_conversion_time = -0.1
+		culture_conversion_cost = -0.33
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+slc_state_pantheon_reform = {
+	icon = "reform_the_pronoiars_reform"
+	potential = {
+		tag = SLC
+		mission_completed = slc_a_seleucid_pantheon
+	}
+	modifiers = {	
+		tolerance_own = 1
+		max_absolutism = 10
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+slc_concordat_with_athens_reform = {
+	icon = "politeia"
+	potential = {
+		tag = SLC
+		mission_completed = slc_ties_to_the_athenaeum 
+	}
+	modifiers = {	
+		church_influence_modifier = 0.1
+		church_loyalty_modifier = 0.1
+		curia_powers_cost = -0.25
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+slc_seleucid_governors_reform = {
+	icon = "theme_system_reform"
+	potential = {
+		tag = SLC
+		has_country_flag = slc_unlocked_t7_reform
+	}
+	modifiers = {	
+		reform_progress_growth = 0.2
+		overextension_impact_modifier = -0.1
+		min_autonomy_in_territories = -0.05
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}

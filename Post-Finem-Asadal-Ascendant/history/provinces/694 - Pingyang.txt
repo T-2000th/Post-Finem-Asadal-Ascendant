@@ -1,5 +1,8 @@
 #694 - Luzhou
-
+owner = WEI
+controller = WEI
+add_core = WEI
+is_city = yes
 culture = jin
 religion = vajrayana
 capital = "Pingyang"

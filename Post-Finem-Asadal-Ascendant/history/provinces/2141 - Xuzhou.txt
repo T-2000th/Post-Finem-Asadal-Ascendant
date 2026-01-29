@@ -1,8 +1,11 @@
 # 2141 - Xuzhou
 
-
+owner = YAN
+controller = YAN
+add_core = YAN
+is_city = yes
 culture = zhongyuan
-religion = vajrayana
+religion = confucianism
 capital = "Xuzhou"
 trade_goods = iron
 latent_trade_goods = { 

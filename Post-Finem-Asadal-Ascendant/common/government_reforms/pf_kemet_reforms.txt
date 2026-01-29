@@ -1,0 +1,16 @@
+pf_kemetic_monarchy = {
+	icon = "ottoman_government"
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = pf_kemetic_monarchy
+		}
+	}
+
+	lock_level_when_selected = yes
+	modifiers = {
+		legitimacy = 1
+		build_cost = -0.1
+		monarch_admin_power = 2
+		max_absolutism = 10
+	}
+}

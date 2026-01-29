@@ -1,0 +1,3351 @@
+brittonic_confederation_reform = {
+	icon = "legislative_assembly_reform"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		OR = {
+			tag = TRN
+			has_reform = brittonic_confederation_reform
+			was_tag = TRN
+		}
+	}
+	trigger = {
+		OR = {
+			tag = TRN
+			has_reform = brittonic_confederation_reform
+			was_tag = TRN
+		}
+	}
+	modifiers = {
+		morale_damage = 0.05
+		global_unrest = -1
+		min_autonomy = 20
+		all_estate_influence_modifier = 0.10
+	}
+	custom_attributes = {
+		confederation_elections = yes
+	}
+	government_abilities = {
+		trinovantes_cohesion_mechanic
+	}
+	election_on_death = yes
+	heir = no
+	ai = {
+		factor = 1
+	}
+}
+
+pf_clan_supremacy_reform = {
+	icon = "man_and_children"
+	allow_normal_conversion = yes
+
+	potential = {
+		has_reform = brittonic_confederation_reform
+		NOT = { is_colonial_nation = yes }
+		NOT = { is_former_colonial_nation = yes }
+	}
+
+	modifiers = {
+		nobles_influence_modifier = -0.15
+		monarch_admin_power = 1
+		monarch_diplomatic_power = 1
+		monarch_military_power = 1
+		monthly_trn_cohesion = 0.2
+	}
+
+	custom_attributes = {
+		disables_confederation_elections = yes
+	}
+	heir = yes
+	maintain_dynasty = yes
+
+	ai = {
+		factor = 1
+	}
+}
+pf_guidance_of_the_elders_reform = {
+	icon = "organising_our_religion_reform"
+	allow_normal_conversion = yes
+
+	potential = {
+		has_reform = brittonic_confederation_reform
+		NOT = { is_colonial_nation = yes }
+		NOT = { is_former_colonial_nation = yes }
+	}
+
+	modifiers = {
+		innovativeness_gain = 0.25
+		embracement_cost = -0.20
+		nobles_influence_modifier = 0.10
+	}
+	custom_attributes = {
+		techs_give_estate_loyalty = yes
+	}
+
+	ai = {
+		factor = 1
+	}
+}
+pf_blackcoat_dictatorship = {
+	icon = "blackcoats"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			tag = TRN
+			tag = ABN
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = pf_trn_allowed_blackcoat_dictatorship_tt
+			has_country_flag = is_blackcoats
+		}
+	}
+	modifiers = {
+		army_tradition = 1
+		max_absolutism = 10
+		legitimacy = -1
+		global_unrest = 2
+		land_morale = 0.10
+		stability_cost_modifier = 0.50
+	}
+	#custom_attributes = {
+	#	stab_hits_are_doubled = yes
+	#}
+	government_abilities = {
+		blackcoat_zeal_mechanic
+	}
+}
+pf_brittonic_tribe_reform = {
+	icon = "brittonic_king"
+	allow_normal_conversion = no
+	lock_level_when_selected = no
+	allow_force_tributary = no
+
+	potential = {
+		NOT = { is_colonial_nation = yes }
+		NOT = { is_former_colonial_nation = yes }
+		OR = {
+			culture_group = old_celtic
+			culture_group = new_celtic
+		}
+	}
+	trigger = {
+		OR = {
+			culture_group = old_celtic
+			culture_group = new_celtic
+		}
+	}
+	modifiers = {
+		nobles_privilege_slots = 1
+		core_creation = -0.05
+		global_manpower_modifier = 0.15
+		max_absolutism = -10
+	}
+	government_abilities = {
+		brittonic_song_mechanic
+	}
+	ai = {
+		factor = 1
+	}
+}
+pf_regional_tribal_nobility_reform = {
+	icon = "gallic_king"
+	allow_normal_conversion = no
+	lock_level_when_selected = no
+
+	potential = {
+		NOT = { is_colonial_nation = yes }
+		NOT = { is_former_colonial_nation = yes }
+		OR = {
+			culture_group = old_celtic
+			culture_group = new_celtic
+		}
+	}
+	trigger = {
+		OR = {
+			has_reform = pf_brittonic_tribe_reform
+			has_reform = llidaw_monarchy
+		}
+	}
+	modifiers = {
+		core_decay_on_your_own = -0.25
+		state_governing_cost = -0.15
+		nobles_influence_modifier = -0.10
+	}
+	ai = {
+		factor = 1
+	}
+}
+pf_militarised_druids_reform = {
+	icon = "norse_kingdom"
+	allow_normal_conversion = no
+	lock_level_when_selected = no
+
+	potential = {
+		NOT = { is_colonial_nation = yes }
+		NOT = { is_former_colonial_nation = yes }
+		OR = {
+			culture_group = old_celtic
+			culture_group = new_celtic
+		}
+		religion = druidic
+	}
+	trigger = {
+		OR = {
+			culture_group = old_celtic
+			culture_group = new_celtic
+		}
+		religion = druidic
+	}
+	modifiers = {
+		fire_damage = 0.05
+		mil_tech_cost_modifier = -0.10
+		church_influence_modifier = 0.10
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+pf_sardinian_league_reform = {
+	icon = "sardinian_league"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+	duration = 5
+
+	potential = {
+		tag = SAR
+	}
+	trigger = {
+		tag = SAR
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+		custom_attributes = {
+			blocked_call_diet = yes
+		}
+	}
+	modifiers = {
+		trade_efficiency = 0.05
+		development_cost_in_primary_culture = -0.05
+		global_unrest = -0.50
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	#government_abilities = {
+	#	trinovantes_cohesion_mechanic
+	#}
+	ai = {
+		factor = 1
+	}
+}
+pf_ritualised_diplomacy_reform = {
+	icon = "cossacks"
+	allow_normal_conversion = no
+
+	potential = {
+		is_part_of_hre = yes
+	}
+	trigger = {
+		is_part_of_hre = yes
+	}
+	modifiers = {
+		diplomatic_reputation = 1
+		improve_relation_modifier = 0.15
+		envoy_travel_time = -0.1
+		# diplomats = 1
+	}
+	custom_attributes = {
+		enables_discounted_host_feast = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+pf_citizen_volunteers_reform = {
+	icon = "sisterhood"
+	allow_normal_conversion = no
+
+	potential = {
+		is_part_of_hre = yes
+	}
+	trigger = {
+		is_part_of_hre = yes
+	}
+	modifiers = {
+		global_manpower_modifier = 0.10
+		morale_damage_received = -0.10
+		regiment_manpower_usage = -0.05
+	}
+	ai = {
+		factor = 1
+	}
+}
+neapolitan_principality_reform = {
+	icon = "bohemian_monarchy"
+	allow_normal_conversion = no
+
+	potential = {
+		tag = NAP
+	}
+	trigger = {
+		tag = NAP
+	}
+	modifiers = {
+		vassal_income = 0.25
+		governing_capacity = -150
+		vassal_manpower_bonus = 0.50
+		diplomatic_upkeep = 1
+		nobles_influence_modifier = 0.10
+		max_absolutism = -20
+	}
+	ai = {
+		factor = 1
+	}
+}
+pf_eager_councillors_reform = {
+	icon = "pf_provincial_things"
+	allow_normal_conversion = no
+
+	potential = {
+		is_part_of_hre = yes
+	}
+	trigger = {
+		is_part_of_hre = yes
+	}
+	modifiers = {
+		possible_policy = 1
+		dip_tech_cost_modifier = -0.10
+	}
+	custom_attributes = {
+		more_reasons_for_petition_acceptance = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+pf_punic_festivals_reform = {
+	icon = "zeus"
+	allow_normal_conversion = no
+
+	potential = {
+		religion = punic_religion
+	}
+	trigger = {
+		religion = punic_religion
+	}
+	modifiers = {
+		stability_cost_modifier = -0.10
+		tolerance_own = 1
+		same_religion_advisor_cost = -0.10
+	}
+	custom_attributes = {
+		ending_wars_gives_stability = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+astartean_adventurer_reform = {
+	icon = "conan"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		tag = CLN	# Conan's realm
+	}
+	trigger = {
+		tag = CLN
+	}
+	modifiers = {
+		reinforce_cost_modifier = -0.33
+		core_creation = -0.05
+		unjustified_demands = -0.20
+	}
+	government_abilities = {
+		#quest_mechanic
+		#court_romance_mechanic
+		chivalry_mechanic
+	}
+	ai = {
+		factor = 5
+	}
+}
+order_of_the_shadows_reform = {
+	icon = "assassin"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		tag = SZO	# Saluzzo
+	}
+	trigger = {
+		tag = SZO	# Saluzzo
+	}
+	modifiers = {
+		spy_action_cost_modifier = -0.10
+		spy_offence = 0.10
+		global_autonomy = -0.05
+		max_absolutism = 10
+	}
+	government_abilities = {
+		espionage_policy_mechanic
+	}
+	ai = {
+		factor = 5
+	}
+}
+illyrian_kingdom_reform = {
+	icon = "regionally_elected_commanders"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		tag = ILY	# Illyria
+	}
+	trigger = {
+	}
+	modifiers = {
+		fort_maintenance_modifier = -0.20
+		defensiveness = 0.10
+		nobles_influence_modifier = 0.15
+		max_absolutism = 5
+	}
+	government_abilities = {
+		crown_authority_mechanic
+	}
+	custom_attributes = {
+		recruiting_generals_increases_nobles_loyalty = yes
+		buffed_strong_duchies = yes #+5% Loyalty
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+icelandic_althingi_reform = {
+	icon = "iceland_lawspeaker"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+	duration = 3
+	potential = {
+		tag = ICE
+	}
+	trigger = {
+	}
+	modifiers = {
+		candidate_random_bonus = 1
+		same_culture_advisor_cost = -0.25
+		governing_capacity_modifier = -0.75
+	}
+	government_abilities = {
+		althingi_mechanic
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = yes
+	}
+	heirs_can_be_generals = no
+	rulers_can_be_generals = no
+	fixed_rank = 1
+	ai = {
+		factor = 5
+	}
+}
+
+nordic_monarchy_reform = {
+	icon = patriarch
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = nordic_monarchy_reform
+		}
+	}
+	modifiers = {
+		global_manpower_modifier = 0.25
+		embracement_cost = -0.20
+		all_estate_influence_modifier = -0.05
+	}
+	custom_attributes = {
+		has_jarldoms = yes
+		centralize_state_half_refund = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+nordic_godar_council = {
+	icon = royal_court
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = nordic_godar_council
+		}
+	}
+	modifiers = {
+		godar_loyalty_modifier = 0.1
+		godar_influence_modifier = 0.1
+		manpower_in_true_faith_provinces = 0.25
+		missionaries = 1
+	}
+	custom_attributes = {
+		same_religion_subject_bonus = yes
+		unlock_great_holy_war_cb = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+nordic_mercantile_republic_reform = {
+	icon = merchant_aristocracy_reform
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = nordic_mercantile_republic_reform
+		}
+	}
+	modifiers = {
+		governing_capacity = -100
+		merchants = 1
+		mercantilism_cost = -0.25
+		light_ship_power = 0.1
+	}
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city_legacy
+	}
+	ai = {
+		factor = 5
+	}
+	queen = yes
+	royal_marriage = yes
+	custom_attributes = {
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		election_on_death = yes
+		lottery_election = yes
+		cannot_become_dictatorship = yes
+		is_merchant_republic = yes
+	}
+	has_term_election = no
+}
+
+
+nordic_huskarl_recruitment_reform = {
+	icon = "huskarl"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = scandinavian
+		NOT = {
+			has_country_flag = gnk_buffed_huskarl_reform
+		}
+	}
+	modifiers = {
+		amount_of_carolean = 0.1
+		has_carolean = yes
+		monarch_lifespan = 0.25
+		nobles_loyalty_modifier = 0.1
+	}
+}
+
+nordic_buffed_huskarl_recruitment_reform = {
+	icon = "huskarl"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = scandinavian
+		has_country_flag = gnk_buffed_huskarl_reform
+	}
+	custom_attributes = {
+		seizing_land_no_rebels = yes               	
+	}
+	modifiers = {
+		amount_of_carolean = 0.2
+		has_carolean = yes
+		monarch_lifespan = 0.25
+		nobles_loyalty_modifier = 0.1
+	}
+}
+nordic_entrenched_raids_reform = {
+	icon = "rioting_burning_2"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = scandinavian
+	}
+	trigger = {
+		culture_group = scandinavian
+	}
+	modifiers = {
+		loot_amount = 0.50
+		movement_speed = 0.10
+		movement_speed_onto_off_boat_modifier = 0.25
+	}
+	custom_attributes = {
+		raids_give_money_from_temples = yes
+	}
+}
+
+pf_norse_jarldom = {
+	icon = "viking"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	fixed_rank = 1
+	potential = {
+		religion = norse_pagan_reformed
+		is_subject_of_type = jarldom
+	}
+	modifiers = {
+		min_autonomy = 25
+		diplomatic_upkeep = -2
+		land_maintenance_modifier = -0.25
+		movement_speed_onto_off_boat_modifier = 0.25
+		governing_capacity_modifier = -0.95
+		may_perform_slave_raid = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		# allows_viking_raids = yes
+		# raiding_gives_extra_devastation = yes
+	}
+}
+
+pf_norse_independent_jarldom = {
+	icon = "viking"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	potential = {
+		have_had_reform = pf_norse_jarldom
+		is_subject = no
+	}
+	modifiers = {
+		diplomatic_upkeep = -1
+		land_maintenance_modifier = -0.25
+		naval_maintenance_modifier = -0.25
+		movement_speed_onto_off_boat_modifier = 0.5
+		# governing_capacity_modifier = -0.5
+		may_perform_slave_raid = yes
+	}
+	ai = {
+		factor = 10
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		# allows_viking_raids = yes
+		# raiding_gives_extra_devastation = yes
+	}
+}
+pf_vinland_colony = {
+	icon = "vinland_colony"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	potential = {
+		tag = VIN
+		NOT = { has_reform = pf_vinland_althing }
+	}
+	modifiers = {
+		advisor_pool = -2
+		administrative_efficiency = -0.50
+		global_manpower_modifier = -0.33
+		can_not_declare_war = yes
+		colonists = -1
+		diplomats = -1
+		missionaries = -1
+		merchants = -1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	fixed_rank = 1
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	#government_abilities = {		# temporary please remove
+	#	althing_consensus_mechanic
+	#}
+}
+pf_vinland_althing = {
+	icon = "vinland_colony"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	potential = {
+		tag = VIN
+		has_country_flag = pf_vinland_allowed_althing
+	}
+	modifiers = {
+		diplomatic_upkeep = -1
+		max_absolutism = -10
+		global_unrest = -1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	#custom_attributes = {
+	#	locked_government_type = yes
+	#}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+}
+pf_babylonian_empire = {
+	icon = "babylonian_empire"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = BBY
+	}
+	modifiers = {
+		free_adm_policy = 1
+		culture_conversion_cost = -0.20
+		governing_capacity = 100
+		max_absolutism = 10
+	}
+	government_abilities = {
+		babylonian_government_mechanic
+	}
+	custom_attributes = {
+		# may_deport_minorities = yes #Does this do anything? Disabled from main 
+		may_appoint_shakkanakku = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_warriors_of_shamash = {
+	icon = "king_mountains"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = mesopotamian
+	}
+	modifiers = {
+		morale_damage = 0.05
+		morale_damage_received = -0.10
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_kudurru_reform = {
+	icon = "kudurru"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = mesopotamian
+	}
+	custom_attributes = {
+		MAY_free_diplo_annexation = yes
+	}
+	modifiers = {
+		governing_capacity_modifier = 0.10
+		reduced_liberty_desire = 5
+		nobles_loyalty_modifier = 0.05
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_nepustu_tax = { 	# Nēpeštu tax
+	icon = "pf_merchant_virtues"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = mesopotamian
+	}
+	modifiers = {
+		global_trade_goods_size_modifier = 0.05
+		production_efficiency = 0.10
+		burghers_loyalty_modifier = 0.05
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_gavrasian_kingdom = {
+	icon = "king_mountains"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = SYR
+	}
+	modifiers = {
+		prestige_from_land = 0.5
+		army_tradition = 0.25
+		max_absolutism = -10
+	}
+	government_abilities = {
+		syrian_vizier_mechanic
+	}
+	maintain_dynasty = yes
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_lesbian_republic = {
+	icon = "sappho"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = LSB
+	}
+	modifiers = {
+		female_advisor_chance = 1
+		may_recruit_female_generals = yes
+		prestige_decay = -0.01
+		candidate_random_bonus = 1
+	}
+	custom_attributes = {
+		female_only_elections = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	duration = 5
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_amazonian_warriors = {
+	icon = "amazons"
+	allow_normal_conversion = no
+	potential = {
+		tag = LSB
+	}
+	modifiers = {
+		own_territory_dice_roll_bonus = 1
+		army_tradition = 0.50
+	}
+	ai = {
+		factor = 10	# amazing
+	}
+}
+pf_exiled_principality = {
+	icon = "nekharot"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			tag = NEK
+			was_tag = NEK
+		}
+	}
+	modifiers = {
+		tolerance_own = 1
+		church_loyalty_modifier = 0.05
+		church_influence_modifier = 0.10
+	}
+	government_abilities = {
+		nek_learning_mechanic
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_landed_clergy = {
+	icon = "jewish_church"
+	allow_normal_conversion = yes
+	potential = {
+		religion = jewish
+	}
+	trigger = {
+	}
+	modifiers = {
+		governing_capacity_modifier = 0.10
+		church_privilege_slots = 1
+		church_influence_modifier = 0.10
+	}
+	custom_attributes = {
+		may_seize_crownland_at_war = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_herem_warfare = {
+	icon = "herem"
+	allow_normal_conversion = yes
+	potential = {
+		religion = jewish
+	}
+	trigger = {
+	}
+	modifiers = {
+		warscore_cost_vs_other_religion = -0.1
+		culture_conversion_cost = -0.10
+	}
+	custom_attributes = {
+		devastate_occupied_provinces = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_funds_for_festivals = {
+	icon = "festival"
+	allow_normal_conversion = yes
+	potential = {
+		religion = jewish
+	}
+	trigger = {
+	}
+	modifiers = {
+		prestige = 1
+		institution_spread_from_true_faith = 0.33
+	}
+	custom_attributes = {
+		money_from_celebration = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_united_monarchy = {
+	icon = "kingdom_of_israel"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		religion = jewish
+		tag = ISR
+	}
+	modifiers = {
+		church_power_modifier = 0.15
+		war_exhaustion = -0.03
+		tolerance_own = 2
+		governing_capacity = 100
+		max_absolutism = 10
+		church_influence_modifier = 0.15
+	}
+	government_abilities = {
+		nek_learning_mechanic
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	#can_change_primary_culture = no
+}
+pf_stricter_training = {
+	icon = "soldiers_4"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SPT
+			was_tag = SPT
+		}
+	}
+	trigger = {
+	}
+	modifiers = {
+		monthly_spartan_militarization = 0.1
+		drill_gain_modifier = 0.25
+	}
+	custom_attributes = {
+		army_tradition_on_stackwipe = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_serene_republic = {
+	icon = "serene_republic"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = SZA
+	}
+	modifiers = {
+		trade_steering = 0.10
+		center_of_trade_upgrade_cost = -0.10
+		prestige_decay = -0.01
+	}
+	boost_income = yes
+	duration = 6
+	factions = {
+		mr_aristocrats
+		mr_traders
+		mr_guilds
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		is_merchant_republic = yes
+		elections_increase_factions_influence = yes
+		bonus_stats_for_elected_ruler = yes
+	}
+	government_abilities = {
+		serenity_mechanic
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+avalonian_republic_reform = {
+	icon = "avalonian_republic"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			AND = {
+				OR = {
+					tag = AVL
+					primary_culture = american
+				}
+				NOT = { map_setup = map_setup_random }
+			}
+			AND = {
+				is_playing_custom_nation = yes
+				have_had_reform = avalonian_republic_reform
+			}
+		}
+	}
+	trigger = {
+		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
+		custom_trigger_tooltip = {
+			tooltip = "NEEDS_REGULAR_ELECTIONS"
+			has_government_attribute = has_term_election
+		}
+	}
+	# lock_level_when_selected = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 15
+	modifiers = {
+		num_accepted_cultures = 2
+		reform_progress_growth = 0.15
+		build_time = -0.10
+	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+		custom_attributes = {
+			disables_estate_nobles = yes
+		}
+		#custom_attributes = {
+		#	blocked_call_diet = yes
+		#}
+	}
+	government_abilities = {
+		pioneer_spirit_mechanic
+	}
+	duration = 4
+}
+pf_inca_empire = {
+	icon = "sapa_inca"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = INC
+	}
+	modifiers = {
+		governing_capacity = 100
+		administrative_efficiency = 0.025
+		nobles_influence_modifier = 0.10
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	#can_change_primary_culture = no
+	government_abilities = {
+		inca_mita_mechanic
+	}
+}
+pf_awqaqkuna = {
+	icon = "inca_army"
+	allow_normal_conversion = yes
+	potential = {
+		tag = INC
+	}
+	modifiers = {
+		global_manpower_modifier = 0.15
+		land_maintenance_modifier = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_inca_resistance = {
+	icon = "inca_resistance"
+	allow_normal_conversion = yes
+	potential = {
+		tag = INC
+	}
+	modifiers = {
+		hostile_attrition = 1.0
+		max_hostile_attrition = 1.0
+		mil_tech_cost_modifier = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_lydian_monarchy = {
+	icon = "croesus"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = LYD
+	}
+	modifiers = {
+		monthly_gold_inflation_modifier = -0.15
+		merchants = 1
+		global_tax_modifier = 0.10
+		culture_conversion_cost = -0.10
+		culture_conversion_time = -0.10
+	}
+	custom_attributes = {
+		bonus_deving_in_primary_culture = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_reformed_vinland_althing = {
+	icon = "avalonian_republic"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = allowed_reformed_vinland_althing
+	}
+	trigger = {
+	}
+	lock_level_when_selected = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 100
+	modifiers = {
+		global_unrest = -1
+		all_estate_influence_modifier = 0.10
+		all_estate_loyalty_equilibrium = 0.05
+		colonist_placement_chance = 0.05
+	}
+
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+	government_abilities = {
+		althing_consensus_mechanic
+	}
+	duration = 4
+}
+pf_avl_colonial_policy = {
+	icon = "croesus"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = pf_avl_unlocked_colonial_policy
+	}
+	modifiers = {
+		colonists = 1
+		colonist_placement_chance = 0.10
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_triple_alliance = {
+	icon = "triple_alliance"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = AZT
+	}
+	modifiers = {
+		diplomatic_upkeep = 1
+		manpower_recovery_speed = 0.15
+		global_rebel_suppression_efficiency = 0.25
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	government_abilities = {
+		alliance_balance_mechanic
+	}
+}
+pf_council_of_three_hundred = {
+	icon = "council_of_three_hundred"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = pf_serene_republic
+	}
+	modifiers = {
+		republican_tradition = 0.10
+		all_estate_influence_modifier = 0.05
+	}
+	conditional = {
+		allow = {
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_serenza_law_reform = {
+	icon = "lawyer"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = pf_serene_republic
+	}
+	modifiers = {
+		global_autonomy = -0.025
+		yearly_corruption = -0.10
+		max_absolutism = 5
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_sgs_reform = {
+	icon = "sgs"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		has_country_flag = unlock_pf_sgs_reform_flag
+		has_reform = pf_serene_republic
+		NOT = { has_country_flag = done_sgs_coup }
+	}
+	modifiers = {
+		merchants = 1
+		burghers_loyalty_modifier = 0.05
+	}
+	#government_abilities = {
+	#	sgs_mechanic
+	#}
+	custom_attributes = {
+		unlock_sgs_estate = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_serene_red_sellers = {
+	potential = {
+		has_country_flag = allowed_serene_red_sellers
+	}
+	trigger = {
+		any_owned_province = {
+			trade_goods = wine
+		}
+	}
+	icon = "monastic_breweries_reform"
+	allow_normal_conversion = yes
+	modifiers = {
+		global_trade_goods_size_modifier = 0.10
+		global_prov_trade_power_modifier = 0.10
+	}
+	effect = {
+		custom_tooltip = pf_sza_producing_wine_tt
+		hidden_effect = {
+			every_owned_province = {
+				if = {
+					limit = {
+						trade_goods = wine
+					}
+					add_province_modifier = { 
+						name = sza_bonus_wine
+						duration = -1
+						hidden = yes
+					}
+				}
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = sza_bonus_wine
+				}
+				remove_province_modifier = sza_bonus_wine
+			}
+		}
+	}
+}
+
+pf_noble_adventurers = {
+	icon = "noble_adventurers"
+	allow_normal_conversion = yes
+	trigger = {
+	}
+	modifiers = {
+		mercenary_manpower = 0.25
+		land_attrition = -0.10
+		nobles_influence_modifier = 0.05
+	}
+	custom_attributes = {
+		mercenaries_increase_nobles_loyalty = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_poor_laws = {
+	icon = "poor_laws"
+	allow_normal_conversion = yes
+	trigger = {
+	}
+	modifiers = {
+		global_monthly_devastation = -0.15
+		church_influence_modifier = 0.05
+	}
+	custom_attributes = {
+		developing_reduces_more_devastation = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_sheriffs = {
+	icon = "sheriffs"
+	allow_normal_conversion = yes
+	trigger = {
+	}
+	modifiers = {
+		global_rebel_suppression_efficiency = 0.25
+		autonomy_change_time = -0.10
+		global_autonomy = -0.02
+	}
+	custom_attributes = {
+		# defeating_rebels_lowers_unrest = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_entrepreneurial_spirit = {
+	icon = "entrepreneurial_spirit"
+	allow_normal_conversion = yes
+	trigger = {
+	}
+	modifiers = {
+		innovativeness_gain = 0.25
+		expand_infrastructure_cost_modifier = -0.1
+	}
+	custom_attributes = {
+		building_manufacturies_reduces_dev_cost = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_encourage_defection = {
+	icon = "encourage_defection"
+	allow_normal_conversion = yes
+	trigger = {
+	}
+	modifiers = {
+		army_tradition_from_battle = 0.33
+		regiment_manpower_usage = -0.10
+	}
+	#custom_attributes = {
+	#	stackwiping_gives_manpower = yes
+	#}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_aggressive_attackers = {
+	icon = "aggressive_attackers"
+	allow_normal_conversion = yes
+	trigger = {
+	}
+	modifiers = {
+		global_attacker_dice_roll_bonus = 1
+		global_defender_dice_roll_bonus = -1
+		recover_army_morale_speed = 0.05
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_sgs_coup_reform = {
+	icon = "sgs_coup"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		has_disaster = pf_sgs_coup
+	}
+	modifiers = {
+		global_unrest = 3
+	}
+	government_abilities = {
+		sgs_coup_mechanic
+	}
+	custom_attributes = {
+		unlock_sgs_estate = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+pf_agapian_autocracy = {
+	icon = "agapian_autocracy"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = CPD
+	}
+	modifiers = {
+		all_estate_influence_modifier = 0.10
+		all_estate_possible_privileges = 1
+		max_absolutism = -30
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	maintain_dynasty = yes
+}
+pf_chola_fallen_kingdom = {
+	icon = "chola_fallen_kingdom"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = NJC
+		NOT = { mission_completed = pf_chola_dethrone_maisuru }
+	}
+	modifiers = {
+		all_estate_influence_modifier = 0.10
+		prestige = -0.50
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+	maintain_dynasty = yes
+}
+pf_mysore_empire = {
+	icon = "mysore_empire"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	potential = {
+		tag = MYS
+	}
+	modifiers = {
+		governing_capacity = 100
+		reduced_liberty_desire = 5
+		nobles_influence_modifier = 0.10
+		brahmins_hindu_influence_modifier = 0.10
+	}
+	custom_attributes = {
+		has_tributaries = yes
+	}
+	ai = {
+		factor = 5
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	government_abilities = {
+		mysore_prowess_mechanic
+	}
+}
+pf_chola_kingdom = {
+	icon = "chola_kingdom"
+	allow_normal_conversion = yes
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	potential = {
+		tag = NJC
+		mission_completed = pf_chola_dethrone_maisuru
+	}
+	modifiers = {
+		overextension_impact_modifier = -0.10
+		max_absolutism = 10
+		trade_efficiency = 0.05
+	}
+	custom_attributes = {
+		has_tributaries = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+pf_golden_monarchy = {
+	icon = "golden_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANC
+			AND = {
+				tag = SUM
+				was_tag = ANC
+			}
+		}
+	}
+	modifiers = {
+		legitimacy = 0.5
+		devotion = 0.5
+		republican_tradition = 0.2
+		horde_unity = 0.5
+		stability_cost_modifier = -0.10
+		nobles_influence_modifier = 0.15
+	}
+	ai = {
+		factor = 5
+	}
+}
+pf_samnite_league = {
+	icon = "samnite_league"
+	allow_normal_conversion = yes
+	potential = {
+		primary_culture = samnitii
+	}
+	modifiers = {
+		manpower_in_own_culture_provinces = 0.25
+		diplomatic_upkeep = 1
+		nobles_influence_modifier = -0.1
+	}
+	ai = {
+		factor = 5
+	}
+}
+pf_lord_of_the_elephants = {
+	icon = "lord_of_the_elephants"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = MAB
+			was_tag = MAB
+		}
+	}
+	modifiers = {
+		can_recruit_cossacks = yes
+		allowed_cossack_fraction = 0.10
+		leader_land_shock = 1
+		army_tradition = 0.5
+	}
+	ai = {
+		factor = 5
+	}
+}
+pf_vijayan_kingdom = {
+	icon = "vijayan_kingdom"
+	allow_normal_conversion = yes
+	potential = {
+		primary_culture = sinhala
+		religion = buddhism
+	}
+	modifiers = {
+		manpower_in_own_culture_provinces = 0.15
+		national_focus_years = -5
+		church_loyalty_modifier = 0.05
+	}
+	ai = {
+		factor = 5
+	}
+}
+pf_yavanarajya = {
+	icon = "yavanarajya"
+	allow_normal_conversion = yes
+	potential = {
+		tag = YVN
+	}
+	modifiers = {
+		governing_capacity_modifier = 0.10
+		max_absolutism = 10
+		tolerance_of_heathens_capacity = 1
+		claim_duration = -0.8
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				every_neighbor_province = {
+					limit = {
+						NOT = { owned_by = ROOT }
+						is_city = yes
+						NOT = { is_core = ROOT }
+						NOT = { is_permanent_claim = ROOT }
+					}
+					add_claim = ROOT
+				}
+			}
+		}
+	}
+	custom_attributes = {
+		auto_claims_on_borders = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+pf_islamic_technocracy = {
+	icon = "islamic_technocracy"
+	allow_normal_conversion = yes
+	potential = {
+		religion = sunni
+		OR = {
+			tag = CEY
+			tag = JFN
+			tag = VND
+			tag = KOC
+			tag = DGL
+			tag = SMK
+		}
+	}
+	trigger = {
+		mission_completed = pf_sumukiun_found_the_academy
+	}
+	modifiers = {
+		advisor_cost = -0.10
+		advisor_pool = 1
+		innovativeness_gain = 0.25
+		burghers_influence_modifier = 0.05
+	}
+	government_abilities = {
+		muslim_industrialisation_mechanic
+	}
+	ai = {
+		factor = 5
+	}
+}
+pf_islamic_indian_entrepot = {
+	icon = "indian_entrepot"
+	allow_normal_conversion = yes
+	potential = {
+		religion = sunni
+		OR = {
+			tag = CEY
+			tag = JFN
+			tag = VND
+			tag = KOC
+			tag = DGL
+			tag = SMK
+		}
+	}
+	modifiers = {
+		global_prov_trade_power_modifier = 0.10
+		vaisyas_influence_modifier = 0.10
+	}
+	government_abilities = {
+		spirituality_vs_commercialism_mechanic
+	}
+	ai = {
+		factor = 5
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	heirs_can_be_generals = no
+	rulers_can_be_generals = no
+	duration = 4
+}
+pf_tamil_princedom = {
+	icon = "tamil_princedom"
+	allow_normal_conversion = yes
+	potential = {
+		primary_culture = tamil
+	}
+	modifiers = {
+		same_culture_advisor_cost = -0.10
+		development_cost_in_primary_culture = -0.05
+		advisor_pool = 1
+	}
+	government_abilities = {
+		tamil_trade_guild_mechanic
+	}
+	ai = {
+		factor = 5
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+pf_tamil_guilds_freedom = {
+	icon = "tamil_guilds_freedom"
+	allow_normal_conversion = yes
+	potential = {
+		primary_culture = tamil
+	}
+	modifiers = {
+		monthly_trade_guild_influence = 0.05
+		trade_range_modifier = 0.15
+		center_of_trade_upgrade_cost = -0.25
+	}
+	ai = {
+		factor = 5
+	}
+}
+order_of_st_thomas_reform = {
+	potential = {
+		tag = MAB
+	}
+	trigger = {
+		mission_completed = pf_calicut_the_order_of_st_thomas
+	}
+	modifiers = {
+		warscore_cost_vs_other_religion = -0.10
+		tolerance_own = 2
+		church_influence_modifier = 0.05
+		maratha_exclusive_influence_modifier = 0.05
+		may_recruit_female_generals = yes
+		can_recruit_cossacks = yes
+	}
+	valid_for_nation_designer = no
+	icon = "st_thomas"
+	allow_normal_conversion = yes
+	allow_convert = no
+	lock_level_when_selected = yes
+	rulers_can_be_generals = yes
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	government_abilities = {
+		elephant_stables_mechanic
+	}
+}
+jain_knowledge_quest_reform = {
+	icon = "jain_scholar"
+	allow_normal_conversion = yes
+	potential = {
+		religion = jain
+	}
+	custom_attributes = {
+		tech_gives_enlightenment = yes
+	}
+	modifiers = {
+		monthly_jain_enlightenment = 0.05
+		tolerance_own = 1
+		global_institution_spread = 0.15
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_national_industrialization_reform = {
+	icon = "national_industrialization"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = pf_islamic_technocracy
+	}
+	government_abilities = {
+		national_industrialization_mechanic
+	}
+	modifiers = {
+		yearly_innovativeness = 0.1
+		build_time = -0.20
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_thomasine_evangelism = {
+	icon = "thomasine_evangelism"
+	allow_normal_conversion = yes
+	potential = {
+		religion = sevasam
+	}
+	modifiers = {
+		tolerance_heathen = 1
+		relation_with_heathens = 5
+		prestige_per_development_from_conversion = 0.5
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_doctrinal_exclusivism = {
+	icon = "doctrinal_exclusivism"
+	allow_normal_conversion = yes
+	potential = {
+		religion = sevasam
+	}
+	custom_attributes = {
+		enforcing_religion_lowers_corruption = yes
+	}
+	modifiers = {
+		tolerance_own = 1
+		global_heretic_missionary_strength = 0.01
+		same_religion_advisor_cost = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_maratha_confederation = {
+	icon = "maratha_confederation"
+	allow_normal_conversion = yes
+	potential = {
+		primary_culture = marathi
+	}
+	modifiers = {
+		governing_capacity = 100
+		years_of_nationalism = -5
+		all_estate_influence_modifier = 0.05
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_reappropriate_merchant_lands = {
+	icon = "reappropriate_merchant_lands"
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = pf_golden_monarchy
+	}
+	trigger = {
+		has_reform = pf_golden_monarchy
+	}
+	custom_attributes = {
+		no_crownland_money_loss_to_age = yes
+	}
+	modifiers = {
+		production_efficiency = 0.10
+		global_tax_modifier = 0.05
+		nobles_influence_modifier = 0.05
+		burghers_influence_modifier = -0.05
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_book_of_the_indians = {
+	icon = "consulate_of_the_sea"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_mission = pf_simylla_book_of_the_indians
+			culture_group = indo_greek
+		}
+	}
+	trigger = {
+		mission_completed = pf_simylla_book_of_the_indians
+	}
+	custom_attributes = {
+		foreign_centers_of_trade_give_dev = yes
+	}
+	modifiers = {
+		transfer_trade_power_reasons = 5
+		trade_efficiency = 0.10
+		diplomatic_reputation = 1
+	}
+	ai = {
+		factor = 5	# specific
+	}
+}
+pf_yavana_toleration = {
+	icon = "religious_harmony_reform"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = indo_greek
+	}
+	trigger = {
+		culture_group = indo_greek
+	}
+	custom_attributes = {
+		enable_religious_toleration_organisation = yes
+		may_get_religious_migrants = yes
+	}
+	modifiers = {
+		promote_culture_cost = -0.15
+		global_unrest = -1
+	}
+	ai = {
+		factor = 5	# specific
+	}
+}
+pf_yavana_brahmin_admin = {
+	icon = "indian_sultanate"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_mission = pf_simylla_indian_administration
+			culture_group = indo_greek
+		}
+	}
+	trigger = {
+		mission_completed = pf_simylla_indian_administration
+	}
+	custom_attributes = {
+		monarch_power_on_institutions = yes
+	}
+	modifiers = {
+		core_creation = -0.05
+		years_of_nationalism = -5
+	}
+	ai = {
+		factor = 5	# specific
+	}
+}
+pf_yavana_universal_administration = {
+	icon = "english_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			has_mission = pf_simylla_universal_rule
+			culture_group = indo_greek
+		}
+	}
+	trigger = {
+		mission_completed = pf_simylla_universal_rule
+	}
+	modifiers = {
+		num_accepted_cultures = 3
+		governing_capacity_modifier = 0.15
+		province_warscore_cost = -0.10
+	}
+	ai = {
+		factor = 5	# specific
+	}
+}
+pf_the_silk_throne = {
+	icon = "the_silk_throne"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = MAB
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = pf_silk_throne_cleared_decadence_tt
+			NOT = { has_country_flag = pf_calicut_cleared_decadence }
+		}
+	}
+	custom_attributes = {
+		diet_gives_even_more_influence = yes
+	}
+	government_abilities = {
+		calicut_decadence_mechanic
+	}
+	modifiers = {
+		prestige = 0.5
+		all_estate_loyalty_equilibrium = 0.05
+		all_estate_influence_modifier = 0.10
+		improve_relation_modifier = 0.10
+		global_spy_defence = -0.25
+		global_unrest = -1
+		monarch_military_power = -1
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_court_luxuries = {
+	icon = "court_luxuries"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		has_reform = pf_the_silk_throne
+	}
+	trigger = {
+		has_reform = pf_the_silk_throne
+	}
+	modifiers = {
+		monthly_splendor = 0.5
+		prestige_decay = -0.005
+		all_estate_possible_privileges = 1
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_sogdian_princedom = {
+	icon = "sogdian_princedom"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	fixed_rank = 1
+	potential = {
+		primary_culture = sogdian
+	}
+	trigger = {
+		primary_culture = sogdian
+	}
+	government_abilities = {
+		silk_road_allure_mechanic
+	}
+	modifiers = {
+		caravan_power = 0.15
+		development_cost_in_primary_culture = -0.05
+		governing_capacity = -150
+	}
+}
+pf_sogdian_confederation = {
+	icon = "sogdian_confederation"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = SOG
+	}
+	trigger = {
+		tag = SOG
+	}
+	government_abilities = {
+		silk_road_allure_mechanic
+	}
+	modifiers = {
+		caravan_power = 0.25
+		development_cost_in_primary_culture = -0.10
+		same_culture_advisor_cost = -0.10
+		governing_capacity = -50
+	}
+}
+
+
+pf_roman_religious_doctrine = {
+	icon = "roman_religious_doctrine"
+	allow_normal_conversion = no
+	potential = {
+		has_mission = pf_rome_enforce_state_religion
+	}
+	trigger = {
+		mission_completed = pf_rome_enforce_state_religion
+	}
+	custom_attributes = {
+		enables_religious_toleration_edict = yes
+	}
+	modifiers = {
+		relation_with_heathens = 10
+		relation_with_heretics = 10
+		relation_with_accepted_culture = 5
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_sogdian_splendid_nobility = {
+	icon = "sogdian_nobility"
+	allow_normal_conversion = no
+	potential = {
+		primary_culture = sogdian
+	}
+	trigger = {
+		primary_culture = sogdian
+	}
+	modifiers = {
+		same_culture_advisor_cost = -0.20
+		female_advisor_chance = 0.05
+		nobles_influence_modifier = 0.10
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+pf_sogdian_city_autonomy = {
+	icon = "sogdian_city"
+	allow_normal_conversion = no
+	potential = {
+		primary_culture = sogdian
+	}
+	trigger = {
+		primary_culture = sogdian
+	}
+	custom_attributes = {
+		conquering_sogdian_cities_lowers_nationalism = yes
+	}
+	modifiers = {
+		development_cost_in_primary_culture = -0.05
+		global_tax_modifier = 0.10
+		governing_capacity = 50
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+pf_roman_citizenship_reform = {
+	icon = "roman_citizen"
+	allow_normal_conversion = no
+	potential = {
+		has_mission = pf_rome_cives_romani
+	}
+	trigger = {
+		mission_completed = pf_rome_cives_romani
+	}
+	modifiers = {
+		state_governing_cost = -0.10
+		num_accepted_cultures = 2
+		governing_capacity = 150
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_divine_commandary_init = {
+	icon = "divine_commandary"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = BKH
+		NOT = {
+			has_country_flag = unlock_patience_ability
+		}
+	}
+	trigger = {
+		religion = mihrgar
+	}
+	modifiers = {
+		manpower_in_true_faith_provinces = 0.10
+		church_loyalty_modifier = 0.05
+		church_influence_modifier = 0.10
+		church_privilege_slots = 1
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_divine_commandary = {
+	icon = "divine_commandary"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = BKH
+		has_country_flag = unlock_patience_ability
+	}
+	trigger = {
+		religion = mihrgar
+	}
+	modifiers = {
+		manpower_in_true_faith_provinces = 0.10
+		church_loyalty_modifier = 0.05
+		church_influence_modifier = 0.10
+		church_privilege_slots = 1
+	}
+	government_abilities = {
+		mihrgar_zealotry_mechanic
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_assyrian_warfare = {
+	icon = "assyrian_warfare"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			tag = URK
+			tag = BBY
+		}
+	}
+	trigger = {
+		mission_completed = pf_bby_legacy_of_ashurbanipal
+	}
+	modifiers = {
+		assault_fort_ability = 0.25
+		siege_ability = 0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_ziggurat_construction = {
+	icon = "ziggurat_construction"
+	allow_normal_conversion = no
+	potential = {
+		OR = {
+			tag = URK
+			tag = BBY
+		}
+	}
+	trigger = {
+		religion = enuma_elish
+	}
+	custom_attributes = {
+		building_temples_gives_splendor = yes
+	}
+	modifiers = {
+		build_cost = -0.10
+		prestige_per_development_from_conversion = 0.15
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_almatau_warlords = {
+	icon = "soldiers_6"
+	allow_normal_conversion = no
+	potential = {
+		primary_culture = almatau
+	}
+	modifiers = {
+		mil_advisor_cost = -0.10
+		leader_land_shock = 1
+		general_cost = -0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_rytvinian_council = {
+	icon = "rytvinian_council"
+	allow_normal_conversion = no
+	potential = {
+		is_or_was_tag = { tag = RYT }
+		NOT = { has_country_flag = unlocked_empowered_rytvinian_council }
+	}
+	trigger = {
+	}
+	custom_attributes = {
+		has_council_focus = yes
+	}
+	modifiers = {
+		global_foreign_trade_power = 0.10
+		advisor_pool = 1
+		max_absolutism = -10
+	}
+}
+
+pf_urk_place_babylonian_governors = {
+	icon = "ashigaru"
+	allow_normal_conversion = no
+	potential = {
+		culture_group = mesopotamian
+	}
+	custom_attributes = {
+		mesopotamian_auto_conversion = yes
+	}
+	modifiers = {
+		manpower_in_culture_group_provinces = 0.20
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+pf_urk_palace_elites = {
+	icon = "janissary_government"
+	allow_normal_conversion = no
+	potential = {
+		culture_group = mesopotamian
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_nobles = yes
+	}
+	modifiers = {
+		prestige_decay = -0.01
+		stability_cost_modifier = -0.15
+		nobles_influence_modifier = 0.10
+	}
+}
+
+pf_rytvinian_council_empowered = {
+	icon = "rytvinian_council"
+	allow_normal_conversion = no
+	potential = {
+		is_or_was_tag = { tag = RYT }
+		has_country_flag = unlocked_empowered_rytvinian_council
+	}
+	trigger = {
+	}
+	custom_attributes = {
+		has_council_focus = yes
+	}
+	modifiers = {
+		global_trade_power = 0.15
+		advisor_pool = 1
+		advisor_cost = -0.1
+		governing_capacity = 50
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_bkh_noble_commanders = {
+	icon = "cuman_lancers_reform"
+	allow_normal_conversion = no
+	potential = {
+		religion = mihrgar
+	}
+	custom_attributes = {
+		recruiting_generals_increases_nobles_loyalty = yes
+	}
+	modifiers = {
+		general_cost = -0.10
+		nobles_loyalty_modifier = 0.10
+		nobles_influence_modifier = 0.05
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_bkh_clerical_adminstration = {
+	icon = "timurid_diwan_reform"
+	allow_normal_conversion = no
+	potential = {
+		religion = mihrgar
+	}
+	custom_attributes = {
+		religious_advisors_give_ccr = yes
+	}
+	modifiers = {
+		core_creation = -0.05
+		church_loyalty_modifier = 0.05
+		church_influence_modifier = 0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_bkh_divine_imminence = {
+	icon = "divine_kingship_reform"
+	allow_normal_conversion = no
+	potential = {
+		religion = mihrgar
+	}
+	modifiers = {
+		max_absolutism = 10
+		tolerance_own = 2
+		monarch_admin_power = 1
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_bkh_fire_of_the_gods = {
+	icon = "giga_chad"
+	allow_normal_conversion = no
+	potential = {
+		religion = mihrgar
+	}
+	modifiers = {
+		fire_damage = 0.10
+		artillery_power = 0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_bkh_centralise_religious_authority = {
+	icon = "japanese_divine_empire"
+	allow_normal_conversion = no
+	potential = {
+		religion = mihrgar
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_church = yes
+	}
+	modifiers = {
+		max_absolutism = 5
+		advisor_cost = -0.10
+		all_estate_loyalty_equilibrium = 0.05
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_bkh_divine_empire = {
+	icon = "british_monarchy"
+	allow_normal_conversion = no
+	potential = {
+		religion = mihrgar
+	}
+	modifiers = {
+		min_autonomy_in_territories = -0.1
+		years_of_nationalism = -5
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_aae_achaemenid_adminstration = {
+	icon = "achaemenids"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = AAE
+	}
+	custom_attributes = {
+		enables_divine_idea_group = yes
+	}
+	modifiers = {
+		legitimacy = 0.5
+		land_forcelimit_modifier = 0.15
+		max_absolutism = 10
+		governing_capacity = 250
+	}
+	government_abilities = {
+		mihrgar_zealotry_mechanic
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_qaq_maritime_adaptation = {
+	icon = "arabian_plutocracy_reform"
+	allow_normal_conversion = no
+	potential = {
+		tag = QAQ
+	}
+	modifiers = {
+		naval_maintenance_modifier = -0.25
+		transport_attrition = -0.5
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+pf_qaq_admiralty = {
+	icon = "qaranid_admiralty"
+	allow_normal_conversion = yes
+	potential = {
+		tag = QAQ
+	}
+	modifiers = {
+		leader_naval_fire = 1
+		naval_morale_damage_received = -0.10
+		republican_tradition = -0.5
+		max_absolutism = 10
+	}
+	custom_attributes = {
+		admirals_become_rulers = yes
+		cannot_become_dictatorship = yes
+	}
+	has_term_election = no
+	
+	ai = {
+		factor = 10
+	}
+}
+
+pf_omk_moravan_principality = {
+	icon = "moravan_principality"
+	allow_normal_conversion = yes
+	potential = {
+		tag = OMK
+	}
+	modifiers = {
+		diplomatic_upkeep = 1
+		nobles_loyalty_modifier = 0.10
+		nobles_influence_modifier = 0.05
+	}
+	
+	custom_attributes = {
+		may_hold_feasts = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_omk_grand_court = {
+	icon = "the_silk_throne"
+	allow_normal_conversion = yes
+	potential = {
+		tag = OMK
+	}
+	trigger = {
+		mission_completed = pf_omk_court_culture
+	}
+	modifiers = {
+		monthly_splendor = 1
+	}
+	government_abilities = {
+		court_grandeur_mechanic
+	}
+	custom_attributes = {
+		gain_grandeur_from_pillaging = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_sty_wine_theocracy = {
+	icon = "wine_theocracy"
+	allow_normal_conversion = yes
+	potential = {
+		tag = STY
+	}
+	trigger = {
+		mission_completed = pf_sty_the_martial_academy
+	}
+	modifiers = {
+		mercenary_manpower = 0.15
+		merc_maintenance_modifier = -0.10
+		infantry_power = 0.05
+		possible_condottieri = 1
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_church = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_ang_anglian_monarchy = {
+	icon = "lawyer"
+	allow_normal_conversion = yes
+	potential = {
+		tag = ANG
+	}
+	modifiers = {
+		state_maintenance_modifier = -0.10
+		governing_capacity = 50
+		nobles_loyalty_modifier = 0.05
+		nobles_influence_modifier = 0.10
+	}
+	custom_attributes = {
+		has_ruler_election = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_imperial_syrian_state = {
+	icon = "imperial_syrian_state"
+	allow_normal_conversion = yes
+	potential = {
+		tag = SYR
+	}
+	trigger = {
+		mission_completed = pf_syria_imperial_administration
+	}
+	modifiers = {
+		state_governing_cost = -0.10
+		global_unrest = -1
+		advisor_cost = -0.10
+		advisor_pool = 1
+		max_absolutism = 15
+		governing_capacity = 100
+	}
+	custom_attributes = {
+		can_seize_crownland_of_single_estates = yes
+	}
+	government_abilities = {
+		syrian_vizier_mechanic
+	}
+	maintain_dynasty = yes
+	lock_level_when_selected = yes
+	ai = {
+		factor = 10
+	}
+}
+pf_syrian_empowered_vizier = {
+	icon = "empowered_vizier"
+	allow_normal_conversion = yes
+	potential = {
+		tag = SYR
+	}
+	modifiers = {
+		advisor_cost = -0.10
+		monthly_vizier_ambition = 0.05
+		nobles_influence_modifier = 0.10
+	}
+	custom_attributes = {
+		reform_progress_from_advisors = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_solonian_reforms = {
+	icon = "solonian_reforms"
+	allow_normal_conversion = yes
+	potential = {
+		tag = ATH
+	}
+	modifiers = {
+		reform_progress_growth = 0.10
+		nobles_loyalty_modifier = -0.05
+		nobles_influence_modifier = -0.10
+	}
+	custom_attributes = {
+		solonian_city_buffs = yes
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						province_has_center_of_trade_of_level = 1
+						has_river_estuary_trigger = yes
+						num_of_times_expanded_infrastructure = 1 
+					}
+				}
+				add_province_modifier = {
+					name = pf_ath_solonian_city
+					duration = -1
+				}
+			}
+		}
+		
+	}
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = pf_ath_solonian_city
+				}
+				remove_province_modifier = pf_ath_solonian_city
+			}
+		}
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_college_of_demiarchons = {
+	icon = "demiarchon"
+	allow_normal_conversion = yes
+	potential = {
+		tag = ATH
+	}
+	modifiers = {
+		appoint_cardinal_cost = -0.20
+		demiarchons_loyalty_modifier = 0.05
+		demiarchons_influence_modifier = 0.10
+	}
+	#custom_attributes = {
+	#	may_summon_the_college_of_demiarchons = yes
+	#}
+	ai = {
+		factor = 10
+	}
+}
+pf_greek_philosophy = {
+	icon = "greek_philosophy"
+	allow_normal_conversion = yes
+	potential = {
+		tag = ATH
+	}
+	modifiers = {
+		innovativeness_gain = 0.5
+		monthly_splendor = 1
+	}
+	custom_attributes = {
+		gain_eusebeia_from_technology = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_naxos_guard_of_islands = {
+	icon = "naxosian_guard"
+	allow_normal_conversion = yes
+	potential = {
+		tag = NAX
+	}
+	trigger = {
+		is_subject_of = ATH
+	}
+	modifiers = {
+		land_morale = 0.10
+		infantry_power = 0.10
+		church_influence_modifier = 0.10
+		nobles_influence_modifier = 0.10
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_last_dictat = {
+	icon = "cult_of_supreme_being"
+	allow_normal_conversion = yes
+	potential = {
+		tag = ATH
+	}
+	modifiers = {
+		reverse_relation_with_same_religion = 10
+		devotion = 0.5
+	}
+	custom_attributes = {
+		more_reasons_for_accepting_last_dictat = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_strategos_theos = {
+	icon = "strategos_theos"
+	allow_normal_conversion = yes
+	potential = {
+		tag = ATH
+	}
+	trigger = {
+		mission_completed = pf_ath_strategos_theos
+	}
+	modifiers = {
+		leader_land_fire = 1
+		manpower_in_true_faith_provinces = 0.15
+		recover_army_morale_speed = 0.05
+	}
+	rulers_can_be_generals = yes
+	ai = {
+		factor = 10
+	}
+}
+pf_peloponnesian_principality = {
+	icon = "sparapet_office"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			primary_culture = peloponnesian
+			primary_culture = united_peloponnesian
+		}
+		NOT = { tag = ATH }
+	}
+	modifiers = {
+		manpower_in_own_culture_provinces = 0.10
+		same_culture_advisor_cost = -0.10
+		shock_damage = 0.05
+	}
+	custom_attributes = {
+		may_provoke_rivals = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_peloponnesian_league = {
+	icon = "byzantine_rule"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			primary_culture = peloponnesian
+			primary_culture = united_peloponnesian
+		}
+		NOT = { tag = ATH }
+		has_country_flag = pf_morea_league_path
+	}
+	modifiers = {
+		trade_efficiency = 0.10
+		same_culture_advisor_cost = -0.15
+		development_cost_in_primary_culture = -0.05
+		governing_capacity_modifier = -0.5
+		burghers_influence_modifier = 0.05
+	}
+	custom_attributes = {
+		building_temples_gives_splendor = yes
+		techs_give_estate_loyalty = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_strengthen_spartiates = {
+	icon = "korean_monarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SPT
+			was_tag = SPT
+		}
+	}
+	modifiers = {
+		global_rebel_suppression_efficiency = 0.25
+		manpower_recovery_speed = 0.10
+		nobles_loyalty_modifier = 0.05
+		nobles_influence_modifier = 0.10
+	}
+	#custom_attributes = {
+	#}
+	ai = {
+		factor = 10
+	}
+}
+pf_agis_reforms = {
+	icon = "fiqh_laws"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SPT
+			was_tag = SPT
+		}
+	}
+	modifiers = {
+		interest = -0.5
+		manpower_recovery_speed = 0.10
+		nobles_influence_modifier = -0.05
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_nobles = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_apothetae_and_burials  = {
+	icon = "national_constituent_reform"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = SPT
+			was_tag = SPT
+		}
+	}
+	modifiers = {
+		monarch_military_power = 1
+		prestige_decay = -0.005
+	}
+	custom_attributes = {
+		allow_apothetae = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_standardised_currency  = {
+	icon = "solonian_reforms"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LYD
+	}
+	modifiers = {
+		inflation_action_cost = -0.20
+		interest = -0.5
+		advisor_pool = 1
+	}
+	#custom_attributes = {
+	#}
+	ai = {
+		factor = 10
+	}
+}
+pf_lyd_meritocratic_appointment = {
+	icon = "strength_of_the_khalsa"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LYD
+	}
+	modifiers = {
+		advisor_cost = -0.10
+		advisor_pool = 1
+		nobles_loyalty_modifier = -0.05
+		nobles_influence_modifier = -0.10
+	}
+	#custom_attributes = {
+	#}
+	ai = {
+		factor = 10
+	}
+}
+pf_lyd_department_autonomy = {
+	icon = "trading_city"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LYD
+	}
+	modifiers = {
+		state_maintenance_modifier = -0.25
+		governing_capacity_modifier = 0.05
+	}
+	custom_attributes = {
+		taking_techs_reduces_autonomy = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_lyd_provincial_regiments = {
+	icon = "soldiers_4"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LYD
+	}
+	modifiers = {
+		global_regiment_cost = -0.10
+		manpower_in_own_culture_provinces = 0.25
+		land_maintenance_modifier = -0.05
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_cpd_chamber_of_justices = {
+	icon = "iceland_lawspeaker"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = CPD
+			tag = TCH
+		}
+	}
+	trigger = {
+		mission_completed = pf_cpd_chamber_of_justices
+	}
+	modifiers = {
+		global_autonomy = -0.05
+		global_unrest = -1
+		nobles_influence_modifier = -0.10
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_nobles = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_cpd_parliamentary_system = {
+	icon = "council_of_three_hundred"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = CPD
+			tag = TCH
+		}
+	}
+	trigger = {
+		mission_completed = pf_cpd_parliament_of_cilicia
+	}
+	modifiers = {
+		advisor_pool = 1
+		max_absolutism = -10
+	}
+	custom_attributes = {
+		has_parliament = yes
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_tch_triarchy = {
+	icon = "triarchy"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = TCH
+			was_tag = TCH
+		}
+	}
+	trigger = {
+	}
+	modifiers = {
+		governing_capacity = 50
+		global_unrest = -1
+		development_cost = -0.05
+		max_absolutism = 10
+	}
+	government_abilities = {
+		three_tiers_of_government_mechanic
+	}
+	custom_attributes = {
+		can_use_trade_post = yes
+		foreign_centers_of_trade_give_dev = yes
+	}
+	lock_level_when_selected = yes
+	ai = {
+		factor = 10
+	}
+}
+pf_lech_lechite_kingdom = {
+	icon = "gallic_king"
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = LCH
+			was_tag = LCH
+		}
+		has_country_flag = lech_unlock_reformed_gov
+	}
+	trigger = {
+	}
+	modifiers = {
+		global_manpower_modifier = 0.15
+		diplomatic_reputation = 1
+		governing_capacity = 50
+		max_absolutism = 5
+	}
+	custom_attributes = {
+		diet_increases_not_influence = yes
+		manpower_sailors_on_build = yes
+	}
+	lock_level_when_selected = yes
+	ai = {
+		factor = 10
+	}
+}
+pf_east_frisia_free_republic = {
+	icon = "solonian_reforms"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = grut_fryslan
+		tag = EFR
+	}
+	trigger = {
+	}
+	modifiers = {
+		prestige = 1
+		development_cost_in_primary_culture = -0.10
+		governing_capacity = 250
+		max_absolutism = -10
+	}
+	custom_attributes = {
+		frisian_elections = yes
+		may_elect_chiogas_candidate = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	government_abilities = {
+		imperial_consensus_mechanic
+	}
+	duration = 5
+	lock_level_when_selected = yes
+	ai = {
+		factor = 10
+	}
+}
+pf_efr_textile_manufacturing = {
+	icon = "court_of_art_and_culture_reform"
+	allow_normal_conversion = yes
+	potential = {
+		mission_completed = pf_efr_frisian_cloth
+	}
+	trigger = {
+	}
+	modifiers = {
+		trade_efficiency = 0.15
+		yearly_innovativeness = 0.5
+		burghers_influence_modifier = 0.05
+	}
+	custom_attributes = {
+		no_poor_uniforms = yes
+		bonus_prod_in_cloth = yes
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					trade_goods = cloth
+				}
+				add_province_modifier = {
+					name = efr_cloth_bonus
+					duration = -1
+				}
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = efr_cloth_bonus
+				}
+				remove_province_modifier = efr_cloth_bonus
+			}
+		}
+	}
+	ai = {
+		factor = 10
+	}
+}
+pf_lag_crown_of_lowlands = {
+	icon = "crown_of_lowlands"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LAG
+	}
+	trigger = {
+	}
+	modifiers = {
+		naval_forcelimit_modifier = 0.25
+		possible_policy = 1
+		trade_efficiency = 0.10
+		adventurers_influence_modifier = 0.10
+	}
+	custom_attributes = {
+		allows_viking_raids = yes		# even when not in viking age
+		enable_adventurer_estate = yes
+		may_steal_monuments = yes
+	}
+	lock_level_when_selected = yes
+	government_abilities = {
+		lag_sagas_mechanic
+	}
+	ai = {
+		factor = 10		# special
+	}
+}
+pf_lag_rites_of_passage = {
+	icon = "rites_of_passage"
+	allow_normal_conversion = yes
+	potential = {
+		culture_group = scandinavian		# made for lagrlond, but works in the context of others too so I'll leave it open
+	}
+	trigger = {
+	}
+	modifiers = {
+		land_attrition = -0.10
+		legitimacy = 0.25
+	}
+	custom_attributes = {
+		may_undergo_rites_of_passage = yes
+	}
+	ai = {
+		factor = 2	# general/special
+		modifier = {
+			factor = 10
+			tag = LAG		# made for lagrlond
+		}
+	}
+}
+pf_lbd_lombard_confederation = {
+	icon = "lombard_confederation"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LBD
+	}
+	trigger = {
+	}
+	modifiers = {
+		same_culture_advisor_cost = -0.10
+		development_cost_in_primary_culture = -0.05
+		nobles_loyalty_modifier = 0.05
+		state_governing_cost = 0.10
+	}
+	#custom_attributes = {
+	#	has_lombard_confederation_mechanics = yes
+	#}
+	lock_level_when_selected = yes
+	ai = {
+		factor = 10	# special
+	}
+}
+pf_lbd_reissue_edictum_rothari = {
+	icon = "edictum_rothari"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LBD
+	}
+	trigger = {
+	}
+	modifiers = {
+		global_institution_spread = 0.15
+		embracement_cost = -0.10
+		reasons_to_elect = 30
+	}
+	custom_attributes = {
+		relations_with_romqarts = yes
+		may_flaunt_romanitas = yes
+	}
+	effect = {
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					culture_group = italo_punic
+				}
+				add_opinion = {
+					who = ROOT
+					modifier = lbd_edictum_rothari
+				}
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			every_known_country = {
+				limit = {
+					has_opinion_modifier = {
+						who = ROOT
+						modifier = lbd_edictum_rothari
+					}
+				}
+				remove_opinion = {
+					who = ROOT
+					modifier = lbd_edictum_rothari
+				}
+			}
+		}
+	}
+	ai = {
+		factor = 10	# special
+	}
+}
+pf_lbd_hit_and_run = {
+	icon = "lombard_offense"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LBD
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = pf_lbd_has_unlocked_reform_tt
+			has_country_flag = lbd_unlock_offensive_reform
+		}
+	}
+	modifiers = {
+		extra_manpower_at_religious_war = yes
+		warscore_from_battles_modifier = 0.33
+	}
+	custom_attributes = {
+		winning_battles_gives_movement_speed = yes
+	}
+	ai = {
+		factor = 10	# special
+	}
+}
+pf_lbd_defensive_in_depth = {
+	icon = "lombard_defense"
+	allow_normal_conversion = yes
+	potential = {
+		tag = LBD
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = pf_lbd_has_unlocked_reform_tt
+			has_country_flag = lbd_unlock_defensive_reform
+		}
+	}
+	modifiers = {
+		defensiveness = 0.25
+		rival_border_fort_maintenance = -0.5
+		max_hostile_attrition = 3.0
+		hostile_attrition = 1.0
+	}
+	custom_attributes = {
+		primary_culture_forts_give_roll_bonus = yes
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_fort_building_trigger = yes
+						has_building = ramparts
+					}
+					culture = ROOT
+				}
+				add_province_modifier = {
+					name = lbd_primary_defense
+					duration = -1
+				}
+			}
+		}
+	}
+	removed_effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					has_province_modifier = lbd_primary_defense
+				}
+				remove_province_modifier = lbd_primary_defense
+			}
+		}
+	}
+	ai = {
+		factor = 10	# special
+	}
+}
+pf_lbd_eagle_and_lotus = {
+	icon = "eagle_and_lotus"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = allowed_eagle_and_lotus
+	}
+	trigger = {
+		religion = jain
+		OR = {
+			tag = LBD
+			tag = RME
+		}
+	}
+	modifiers = {
+		stability_cost_modifier = -0.25
+		monthly_jain_enlightenment = 0.10
+		tolerance_of_heathens_capacity = 1
+	}
+	custom_attributes = {
+		romana_and_punic_immune_from_religious_unity = yes
+	}
+	effect = {
+		hidden_effect = {
+			every_owned_province = {
+				limit = {
+					OR = {
+						religion = romana
+						religion = punic_religion
+					}
+				}
+				add_province_modifier = {
+					name = lbd_eagle_lotus_tolerance
+					duration = -1
+				}
+			}
+		}
+	}
+	ai = {
+		factor = 10	# special
+	}
+}

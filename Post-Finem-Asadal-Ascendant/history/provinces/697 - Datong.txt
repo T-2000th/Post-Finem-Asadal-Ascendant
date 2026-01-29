@@ -1,7 +1,10 @@
 #697 - Datong
 
-
-culture = jin
+owner = WEI
+controller = WEI
+add_core = WEI
+is_city = yes
+culture = wuhuan
 religion = vajrayana
 capital = "Datong"
 trade_goods = iron

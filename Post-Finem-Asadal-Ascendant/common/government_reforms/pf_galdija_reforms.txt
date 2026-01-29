@@ -1,0 +1,86 @@
+gdj_hakkapeliitta_recruitment = {
+	icon = "cavalry"	
+
+	potential = {
+		OR = {
+			culture_group = finnic
+			culture_group = greater_finnic
+			has_unlocked_government_reform = {
+				government_reform = gdj_hakkapeliitta_recruitment
+			}
+		}
+	}
+
+	custom_attributes = {
+		unlock_finnish_cavalry = yes
+	}
+
+	modifiers = {
+		cavalry_shock = 0.5
+		cavalry_cost = -0.1
+	}
+
+	ai = {
+		factor = 1 #generic
+	}
+}
+
+vza_fearless_march = {
+	icon = "feudal_levies"	
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = vza_fearless_march
+		}
+	}
+
+	modifiers = {
+		morale_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+
+	ai = {
+		factor = 1 #generic
+	}
+}
+
+vza_baltic_march = {
+	icon = "soldiers_5"	
+
+	potential = {
+		is_or_was_tag = { tag = VZA }
+	}
+
+	modifiers = {
+		defensiveness = 0.1
+		infantry_power = 0.1
+	}
+
+	ai = {
+		factor = 1 #generic
+	}
+}
+
+vza_enlightened_baltic_march = {
+	icon = "gothic_monarchy_reform"	
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = vza_enlightened_baltic_march
+		}
+	}
+
+	custom_attributes = {
+		monarch_power_on_institutions = yes
+	}
+
+	modifiers = {
+		technology_cost = -0.05
+		defensiveness = 0.1
+		infantry_power = 0.1
+	}
+
+	ai = {
+		factor = 1 #generic
+	}
+}

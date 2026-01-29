@@ -2,7 +2,7 @@
 
 
 culture = zhongyuan
-religion = vajrayana
+religion = confucianism
 capital = "Fuyang"
 trade_goods = grain
 hre = no

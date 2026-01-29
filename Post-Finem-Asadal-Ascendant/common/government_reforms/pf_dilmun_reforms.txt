@@ -1,0 +1,27 @@
+dil_dilmuni_government = {
+	icon = "native_land_tradition_reform"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = dil_dilmuni_government
+		}
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+		}
+		can_use_trade_post = yes
+	}
+	government_abilities = {
+		arabic_trade_influence
+	}
+	modifiers = {
+		global_colonial_growth = 20
+		trade_efficiency = 0.1
+		monarch_diplomatic_power = 1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}

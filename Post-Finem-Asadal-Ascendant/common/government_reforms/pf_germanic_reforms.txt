@@ -1,0 +1,75 @@
+
+germanic_high_king_reform = {
+	icon = "germanic_king_throne"
+
+	potential = {
+		belongs_to_germanic_culture_group = yes
+	}
+	trigger = {
+		government_rank = 2
+	}
+	modifiers = {
+		legitimacy = 1
+		liberty_desire_from_subject_development = -0.25
+	}
+
+	ai = {
+		factor = 5
+	}
+}
+
+germanic_warlord_reform = {
+	icon = "germanic_warrior_king"
+
+	potential = {
+		belongs_to_germanic_culture_group = yes
+	}
+	modifiers = {
+		discipline = 0.05
+		reinforce_speed = 0.1
+	}
+	generals_become_rulers = yes
+
+	ai = {
+		factor = 5
+	}
+}
+
+germanic_diplomatic_reform = {
+	icon = "germanic_king_diplomacy"
+
+	potential = {
+		belongs_to_germanic_culture_group = yes
+	}
+	modifiers = {
+		improve_relation_modifier = 0.25
+		envoy_travel_time = -0.25
+	}
+
+	ai = {
+		factor = 5
+	}
+}
+
+
+germanic_mayor_reform = {
+	icon = "germanic_mayor"
+
+	election_on_death = yes
+	heir = no
+	rulers_can_be_generals = no
+	potential = {
+		belongs_to_germanic_culture_group = yes
+	}
+	trigger = {
+		NOT = { num_of_cities = 3 }
+	}
+	modifiers = {
+		development_cost = -0.1
+		defensiveness = 0.33
+	}
+
+	ai = {
+		factor = 10
+	}
+}

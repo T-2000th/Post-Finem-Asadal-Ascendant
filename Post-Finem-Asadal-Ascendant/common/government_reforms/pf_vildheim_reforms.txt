@@ -1,0 +1,43 @@
+vld_vild_hunt_reform = {
+	icon = "cuman_lancers_reform"
+	allow_normal_conversion = no
+	allow_force_tributary = yes
+	potential = {
+		OR = {
+			culture_group = germanic_carpathian
+			culture_group = new_germanic
+		}
+	}
+
+	modifiers = {
+		nobles_loyalty_modifier = 0.1
+		loot_amount = 0.25
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+vld_lex_animata = {
+	icon = "crown"
+	allow_normal_conversion = no
+	allow_force_tributary = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = vld_lex_animata
+		}
+	}
+
+	custom_attributes = {
+		can_sell_crownland_to_single_estates = yes
+		can_seize_crownland_of_single_estates = yes
+		seizing_land_no_rebels = yes
+	}
+	modifiers = {
+		no_stability_loss_on_monarch_death = yes
+		max_absolutism = 10
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}

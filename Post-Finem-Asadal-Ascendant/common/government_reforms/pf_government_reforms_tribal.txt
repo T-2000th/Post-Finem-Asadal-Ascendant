@@ -1,0 +1,699 @@
+#Norse Warlord
+
+pf_norse_warlord = {
+	icon = "viking"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	potential = {
+		religion = norse_pagan_reformed
+		OR = {
+			has_country_flag = unlocked_norse_warlord_reform_flag
+			have_had_reform = pf_norse_warlord
+		}
+	}
+	modifiers = {
+		may_perform_slave_raid = yes
+		naval_morale = 0.1
+		diplomatic_upkeep = -1
+		movement_speed_onto_off_boat_modifier = 1
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	ai = {
+		factor = 0.5 #generic
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		# allows_viking_raids = yes
+		# raiding_gives_extra_devastation = yes
+	}
+}
+
+pf_norse_konungr = {
+	icon = "viking"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	# fixed_rank = 2
+	potential = {
+		religion = norse_pagan_reformed
+		OR = {
+			has_country_flag = unlocked_norse_konungr_reform_flag
+			have_had_reform = pf_norse_konungr
+		}
+	}
+	modifiers = {
+		may_perform_slave_raid = yes
+		diplomatic_upkeep = -1
+		diplomatic_reputation = 1
+		governing_capacity = -200
+		# governing_capacity_modifier = -0.95
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	ai = {
+		factor = 10
+	}
+	government_abilities = {
+		norse_centralization_mechanic
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		# allows_viking_raids = yes
+		has_jarldoms = yes
+		# raiding_gives_extra_devastation = yes
+	}
+}
+
+pf_norse_horde = {
+	icon = norse_horde
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	raze_province = yes
+	potential = {
+		religion = norse_pagan_reformed
+		OR = {
+			has_country_flag = unlocked_norse_horde_reform_flag
+			have_had_reform = pf_norse_horde
+		}
+	}
+	modifiers = {
+		may_perform_slave_raid = yes
+		cavalry_cost = -0.2
+		cavalry_shock = 0.5
+	}
+	ai = {
+		factor = 1
+	}
+	government_abilities = {
+		norse_centralization_mechanic
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		has_jarldoms = yes
+		raiding_gives_extra_devastation = yes
+		enables_horde_idea_group = yes
+	}
+}
+
+pf_naval_society_reform = {
+	icon = "sailors"
+	allow_normal_conversion = no
+	# lock_level_when_selected = yes
+	potential = {
+		OR = {
+			culture_group = scandinavian
+			religion = norse_pagan_reformed
+		}
+	}
+	modifiers = {
+		galley_power = 0.15
+		sailors_recovery_speed = 0.25
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	ai = {
+		factor = 2 #generic
+	}
+}
+
+pf_berzerker_zeal_reform = {
+	icon = "berzerker"
+	allow_normal_conversion = no
+	# lock_level_when_selected = yes
+	potential = {
+		OR = {
+			culture_group = scandinavian
+			religion = norse_pagan_reformed
+		}
+	}
+	modifiers = {
+		manpower_in_true_faith_provinces = 0.2
+		global_missionary_strength = 0.01
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	ai = {
+		factor = 2 #generic
+	}
+}
+
+pf_longboat_focus = {
+	icon = "pf_longboat"
+	allow_normal_conversion = no
+	# lock_level_when_selected = yes
+	potential = {
+		OR = {
+			culture_group = scandinavian
+			religion = norse_pagan_reformed
+		}
+	}
+	modifiers = {
+		has_galleass = yes
+		allowed_galleass_fraction = 0.2
+		naval_maintenance_modifier = -0.1
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	ai = {
+		factor = 2 #generic
+	}
+}
+
+pf_norse_nationstates_reform = {
+	icon = "nationstates"
+	allow_normal_conversion = no
+	# lock_level_when_selected = yes
+	potential = {
+		religion = norse_pagan_reformed
+	}
+	modifiers = {
+		war_exhaustion = -0.05
+		max_absolutism_effect = 0.1
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	ai = {
+		factor = 2 #generic
+	}
+}
+
+pf_establish_permanent_settlements_reform = {
+	icon = "free_city"
+	allow_normal_conversion = no
+	# lock_level_when_selected = yes
+	potential = {
+		religion = norse_pagan_reformed
+	}
+	modifiers = {
+		development_cost = -0.1
+		min_autonomy_in_territories = -0.1
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	ai = {
+		factor = 2 #generic
+	}
+}
+
+pf_romuva_tribes = {
+	icon = romuva_tribes
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {	
+		religion = romuva
+	}
+	modifiers = {
+		tolerance_own = 1
+		max_hostile_attrition = 1
+		# church_power_modifier = -1
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+pf_government_perkuno_leidimas = {
+	icon = perkuno_leidimas
+	allow_normal_conversion = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {	
+		religion = romuva
+		is_or_was_tag = { tag = LIT }
+	}
+	modifiers = {
+		global_autonomy = -0.05
+		shock_damage_received = -0.05
+		church_power_modifier = 0.1
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+pf_germanic_vassal = {
+	icon = "crown"
+	allow_normal_conversion = no
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	lock_level_when_selected = yes
+	potential = {
+		has_country_flag = pf_germanic_vassal_flag
+	}
+	modifiers = {
+		liberty_desire = -35
+		land_forcelimit_modifier = 0.10
+	}
+}
+
+
+
+tribal_pirate_republic = {
+	icon = "norse_raider"
+	allow_normal_conversion = no
+	legacy_government = yes
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+
+	royal_marriage = yes
+	
+	potential = {	
+		has_country_flag = allowed_tribal_pirates_flag
+	}
+	
+	factions_frame = 9
+	factions = {
+		pr_buccaneers
+		pr_smugglers
+		pr_captains
+	}
+	
+	modifiers = {
+		# legitimacy = 0.5
+		naval_forcelimit_modifier = 0.25
+		capture_ship_chance = 0.25
+		governing_capacity_modifier = -0.25
+		may_perform_slave_raid_on_same_religion = yes
+	}
+	
+	ai = {
+		factor = 0
+	}
+}
+
+#Horde Reforms
+nomadic_traditions_reform = { #T2
+	icon = cuman_lancers_reform
+	allow_normal_conversion = yes
+	potential = {
+		has_reform = steppe_horde
+	}
+	modifiers = {
+		global_unrest = -1
+		global_autonomy = -0.05
+	}
+	ai = {
+		factor = 3 #AI will like it
+		modifier = {
+			factor = 0
+			NOT = {
+				average_autonomy = 25
+			}
+		}
+	}
+}
+
+scholars_in_bureaucracy = { #T2
+	icon = general_eastern_administrative
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = unlock_scholars_in_bureaucracy_flag
+	}
+	modifiers = {
+		innovativeness_gain = 0.25
+		global_institution_spread = 0.25
+	}
+	ai = {
+		factor = 5 #AI will like it
+	}
+}
+
+elder_veneration_reform = { #T2
+	icon = merchant_aristocracy_reform
+	allow_normal_conversion = yes
+	potential = {
+		government = tribal
+	}
+	modifiers = {
+		reduced_liberty_desire = 10
+	}
+	ai = {
+		factor = 3 #AI will like it
+		modifier = {
+			factor = 0
+			NOT = {
+				num_of_subjects = 2
+			}
+		}
+	}
+}
+
+religious_assimilation_reform = { #T3
+	icon = divine_kingship_reform
+	allow_normal_conversion = yes
+	potential = {
+		government = tribal
+	}
+	modifiers = {
+		global_missionary_strength = 0.02
+		same_religion_advisor_cost = -0.05
+	}
+	ai = {
+		factor = 3 #AI will like it
+		modifier = {
+			factor = 0
+			religious_unity = 0.8
+		}
+	}
+}
+
+strict_repression_reform = { #T3
+	icon = generic_people
+	allow_normal_conversion = yes
+	potential = {
+		government = tribal
+	}
+	modifiers = {
+		harsh_treatment_cost = -0.25
+		global_rebel_suppression_efficiency = 0.5
+	}
+	ai = {
+		factor = 3 #AI will like it
+	}
+}
+
+ilk_khans_banners_reform = { #T4
+	icon = cavalry
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = unlocked_banners_of_the_ilk_khan_flag
+		is_ilk_khan = yes
+	}
+	modifiers = {
+		special_unit_forcelimit = 0.25
+		cav_to_inf_ratio = 0.25
+	}
+	ai = {
+		factor = 5 #AI will like it
+	}
+}
+
+bureaucratic_integration = { #T5
+	icon = house_of_lords
+	allow_normal_conversion = yes
+	potential = {
+		government = tribal
+	}
+	modifiers = {
+		overextension_impact_modifier = -0.1
+		max_absolutism_effect = 0.1
+	}
+	ai = {
+		factor = 3 #AI will like it
+	}
+}
+
+tribal_elections = { #T5
+	icon = politician
+	allow_normal_conversion = yes
+	potential = {
+		government = tribal
+	}
+	# has_term_election = yes
+	# duration = 6
+	conditional = {
+		allow = { has_dlc = "Res Publica" }
+		queen = no
+		heir = no
+		duration = 6
+		has_term_election = yes
+	}
+	custom_attributes = {
+		enables_estate_burghers = yes
+		
+		# enables_plutocratic_idea_group = yes
+		# enables_aristocratic_idea_group = no
+		# enables_horde_idea_group = no
+	}
+	modifiers = {
+		development_cost = -0.1
+	}
+	ai = {
+		factor = 3 #AI will like it
+	}
+}
+
+dzintara_tribal_reform = {
+	icon = rabbi
+	allow_normal_conversion = no
+	potential = {
+		has_country_flag = dzintara_chose_tribal_flag
+	}
+	modifiers = {
+		culture_conversion_cost = -0.25
+		stability_cost_modifier = -0.1
+		development_cost = -0.05
+	}
+	custom_attributes = {
+		monarch_power_on_institutions = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+qaq_advanced_horde = {
+	icon = rabbi
+	allow_normal_conversion = no
+	potential = {
+		have_had_reform = qaq_advanced_horde
+		is_nomad = yes
+	}
+	modifiers = {
+		cav_to_inf_ratio = 0.25
+		core_creation = -0.1
+		cavalry_fire = 0.5
+		cavalry_cost = -0.1
+	}
+	custom_attributes = {
+		centralize_state_half_refund = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+vild_despotism = {
+	icon = kelthean_kingdom
+	allow_normal_conversion = no
+	fixed_rank = 1
+	potential = {
+		is_or_was_tag = { tag = VLD }
+	}
+	modifiers = {
+		prestige_from_land = 0.25
+		cavalry_cost = -0.1
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+rus_successor = {
+	icon = rus_successor
+	allow_normal_conversion = no
+	potential = {
+		is_or_was_tag = { tag = PNS }
+	}
+	modifiers = {
+		nobles_loyalty_modifier = 0.1
+		development_cost_in_primary_culture = -0.05
+		culture_conversion_cost = -0.1
+		has_mamluks = yes
+		allowed_mamluks_fraction = 0.2
+	}
+	ai = {
+		factor = 10
+	}
+}
+
+razvaltsi_reform = {
+	icon = razvaltsi
+	allow_normal_conversion = no
+	potential = {
+		is_slavic_culture_group = yes
+	}
+	trigger = {
+		NOT = { has_government_attribute = is_pirate_republic_reform }
+		NOT = { has_reform = siberian_tribe }
+		NOT = { government = native }
+	}
+	custom_attributes = {
+		enables_estate_razvaltsi = yes
+	}
+	modifiers = {
+		garrison_size = 0.25
+		has_mamluks = yes
+		allowed_mamluks_fraction = 0.2
+	}
+	ai = {
+		factor = 5
+		modifier = {
+			factor = 10
+			num_of_completed_idea_groups_mil = { amount = 1 }
+		}
+		modifier = {
+			factor = 10
+			num_of_cities = 10
+		}
+	}
+}
+
+stalnaya_volya = {
+	icon = golden_monarchy
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+
+	potential = {
+		has_country_flag = unlocked_stalyana_volya_reform_flag
+	}
+	modifiers = {
+		land_morale = 0.1
+		nobles_loyalty_modifier = 0.1
+	}
+	custom_attributes = {
+		enables_estate_razvaltsi = yes
+		generals_become_rulers = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+three_houses_dunavija_reform = {
+	icon = "rytvinian_council"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+
+	potential = {
+		is_or_was_tag = { tag = MOL }
+		NOT = { has_country_flag = alenkov_monarchy_flag }
+		NOT = { has_country_flag = velchev_monarchy_flag }
+		NOT = { has_country_flag = tarnavich_monarchy_flag }
+	}
+	modifiers = {
+		nobles_loyalty_modifier = 0.1
+		diplomats = 1
+		no_stability_loss_on_monarch_death = yes
+	}
+	heir = no
+	custom_attributes = {
+		has_three_houses_election = yes
+	}
+	government_abilities = {
+		three_houses_mechanic
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+alenkov_monarchy = {
+	icon = military_dictatorship_reform
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+
+	potential = {
+		has_country_flag = alenkov_monarchy_flag
+	}
+	modifiers = {
+		monarch_admin_power = 3
+		global_tax_modifier = 0.1
+		adm_advisor_cost = -0.25
+		governing_capacity = 100
+	}
+	custom_attributes = {
+		centralize_state_half_refund = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+velchev_monarchy = {
+	icon = protectorate_parliament_reform
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+
+	potential = {
+		has_country_flag = velchev_monarchy_flag
+	}
+	modifiers = {
+		monarch_diplomatic_power = 3
+		production_efficiency = 0.1
+		dip_advisor_cost = -0.25
+		diplomats = 1
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+tarnavich_monarchy = {
+	icon = soldiers_6
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+
+	potential = {
+		has_country_flag = tarnavich_monarchy_flag
+	}
+	modifiers = {
+		monarch_military_power = 3
+		land_morale = 0.1
+		mil_advisor_cost = -0.25
+		army_tradition_decay = -0.02
+	}
+	custom_attributes = {
+		army_tradition_on_stackwipe = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+
+pf_warriors_of_valhalla = {
+	icon = norse_holy_warrior
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = pf_warriors_of_valhalla
+		}
+	}
+	trigger = {
+		religion = norse_pagan_reformed
+	}
+	modifiers = {
+		manpower_in_true_faith_provinces = 0.25
+		shock_damage_received = -0.1
+		global_missionary_strength = 0.02
+	}
+	custom_attributes = {
+		developing_reduces_more_devastation = yes
+	}
+	ai = {
+		factor = 5
+	}
+	custom_attributes = {
+	}
+}

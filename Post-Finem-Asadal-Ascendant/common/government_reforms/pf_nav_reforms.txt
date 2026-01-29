@@ -1,0 +1,562 @@
+pf_euskaria_confederacy = {
+	icon = "nationstates"
+	allow_convert = no
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	legacy_equivalent = administrative_republic
+	potential = {
+		tag = NAV
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+
+	duration = 10
+	modifiers = {
+		state_governing_cost = 0.2
+		trade_company_governing_cost = -0.25
+		free_policy = 1
+		candidate_random_bonus = 1
+	}
+
+	government_abilities = {
+        euskarian_militarization_mechanic
+    }
+
+	custom_attributes = {
+		mercs_do_not_cost_army_professionalism = yes
+	}
+
+	effect = {
+		hidden_effect = {
+			country_event = {
+				id = pf_nav_events.0
+				days = 30
+			}
+		}
+	}
+}
+
+pf_euskaria_warrior_merchant_council = {
+	icon = "pf_provincial_things"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = NAV
+		mission_completed = euskaria_warrior_merchants_europe
+	}
+	modifiers = {
+		leader_land_manuever = 1
+		leader_naval_manuever = 1
+		leader_cost = -0.25
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+smr_exiled_order = {
+	icon = "exiled_order"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			tag = SMR
+			was_tag = SMR
+		}
+		NOT = { has_country_flag = smr_unlock_knights_of_solomon_reform }
+	}
+	modifiers = {
+		cav_to_inf_ratio = 0.1
+		cavalry_cost = -0.1
+		monarch_military_power = 1
+	}
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+smr_gulf_republic = {
+	icon = "gulf_republic"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			tag = NEG
+			was_tag = NEG
+		}
+		NOT = { has_country_flag = smr_unlock_radhanite_federation_reform }
+	}
+	modifiers = {
+		administrative_efficiency = 0.025
+		trade_efficiency = 0.1
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		is_merchant_republic = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+smr_knights_of_solomon = {
+	icon = "modernized_furusiyya_reform"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		has_country_flag = smr_unlock_knights_of_solomon_reform
+	}
+	modifiers = {
+		cav_to_inf_ratio = 0.1
+		cavalry_cost = -0.1
+		monarch_military_power = 1
+		missionaries = 1
+		cb_on_religious_enemies = yes
+	}
+	rulers_can_be_generals = yes
+	heirs_can_be_generals = yes
+	custom_attributes = {
+		locked_government_type = yes
+		enables_horde_idea_group = yes
+	}
+	government_abilities = {
+		pf_jewish_zealotry_mechanic
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+smr_radhanite_federation = {
+	icon = "pf_merchant_virtues"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		has_country_flag = smr_unlock_radhanite_federation_reform
+	}
+	modifiers = {
+		administrative_efficiency = 0.05
+		trade_efficiency = 0.15
+		missionaries = 1
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			NOT = { has_dlc = "Mare Nostrum" }
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+			NOT = { has_dlc = "Res Publica" }
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+			has_dlc = "Mare Nostrum"
+		}
+		can_use_trade_post = yes
+		can_form_trade_league = yes
+		trade_city_reform = trading_city
+	}
+	custom_attributes = {
+		locked_government_type = yes
+		enables_divine_idea_group = yes
+		is_merchant_republic = yes
+	}
+	government_abilities = {
+		pf_jewish_zealotry_mechanic
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+smr_satrap_system = {
+	icon = "theme_system_reform"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_satrap_system
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_satrap_system_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_satrap_system
+			}
+		}
+	}
+	modifiers = {
+		governing_cost = -0.1
+		min_autonomy_in_territories = -0.05
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_war_thunder = {
+	icon = "maratha_rider"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_war_thunder
+		}
+		NOT = {
+			has_unlocked_government_reform = {
+				government_reform = smr_war_thunder_buffed
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_war_thunder_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_war_thunder
+			}
+		}
+	}
+	modifiers = {
+		movement_speed = 0.1
+		siege_ability = 0.1
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_war_thunder_buffed = {
+	icon = "maratha_rider"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_war_thunder_buffed
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_war_thunder_buffed_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_war_thunder_buffed
+			}
+		}
+	}
+	modifiers = {
+		movement_speed = 0.15
+		siege_ability = 0.15
+		force_march_free = yes
+		enable_forced_march = yes
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_council_of_david = {
+	icon = "pf_provincial_things"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_council_of_david
+		}
+		NOT = {
+			has_unlocked_government_reform = {
+				government_reform = smr_council_of_david_buffed
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_council_of_david_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_council_of_david
+			}
+		}
+	}
+	modifiers = {
+		max_absolutism = 10
+		all_estate_loyalty_equilibrium = 0.1
+		all_estate_influence_modifier = -0.1
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_council_of_david_buffed = {
+	icon = "pf_provincial_things"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_council_of_david_buffed
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_council_of_david_buffed_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_council_of_david_buffed
+			}
+		}
+	}
+	modifiers = {
+		max_absolutism = 15
+		max_absolutism_effect = 0.15
+		all_estate_loyalty_equilibrium = 0.1
+		all_estate_influence_modifier = -0.1
+		all_estate_possible_privileges = 1
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_crimson_bombardier = {
+	icon = "crimson_bombardier"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_crimson_bombardier
+		}
+		NOT = {
+			has_unlocked_government_reform = {
+				government_reform = smr_crimson_bombardier_buffed
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_crimson_bombardier_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_crimson_bombardier
+			}
+		}
+	}
+	modifiers = {
+		global_naval_barrage_cost = -0.5
+		heavy_ship_number_of_cannons_modifier = 0.2
+		galley_number_of_cannons_modifier = 0.25
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_crimson_bombardier_buffed = {
+	icon = "crimson_bombardier"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_crimson_bombardier_buffed
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_crimson_bombardier_buffed_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_crimson_bombardier_buffed
+			}
+		}
+	}
+	modifiers = {
+		global_naval_barrage_cost = -0.5
+		heavy_ship_number_of_cannons_modifier = 0.2
+		galley_number_of_cannons_modifier = 0.25
+		artillery_barrage_cost = -0.5
+		backrow_artillery_damage = 0.1
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_jewish_trader_guilds = {
+	icon = "entrepreneurial_spirit"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_jewish_trader_guilds
+		}
+		NOT = {
+			has_unlocked_government_reform = {
+				government_reform = smr_jewish_trader_guilds_buffed
+			}
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_jewish_trader_guilds_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_jewish_trader_guilds
+			}
+		}
+	}
+	modifiers = {
+		global_trade_power = 0.1
+		colonists = 1
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+smr_jewish_trader_guilds_buffed = {
+	icon = "entrepreneurial_spirit"
+	allow_normal_conversion = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = smr_jewish_trader_guilds_buffed
+		}
+	}
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = has_unlocked_smr_jewish_trader_guilds_buffed_tt
+			has_unlocked_government_reform = {
+				government_reform = smr_jewish_trader_guilds_buffed
+			}
+		}
+	}
+	modifiers = {
+		global_trade_power = 0.1
+		trade_efficiency = 0.1
+		colonists = 1
+		global_colonial_growth = 30
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+bul_kingdom_of_bulgars = {
+	icon = "kingdom_of_bulgars"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		mission_completed = pf_bul_kingdom_bulgar
+	}
+	modifiers = {
+		cav_to_inf_ratio = 0.35
+		years_of_nationalism = -5
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+bul_eastern_bureaucracy = {
+	icon = "asian_scripture"
+	allow_normal_conversion = yes
+	potential = {
+		mission_completed = pf_bul_kingdom_bulgar
+	}
+	modifiers = {
+		advisor_cost = -0.15
+		technology_cost = -0.05
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+bul_horse_lords = {
+	icon = "cuman_lancers_reform"
+	allow_normal_conversion = yes
+	potential = {
+		mission_completed = pf_bul_kingdom_bulgar
+	}
+	modifiers = {
+		movement_speed = 0.1
+		global_manpower_modifier = 0.1
+		reinforce_cost_modifier = -0.5
+	}
+	ai = {
+		factor = 3
+	}
+}
+
+bul_brother_kingdom = {
+	icon = "kingdom_of_bulgars"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		culture_group = south_mongol
+		is_subject_of = BUL
+	}
+	modifiers = {
+		cav_to_inf_ratio = 0.35
+		defensiveness = 0.1
+		development_cost = -0.1
+		land_forcelimit_modifier = 0.25
+		liberty_desire = -50
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+	}
+	ai = {
+		factor = 1
+	}
+}
+
+cri_republic_of_krim = {
+	icon = "merchant_aristocracy_reform"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		mission_completed = pf_cri_birth_of_the_republic
+	}
+	modifiers = {
+		cav_to_inf_ratio = 0.25
+		years_of_nationalism = -5
+		no_religion_penalty = yes
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+	}
+	ai = {
+		factor = 1
+	}
+}

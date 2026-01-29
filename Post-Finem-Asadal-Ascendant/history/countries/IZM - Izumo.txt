@@ -1,0 +1,7 @@
+government = theocracy
+add_government_reform = ikko_ikki_reform
+government_rank = 1
+primary_culture = biguk
+religion = confucianism
+technology_group = chinese
+capital = 1830

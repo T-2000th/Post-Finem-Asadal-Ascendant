@@ -9,7 +9,10 @@ hre = no
 base_tax = 4
 base_manpower = 3
 base_production = 4
-
+is_city = yes
+owner = KOS
+controller = KOS
+add_core = KOS
 
  #Inabayama Castle
 discovered_by = chinese

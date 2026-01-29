@@ -7,11 +7,32 @@
  korea_region_name: "Choseon"
  korea_region_adj: "Choseon"
 
-#Dae-Geum as Korea rename
+#Cultures
+ korean_new: "Hwanguk"
 
 #PROVINCE BASE NAMES
 
+#Countries NAMES
 
+ ANU: "Yezo"
+ ANU_ADJ: "Yezo"
+ ANU_ADJ2: "Yezo"
+ 
+ RYU: "Taezan"
+ RYU_ADJ: "Taezan"
+ RYU_ADJ2: "Taezan"
+
+ CHA: "Campadesa"
+ CHA_ADJ: "Campadesan"
+ CHA_ADJ2: "Campadesan"
+ 
+ KED: "Kataha"
+ KED_ADJ: "Kataha"
+ KED_ADJ2: "Kataha"
+
+ PRK: "Langasuka"
+ PRK_ADJ: "Langasukan"
+ PRK_ADJ2: "Langasukan"
 
 #Area Names
  western_korea_area_name: "Gyeonggi"

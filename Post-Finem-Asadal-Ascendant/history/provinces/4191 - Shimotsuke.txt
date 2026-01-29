@@ -9,7 +9,10 @@ hre = no
 base_tax = 2
 base_manpower = 2
 base_production = 2
-
+is_city = yes
+owner = KNU
+controller = KNU
+add_core = KNU
 
 discovered_by = chinese
 discovered_by = MCH

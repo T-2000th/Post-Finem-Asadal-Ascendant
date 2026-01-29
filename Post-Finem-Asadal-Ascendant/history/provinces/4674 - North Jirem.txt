@@ -1,6 +1,6 @@
-owner = KRC
-controller = KRC
-add_core = KRC
+owner = THW
+controller = THW
+add_core = THW
 culture = chahar
 religion = vajrayana
 capital = "Korchin"

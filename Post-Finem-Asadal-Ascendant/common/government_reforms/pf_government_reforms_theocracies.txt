@@ -1,0 +1,642 @@
+#Persian Satrapy
+
+# Based of Eyalets from Vanilla,
+# Some modifications from Ante Bellum Persian Satrapies
+pf_persian_satrapy = {
+	lock_level_when_selected = yes
+	icon = "satrapy"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	allow_force_tributary = no
+
+	potential = {
+		is_subject_of_type = satrapy
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+
+	modifiers = {
+		global_autonomy = -0.05
+		manpower_in_true_faith_provinces = 0.25
+	}
+
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					overlord = {
+						has_reform = arb_integrated_satrapies
+					}
+				}
+				set_country_flag = has_eyalet_color # Enables decision to restore color
+				set_country_flag = has_overriden_color_flag
+				change_country_color = {
+					country = overlord
+				}
+			}
+			else = {
+				set_country_flag = has_eyalet_color # Enables decision to restore color
+				set_country_flag = has_overriden_color_flag
+				change_country_color = {
+					# Usually it would be country = overlord so the Satrapy
+					# has the same color as the overlord, but in PF the Satrapies
+					# have a lighter shade of Persia's color
+					color = { 255 186 22 }
+				}
+			}
+		}
+	}
+
+	# This restores the colors of countries that broke free
+	removed_effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					NOT = { is_subject_of_type = satrapy }
+				}
+				country_event = {
+					id = pf_satrapy_events.1
+				}
+			}
+		}
+	}
+
+	ai = {
+		factor = 100
+	}
+}
+
+zoroastrian_theocracy_reform = {
+	icon = "zoroastrian_theocracy"
+	allow_normal_conversion = yes
+	potential = {
+		tag = PER
+		NOT = { has_country_flag = pf_per_centralization_collapsed }
+		NOT = { has_country_flag = pf_per_centralization_completed }
+	}
+	valid_for_nation_designer = yes
+	nation_designer_trigger = {
+		religion_group = zoroastrian_group
+	}
+	nation_designer_cost = 10
+
+	valid_for_new_country = no
+	lock_level_when_selected = yes
+	modifiers = {
+		church_privilege_slots = 2
+		church_influence_modifier = 0.1
+		manpower_in_accepted_culture_provinces = 0.20
+		vassal_income = -0.1
+		governing_capacity = 50
+	}
+	fixed_rank = 2
+	government_abilities = { pf_per_centralization_mechanic }
+}
+
+pf_collapsed_zoroastrian_theocracy = {
+	icon = "zoroastrian_theocracy"
+	potential = {
+		tag = PER
+		has_country_flag = pf_per_centralization_collapsed
+	}
+	valid_for_nation_designer = no
+	valid_for_new_country = no
+	lock_level_when_selected = yes
+
+	modifiers = {
+		church_privilege_slots = 2
+		church_influence_modifier = 0.2
+		stability_cost_modifier = 0.5
+		governing_capacity_modifier = -0.5
+		min_autonomy = 25
+	}
+	fixed_rank = 1
+}
+
+pf_centralized_zoroastrian_theocracy = {
+	icon = "zoroastrian_theocracy"
+	allow_normal_conversion = yes
+	potential = {
+		tag = PER
+		has_country_flag = pf_per_centralization_completed
+		NOT = { has_country_flag = pf_per_persian_empire }
+	}
+	valid_for_nation_designer = no
+	valid_for_new_country = no
+	lock_level_when_selected = yes
+
+	modifiers = {
+		church_privilege_slots = 2
+		church_influence_modifier = 0.1
+		manpower_in_accepted_culture_provinces = 0.15
+		global_tax_modifier = 0.2
+		reduced_liberty_desire = -50
+		governing_capacity = 100
+	}
+	fixed_rank = 2
+	custom_attributes = {
+		pf_per_can_create_satrapies = yes
+	}
+}
+
+pf_zoroastrian_theocracy_empire = {
+	icon = "zoroastrian_theocracy"
+	allow_normal_conversion = yes
+	potential = {
+		tag = PER
+		has_country_flag = pf_per_persian_empire
+	}
+	valid_for_nation_designer = no
+	valid_for_new_country = no
+	lock_level_when_selected = yes
+
+	modifiers = {
+		church_privilege_slots = 2
+		manpower_in_accepted_culture_provinces = 0.25
+		global_tax_modifier = 0.2
+		governing_capacity = 200
+	}
+	fixed_rank = 3
+	custom_attributes = {
+		pf_per_can_create_satrapies = yes
+		pf_per_can_grand_persian_offensive = yes
+	}
+}
+
+pf_persian_zealotry_reform = {
+	icon = "zoroastrian_theocracy"
+	allow_normal_conversion = yes
+	potential = {
+		tag = PER
+		has_country_flag = pf_per_persian_zealotry_unlocked
+	}
+	modifiers = {
+		tolerance_own = 2
+		tolerance_heathen = -2
+		global_missionary_strength = 0.03
+		manpower_in_true_faith_provinces = 0.1
+	}
+}
+
+pf_athens_archon = {
+	potential = {
+		tag = ATH
+	}
+
+	modifiers = {
+		prestige_per_development_from_conversion = 0.33
+		tolerance_own = 1
+		church_influence_modifier = 0.2
+		#demiarchons_privilege_slots = -3
+	}
+	valid_for_nation_designer = no
+	icon = "zeus"
+	allow_normal_conversion = yes
+
+	papacy = yes
+	allow_convert = no
+
+	lock_level_when_selected = yes
+	fixed_rank = 2
+
+	custom_attributes = {
+		locked_government_type = yes
+		has_college_of_demiarchons = yes
+	}
+	government_abilities = {
+		eusebeia_mechanic
+	}
+}
+
+pf_imamke = {
+	potential = {
+		tag = YEM
+		religion = sunni
+	}
+
+	modifiers = {
+		relation_with_same_religion = 25
+		reverse_relation_with_same_religion = 25
+		tolerance_own = 1
+		church_influence_modifier = 0.2
+	}
+	valid_for_nation_designer = no
+	icon = "imamke"
+	allow_normal_conversion = yes
+
+	allow_convert = no
+
+	lock_level_when_selected = yes
+	fixed_rank = 2
+
+	custom_attributes = {
+		locked_government_type = yes
+		royal_marriage = yes
+	}
+}
+
+pf_empowered_imamke = {
+	potential = {
+		has_country_flag = unlocked_empowered_imamke_flag
+		religion = sunni
+	}
+
+	modifiers = {
+		diplomatic_reputation = 1
+		same_religion_advisor_cost = -0.2
+		tolerance_own = 3
+		church_loyalty_modifier = 0.1
+	}
+	valid_for_nation_designer = no
+	icon = "imamke"
+	allow_normal_conversion = yes
+
+	allow_convert = no
+
+	lock_level_when_selected = yes
+	fixed_rank = 3
+
+	custom_attributes = {
+		locked_government_type = yes
+		royal_marriage = yes
+	}
+}
+
+pf_mubarakid_recruitment = {
+	potential = {
+		has_country_flag = unlock_t5_mabarakid_reform_flag
+	}
+
+	modifiers = {
+		max_general_fire = 1
+		army_tradition_from_battle = 0.5
+	}
+	icon = "imamke"
+
+	conditional = {
+		allow = { has_dlc = "Origins" }
+		allow_cawa = yes
+	}	
+}
+
+pf_reformed_immortals = {
+	icon = "zoroastrian_persian_government_reform"
+	potential = {
+		OR = {
+			tag = PER
+			is_subject_of_type_with_overlord = {
+				who = PER
+				type = satrapy
+			}
+			tag = AAE
+			has_unlocked_government_reform = {
+				government_reform = pf_reformed_immortals
+			}
+		}
+	}
+
+	modifiers = {
+		has_qizilbash = yes
+		allowed_qizilbash_fraction = 0.2
+		morale_damage_received = -0.05
+	}
+
+	valid_for_nation_designer = no
+	allow_normal_conversion = yes
+}
+
+
+pf_jabal_hikma = {
+	icon = commander_king_reform
+	allow_normal_conversion = no
+	potential = {
+		is_or_was_tag = { tag = ADF }
+	}
+	modifiers = {
+		same_religion_advisor_cost = -0.1
+		manpower_in_true_faith_provinces = 0.2
+		church_loyalty_modifier = 0.1
+	}
+	custom_attributes = {
+		seizing_land_no_rebels_from_estate_church = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+theodokos_theocracy = {
+	icon = tdk_theocracy
+	allow_normal_conversion = yes
+	potential = {
+		tag = TDK
+		has_country_flag = tdk_theocratic_flag
+	}
+	lock_level_when_selected = yes
+	legacy_equivalent = feudal_theocracy_legacy
+	# maintain_dynasty = yes
+
+	lock_level_when_selected = yes
+	# can_change_primary_culture = no
+
+	modifiers = {
+		cb_on_religious_enemies = yes
+		max_absolutism = 10
+		missionaries = 1
+		max_absolutism_effect = 0.1
+		governing_capacity = 100
+	}
+	custom_attributes = {
+		has_sacred_orders = yes
+		enables_aristocratic_idea_group = no
+		enables_divine_idea_group = yes
+	}
+	government_abilities = {
+		theodokos_enlightenment
+	}
+	assimilation_cultures = {
+		semitic = {
+			tolerance_own = 1
+		}
+		united_greek = {
+			administrative_efficiency = 0.05
+			discipline = 0.05
+		}
+		new_germanic = {
+			infantry_power = 0.1
+		}
+		new_celtic = {
+			ship_durability = 0.1
+		}
+		scandinavian = {
+			galley_power = 0.1
+		}
+   	finnic = {
+			hostile_attrition = 0.5
+		}
+   	old_celtic = {
+			ship_durability = 0.1
+		}
+   	gallic = {
+			manpower_recovery_speed = 0.25
+		}
+   	caucasian_armenian = {
+			defensiveness = 0.2
+		}
+   	anatolian_greek = {
+			administrative_efficiency = 0.025
+		}
+   	levantine_greek = {
+			administrative_efficiency = 0.025
+		}
+   	egyptian_greek = {
+			discipline = 0.025
+		}
+   	north_african = {
+			caravan_power = 0.25
+		}
+   	old_germanic = {
+			global_trade_goods_size_modifier = 0.1
+		}
+	north_mongol = {
+			cavalry_power = 0.1
+		}
+   	south_mongol = {
+			cavalry_cost = -0.15
+		}
+   	pagan_baltic = {
+			trade_efficiency = 0.1
+		}
+   	germanic_carpathian = {
+			siege_ability = 0.1
+		}
+   	pagan_slavic = {
+			advisor_cost = -0.1
+		}
+   	suebian = {
+			colonist_placement_chance = 0.05
+		}
+   	euro_punic = {
+			naval_forcelimit_modifier = 0.1
+		}
+   	italo_punic = {
+			diplomatic_reputation = 1
+		}
+   	illyrian = {
+			movement_speed = 0.1
+		}
+   	macedonian_greek = {
+			discipline = 0.025
+		}
+   	zoroastrian_persian = {
+			missionaries = 1
+		}
+   	pagan_arabic = {
+			global_missionary_strength = 0.02
+		}
+   	kemetic = {
+			production_efficiency = 0.1
+		}
+   	mesopotamian = {
+			prestige_decay = -0.01
+		}
+		altaic = {
+			artillery_cost = -0.1
+		}
+		burman = {
+			free_leader_pool = 1
+		}
+		central_indic = {
+			land_attrition = -0.1
+		}
+		east_asian = {
+			state_maintenance_modifier = -0.2
+		}
+		kongo_group = {
+			heir_chance = 0.5
+		}
+		baridun = {
+			manpower_in_true_faith_provinces = 0.1
+		}
+		dravidian = {
+			global_trade_goods_size_modifier = 0.05
+		}
+		african = {
+			global_tax_income = 10
+		}
+		eastern_aryan = {
+			production_efficiency = 0.05
+		}
+		evenks = {
+			cavalry_flanking = 0.2
+		}
+		great_lakes_group = {
+			loot_amount = 0.5
+		}
+		hindusthani = {
+			core_creation = -0.1
+		}
+		japanese_g = {
+			land_morale = 0.1
+		}
+		kamchatkan_g = {
+			hostile_attrition = 1
+		}
+		korean_g = {
+			idea_cost = -0.05
+		}
+		malay = {
+			merchants = 1
+		}
+		mande = {
+			tolerance_heretic = 1
+		}
+		pacific = {
+			global_sailors_modifier = 0.1
+		}
+		sahelian = {
+			movement_speed = 0.1
+		}
+		southeastasian_group = {
+			development_cost = -0.05
+		}
+		southern_african = {
+			inflation_reduction = 0.05
+		}
+		thai_group = {
+			build_cost = -0.05
+		}
+		tibetan_group = {
+			prestige_per_development_from_conversion = 0.5
+		}
+		finno_ugric = {
+			prestige_decay = -0.01
+		}
+		west_african = {
+			global_autonomy = -0.01
+		}
+		western_aryan = {
+			trade_efficiency = 0.05
+		}
+	}
+}
+
+
+
+dzintara_theocracy_reform = {
+	icon = rabbi
+	allow_normal_conversion = no
+	potential = {
+		has_country_flag = dzintara_chose_theocracy_flag
+	}
+	modifiers = {
+		warscore_cost_vs_other_religion = -0.1
+		manpower_in_true_faith_provinces = 0.25
+		missionaries = 1
+	}
+	custom_attributes = {
+		unlock_great_holy_war_cb = yes
+	}
+	ai = {
+		factor = 5
+	}
+} 
+
+
+
+ashigi_clerical_state = {
+	icon = rabbi
+	allow_normal_conversion = no
+	potential = {
+		have_had_reform = ashigi_clerical_state
+	}
+	modifiers = {
+		church_loyalty_modifier = 0.1
+		manpower_in_true_faith_provinces = 0.25
+		missionaries = 1
+	}
+	custom_attributes = {
+		unlock_great_holy_war_cb = yes
+	}
+	ai = {
+		factor = 5
+	}
+} 
+
+
+dephene_theocracy_reform = {
+	icon = delphene_theocracy
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		OR = {
+			tag = KAR
+			was_tag = KAR
+			has_country_flag = unlocked_delphene_theocracy_reform_flag
+		}
+	}	
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	modifiers = {
+		church_influence_modifier = 0.1
+		diplomats = 1
+		global_tax_modifier = 0.1
+	}
+	custom_attributes = {
+		royal_marriage = yes
+		same_religion_subject_bonus = yes
+		locked_government_type = yes
+	}
+	ai = {
+		factor = 5
+	}
+} 
+
+
+temple_synod_authority_reform = {
+	icon = rabbi
+	allow_normal_conversion = no
+	potential = {
+		has_country_flag = unlock_t4_temple_synod_authority_reform_flag
+	}	
+	modifiers = {
+		missionaries = 2
+		church_influence_modifier = 0.1
+	}
+	custom_attributes = {
+		royal_marriage = yes
+		same_religion_subject_bonus = yes
+		reform_progress_from_advisors = yes
+	}
+	ai = {
+		factor = 5
+	}
+} 
+
+
+mandate_of_rod = {
+	icon = regionally_elected_commanders
+	allow_normal_conversion = no
+	potential = {
+		has_country_flag = unlocked_mandate_of_rod_reform_flag
+	}
+	modifiers = {
+		same_religion_advisor_cost = -0.1
+		technology_cost = -0.1
+		has_mamluks = yes
+		allowed_mamluks_fraction = 0.1
+	}
+	custom_attributes = {
+		unlock_great_holy_war_cb = yes
+	}
+	ai = {
+		factor = 5
+}
+} 

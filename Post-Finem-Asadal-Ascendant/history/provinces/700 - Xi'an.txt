@@ -1,7 +1,10 @@
 #700 - Shaanxi
-
-culture = xibei
-religion = confucianism
+owner = TNG
+controller = TNG
+add_core = TNG
+is_city = yes
+culture = tabgatch
+religion = vajrayana
 capital = "Xi'an"
 trade_goods = grain
 hre = no

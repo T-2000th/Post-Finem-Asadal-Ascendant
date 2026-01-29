@@ -1,0 +1,386 @@
+
+#Rabim Qahal for Carthage
+
+pf_rabim_qahal = {
+	icon = "rabim_qahal"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	royal_marriage = yes
+	potential = {
+		OR = {
+			tag = CAR
+			has_country_flag = enabled_rabim_qahal_flag
+		}
+	}
+	government_abilities = {
+		car_rabim_qahal
+	}
+	modifiers = {
+		global_unrest = -1
+		burghers_loyalty_modifier = 0.1
+		reelection_cost = 0.25
+		max_absolutism = -10
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+	duration = 4
+	custom_attributes = {		
+		cannot_become_dictatorship = yes
+		enables_plutocratic_idea_group = no
+		enables_aristocratic_idea_group = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+}
+
+pf_quinquereme_shipyards = {
+	icon = "war_ship"
+	potential = {
+		has_country_flag = pf_quinquereme_allowed_flag
+	}
+	modifiers = {
+		has_man_of_war = yes
+		allowed_man_of_war_fraction = 0.2
+		sailors_recovery_speed = 0.2
+	}
+	# custom_attributes = {
+	# 	buffed_strong_duchies = yes #+5% Loyalty
+	# }
+	
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+pf_syncretic_state = {
+	icon = "clergyman"
+	potential = {
+		 OR = {
+		  has_reform = pf_syncretic_state
+		  have_had_reform = pf_syncretic_state
+	  }
+	}
+
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	has_term_election = no
+	valid_for_new_country = yes
+	modifiers = {
+		 no_religion_penalty = yes
+		 religious_unity = 1
+		 can_not_build_missionaries = yes
+		 tolerance_own = -0.5
+	  max_absolutism = -10
+		 reverse_relation_with_same_religion = -10
+	}
+	
+	custom_attributes = {
+		 enables_plutocratic_idea_group = no
+	  enables_divine_idea_group = yes
+	}
+	ai = {
+		 factor = 100
+	}
+}
+
+
+#War Elephant T5 for Carthage
+pf_war_elephant_stables = {
+	icon = "war_elephants"
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = allowed_war_elephants_flag
+	}
+	modifiers = {
+		can_recruit_cossacks = yes
+		allowed_cossack_fraction = 0.1
+		shock_damage = 0.1
+		# cavalry_cost = -0.2
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+#War Elephant T5 for Carthage
+cataphract_stables_reform = {
+	icon = cataphract_stables
+	allow_normal_conversion = yes
+	potential = {
+		has_country_flag = unlock_t5_cataphract_reform_flag
+	}
+	modifiers = {
+		can_recruit_hussars = yes
+		amount_of_hussars = 6
+		cavalry_fire = 0.5
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+#Suebi Republic
+pf_suebi_republic = {
+	icon = "parliament_hall"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	potential = {
+		tag = SUE
+		has_global_flag = had_crown_of_putty_diasaster_suebipf
+	}
+	modifiers = {
+		governing_capacity = 100
+		reelection_cost = -0.25
+		candidate_random_bonus = 2
+		advisor_cost = -0.15
+	}
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+	ai = {
+		factor = 5
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+#Punicum Government
+pf_provnar_qahal = {
+	icon = "parliament_hall"
+	allow_normal_conversion = no
+	lock_level_when_selected = yes
+	republic = yes
+	boost_income = yes
+	potential = {
+		is_or_was_tag = { tag = PCM }
+	}
+	modifiers = {
+		governing_capacity = -100
+		merchants = 1
+		diplomatic_reputation = 2
+		max_absolutism = -40
+	}
+	conditional = {
+		allow = { 
+			OR = {
+				has_dlc = "Common Sense"
+				has_dlc = "Domination"
+			}
+		}
+		has_parliament = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city_legacy
+	}
+	ai = {
+		factor = 5
+	}
+	queen = yes
+	royal_marriage = yes
+	custom_attributes = {
+		locked_government_type = yes
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		election_on_death = yes
+		lottery_election = yes
+		cannot_become_dictatorship = yes
+		is_merchant_republic = yes
+	}
+	has_term_election = no
+}
+
+
+dzintara_republic_reform = {
+	icon = restoration_of_the_senate_reform
+	allow_normal_conversion = no
+	potential = {
+		has_country_flag = dzintara_chose_republic_flag
+	}
+	modifiers = {
+		max_absolutism = -10
+		global_unrest = -2
+		advisor_cost = -0.2
+	}
+	custom_attributes = {
+		has_parliament = yes
+		reform_progress_from_advisors = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+ashigi_parliament = {
+	icon = restoration_of_the_senate_reform
+	allow_normal_conversion = no
+	potential = {
+		have_had_reform = ashigi_parliament
+	}
+	modifiers = {
+		global_unrest = -2
+		advisor_cost = -0.1
+		advisor_pool = 1
+		global_tax_modifier = 0.2
+	}
+	custom_attributes = {
+		has_parliament = yes
+		republican_tradition_from_advisors = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+
+qaraqalan_merchant_republic = {
+	icon = restoration_of_the_senate_reform
+	allow_normal_conversion = no
+	potential = {
+		have_had_reform = qaraqalan_merchant_republic
+	}
+	modifiers = {
+		merchants = 1
+		global_own_trade_power = 0.1
+	}
+	custom_attributes = {
+		republican_tradition_from_advisors = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Res Publica"
+		}
+		can_use_trade_post = yes
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Mare Nostrum"
+		}
+		can_form_trade_league = yes
+		trade_city_reform = trading_city_legacy
+	}
+	queen = yes
+	royal_marriage = yes
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+		election_on_death = yes
+		lottery_election = yes
+		cannot_become_dictatorship = yes
+		is_merchant_republic = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+pontic_oligarkhia = {
+	icon = pontic_oligarkhia
+	allow_normal_conversion = no
+	duration = 6
+	legacy_equivalent = oligarchic_republic
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	potential = {
+		is_or_was_tag = { tag = FEO } 
+	}
+	modifiers = {
+		burghers_influence_modifier = 0.15
+		land_forcelimit_modifier = 0.1
+		has_streltsy = yes
+		allowed_streltsy_fraction = 0.25
+	}
+	custom_attributes = {
+		enables_plutocratic_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+veche_of_kinfolk = {
+	icon = protectorate_parliament_reform
+	allow_normal_conversion = no
+	royal_marriage = yes
+	potential = {
+		has_country_flag = unlocked_veche_of_kinfolk_reform_flag
+	}
+	modifiers = {
+		stability_cost_modifier = -0.1
+		burghers_loyalty_modifier = 0.1
+		monarch_diplomatic_power = 2
+		has_mamluks = yes
+		allowed_mamluks_fraction = 0.1
+	}
+	custom_attributes = {
+		has_parliament = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+
+alm_republic_reform = {
+	icon = protectorate_parliament_reform
+	allow_normal_conversion = no
+	royal_marriage = yes
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = alm_republic_reform
+		}
+	}
+	modifiers = {
+		diplomats = 1
+		envoy_travel_time = -0.25
+		advisor_cost = -0.1
+		advisor_pool = 1
+	}
+	government_abilities = {
+		might_vs_mercy_mechanic
+	}
+	custom_attributes = {
+		has_parliament = yes
+	}
+	ai = {
+		factor = 5
+	}
+}
+

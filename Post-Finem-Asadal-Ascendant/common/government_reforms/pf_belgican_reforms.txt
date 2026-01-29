@@ -1,0 +1,102 @@
+brg_belgican_absolutism = {
+	icon = "admiral_king_reform"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = brg_belgican_absolutism
+		}
+	}
+	custom_attributes = {
+		seizing_land_no_rebels = yes
+	}
+	modifiers = {
+		max_absolutism = 10
+		core_creation = -0.1
+		all_estate_influence_modifier = -0.1
+	}
+	ai = {
+		factor = 1 #generic
+	}
+}
+
+brg_brogilo_charter = {
+	icon = "laesio_enormis_reform"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = brg_brogilo_charter
+		}
+		NOT = {
+			has_country_flag = brg_brogilo_2
+		}
+	}
+	modifiers = {
+		trade_efficiency = 0.1
+		naval_forcelimit_modifier = 0.1
+		burghers_loyalty_modifier = -0.05
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+brg_brogilo_charter_2 = {
+	icon = "modern_economics_reform"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = brg_brogilo_charter_2
+		}
+	}
+	modifiers = {
+		development_cost = -0.05
+		trade_efficiency = 0.1
+		mercantilism_cost = -0.25
+		burghers_influence_modifier = 0.1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+
+brg_andawerpum_engineering_college = {
+	icon = "military_engineers"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = brg_andawerpum_engineering_college
+		}
+	}
+	trigger = {
+		owns_core_province = 1744
+	}
+	modifiers = {
+		artillery_level_modifier = 1
+		artillery_barrage_cost = -0.5
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+brg_capitalist_system = {
+	icon = "paper_money_map"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = brg_capitalist_system
+		}
+	}
+	modifiers = {
+		trade_company_investment_cost = -0.1
+		global_trade_goods_size_modifier = 0.05
+		technology_cost = -0.05
+	}
+	custom_attributes = {
+		building_manufacturies_reduces_dev_cost = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}

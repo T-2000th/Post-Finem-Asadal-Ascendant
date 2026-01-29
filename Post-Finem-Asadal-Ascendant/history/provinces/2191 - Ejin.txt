@@ -1,7 +1,7 @@
 # 2191 - Ejin
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = TNG
+controller = TNG
+add_core = TNG
 culture = oirats
 religion = vajrayana
 capital = "Ejin"

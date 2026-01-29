@@ -1,6 +1,8 @@
 #4223 - Hetao
-
-
+owner = TNG
+controller = TNG
+add_core = TNG
+is_city = yes
 culture = mongol
 religion = vajrayana
 capital = "Otog"

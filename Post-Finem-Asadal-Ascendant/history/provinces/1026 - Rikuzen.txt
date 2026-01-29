@@ -9,6 +9,10 @@ hre = no
 base_tax = 3
 base_manpower = 3
 base_production = 3
+owner = ANU
+controller = ANU
+add_core = ANU
+is_city = yes
 
 
 discovered_by = chinese

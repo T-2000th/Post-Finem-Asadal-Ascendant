@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = confucian_bureaucracy
+primary_culture = biguk
+religion = confucianism
+technology_group = chinese
+capital = 1019

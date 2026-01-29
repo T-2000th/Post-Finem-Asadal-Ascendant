@@ -1,0 +1,80 @@
+arb_kingdom_of_the_dunes = {
+	icon = "kingdom_of_the_dunes"
+
+	potential = {
+		tag = ARB
+	}
+	modifiers = {
+		max_absolutism = 10
+		min_autonomy = 10
+		cavalry_power = 0.1
+		cavalry_cost = -0.1
+		num_accepted_cultures = 1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+arb_desert_logistics = {
+	icon = "native_land_tradition_reform"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = arb_desert_logistics
+		}
+	}
+	modifiers = {
+		land_attrition = -0.25
+		global_supply_limit_modifier = 0.25
+		reinforce_speed = 0.25
+		regiment_manpower_usage = -0.05
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+arb_decentralized_faith = {
+	icon = "organising_our_religion_reform"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = arb_decentralized_faith
+		}
+	}
+	custom_attributes = {
+		converting_province_adds_dev = yes
+	}
+	modifiers = {
+		tolerance_own = 1
+		religious_unity = 0.2
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+arb_integrated_satrapies = {
+	icon = "provincial_government"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = arb_integrated_satrapies
+		}
+	}
+	custom_attributes = {
+		pf_per_can_create_satrapies = yes
+	}
+	modifiers = {
+		years_of_nationalism = -5
+		liberty_desire_from_subject_development = -0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}

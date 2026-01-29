@@ -1,0 +1,399 @@
+pf_ealdorthing = {
+	icon = "festival"
+	heir = no
+	potential = {
+		tag = SXY
+	}
+	custom_attributes = {
+		ealdorthing_mechanic = yes
+	}
+
+	lock_level_when_selected = yes
+	modifiers = {
+		vassal_forcelimit_bonus = 0.25
+		num_accepted_cultures = 2
+		max_absolutism = -30
+	}
+}
+
+pf_saxon_modernisation_reform = {
+	icon = "organising_our_religion_reform"
+	potential = {
+		has_country_flag = pf_enforced_modernization
+	}
+	allow_normal_conversion = no
+	modifiers = {
+		global_unrest = 1
+	}
+
+	government_abilities = {
+		saxon_modernization_mechanic
+	}
+}
+
+pf_saxon_horde = {
+	icon = "festival"
+	heir = no
+	potential = {
+		has_country_flag = sxy_horde_reform
+	}
+	
+	nomad = yes
+	raze_province = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 100
+
+	lock_level_when_selected = yes
+
+	start_territory_to_estates = 0.5
+
+	modifiers = {
+		loot_amount = 0.50
+		horde_unity = 0.5
+		cav_to_inf_ratio = 0.25
+		movement_speed = 0.2
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		years_of_nationalism = -5
+		reinforce_cost_modifier = -0.5
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
+		ealdorthing_mechanic = yes
+	}
+}
+
+pf_saxon_horde_2 = {
+	icon = "festival"
+	heir = no
+	potential = {
+		has_country_flag = sxy_horde_reform_2
+	}
+	
+	nomad = yes
+	raze_province = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 100
+
+	lock_level_when_selected = yes
+
+	start_territory_to_estates = 0.5
+
+	modifiers = {
+		administrative_efficiency = 0.025
+		loot_amount = 0.50
+		horde_unity = 0.5
+		cav_to_inf_ratio = 0.25
+		movement_speed = 0.2
+		global_manpower_modifier = 0.2
+		land_forcelimit_modifier = 0.2
+		years_of_nationalism = -5
+		reinforce_cost_modifier = -0.5
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+}
+
+pf_saxon_monarchy = {
+	icon = "commander_king_reform"
+	potential = {
+		tag = SXY
+	}
+	custom_attributes = {
+		integrate_gaus_for_free = yes
+	}
+	modifiers = {
+		diplomatic_annexation_cost = -0.2
+		governing_capacity = 50
+		max_absolutism = 10
+	}
+}
+
+pf_saxon_republic = {
+	icon = "commander_king_reform"
+	potential = {
+		tag = SXY
+	}
+
+	modifiers = {
+		num_accepted_cultures = 2
+		diplomatic_upkeep = 1
+		governing_capacity = 50
+	}
+	custom_attributes = {
+		has_parliament = yes
+		integrate_gaus_for_free = yes
+	}
+}
+
+pf_saxon_theocracy = {
+	icon = "commander_king_reform"
+	potential = {
+		tag = SXY
+	}
+	custom_attributes = {
+		integrate_gaus_for_free = yes
+	}
+	modifiers = {
+		global_missionary_strength = 0.01
+		devotion = 0.5
+		governing_capacity = 50
+	}
+}
+
+pf_sxy_empowered_aethelric = {
+	icon = "feudal_levies"
+	potential = {
+		has_country_flag = sxy_unlock_aethelric_reform
+	}
+
+	modifiers = {
+		global_manpower_modifier = 0.15
+		nobles_loyalty_modifier = 0.1
+	}
+}
+
+pf_sxy_dismantle_caste_system = {
+	icon = "generic_people"
+	potential = {
+		has_country_flag = sxy_unlock_no_caste_reform
+	}
+
+	modifiers = {
+		global_unrest = -1
+		promote_culture_cost = -0.25
+	}
+}
+
+pf_sxy_reformed_gau_system = {
+	icon = "landscape"
+	potential = {
+		has_country_flag = sxy_unlock_gau_reform_2
+	}
+
+	modifiers = {
+		reduced_liberty_desire = 10
+		governing_capacity_modifier = 0.2
+	}
+}
+
+pf_sxy_trust_the_ealdors = {
+	icon = "dutch_republic"
+	potential = {
+		has_country_flag = sxy_unlock_ealdors_reform
+	}
+
+	modifiers = {
+		nobles_loyalty_modifier = 0.1
+		no_stability_loss_on_monarch_death = yes
+	}
+}
+
+pf_sxy_modernized_ealdorthing = {
+	icon = "laesio_enormis_reform"
+	potential = {
+		has_country_flag = sxy_unlock_ealdorthing_flag
+	}
+	custom_attributes = {
+		has_parliament = yes
+	}
+	modifiers = {
+		embracement_cost = -0.25
+		core_creation = -0.1
+	}
+}
+
+pf_ostiedlung = {
+	icon = "spy"
+	potential = {
+		has_country_flag = sxy_ostiedlung_flag
+	}
+	modifiers = {
+		years_of_nationalism = 3
+		culture_conversion_time = -0.1
+		culture_conversion_cost = -0.33
+	}
+}
+
+pf_german_empire = {
+	icon = "holy_roman_emperor"
+	potential = {
+		tag = GMN
+		OR = {
+			NOT = {
+				government = tribal
+			}
+			has_country_flag = gmn_unlock_german_empire
+		}
+	}
+	custom_attributes = {
+		integrate_gaus_for_free = yes
+	}
+	modifiers = {
+		administrative_efficiency = 0.05
+		diplomatic_annexation_cost = -0.2
+		governing_capacity = 150
+		max_absolutism = 10
+	}
+}
+
+pf_rikestag = {
+	icon = "holy_roman_emperor"
+	potential = {
+		tag = GMN
+	}
+	modifiers = {
+		administrative_efficiency = 0.05
+		num_accepted_cultures = 2
+		diplomatic_upkeep = 1
+		governing_capacity = 150
+	}
+	custom_attributes = {
+		has_parliament = yes
+		integrate_gaus_for_free = yes
+	}
+}
+
+pf_germanic_holy_state = {
+	icon = "holy_roman_emperor"
+	potential = {
+		tag = GMN
+	}
+	modifiers = {
+		administrative_efficiency = 0.05
+		global_missionary_strength = 0.02
+		devotion = 0.5
+		governing_capacity = 150
+	}
+	custom_attributes = {
+		integrate_gaus_for_free = yes
+	}
+}
+
+pf_great_ealdorthing = {
+	icon = "map_2"
+	potential = {
+		tag = GMN
+		government = tribal
+		NOT = {
+			has_country_flag = gmn_unlock_german_empire
+		}
+	}
+	custom_attributes = {
+		ealdorthing_mechanic = yes
+	}
+	lock_level_when_selected = yes
+	modifiers = {
+		administrative_efficiency = 0.05
+		num_accepted_cultures = 2
+		vassal_forcelimit_bonus = 0.25
+		max_absolutism = -10
+	}
+}
+
+pf_german_tribal_system = {
+	icon = "soldiers_4"
+	potential = {
+		has_country_flag = gmn_unlock_generic_reforms_t1
+	}
+	modifiers = {
+		ae_impact = -0.1
+		institution_spread_from_true_faith = 0.15
+	}
+}
+
+pf_germanic_feudalism = {
+	icon = "peasants"
+	potential = {
+		has_country_flag = gmn_unlock_generic_reforms_t1
+	}
+	modifiers = {
+		diplomatic_upkeep = 1
+		global_trade_goods_size_modifier = 0.1
+	}
+}
+
+pf_reform_the_ealdorjura = {
+	icon = "fiqh_laws"
+	potential = {
+		has_country_flag = gmn_unlock_ealdorjura
+	}
+	modifiers = {
+		core_creation = -0.1
+		no_stability_loss_on_monarch_death = yes
+	}
+}
+
+pf_ealdor_lords = {
+	icon = "neutral_ground"
+	potential = {
+		has_country_flag = gmn_unlock_generic_reforms_t2
+	}
+	modifiers = {
+		global_manpower_modifier = 0.2
+		nobles_influence_modifier = 0.1
+	}
+}
+
+pf_unite_the_faiths = {
+	icon = "all_under_tengri_reform"
+	potential = {
+		has_country_flag = gmn_unlock_one_faith_reform
+	}
+	modifiers = {
+		global_heretic_missionary_strength = 0.02
+		tolerance_own = 1
+	}
+}
+
+pf_great_germanic_tribe = {
+	icon = "all_under_tengri_reform"
+	potential = {
+		has_country_flag = gmn_unlock_great_tribe
+	}
+	modifiers = {
+		governing_capacity = 100
+		global_institution_spread = 0.25
+		embracement_cost = -0.25
+		prestige = 0.5
+	}
+}
+
+pf_sxy_empower_gaugrafs = {
+	icon = "landscape"
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = pf_sxy_empower_gaugrafs
+		}
+	}
+
+	custom_attributes = {
+		gaugrafs_give_loyalty = yes
+	}
+
+	modifiers = {
+		reduced_liberty_desire = 10
+		nobles_influence_modifier = 0.1
+	}
+}
+
+pf_sxy_germanic_steel = {
+	icon = "industrialists_reform"
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = pf_sxy_germanic_steel
+		}
+	}
+
+	custom_attributes = {
+		enables_estate_industrialists = yes
+	}
+
+	modifiers = {
+		global_trade_goods_size_modifier = 0.05
+		development_cost = -0.05
+	}
+}

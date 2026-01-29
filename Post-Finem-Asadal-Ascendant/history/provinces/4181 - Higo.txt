@@ -9,7 +9,10 @@ hre = no
 base_tax = 2
 base_manpower = 3
 base_production = 3
-
+is_city = yes
+owner = TKS
+controller = TKS
+add_core = TKS
 
 discovered_by = chinese
 discovered_by = MCH

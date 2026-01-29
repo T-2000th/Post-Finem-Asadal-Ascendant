@@ -1,7 +1,7 @@
-owner = KRC
-controller = KRC
-add_core = KRC
-culture = chahar
+owner = YAN
+controller = YAN
+add_core = YAN
+culture = mohe
 religion = vajrayana
 capital = "Josutu"
 trade_goods = livestock

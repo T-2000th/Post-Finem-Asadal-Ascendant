@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = korean_monarchy
+primary_culture = jinguk
+religion = mahayana
+technology_group = chinese
+capital = 1819

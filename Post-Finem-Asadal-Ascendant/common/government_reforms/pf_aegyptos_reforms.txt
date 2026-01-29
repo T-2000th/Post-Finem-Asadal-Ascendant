@@ -1,0 +1,35 @@
+aeg_egyptian_governors_reform = {
+	icon = "theme_system_reform"
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = aeg_egyptian_governors_reform
+		}
+	}
+	modifiers = {	
+		overextension_impact_modifier = -0.1
+		governing_capacity_modifier = 0.15
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+aeg_integrated_hyspaspistai_reform = {
+	icon = "modernized_furusiyya_reform"
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = aeg_integrated_hyspaspistai_reform
+		}
+	}
+	modifiers = {	
+		has_streltsy = yes
+		allowed_streltsy_fraction = 0.2
+		movement_speed = 0.1
+		nobles_loyalty_modifier = 0.1
+	}
+
+	ai = {
+		factor = 0.5 #generic
+	}
+}

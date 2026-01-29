@@ -1,7 +1,10 @@
 # 2177 - Ningwu
 
-
-culture = jin
+owner = WEI
+controller = WEI
+add_core = WEI
+is_city = yes
+culture = wuhuan
 religion = vajrayana
 capital = "Ningwu"
 trade_goods = grain

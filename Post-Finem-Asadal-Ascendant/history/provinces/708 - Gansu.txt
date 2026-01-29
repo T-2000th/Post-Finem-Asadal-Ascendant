@@ -1,6 +1,9 @@
 #708 - Gansu
-
-culture = xibei
+owner = TNG
+controller = TNG
+add_core = TNG
+is_city = yes
+culture = tabgatch
 religion = vajrayana
 capital = "Zhangye"
 trade_goods = horses

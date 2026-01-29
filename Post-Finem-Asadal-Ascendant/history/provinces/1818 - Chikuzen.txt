@@ -3,8 +3,10 @@
 latent_trade_goods = {
 	coal
 }
-
-
+is_city = yes
+owner = TKS
+controller = TKS
+add_core = TKS
 culture = koguk
 religion = confucianism
 capital = "Hakata"

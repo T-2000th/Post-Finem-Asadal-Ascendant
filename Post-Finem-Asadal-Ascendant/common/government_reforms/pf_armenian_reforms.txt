@@ -1,0 +1,91 @@
+arm_armenian_monarchy = {
+	icon = "armenian_tagavor"
+	allow_normal_conversion = no
+	allow_force_tributary = yes
+	lock_level_when_selected = yes
+	potential = {
+		tag = ARM
+		NOT = {
+			has_country_flag = arm_armenian_reform_unlock
+		}
+	}
+	modifiers = {
+		prestige = -0.5
+		all_estate_loyalty_equilibrium = -0.1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+arm_reformed_armenian_monarchy = {
+	icon = "armenian_tagavor"
+	allow_normal_conversion = no
+	allow_force_tributary = yes
+	potential = {
+		has_country_flag = arm_armenian_reform_unlock
+	}
+
+	modifiers = {
+		tolerance_heathen = 1
+		manpower_in_culture_group_provinces = 0.15
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+arm_hellenistic_nobility = {
+	icon = "reform_the_pronoiars_reform"
+	allow_normal_conversion = no
+	allow_force_tributary = yes
+	potential = {
+		tag = ARM
+	}
+
+	modifiers = {
+		idea_cost = -0.05
+		advisor_cost = -0.1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+arm_crossroads_of_faiths = {
+	icon = "stone_tablet"
+	allow_normal_conversion = no
+	allow_force_tributary = yes
+	potential = {
+		OR = {
+			tag = ARM
+			was_tag = ARM
+			tag = ALR
+			was_tag = ALR
+		}
+	}
+	modifiers = {
+		global_missionary_strength = -0.03
+		no_religion_penalty = yes
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}
+
+arm_iranian_heritage = {
+	icon = "black_army_reform"
+	allow_normal_conversion = no
+	allow_force_tributary = yes
+	potential = {
+		tag = ARM
+	}
+
+	modifiers = {
+		fire_damage = 0.1
+		land_forcelimit_modifier = 0.1
+	}
+	ai = {
+		factor = 0.5 #generic
+	}
+}

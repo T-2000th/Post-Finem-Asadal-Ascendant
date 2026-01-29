@@ -1,0 +1,34 @@
+llidaw_monarchy = {
+	icon = "queen"
+	# allow_normal_conversion = no
+	potential = {
+		OR = {
+			has_reform = llidaw_monarchy
+			have_had_reform = llidaw_monarchy
+		}
+	}
+	# lock_level_when_selected = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 15
+	nation_designer_trigger = {
+		has_dlc = "Domination"
+	}
+	start_territory_to_estates = 0.3
+	modifiers = {
+		max_absolutism = -20
+		global_unrest = -1
+		all_estate_loyalty_equilibrium = 0.05
+	}
+	government_abilities = {
+		brittonic_song_mechanic
+	}
+	conditional = {
+		allow = {
+			has_dlc = "Common Sense"
+		}
+		has_parliament = yes
+	}
+	ai = {
+		factor = 100
+	}
+}

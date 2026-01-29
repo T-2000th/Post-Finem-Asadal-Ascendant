@@ -1,7 +1,7 @@
 #4230 - Suwon
 
 
-culture = korean
+culture = korean_new
 religion = confucianism
 capital = "Suwon"
 trade_goods = chinaware
@@ -9,7 +9,10 @@ hre = no
 base_tax = 3
 base_production = 3
 base_manpower = 1
-
+is_city = yes
+owner = THW
+controller = THW
+add_core = THW
 
 discovered_by = chinese
 discovered_by = nomad_group

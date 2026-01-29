@@ -1,0 +1,70 @@
+hyp_finnic_plurality = {
+	icon = "cossacks"
+
+	potential = {
+		OR = {
+		culture_group = finnic
+		culture_group = greater_finnic
+		}
+	}
+	custom_attributes = {
+		hyp_culture_conversion_reform = yes
+	}
+	modifiers = {
+		culture_conversion_cost = -0.2
+		manpower_in_culture_group_provinces = 0.1
+	}
+	ai = {
+		factor = 1		#generic
+	}
+}
+
+hyp_ugric_tribes = {
+	icon = "pf_suomenusko_tribe"
+
+	potential = {
+		OR = {
+			culture_group = finnic
+			culture_group = greater_finnic
+		}
+	}
+	modifiers = {
+		hostile_attrition = 0.5
+		land_attrition = -0.25
+	}
+	ai = {
+		factor = 1		#generic
+	}
+}
+
+hyp_harmony_with_nature = {
+	icon = "sisters_of_tanit"
+
+	potential = {
+		has_unlocked_government_reform = {
+			government_reform = hyp_harmony_with_nature
+		}
+	}
+	modifiers = {
+		global_monthly_devastation = -0.05
+		monthly_veneration = 0.05
+	}
+}
+
+hyp_united_finnic_realm = {
+	icon = "shaman"
+
+	potential = {
+		OR = {
+			tag = HYP
+			was_tag = HYP
+		}
+	}
+	modifiers = {
+		hostile_attrition = 0.5
+		land_attrition = -0.25
+		culture_conversion_cost = -0.1
+		global_missionary_strength = 0.01
+		monarch_diplomatic_power = 1
+	}
+}

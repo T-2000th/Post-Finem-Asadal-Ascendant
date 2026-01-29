@@ -1,0 +1,35 @@
+#stuff
+vassal = {
+	first = YMT
+	second = OWR
+	start_date = 1444.1.1
+	end_date = 1572.1.1
+}
+
+alliance = {
+	first = KUD
+	second = YMT
+	start_date = 1444.1.1
+	end_date = 1572.1.1
+}
+
+alliance = {
+	first = KOS
+	second = KIB
+	start_date = 1444.1.1
+	end_date = 1572.1.1
+}
+
+alliance = {
+	first = TKS
+	second = IZM
+	start_date = 1444.1.1
+	end_date = 1572.1.1
+}
+
+alliance = {
+	first = ANU
+	second = KNU
+	start_date = 1444.1.1
+	end_date = 1572.1.1
+}

@@ -1,7 +1,7 @@
 #698 - Guyuan
 
 
-culture = mongol
+culture = tabgatch
 religion = vajrayana
 capital = "Ningxia"
 trade_goods = salt
@@ -9,7 +9,10 @@ hre = no
 base_tax = 3 
 base_production = 2
 base_manpower = 2
-
+owner = TNG
+controller = TNG
+add_core = TNG
+is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 

@@ -1,6 +1,9 @@
 #2742 - Gyeongseong
 
-
+owner = THW
+controller = THW
+add_core = THW
+is_city = yes
 culture = manchu
 religion = confucianism
 capital = "Gyeongseong"

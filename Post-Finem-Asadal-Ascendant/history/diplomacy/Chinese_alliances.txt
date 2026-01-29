@@ -1,0 +1,17 @@
+#Hwan Tributaries
+
+dependency = {
+	subject_type = "tributary_state"
+	first = THW
+	second = TKS
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = THW
+	second = RYU
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}

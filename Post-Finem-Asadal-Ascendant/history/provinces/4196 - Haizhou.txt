@@ -9,8 +9,10 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-
-
+owner = YAN
+controller = YAN
+add_core = YAN
+is_city = yes
 extra_cost = 10
 
 discovered_by = chinese

@@ -1,6 +1,9 @@
 #1822 - Suzhou
 
-
+owner = SNG
+controller = SNG
+add_core = SNG
+is_city = yes
 culture = wu
 religion = confucianism
 capital = "Suzhou"

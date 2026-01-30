@@ -9,10 +9,10 @@ hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 2
-
-
-
-
+owner = GAN
+controller = GAN
+add_core = GAN
+is_city = yes
 
 discovered_by = chinese
 discovered_by = nomad_group

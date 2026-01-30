@@ -1,7 +1,7 @@
 #696 - Baoding
 
 
-culture = chihan
+culture = wuhuan
 religion = confucianism
 capital = "Baoding"
 trade_goods = chinaware

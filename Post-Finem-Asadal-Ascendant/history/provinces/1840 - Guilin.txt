@@ -9,11 +9,10 @@ hre = no
 base_tax = 2 
 base_production = 2
 base_manpower = 2
-
-
-
-
-
+owner = GUN
+controller = GUN
+add_core = GUN
+is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
 

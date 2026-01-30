@@ -12,7 +12,10 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-
+owner = QIN
+controller = QIN
+add_core = QIN
+is_city = yes
 
 
 

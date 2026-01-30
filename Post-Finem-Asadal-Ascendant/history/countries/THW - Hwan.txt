@@ -6,3 +6,13 @@ religion = confucianism
 add_harmonized_religion = tengri_pagan_reformed
 primary_culture = korean_new
 capital = 735	# Han
+
+1399.1.1 = {
+	monarch = {
+		name = "Chao"
+		dynasty = "Dong"
+		adm = 4
+		dip = 4
+		mil = 4
+	}
+}

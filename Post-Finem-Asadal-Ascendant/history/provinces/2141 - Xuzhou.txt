@@ -1,10 +1,10 @@
 # 2141 - Xuzhou
 
-owner = YAN
-controller = YAN
-add_core = YAN
+owner = MOG
+controller = MOG
+add_core = MOG
 is_city = yes
-culture = zhongyuan
+culture = magyar
 religion = confucianism
 capital = "Xuzhou"
 trade_goods = iron

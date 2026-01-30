@@ -17,6 +17,7 @@ GUN = "countries/Guang.txt"
 CBO = "countries/Bo.txt"
 MYI = "countries/Mayi.txt"
 WEI = "countries/Wei.txt"
+MOG = "countries/Muge.txt"
 
 #Mainland Southeast Asia Nations
 #KWB = "countries/Kawsambi.txt"

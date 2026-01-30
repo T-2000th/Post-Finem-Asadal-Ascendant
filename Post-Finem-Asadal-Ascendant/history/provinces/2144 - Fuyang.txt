@@ -1,6 +1,9 @@
 # 2144 - Fuyang
 
-
+owner = SNG
+controller = SNG
+add_core = SNG
+is_city = yes
 culture = zhongyuan
 religion = confucianism
 capital = "Fuyang"

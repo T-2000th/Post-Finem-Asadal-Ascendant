@@ -4,7 +4,10 @@ latent_trade_goods = {
 	coal
 }
 
-
+owner = SNG
+controller = SNG
+add_core = SNG
+is_city = yes
 culture = hubei
 religion = confucianism
 capital = "Huangzhou"

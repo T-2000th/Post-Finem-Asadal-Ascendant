@@ -9,7 +9,10 @@ hre = no
 base_tax = 6 
 base_production = 6
 base_manpower = 4
-
+owner = CHC
+controller = CHC
+add_core = CHC
+is_city = yes
 
 center_of_trade = 1
 

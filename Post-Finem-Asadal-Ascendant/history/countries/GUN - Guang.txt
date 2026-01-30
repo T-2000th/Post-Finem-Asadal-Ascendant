@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = confucian_bureaucracy
 technology_group = chinese
-religion = confucianism
+religion = mahayana
 primary_culture = zhuang
 capital = 2161
 government_rank = 1

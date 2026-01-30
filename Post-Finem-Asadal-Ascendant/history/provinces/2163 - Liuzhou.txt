@@ -9,7 +9,10 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-
+owner = CBO
+controller = CBO
+add_core = CBO
+is_city = yes
 
 
 

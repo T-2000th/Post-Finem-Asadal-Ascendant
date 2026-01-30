@@ -9,10 +9,10 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-
-
-
-
+owner = WUU
+controller = WUU
+add_core = WUU
+is_city = yes
 
 discovered_by = chinese
 discovered_by = nomad_group

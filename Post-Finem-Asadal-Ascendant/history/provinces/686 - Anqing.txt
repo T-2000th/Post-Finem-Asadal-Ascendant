@@ -1,6 +1,9 @@
 #686 - Anqing (can't change file name)
 
-
+owner = SNG
+controller = SNG
+add_core = SNG
+is_city = yes
 culture = jianghuai
 religion = confucianism
 capital = "Anqing"

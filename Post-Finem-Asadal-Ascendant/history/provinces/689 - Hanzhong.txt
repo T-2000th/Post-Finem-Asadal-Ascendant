@@ -9,8 +9,10 @@ hre = no
 base_tax = 4 
 base_production = 4
 base_manpower = 3
-
-
+owner = SHU
+controller = SHU
+add_core = SHU
+is_city = yes
 add_core = QIN
 
 

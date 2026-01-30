@@ -9,7 +9,10 @@ hre = no
 base_tax = 9
 base_production = 9
 base_manpower = 3
-
+owner = SHU
+controller = SHU
+add_core = SHU
+is_city = yes
 
 
 discovered_by = chinese

@@ -9,12 +9,12 @@ capital = "Jianchang"
 trade_goods = grain
 hre = no
 base_tax = 2 
-base_production = 2
-base_manpower = 2
-
-
-
-
+base_production = 4
+base_manpower = 4
+owner = MNE
+controller = MNE
+add_core = MNE
+is_city = yes
 
 discovered_by = chinese
 discovered_by = nomad_group

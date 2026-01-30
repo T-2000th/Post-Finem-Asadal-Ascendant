@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = chinese_warlord
 technology_group = chinese
-religion = confucianism
+religion = mahayana
 primary_culture = bai
 capital = 675
 add_accepted_culture = yi

@@ -9,7 +9,10 @@ hre = no
 base_tax = 6 
 base_production = 6
 base_manpower = 2
-
+owner = WUU
+controller = WUU
+add_core = WUU
+is_city = yes
 
 
 

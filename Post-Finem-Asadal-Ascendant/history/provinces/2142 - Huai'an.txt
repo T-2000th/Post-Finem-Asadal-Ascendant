@@ -1,6 +1,9 @@
 # 2142 - Huai'an
 
-
+owner = SNG
+controller = SNG
+add_core = SNG
+is_city = yes
 culture = jianghuai
 religion = confucianism
 capital = "Huai'an"

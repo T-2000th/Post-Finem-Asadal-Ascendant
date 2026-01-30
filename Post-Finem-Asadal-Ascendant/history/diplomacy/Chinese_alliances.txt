@@ -15,3 +15,66 @@ dependency = {
 	start_date = 1444.1.1
 	end_date = 1609.4.5
 }
+
+march = {
+	first = YAN
+	second = MOG
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MNE
+	second = SHU
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MNE
+	second = CHC
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MNE
+	second = GUN
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = MNE
+	second = CBO
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = WUU
+	second = GAN
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = LNG
+	second = YUE
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = WEI
+	second = TNG
+	start_date = 1444.1.1
+	end_date = 1609.4.5
+}

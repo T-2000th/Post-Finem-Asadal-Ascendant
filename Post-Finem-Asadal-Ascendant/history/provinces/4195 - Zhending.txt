@@ -1,7 +1,7 @@
 #4195 - Zhending
 
 
-culture = chihan
+culture = wuhuan
 religion = confucianism
 capital = "Zhending"
 trade_goods = grain

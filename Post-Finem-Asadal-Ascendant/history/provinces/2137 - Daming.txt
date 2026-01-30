@@ -1,7 +1,7 @@
 # 2137 - Daming
 
 
-culture = chihan
+culture = magyar
 religion = confucianism
 capital = "Daming"
 trade_goods = grain
@@ -9,9 +9,9 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 2
-owner = YAN
-controller = YAN
-add_core = YAN
+owner = MOG
+controller = MOG
+add_core = MOG
 is_city = yes
 
 discovered_by = chinese

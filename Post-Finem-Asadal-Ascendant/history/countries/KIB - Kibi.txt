@@ -4,3 +4,13 @@ primary_culture = biguk
 religion = confucianism
 technology_group = chinese
 capital = 1019
+
+1420.1.1 = {
+	monarch = {
+		name = "Oura"
+		dynasty = "Kibi"
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

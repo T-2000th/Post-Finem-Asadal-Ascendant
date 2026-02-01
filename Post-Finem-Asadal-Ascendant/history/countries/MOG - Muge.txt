@@ -4,7 +4,7 @@ technology_group = nomad_group
 primary_culture = magyar
 religion = tengri_pagan_reformed
 secondary_religion = confucianism
-capital = 556
+capital = 2141 #Xuzhou
 
 1399.1.1 = {
 	monarch = {

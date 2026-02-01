@@ -5,3 +5,13 @@ primary_culture = waeguk
 religion = shinto
 technology_group = chinese
 capital = 1832
+
+1420.1.1 = {
+	monarch = {
+		name = "Karu"
+		dynasty = "Yamato"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

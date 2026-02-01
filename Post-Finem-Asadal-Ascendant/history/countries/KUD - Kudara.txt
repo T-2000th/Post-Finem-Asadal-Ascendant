@@ -4,3 +4,13 @@ primary_culture = jinguk
 religion = mahayana
 technology_group = chinese
 capital = 1819
+
+1411.1.1 = {
+	monarch = {
+		name = "Seijin"
+		dynasty = "Kudara"
+		adm = 6
+		dip = 3
+		mil = 2
+	}
+}

@@ -6,3 +6,13 @@ add_accepted_culture = ainu
 religion = vajrayana
 technology_group = chinese
 capital = 1023
+
+1420.1.1 = {
+	monarch = {
+		name = "Ohohoto"
+		dynasty = "Okinaga"
+		adm = 4
+		dip = 6
+		mil = 6
+	}
+}

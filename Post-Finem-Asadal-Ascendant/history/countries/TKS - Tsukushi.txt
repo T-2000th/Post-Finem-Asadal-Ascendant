@@ -4,3 +4,13 @@ primary_culture = koguk
 religion = confucianism
 technology_group = chinese
 capital = 1818
+
+1399.1.1 = {
+	monarch = {
+		name = "Osai"
+		dynasty = "Tsukushi"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+}

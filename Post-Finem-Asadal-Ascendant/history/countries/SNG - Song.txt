@@ -4,3 +4,13 @@ technology_group = chinese
 religion = confucianism
 primary_culture = jianghuai
 capital = 685
+
+1399.1.1 = {
+	monarch = {
+		name = "Xiao"
+		dynasty = "Liu"
+		adm = 3
+		dip = 1
+		mil = 6
+	}
+}

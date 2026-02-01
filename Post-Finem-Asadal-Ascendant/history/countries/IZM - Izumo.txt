@@ -5,3 +5,13 @@ primary_culture = biguk
 religion = confucianism
 technology_group = chinese
 capital = 1830
+
+1420.1.1 = {
+	monarch = {
+		name = "Takamado"
+		dynasty = "Ame"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

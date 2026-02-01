@@ -5,3 +5,13 @@ technology_group = chinese
 religion = mahayana
 primary_culture = cantonese
 capital = 667	#Canton
+
+1399.1.1 = {
+	monarch = {
+		name = "Wu"
+		dynasty = "Shi"
+		adm = 5
+		dip = 3
+		mil = 2
+	}
+}

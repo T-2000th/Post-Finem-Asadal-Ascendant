@@ -6,3 +6,19 @@ primary_culture = zhuang
 capital = 667
 
 government_rank = 1
+
+1399.1.1 = {
+	monarch = {
+		name = "Louge"
+		dynasty = "Pi"
+		culture = bai
+		ADM = 6
+		DIP = 6
+		MIL = 6
+		leader = { name = "Louge Pi"		type = general	fire = 3	shock = 3	manuever = 5	siege = 5 }
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strict_personality
+	add_ruler_personality = conqueror_personality
+	add_ruler_personality = industrious_personality
+}

@@ -1,6 +1,6 @@
 #666 - Hainan
 
-culture = chimin
+culture = cantonese
 religion = mahayana
 capital = "Kingchow"
 trade_goods = tropical_wood

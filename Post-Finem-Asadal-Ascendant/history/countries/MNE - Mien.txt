@@ -5,3 +5,14 @@ religion = mahayana
 primary_culture = bai
 capital = 675
 add_accepted_culture = yi
+
+1399.1.1 = {
+	monarch = {
+		name = "Shilong"
+		dynasty = "Meng"
+		culture = yi
+		adm = 3
+		dip = 3
+		mil = 4
+	}
+}

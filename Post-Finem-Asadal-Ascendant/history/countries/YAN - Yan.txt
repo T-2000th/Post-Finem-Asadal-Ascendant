@@ -4,3 +4,13 @@ technology_group = chinese
 religion = confucianism
 primary_culture = mohe
 capital = 691	#Jinan
+
+1420.1.1 = {
+	monarch = {
+		name = "Sei"
+		dynasty = "Murong"
+		adm = 4
+		dip = 3
+		mil = 5
+	}
+}

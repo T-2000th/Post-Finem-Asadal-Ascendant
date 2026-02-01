@@ -6,3 +6,15 @@ add_accepted_culture = ainu
 religion = vajrayana
 technology_group = chinese
 capital = 1028
+
+1420.1.1 = {
+	monarch = {
+		name = "Iruka"
+		dynasty = "Soga"
+		adm = 2
+		dip = 1
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = babbling_buffoon_personality
+}

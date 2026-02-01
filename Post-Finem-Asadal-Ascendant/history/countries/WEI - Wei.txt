@@ -4,3 +4,13 @@ technology_group = chinese
 religion = vajrayana
 primary_culture = wuhuan
 capital = 693	#Taiyuan
+
+1420.1.1 = {
+	monarch = {
+		name = "Huan"
+		dynasty = "Touba"
+		adm = 1
+		dip = 2
+		mil = 5
+	}
+}

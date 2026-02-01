@@ -1,6 +1,6 @@
 # 2160 - Ngaichow
 
-culture = chimin
+culture = cantonese
 religion = mahayana
 capital = "Ngaichow"
 trade_goods = incense

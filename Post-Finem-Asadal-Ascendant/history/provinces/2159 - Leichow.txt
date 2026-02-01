@@ -1,7 +1,7 @@
 # 2159 - Leichow
 
 
-culture = chimin
+culture = cantonese
 religion = mahayana
 capital = "Leichow"
 trade_goods = sugar

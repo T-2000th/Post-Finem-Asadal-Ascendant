@@ -4,3 +4,13 @@ primary_culture = ainu
 religion = animism
 technology_group = chinese
 capital = 1852
+
+1430.1.1 = {
+	monarch = {
+		name = "Aterui"
+		dynasty = "Akuro"
+		adm = 6
+		dip = 5
+		mil = 1
+	}
+}

@@ -2,9 +2,10 @@ government = monarchy
 add_government_reform = chinese_warlord
 technology_group = chinese
 religion = mahayana
-primary_culture = bai
+primary_culture = yi
 capital = 675
-add_accepted_culture = yi
+add_accepted_culture = bai
+add_accepted_culture = miao
 
 1399.1.1 = {
 	monarch = {

@@ -2,7 +2,7 @@
 owner = THW
 controller = THW
 add_core = THW
-culture = chahar
+culture = mohe
 religion = vajrayana
 capital = "Jirem"
 trade_goods = livestock

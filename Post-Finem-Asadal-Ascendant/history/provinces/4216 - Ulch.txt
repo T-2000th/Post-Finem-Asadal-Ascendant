@@ -3,7 +3,7 @@
 owner = NHX
 controller = NHX
 add_core = NHX
-culture = manchu
+culture = saxalin
 religion = tengri_pagan_reformed
 capital = "Ulch"
 trade_goods = fish

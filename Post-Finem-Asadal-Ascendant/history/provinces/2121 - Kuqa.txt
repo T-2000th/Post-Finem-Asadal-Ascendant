@@ -2,7 +2,7 @@
 owner = KAS
 controller = KAS
 add_core = KAS
-culture = uyghur
+culture = yuezhi
 religion = tengri_pagan_reformed
 capital = "Kuqa"
 trade_goods = gold

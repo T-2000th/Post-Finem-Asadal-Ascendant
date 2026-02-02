@@ -2,7 +2,7 @@
 owner = KHA
 controller = KHA
 add_core = KHA
-culture = khalkha
+culture = tatar
 religion = tengri_pagan_reformed
 capital = "Dundgovi"
 trade_goods = horses

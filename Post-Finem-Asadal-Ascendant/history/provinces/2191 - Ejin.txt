@@ -2,7 +2,7 @@
 owner = TNG
 controller = TNG
 add_core = TNG
-culture = oirats
+culture = yuezhi
 religion = vajrayana
 capital = "Ejin"
 trade_goods = livestock

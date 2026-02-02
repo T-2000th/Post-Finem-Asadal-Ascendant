@@ -2,7 +2,7 @@
 owner = KHA
 controller = KHA
 add_core = KHA
-culture = khalkha
+culture = bayad
 religion = tengri_pagan_reformed
 capital = "Khiagt"
 trade_goods = fur

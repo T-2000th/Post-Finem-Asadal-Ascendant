@@ -1,7 +1,7 @@
 # 4686 - Ekibastuz
 owner = KZH
 controller = KZH
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Ekibastuz"
 trade_goods = salt

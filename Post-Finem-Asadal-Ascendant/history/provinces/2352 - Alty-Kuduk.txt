@@ -1,7 +1,7 @@
 # 2352 - Alty-Kuduk
 owner = SHY
 controller = SHY
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Alty-Kuduk"
 trade_goods = fish

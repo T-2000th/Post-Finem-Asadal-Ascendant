@@ -1,5 +1,5 @@
 # 2356 - Shymkent
-culture = uzbehk
+culture = sogdian
 religion = tengri_pagan_reformed
 capital = "Shymkent"
 trade_goods = tea

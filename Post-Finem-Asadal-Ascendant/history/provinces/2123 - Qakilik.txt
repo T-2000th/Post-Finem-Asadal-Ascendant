@@ -2,7 +2,7 @@
 owner = CHG
 controller = CHG
 add_core = CHG
-culture = oirats
+culture = yuezhi
 religion = vajrayana
 capital = "Qakilik"
 trade_goods = horses

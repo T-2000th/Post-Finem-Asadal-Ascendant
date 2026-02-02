@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 add_core = OIR
-culture = khalkha
+culture = naiman
 religion = tengri_pagan_reformed
 capital = "Sain Noyon"
 trade_goods = horses

@@ -1,7 +1,7 @@
 #477 - Nadym
 owner = KZH
 controller = KZH
-culture = khazak
+culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Nadym"
 trade_goods = horses

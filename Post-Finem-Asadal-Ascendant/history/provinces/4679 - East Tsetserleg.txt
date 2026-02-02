@@ -1,7 +1,7 @@
 owner = OIR
 controller = OIR
 add_core = OIR
-culture = khalkha
+culture = bayad
 religion = tengri_pagan_reformed
 capital = "Khovsgol"
 trade_goods = fur

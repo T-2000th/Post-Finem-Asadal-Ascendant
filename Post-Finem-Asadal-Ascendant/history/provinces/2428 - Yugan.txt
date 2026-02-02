@@ -1,7 +1,7 @@
 #2428 - Yugan
 owner = KZH
 controller = KZH
-culture = ostyaki
+culture = siberian
 religion = tengri_pagan_reformed
 capital = "Yugan"
 trade_goods = fur

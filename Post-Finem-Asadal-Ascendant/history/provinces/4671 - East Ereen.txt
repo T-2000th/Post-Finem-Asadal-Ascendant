@@ -1,7 +1,7 @@
 owner = KHA
 controller = KHA
 add_core = KHA
-culture = mongol
+culture = wuhuan
 religion = vajrayana
 capital = "Kalgan"
 trade_goods = horses

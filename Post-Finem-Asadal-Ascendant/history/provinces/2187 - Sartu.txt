@@ -2,7 +2,7 @@
 owner = THW
 controller = THW
 add_core = THW
-culture = chahar
+culture = mohe
 religion = tengri_pagan_reformed
 capital = "Sartu"
 trade_goods = horses

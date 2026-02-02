@@ -1,7 +1,7 @@
 # 2358 - Altyn
 owner = SHY
 controller = SHY
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Altyn"
 trade_goods = livestock

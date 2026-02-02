@@ -1,7 +1,7 @@
 # 2182 - Liangzhou
 
 
-culture = tabgatch
+culture = yuezhi
 religion = vajrayana
 capital = "Liangzhou"
 trade_goods = livestock

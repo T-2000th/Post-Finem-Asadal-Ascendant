@@ -1,7 +1,7 @@
 # 2351 - Shekty
 owner = NOG
 controller = NOG
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Shekty"
 trade_goods = livestock

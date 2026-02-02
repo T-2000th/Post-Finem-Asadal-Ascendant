@@ -2,7 +2,7 @@
 owner = AMT
 controller = AMT
 add_core = AMT
-culture = khazak
+culture = almatau
 religion = tengri_pagan_reformed
 capital = "Karamegdan"
 trade_goods = wool

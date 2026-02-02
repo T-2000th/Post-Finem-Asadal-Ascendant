@@ -2,7 +2,7 @@
 owner = OIR
 controller = OIR
 add_core = OIR
-culture = khalkha
+culture = tatar
 religion = tengri_pagan_reformed
 capital = "Qaraqorum"
 trade_goods = cloth

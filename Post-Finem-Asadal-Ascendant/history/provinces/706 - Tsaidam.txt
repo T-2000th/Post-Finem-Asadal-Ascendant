@@ -3,7 +3,7 @@
 owner = SYG
 controller = SYG
 add_core = SYG
-culture = tabgatch
+culture = yuezhi
 religion = vajrayana
 capital = "Tsaidam"
 trade_goods = salt

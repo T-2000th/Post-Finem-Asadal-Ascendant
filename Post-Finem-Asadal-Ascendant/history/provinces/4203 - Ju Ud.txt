@@ -3,7 +3,7 @@
 owner = YAN
 controller = YAN
 add_core = YAN
-culture = mongol
+culture = wuhuan
 religion = vajrayana
 capital = "Ulanhad"
 trade_goods = livestock

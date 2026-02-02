@@ -1,7 +1,7 @@
 #455 - Kyrzyl-Kum
 owner = SHY
 controller = SHY
-culture = uzbehk
+culture = turkmeni
 religion = tengri_pagan_reformed
 capital = "Kyzyl Kum"
 trade_goods = livestock

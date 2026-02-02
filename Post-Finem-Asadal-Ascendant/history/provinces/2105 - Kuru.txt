@@ -2,7 +2,7 @@
 owner = EJZ
 controller = EJZ
 add_core = EJZ
-culture = manchu
+culture = saxalin
 religion = tengri_pagan_reformed
 capital = "Kuru"
 trade_goods = lumber

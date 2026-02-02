@@ -2,7 +2,7 @@
 owner = KRC
 controller = KRC
 add_core = KRC
-culture = chahar
+culture = nivkh
 religion = tengri_pagan_reformed
 capital = "Buteha"
 trade_goods = horses

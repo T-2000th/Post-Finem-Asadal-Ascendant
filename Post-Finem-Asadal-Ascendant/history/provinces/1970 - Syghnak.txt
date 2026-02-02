@@ -1,7 +1,7 @@
 #1970 - Syghnak
 owner = SHY
 controller = SHY
-culture = uzbehk
+culture = turkmeni
 religion = tengri_pagan_reformed
 capital = "Syghnak"
 trade_goods = horses

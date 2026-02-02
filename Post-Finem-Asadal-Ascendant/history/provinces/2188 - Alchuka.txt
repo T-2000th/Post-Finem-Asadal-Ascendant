@@ -3,7 +3,7 @@
 owner = THW
 controller = THW
 add_core = THW
-culture = manchu
+culture = mohe
 religion = tengri_pagan_reformed
 capital = "Alchuka"
 trade_goods = grain

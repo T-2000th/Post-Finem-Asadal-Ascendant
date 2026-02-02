@@ -3,7 +3,7 @@
 owner = KHA
 controller = KHA
 add_core = KHA
-culture = buryat
+culture = daguur
 religion = tengri_pagan_reformed
 capital = "Onan Gol"
 trade_goods = fur

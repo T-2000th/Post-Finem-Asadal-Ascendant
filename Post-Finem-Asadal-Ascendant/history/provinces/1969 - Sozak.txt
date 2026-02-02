@@ -1,7 +1,7 @@
 #1969 - Syghnak
 owner = SHY
 controller = SHY
-culture = khazak
+culture = sogdian
 religion = tengri_pagan_reformed
 capital = "Sozak"
 trade_goods = salt

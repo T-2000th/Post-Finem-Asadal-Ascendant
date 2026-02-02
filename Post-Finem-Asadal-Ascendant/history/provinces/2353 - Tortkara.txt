@@ -1,7 +1,7 @@
 # 2353 - Tortkara
 owner = NOG
 controller = NOG
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Tortkara"
 trade_goods = lumber

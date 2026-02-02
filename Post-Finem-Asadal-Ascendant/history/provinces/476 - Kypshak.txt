@@ -1,7 +1,7 @@
 #476 - Kypshak
 owner = KZH
 controller = KZH
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Orda-Bazar"
 trade_goods = grain

@@ -1,7 +1,7 @@
 #2433 - Kemerovo
 owner = KZH
 controller = KZH
-culture = ostyaki
+culture = siberian
 religion = tengri_pagan_reformed
 capital = "Vah"
 trade_goods = fur

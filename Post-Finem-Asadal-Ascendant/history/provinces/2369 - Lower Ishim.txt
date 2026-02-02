@@ -1,7 +1,7 @@
 # 2369 - Upper Ishim, formerly Lower Ishim
 owner = KZH
 controller = KZH
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Zhanibek"
 trade_goods = iron

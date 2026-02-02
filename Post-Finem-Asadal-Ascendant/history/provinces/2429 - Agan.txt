@@ -1,7 +1,7 @@
 #2429 - Agan
 owner = KZH
 controller = KZH
-culture = ostyaki
+culture = siberian
 religion = tengri_pagan_reformed
 capital = "Variegansk"
 trade_goods = lumber

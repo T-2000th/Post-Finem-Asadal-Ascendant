@@ -3,7 +3,7 @@
 owner = MYR
 controller = MYR
 add_core = MYR
-culture = manchu
+culture = mohe
 religion = tengri_pagan_reformed
 capital = "Hulan"
 trade_goods = livestock

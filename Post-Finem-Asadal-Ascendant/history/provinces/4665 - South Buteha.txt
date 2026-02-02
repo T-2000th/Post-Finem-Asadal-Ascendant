@@ -1,7 +1,7 @@
 owner = KRC
 controller = KRC
 add_core = KRC
-culture = chahar
+culture = mohe
 religion = tengri_pagan_reformed
 capital = "West Buteha"
 trade_goods = livestock

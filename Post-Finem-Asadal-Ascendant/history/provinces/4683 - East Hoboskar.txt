@@ -1,6 +1,6 @@
 owner = OIR
 controller = OIR
-culture = oirats
+culture = basmyl
 religion = tengri_pagan_reformed
 capital = "Altay"
 trade_goods = horses

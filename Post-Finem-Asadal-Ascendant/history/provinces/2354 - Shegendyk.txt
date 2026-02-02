@@ -1,7 +1,7 @@
 # 2354 - Shegendyk
 owner = KZH
 controller = KZH
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Shegendyk"
 trade_goods = iron

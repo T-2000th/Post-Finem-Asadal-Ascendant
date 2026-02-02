@@ -2,7 +2,7 @@
 owner = MYR
 controller = MYR
 add_core = MYR
-culture = manchu
+culture = nivkh
 religion = tengri_pagan_reformed
 capital = "Mergen"
 trade_goods = lumber

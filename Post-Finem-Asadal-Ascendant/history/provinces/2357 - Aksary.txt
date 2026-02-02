@@ -1,7 +1,7 @@
 # 2357 - Aksary
 owner = KZH
 controller = KZH
-culture = khazak
+culture = alan
 religion = tengri_pagan_reformed
 capital = "Aksary"
 trade_goods = lumber

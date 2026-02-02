@@ -1,7 +1,7 @@
 #456 - Turkestan
 owner = SHY
 controller = SHY
-culture = khazak
+culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Yasi"
 trade_goods = grain

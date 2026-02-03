@@ -1,7 +1,7 @@
 #713 - Kuruk Tag
-owner = CHG
-controller = CHG
-add_core = CHG
+owner = BSM
+controller = BSM
+add_core = BSM
 culture = basmyl
 religion = tengri_pagan_reformed
 capital = "Bechbaliq"

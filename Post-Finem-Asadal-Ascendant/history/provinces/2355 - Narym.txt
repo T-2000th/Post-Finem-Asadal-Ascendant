@@ -1,6 +1,6 @@
 # 2355 - Narym
-owner = KZH
-controller = KZH
+owner = TKR
+controller = TKR
 culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Narym"
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KZH
+add_core = TKR
 discovered_by = KZH
 discovered_by = KAZ
 discovered_by = KAS

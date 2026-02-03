@@ -1,7 +1,7 @@
 # 2118 - Urzhar
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = TKR
+controller = TKR
+add_core = TKR
 culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Urzhar"

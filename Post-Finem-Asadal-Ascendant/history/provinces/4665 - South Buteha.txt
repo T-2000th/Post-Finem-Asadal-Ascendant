@@ -1,6 +1,6 @@
-owner = KRC
-controller = KRC
-add_core = KRC
+owner = CGA
+controller = CGA
+add_core = CGA
 culture = mohe
 religion = tengri_pagan_reformed
 capital = "West Buteha"

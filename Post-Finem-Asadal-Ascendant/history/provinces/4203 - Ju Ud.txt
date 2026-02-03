@@ -1,8 +1,8 @@
 #4203 - Ju Ud
 
-owner = YAN
-controller = YAN
-add_core = YAN
+owner = CGA
+controller = CGA
+add_core = CGA
 culture = wuhuan
 religion = vajrayana
 capital = "Ulanhad"
@@ -12,7 +12,6 @@ base_tax = 3
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = CHH
 
 discovered_by = chinese
 discovered_by = nomad_group

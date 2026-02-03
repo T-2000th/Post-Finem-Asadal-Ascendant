@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = pf_sogdian_princedom
+technology_group = chinese
+religion = vajrayana
+primary_culture = sogdian
+capital = 457
+government_rank = 1

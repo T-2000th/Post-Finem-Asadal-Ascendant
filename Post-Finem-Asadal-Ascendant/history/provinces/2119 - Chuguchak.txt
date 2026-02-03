@@ -1,7 +1,7 @@
 # 2119 - Chuguchak
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = BSM
+controller = BSM
+add_core = BSM
 culture = basmyl
 religion = tengri_pagan_reformed
 capital = "Chugachak"

@@ -1,8 +1,8 @@
 #728 - Tuwan
 
-owner = MYR
-controller = MYR
-add_core = MYR
+owner = HEI
+controller = HEI
+add_core = HEI
 culture = mohe
 religion = tengri_pagan_reformed
 capital = "Tuwan"

@@ -1,8 +1,8 @@
 # 2103 - Udi
 
-owner = SOL
-controller = SOL
-add_core = SOL
+owner = HEK
+controller = HEK
+add_core = HEK
 #culture = manchu
 culture = evenk
 religion = tengri_pagan_reformed

@@ -1,6 +1,6 @@
 #1076 - Kurgan
-owner = KZH
-controller = KZH
+owner = SIB
+controller = SIB
 capital = "Kurgan"
 culture = siberian
 religion = tengri_pagan_reformed
@@ -10,8 +10,7 @@ base_production = 3
 base_manpower = 3
 is_city = yes
 discovered_by = nomad_group
-revolt_risk = 15
 discovered_by = SIB
-add_core = KZH
+add_core = SIB
 discovered_by = west_mongol_group
 discovered_by = muslim

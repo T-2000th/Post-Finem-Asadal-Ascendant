@@ -1,7 +1,7 @@
 #1066 - Altai
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = BRT
+controller = BRT
+add_core = BRT
 culture = buryat
 religion = tengri_pagan_reformed
 capital = "Altai Uriankhai"

@@ -1,9 +1,9 @@
 # 2127 - Yashilkul
-owner = KAS
-controller = KAS
-add_core = KAS
+owner = SUH
+controller = SUH
+add_core = SUH
 culture = yuezhi
-religion = tengri_pagan_reformed
+religion = vajrayana
 capital = "Yashilkul"
 trade_goods = livestock
 base_tax = 1

@@ -1,6 +1,6 @@
-owner = KHA# The Oirads united much of Mongolia
-controller = KHA
-add_core = KHA
+owner = TGR
+controller = TGR
+add_core = TGR
 culture = wuhuan
 religion = vajrayana
 capital = "Ujimqin"
@@ -11,4 +11,3 @@ base_manpower = 2
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = CHH

@@ -1,8 +1,8 @@
 # 2104 - Birija
 
-owner = MYR
-controller = MYR
-add_core = MYR
+owner = BYL
+controller = BYL
+add_core = BYL
 culture = evenk
 religion = tengri_pagan_reformed
 capital = "Niuman"

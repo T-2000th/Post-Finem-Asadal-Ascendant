@@ -1,6 +1,6 @@
 #476 - Kypshak
-owner = KZH
-controller = KZH
+owner = RXL
+controller = RXL
 culture = alan
 religion = tengri_pagan_reformed
 capital = "Orda-Bazar"
@@ -9,7 +9,7 @@ base_tax = 6
 base_production = 6
 base_manpower = 6
 is_city = yes
-add_core = KZH
+add_core = RXL
 discovered_by = KAS
 discovered_by = nomad_group
 discovered_by = muslim

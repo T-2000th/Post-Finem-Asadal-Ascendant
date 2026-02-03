@@ -1,7 +1,7 @@
 # 2190 - Bayankhongor
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = TTR
+controller = TTR
+add_core = TTR
 culture = naiman
 religion = tengri_pagan_reformed
 capital = "Sain Noyon"

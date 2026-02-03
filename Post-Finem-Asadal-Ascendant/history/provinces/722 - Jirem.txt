@@ -1,7 +1,7 @@
 #722 - Jurim
-owner = THW
-controller = THW
-add_core = THW
+owner = CGA
+controller = CGA
+add_core = CGA
 culture = mohe
 religion = vajrayana
 capital = "Jirem"

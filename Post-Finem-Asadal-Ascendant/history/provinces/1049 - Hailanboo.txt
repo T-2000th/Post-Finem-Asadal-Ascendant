@@ -1,8 +1,8 @@
 #1049 - Hailanboo
 
-owner = SOL
-controller = SOL
-add_core = SOL
+owner = NVK
+controller = NVK
+add_core = NVK
 culture = evenk
 religion = tengri_pagan_reformed
 capital = "Haiilanboo"

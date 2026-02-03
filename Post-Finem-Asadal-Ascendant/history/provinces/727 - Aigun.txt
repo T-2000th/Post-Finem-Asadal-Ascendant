@@ -1,8 +1,8 @@
 #727 - Aigun
 
-owner = MYR
-controller = MYR
-add_core = MYR
+owner = HEI
+controller = HEI
+add_core = HEI
 culture = evenk
 religion = tengri_pagan_reformed
 capital = "Aigun"

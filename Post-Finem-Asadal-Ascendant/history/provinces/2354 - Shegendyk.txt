@@ -1,6 +1,6 @@
 # 2354 - Shegendyk
-owner = KZH
-controller = KZH
+owner = RXL
+controller = RXL
 culture = alan
 religion = tengri_pagan_reformed
 capital = "Shegendyk"
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = KZH
+add_core = RXL
 discovered_by = KZH
 discovered_by = KAZ
 discovered_by = muslim

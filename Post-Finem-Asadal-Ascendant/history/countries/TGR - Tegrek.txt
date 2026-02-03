@@ -1,0 +1,6 @@
+government = tribal
+add_government_reform = steppe_horde
+primary_culture = wuhuan
+religion = vajrayana
+technology_group = nomad_group
+capital = 4671

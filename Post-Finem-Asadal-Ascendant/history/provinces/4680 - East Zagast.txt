@@ -1,6 +1,6 @@
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = YBQ
+controller = YBQ
+add_core = YBQ
 culture = yabaqu
 religion = tengri_pagan_reformed
 capital = "Zakhchin"

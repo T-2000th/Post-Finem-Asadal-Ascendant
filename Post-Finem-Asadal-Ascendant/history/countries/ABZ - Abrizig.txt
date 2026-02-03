@@ -1,0 +1,6 @@
+government = republic
+add_government_reform = noble_elite_reform
+technology_group = muslim
+religion = tengri_pagan_reformed
+primary_culture = turkmeni
+capital = 1970

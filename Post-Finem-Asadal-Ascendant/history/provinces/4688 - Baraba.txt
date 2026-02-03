@@ -1,6 +1,6 @@
 #4688 - Baraba
-owner = KZH
-controller = KZH
+owner = KYR
+controller = KYR
 culture = kirgiz
 religion = tengri_pagan_reformed
 capital = "Baraba"
@@ -11,6 +11,6 @@ base_manpower = 2
 is_city = yes
 discovered_by = nomad_group
 unrest = 15
-add_core = KZH
+add_core = KYR
 discovered_by = SIB
 discovered_by = west_mongol_group

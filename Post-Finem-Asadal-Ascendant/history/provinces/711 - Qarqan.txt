@@ -1,7 +1,7 @@
 #711 - Qarqan
-owner = KAS
-controller = KAS
-add_core = KAS
+owner = CDT
+controller = CDT
+add_core = CDT
 culture = yuezhi
 religion = vajrayana
 capital = "Qarqan"

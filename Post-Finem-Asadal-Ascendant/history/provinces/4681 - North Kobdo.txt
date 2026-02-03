@@ -1,6 +1,6 @@
-owner = OIR# The Oirads united much of Mongolia
-controller = OIR
-add_core = OIR
+owner = YBQ
+controller = YBQ
+add_core = YBQ
 culture = yabaqu
 religion = tengri_pagan_reformed
 capital = "Olgii"

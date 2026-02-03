@@ -1,7 +1,7 @@
 # 2192 - Korla
-owner = KAS
-controller = KAS
-add_core = KAS
+owner = KCN
+controller = KCN
+add_core = KCN
 culture = yuezhi
 religion = vajrayana
 capital = "Korla"

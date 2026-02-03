@@ -1,7 +1,7 @@
 # 2123 - Qakilik
-owner = CHG
-controller = CHG
-add_core = CHG
+owner = KNM
+controller = KNM
+add_core = KNM
 culture = yuezhi
 religion = vajrayana
 capital = "Qakilik"

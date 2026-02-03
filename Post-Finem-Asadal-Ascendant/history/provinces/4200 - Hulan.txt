@@ -1,8 +1,8 @@
 #4200 - Hulan
 
-owner = MYR
-controller = MYR
-add_core = MYR
+owner = CGA
+controller = CGA
+add_core = CGA
 culture = mohe
 religion = tengri_pagan_reformed
 capital = "Hulan"

@@ -1,8 +1,8 @@
 #2405 - Khara Narin Ula
 
-owner = KHA
-controller = KHA
-add_core = KHA 
+owner = TTR
+controller = TTR
+add_core = TTR 
 culture = wuhuan
 religion = vajrayana
 capital = "Khara Narin Ula"

@@ -1,6 +1,6 @@
 # 2357 - Aksary
-owner = KZH
-controller = KZH
+owner = RXL
+controller = RXL
 culture = alan
 religion = tengri_pagan_reformed
 capital = "Aksary"
@@ -9,7 +9,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KZH
+add_core = RXL
 discovered_by = KZH
 discovered_by = KAZ
 discovered_by = muslim

@@ -1,0 +1,77 @@
+#Country Name: Please see filename.
+graphical_culture = muslimgfx
+color = { 12 186 200 }
+historical_idea_groups = { 
+	humanist_ideas
+	offensive_ideas
+	trade_ideas
+	administrative_ideas
+	maritime_ideas
+	diplomatic_ideas
+	quality_ideas
+	aristocracy_ideas
+}
+historical_units = { 
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+monarch_names = { 
+	"Cyrus #0" = 6
+	"Darius #0" = 6
+	"Xerxes #0" = 6
+	"Artaxerxes #0" = 6
+	"Ardeshir #0" = 6
+	"Shapur #0" = 6
+	"Khosrow #0" = 6
+	"Bahram #0" = 6
+	"Sassan #0" = 6
+	"Gobryas #0" = 5
+	"Ormisda #0" = 5
+	"Hormizd #0" = 5
+	"Narseh #0" = 5
+	"Ardavan #0" = 5
+	"Mithridates #0" = 5
+	"Vahram #0" = 1
+	"Ohrmazd #0" = 1
+	"Ardashir #0" = 1
+	"Shahriar #0" = 1
+	"Kian #0" = 1
+
+	"Atossa #0" = -1
+	"Roxane #0" = -1
+	"Parviz #0" = -1
+	"Shirin #0" = -1
+}
+leader_names = { 
+	Sabiri Jalili Azizi Shahy Daei Qazai Dalwand Ahrari Fatemi Sabet
+	Ansari 
+}
+ship_names = { 
+	Abathur "Adamn Kasia" "Aesma Daeva" Agas Ahriman Ahura "Ahura Mazda" Ahurani Airyaman "Aka Manah"
+	Aladdin Allatum Amashaspan Ameratat "Amesha Spentas" Anahita "Angra Mainyu" Anjuman Apam-natat Apaosa
+	Aredvi Arishtat Armaiti Arsaces "Asha vahista" Asman "Asto Vidatu" Astvat-Ereta Atar "Azi Dahaka"
+	Baga Bahram Burijas Bushyasta Buyasta Camros Daena Daevas Ahaka Dahhak
+	Dena Dev Diwe Drug Drvaspa Frashegird Fravashis Gandarewa Gao-kerena Gayomard
+	Gayomart Geus-Tasan Geus-Urvan Haoma Haurvatat Humay Hvar Hvarekhshaeta Indar Indra
+	Izha Jamshid Jeh Karshipta Kavi Khara "Khshathra vairya" Kundrav Mah Mahre
+	Mahrianag Manu Manuchihir Mao Mashyane Mashye Menog Mithra Nairyosangha Nanghaithya
+	Neriosang Ormazd Peris Peshdadians Rapithwin Rashnu Rustam Saurva Simurgh "Spenta Mainyu"
+	Sraosa Srosh Tawrich Thunaupa Tistrya Tushnamatay Vanant Vata Verethragna "Vohu Manah"
+	Vouruskasha Yam Yasht Yazata Yezidi Yima Zal Zam Zam-Armatay Zarathustra
+	Zarich Zend-Avesta Zurvan 
+}
+fleet_names = { 
+	"Niru-ye Daryayi" "Artesh $PROVINCE$"
+}
+army_names = { 
+	"Artesh-e Bozorg" "Daryayi $PROVINCE$"
+}

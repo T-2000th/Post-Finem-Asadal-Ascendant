@@ -1,7 +1,7 @@
 #4218 - Buteha
-owner = KRC
-controller = KRC
-add_core = KRC
+owner = NVK
+controller = NVK
+add_core = NVK
 culture = nivkh
 religion = tengri_pagan_reformed
 capital = "Buteha"

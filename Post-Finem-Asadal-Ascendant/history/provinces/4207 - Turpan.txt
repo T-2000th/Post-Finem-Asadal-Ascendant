@@ -1,7 +1,7 @@
 #X2 - Turpan
-owner = CHG# ruled by a Chagataiid 
-controller = CHG
-add_core = CHG
+owner = KNM
+controller = KNM
+add_core = KNM
 culture = yuezhi
 religion = tengri_pagan_reformed
 capital = "Balikul"

@@ -1,7 +1,7 @@
 # 2122 - Hami
-owner = HMI
-controller = HMI
-add_core = HMI
+owner = KNM
+controller = KNM
+add_core = KNM
 culture = yuezhi
 religion = vajrayana
 capital = "Hami"

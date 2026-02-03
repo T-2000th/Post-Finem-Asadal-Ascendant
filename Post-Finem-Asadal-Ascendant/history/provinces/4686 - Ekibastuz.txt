@@ -1,6 +1,6 @@
 # 4686 - Ekibastuz
-owner = KZH
-controller = KZH
+owner = KYR
+controller = KYR
 culture = alan
 religion = tengri_pagan_reformed
 capital = "Ekibastuz"
@@ -9,7 +9,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = KZH
+add_core = KYR
 discovered_by = KZH
 discovered_by = KAZ
 discovered_by = muslim

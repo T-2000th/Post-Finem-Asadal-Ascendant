@@ -2,9 +2,9 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = EJZ
-controller = EJZ
-add_core = EJZ
+owner = BYL
+controller = BYL
+add_core = BYL
 culture = saxalin
 religion = tengri_pagan_reformed
 capital = "Jixi"

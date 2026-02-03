@@ -1,7 +1,7 @@
 #724 - Hulunbuir
-owner = KHA
-controller = KHA
-add_core = KHA
+owner = DHE
+controller = DHE
+add_core = DHE
 culture = daguur
 religion = tengri_pagan_reformed
 capital = "Hulunbuir"

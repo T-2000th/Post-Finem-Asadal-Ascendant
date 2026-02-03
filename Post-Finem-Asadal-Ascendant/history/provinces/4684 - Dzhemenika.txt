@@ -1,7 +1,7 @@
 # 4684 - Dzhemenika
-owner = OIR
-controller = OIR
-add_core = OIR
+owner = TKR
+controller = TKR
+add_core = TKR
 culture = tocharian
 religion = tengri_pagan_reformed
 capital = "Dzhemenika"
@@ -12,5 +12,4 @@ base_manpower = 1
 is_city = yes
 discovered_by = chinese
 discovered_by = nomad_group
-add_core = ZUN
 discovered_by = west_mongol_group

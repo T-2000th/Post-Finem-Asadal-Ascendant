@@ -1,7 +1,7 @@
 #4208 - Qurqara-usu
-owner = CHG# ruled by a Chagataiid 
-controller = CHG
-add_core = CHG
+owner = BSM
+controller = BSM
+add_core = BSM
 culture = basmyl
 religion = tengri_pagan_reformed
 capital = "Balikul"

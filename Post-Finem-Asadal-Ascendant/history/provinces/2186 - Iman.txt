@@ -1,7 +1,7 @@
 # 2186 - Iman
-owner = NHX
-controller = NHX
-add_core = NHX
+owner = WLH
+controller = WLH
+add_core = WLH
 culture = saxalin
 religion = tengri_pagan_reformed
 capital = "Iman"

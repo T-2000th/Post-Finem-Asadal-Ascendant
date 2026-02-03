@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = noble_elite_reform
+technology_group = chinese
+religion = vajrayana
+primary_culture = yuezhi
+capital = 2122
+government_rank = 1

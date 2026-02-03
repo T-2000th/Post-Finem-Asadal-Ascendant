@@ -1,7 +1,7 @@
 #717 - Selenge
-owner = KHA# The Oirads united much of Mongolia
-controller = KHA
-add_core = KHA
+owner = DHE
+controller = DHE
+add_core = DHE
 culture = dahae
 religion = tengri_pagan_reformed
 capital = "Kherlen"

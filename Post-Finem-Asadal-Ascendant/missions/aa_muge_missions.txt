@@ -1,0 +1,255 @@
+muge_mission_tree_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	potential = { tag = MOG }
+
+	lay_claim_on_henan = {
+		icon = jap_conquer_north_china
+		position = 2
+		required_missions = {
+			ten_arrow_host
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	secure_western_frontiers = {
+		icon = mission_horde_caravans
+		position = 3
+		required_missions = {
+			lay_claim_on_henan
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	dominate_yuezhi = {
+		icon = mission_chagatai
+		position = 4
+		required_missions = {
+			secure_western_frontiers
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	subjugate_xinan = {
+		icon = mng_survey_ocean_shores
+		position = 5
+		required_missions = {
+			assault_on_old_han
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+}
+muge_mission_tree_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	potential = { tag = MOG }
+
+	ten_arrow_host = {
+		icon = mjz_for_the_horde
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = { }
+		trigger = { army_size_percentage = 1 }
+		effect = { }
+	}
+
+	master_of_mohe = {
+		icon = mission_oirat
+		position = 2
+		required_missions = {
+			ten_arrow_host
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	triumph_over_hwan = {
+		icon = mjz_into_korea
+		position = 3
+		required_missions = {
+			master_of_mohe
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	assault_on_old_han = {
+		icon = mission_raid_hosts
+		position = 4
+		required_missions = {
+			secure_western_frontiers control_jiangsu
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	fly_high_over_heaven = {
+		icon = mission_hunting
+		position = 6
+		required_missions = {
+			subjugate_xinan eight_princes_one_conqueror
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+}
+muge_mission_tree_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	potential = { tag = MOG }
+
+	outlaw_of_the_eastern_sea = {
+		icon = mission_open_up_china
+		position = 2
+		required_missions = {
+			ten_arrow_host
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	control_jiangsu = {
+		icon = mission_the_chola_campaigns
+		position = 3
+		required_missions = {
+			outlaw_of_the_eastern_sea
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	dominate_donghai_sea = {
+		icon = jap_deploy_atakebune
+		position = 4
+		required_missions = {
+			control_jiangsu
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	eight_princes_one_conqueror = {
+		icon = mng_end_sengoku_jidai
+		position = 5
+		required_missions = {
+			assault_on_old_han
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+}
+muge_mission_tree_4 = {
+	slot = 4
+	generic = no
+	ai = yes
+	potential = { tag = MOG }
+
+	reorganize_our_banner = {
+		icon = mission_fekete_sereg
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = { }
+		trigger = { army_size_percentage = 1 }
+		effect = { }
+	}
+
+	improved_arrowtip = {
+		icon = mission_bengal_campaign
+		position = 2
+		required_missions = {
+			reorganize_our_banner
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	greener_pasture = {
+		icon = mission_central_asian_steppes
+		position = 3
+		required_missions = {
+			improved_arrowtip
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	proliferation_of_gun = {
+		icon = mjz_for_the_horde
+		position = 4
+		required_missions = {
+			greener_pasture
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+}
+muge_mission_tree_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	potential = { tag = MOG }
+
+	onoghuric_script = {
+		icon = mch_adopt_alphabet
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = { }
+		trigger = { army_size_percentage = 1 }
+		effect = { }
+	}
+
+	venerate_confucius = {
+		icon = mission_horde_religion
+		position = 2
+		required_missions = {
+			onoghuric_script
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	formalize_the_blood_oath = {
+		icon = mission_address_the_ethnic_situation
+		position = 3
+		required_missions = {
+			venerate_confucius
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+
+	hei_gaozu = {
+		icon = qng_junji_chu
+		position = 4
+		required_missions = {
+			formalize_the_blood_oath
+		}
+		provinces_to_highlight = { }
+		trigger = { }
+		effect = { }
+	}
+}

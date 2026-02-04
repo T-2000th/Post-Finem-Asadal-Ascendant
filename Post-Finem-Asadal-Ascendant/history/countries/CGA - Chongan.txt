@@ -3,4 +3,5 @@ add_government_reform = chinese_warlord
 technology_group = chinese
 primary_culture = mohe
 religion = confucianism
+secondary_religion = vajrayana
 capital = 722

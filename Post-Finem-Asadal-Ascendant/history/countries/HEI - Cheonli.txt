@@ -3,5 +3,6 @@ add_government_reform = confucian_bureaucracy
 technology_group = chinese
 primary_culture = mohe
 religion = confucianism
+secondary_religion = tengri_pagan_reformed
 capital = 728
 government_rank = 1

@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = plutocratic_reform
+government = republic
+add_government_reform = northern_shogunate_reform
 government_rank = 1
 primary_culture = waeguk
 add_accepted_culture = ainu

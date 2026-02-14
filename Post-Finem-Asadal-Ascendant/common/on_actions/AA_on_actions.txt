@@ -1,0 +1,21 @@
+on_new_term_election = {
+	if = {
+		limit = {
+			has_reform = northern_shogunate_reform
+		}
+		country_event = {
+			id = elections.867
+		}
+	}
+}
+
+on_death_election = {
+	if = {
+		limit = {
+			has_reform = northern_shogunate_reform
+		}
+		country_event = {
+			id = elections.867
+		}
+	}
+}

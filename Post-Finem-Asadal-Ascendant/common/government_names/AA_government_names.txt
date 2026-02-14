@@ -1,0 +1,46 @@
+gov_northern_shogunate = {
+	rank = {
+		1 = FRONTIER_SHOGUNATE
+		2 = SHOGUNATE
+		3 = GREAT_SHOGUNATE
+	}
+
+	ruler_male = {
+		1 = SHOGUN
+		2 = SHOGUN
+		3 = SHOGUN
+	}
+	
+	ruler_female = {
+		1 = SHOGUNESS
+		2 = SHOGUNESS
+		3 = SHOGUNESS
+	}
+	consort_male = {
+		1 = LORD
+		2 = LORD
+		3 = LORD
+	}
+
+	consort_female = {
+		1 = LADY
+		2 = LADY
+		3 = LADY
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+	
+	trigger = {
+		has_reform = northern_shogunate_reform
+	}
+}

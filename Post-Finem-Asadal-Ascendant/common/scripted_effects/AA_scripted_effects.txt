@@ -1,0 +1,411 @@
+shogunate_election_primary_effect = {
+	set_country_flag = $family$_shogunate
+	if = { limit = { has_country_flag = had_$family$_shogunate }
+		add_republican_tradition = -3
+	}
+	custom_tooltip = $family$_shogunate_special_effect_tt
+	[[soga]
+	hidden_effect = {
+		change_dip = 2
+		random_list = {
+			55 = {
+				add_ruler_personality = malevolent_personality
+			}
+			45 = {
+				add_ruler_personality = well_connected_personality
+			}
+		}
+			random_list = {
+				70 = {
+					random_list = {
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Ishikawa Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Karako Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Inabe Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Akae Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Muraji Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Emishi Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Iruka Soga" } }
+					}
+					define_advisor = {
+						type = bureaucrat
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					random_list = {
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Kitashihime Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Toyomike Soga" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Atori Soga" } }
+					}
+					define_advisor = {
+						type = bureaucrat
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = bureaucrat
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[kaminomo]
+	hidden_effect = {
+		change_adm = 2
+		random_list = {
+			50 = {
+				add_ruler_personality = embezzler_personality
+			}
+			50 = {
+				add_ruler_personality = midas_touched_personality
+			}
+		}
+			random_list = {
+				70 = {
+					random_list = {
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Wanikishi Kaminomo" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Yuzuki Kaminomo" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Achiki Kaminomo" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Mahito Kaminomo" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Naobito Kaminomo" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Sukuna Kaminomo" } }
+						10 = { set_saved_name = { key = advisor_name type = simple name = "Kuroda Kaminomo" } }
+					}
+					define_advisor = {
+						type = logistician
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = logistician
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = logistician
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[shimogono]
+	hidden_effect = {
+		change_mil = 2
+		random_list = {
+			50 = {
+				add_ruler_personality = strict_personality
+			}
+			50 = {
+				add_ruler_personality = drunkard_personality
+			}
+		}
+			random_list = {
+				70 = {
+					define_advisor = {
+						type = drill_sergeant
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = drill_sergeant
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = drill_sergeant
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[otomo]
+	hidden_effect = {
+		change_adm = 1
+		change_mil = 1
+		random_list = {
+			50 = {
+				add_ruler_personality = inspiring_leader_personality
+			}
+			50 = {
+				add_ruler_personality = cruel_personality
+			}
+		}
+			random_list = {
+				70 = {
+					define_advisor = {
+						type = grand_captain
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = grand_captain
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = grand_captain
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[sugawara]
+	hidden_effect = {
+		change_dip = 2
+		random_list = {
+			50 = {
+				add_ruler_personality = pious_personality
+			}
+			50 = {
+				add_ruler_personality = loose_lips_personality
+			}
+		}
+			random_list = {
+				70 = {
+					define_advisor = {
+						type = historian
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = historian
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = historian
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[sakanoue]
+	hidden_effect = {
+		change_dip = 2
+		random_list = {
+			50 = {
+				add_ruler_personality = entrepreneur_personality
+			}
+			50 = {
+				add_ruler_personality = infertile_personality
+			}
+		}
+			random_list = {
+				70 = {
+					define_advisor = {
+						type = sgs_director
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = sgs_director
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = sgs_director
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[isa]
+	hidden_effect = {
+		change_adm = 1
+		change_mil = 1
+		random_list = {
+			50 = {
+				add_ruler_personality = architectural_visionary_personality
+			}
+			50 = {
+				add_ruler_personality = naive_personality
+			}
+		}
+			random_list = {
+				70 = {
+					define_advisor = {
+						type = city_planner
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = city_planner
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = city_planner
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[fujiwara]
+	hidden_effect = {
+		change_dip = 1
+		change_mil = 1
+		random_list = {
+			50 = {
+				add_ruler_personality = intricate_web_weaver_personality
+			}
+			50 = {
+				add_ruler_personality = obsessive_perfectionist_personality
+			}
+		}
+			random_list = {
+				70 = {
+					define_advisor = {
+						type = architect
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = architect
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = architect
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+	[[minamoto]
+	hidden_effect = {
+		change_mil = 2
+		random_list = {
+			50 = {
+				add_ruler_personality = ambitious_personality
+			}
+			50 = {
+				add_ruler_personality = malevolent_personality
+			}
+		}
+			random_list = {
+				70 = {
+					define_advisor = {
+						type = dragoon
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = no
+					}
+				}
+				30 = {
+					define_advisor = {
+						type = dragoon
+						name = advisor_name
+						skill = 2
+						religion = ROOT
+						cost_multiplier = 0.75
+						female = yes
+					}
+				}
+			}
+		}
+		tooltip = {
+			define_advisor = {
+				type = dragoon
+				skill = 2
+				cost_multiplier = 0.75
+			}
+		}
+	]
+}

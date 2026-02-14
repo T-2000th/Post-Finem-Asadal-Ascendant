@@ -1,0 +1,31 @@
+﻿l_english:
+
+#events
+ elections.867.t:0 "To Rule a Shogunate"
+ elections.867.desc:0 "The Land of Keno is a realm without King. In stead of the royal, the defeated shogun were entrusted by the Yezo of the North to govern the land deemed too settled to take back and left alone as long as border do not clash. With the demise of our current shogun, it is time for the lord of the north to convene and decide which clan should lead the Shogunate."
+ elections.867.a:0 "£adm££adm£ Elect a Kaminomo"
+ elections.867.b:0 "£dip££dip£ Elect a Soga"
+ elections.867.c:0 "£mil££mil£ Elect a Shimogono"
+ elections.867.d:0 "£mil££adm£ Elect an Otomo"
+ elections.867.e:0 "£dip££dip£ Elect a Sugawara"
+ elections.867.f:0 "£dip££dip£ Elect a Sakanoue"
+ elections.867.g:0 "£adm££mil£ Elect an Isa"
+ elections.867.k:0 "£mil££dip£ Elect a Fujiwara"
+ elections.867.l:0 "£mil££mil£ Elect a Minamoto"
+ 
+ kaminomo_shogunate_special_effect_tt:0 "\nNoble from Kaminomo have ruled the land of Kenu long before the Yamato Court was even built, they will be able to develope the barren land at §Ycheaper cost§!§!."
+ soga_shogunate_special_effect_tt:0 "\nNoble from Soga Clan have impressed the lord of all stripe with their sophiscated manner, they will have an easier time securing §Yalliances§!§!."
+ shimogono_shogunate_special_effect_tt:0 "\nNoble from Shimogono Clan are known for their fearsome skill in combat, their armies will receive a §Ymorale boost§!§!."
+ otomo_shogunate_special_effect_tt:0 "\n\nNoble from Otomo Clan rarely showed mercy to those who oppose them, they will have easier time executing §Yharsh treatment§!§! and the dissenter will have harder time building §Yspy network§!§! on us."
+ sugawara_shogunate_special_effect_tt:0 "\nNoble of Sugawara Clan are scribe through and through, their administration is §Ymore efficient§!§! and they have easier time convincing the conquered that they are the §Ycore§!§! parts of the nation."
+ sakanoue_shogunate_special_effect_tt:0 "\nNoble of Sakanoue Clan have been in charge of caravan and fleet for a long time, their merchant shall sail §Yfurther than most§!§! and return with their haul §Yplenty§!§!."
+ isa_shogunate_special_effect_tt:0 "\nNoble of Isa Clan have survey the land and oversee construction of many fortress, their fort are §Yvirtually impenetrable§!§! and their farming quarter §Yare far wider than other§!§!."
+ fujiwara_shogunate_special_effect_tt:0 "\nNoble of Fujiwara Clan are the most attune with the divine, their priests §Yperformed miracle like routine§!§!."
+ minamoto_shogunate_special_effect_tt:0 "\nNoble of Minamoto Clan charge into battle without thought, for their §Yunshattering bravery§!§! make them more fearsome than demon lurking in the dark."
+ 
+ #Gov 
+ northern_shogunate_reform:0 "Realm of Shogun"
+ northern_shogunate_reform_desc:0 "Shogun, originally title appointed by Yamato Court to a general in charge of conquering the north, now head of government of Kenu Federation."
+ gov_northern_shogunate:0 "Shogunate"
+ FRONTIER_SHOGUNATE:0 "Frontier Bakufu"
+ GREAT_SHOGUNATE:0 "Great Shogunate"

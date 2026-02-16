@@ -1,0 +1,772 @@
+paradosi_center_of_reformation = {
+	
+	religion = paradosi
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 250.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 1.75
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = hellenic_group }
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 1
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 2
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 3
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 4
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 5
+			}
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				religion = paradosi
+			}
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				religion = paradosi
+				religion = neterist
+				religion = heliophoroi
+				religion = zalmozeios
+			}
+		}
+		modifier = {
+			factor = 2
+			pf_belongs_to_greek_culture_group = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				culture_group = FROM
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+hellenic_center_of_reformation = {
+	
+	religion = hellenic
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 250.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 1.5
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = {
+			factor = 0
+			NOT = { religion_group = hellenic_group }
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				religion = hellenic
+			}
+		}
+		modifier = {
+			factor = 2
+			pf_belongs_to_greek_culture_group = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				culture_group = FROM
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+neterist_center_of_reformation = {
+	
+	religion = neterist
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 250.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 1.5
+
+	target_province_weights = {
+		factor = 2
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = { 
+			factor = 0
+			NOT = { religion_group = hellenic_group }
+			NOT = { religion = kemetic }
+		}
+		modifier = { 
+			factor = 0.5
+			religion = kemetic
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 1
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 2
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 3
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 4
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 5
+			}
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				religion = neterist
+			}
+		}
+		modifier = {
+			factor = 2
+			pf_belongs_to_greek_culture_group = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				pf_belongs_to_greek_culture_group = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 0.5
+			religion = paradosi
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+heliophoroi_center_of_reformation = {
+	
+	religion = heliophoroi
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 350.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 2
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = { 
+			factor = 0
+			NOT = { religion_group = hellenic_group }
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 1
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 2
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 3
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 4
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 5
+			}
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				religion = heliophoroi
+			}
+		}
+		modifier = {
+			factor = 2
+			pf_belongs_to_greek_culture_group = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				pf_belongs_to_greek_culture_group = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				religion = paradosi
+				religion = neterist
+				religion = zalmozeios
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+zalmozeios_center_of_reformation = {
+	
+	religion = zalmozeios
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 350.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 1
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = { 
+			factor = 0
+			NOT = { religion_group = hellenic_group }
+		}
+		modifier = { 
+			factor = 0
+			religion = zalmozeios
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 1
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 2
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 3
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 4
+			}
+		}
+		modifier = {
+			factor = 0.6
+			owner = {
+				num_of_cardinals = 5
+			}
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				religion = zalmozeios
+			}
+		}
+		modifier = {
+			factor = 2
+			pf_belongs_to_greek_culture_group = yes
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				pf_belongs_to_greek_culture_group = yes
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				religion = paradosi
+				religion = neterist
+				religion = heliophoroi
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+romana_center_of_reformation = {
+	
+	religion = romana
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 1
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = { 
+			factor = 0
+			NOT = { religion_group = punic_group }
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				religion = romana
+			}
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				culture_group = FROM
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+muslim_center_of_reformation = {
+	
+	religion = sunni
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 150.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 1.5
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+		modifier = { 
+			factor = 0
+			religion_group = christian
+		}
+		modifier = {
+			factor = 5
+			owner = {
+				religion = sunni
+			}
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				culture_group = FROM
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				religion = hellenic
+				religion = neterist
+				religion = kemetic
+			}
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+evangelos_center_of_reformation = {
+	
+	religion = catholic
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 300.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 4
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			province_id = 4280 # Taiz
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+
+		modifier = {
+			factor = 5
+			owner = {
+				religion = catholic
+			}
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				culture_group = FROM
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+		modifier = {
+			factor = 2
+			religion = arabic_religion
+		}
+		modifier = {
+			factor = 0
+			religion = jewish
+			NOT = {
+				owner = { has_country_flag = embraced_christianity_spread_flag }
+			}
+		}
+		modifier = {
+			factor = 0
+			religion = kemetic
+			NOT = {
+				owner = { has_country_flag = embraced_christianity_spread_flag }
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				religion = hellenic
+				religion = neterist
+				religion = kemetic
+			}
+		}
+		modifier = {
+			factor = 100
+			owner = { has_country_flag = embraced_christianity_spread_flag }
+		}
+		modifier = {
+			factor = 0.5
+			has_state_edict = edict_religion_enforced
+		}
+	}
+}
+
+neo_slavic_center_of_reformation = {
+	
+	religion = slavic_religion_reformed
+
+	map_icon = GFX_religious_conversion_center_protestant
+
+	max_distance = 450.0 # From Center of Reformation center province (default is NDefines::NReligion::MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE).
+	base_conversion_speed = 5
+
+	target_province_weights = {
+		factor = 2
+		
+		modifier = {
+			factor = 0
+			is_empty = yes
+		}
+		modifier = {
+			factor = 0
+			NOT = { 
+				religion = slavic_religion 
+			}
+		}
+		modifier = {
+			factor = 0
+			has_missionary = yes
+		}
+		modifier = {
+			factor = 0
+			province_id = 146 # Athens
+		}
+		modifier = {
+			factor = 0
+			province_id = 4280 # Taiz
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_center
+		}
+		modifier = {
+			factor = 0
+			has_province_modifier = religious_zeal_at_conv
+		}
+
+		modifier = {
+			factor = 5
+			owner = {
+				religion = slavic_religion_reformed
+			}
+		}
+		modifier = {
+			factor = 2
+			culture_group = FROM
+		}
+		modifier = {
+			factor = 0.5
+			NOT = {
+				culture_group = FROM
+			}
+		}
+		modifier = {
+			factor = 2
+			OR = {
+				religion = suomenusko
+				religion = tengri_pagan_reformed
+			}
+		}
+		modifier = {
+			factor = 2
+			culture = FROM
+		}
+	}
+}

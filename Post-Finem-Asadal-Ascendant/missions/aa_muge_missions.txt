@@ -59,8 +59,45 @@ muge_mission_tree_2 = {
 		position = 1
 		required_missions = { }
 		provinces_to_highlight = { }
-		trigger = { army_size_percentage = 1 }
-		effect = { }
+		trigger = {  
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+		effect = {
+			define_general = {
+				shock = 6
+				fire = 1
+				manuever = 6
+				siege = 1
+			}
+			custom_tooltip = " "
+			if = {
+				limit = {
+					has_country_flag = focus_on_rhomania
+				}
+				custom_tooltip = yes_cavhalf
+			}
+			else = {
+				custom_tooltip = no_cavhalf
+			}
+			tooltip = {
+				add_country_modifier = {
+					name = muge_horse_archery
+					duration = -1
+				}
+			}
+			hidden_effect = {
+				if = {
+					limit = {
+						cavalry_fraction = 0.5
+					}
+					add_country_modifier = {
+					name = muge_horse_archery
+					duration = -1
+				}
+				}
+			}
+		}
 	}
 
 	master_of_mohe = {
@@ -168,8 +205,38 @@ muge_mission_tree_4 = {
 		position = 1
 		required_missions = { }
 		provinces_to_highlight = { }
-		trigger = { army_size_percentage = 1 }
-		effect = { }
+		trigger = {
+			OR = {
+				num_of_estate_privileges = {
+					estate = estate_nomadic_tribes
+					value = 3
+				}
+				crown_land_share = 40
+		}
+			}
+		effect = {
+			add_yearly_manpower = 1
+			if = {
+				limit = { num_of_estate_privileges = { estate = estate_nomadic_tribes value = 3 } crown_land_share = 40    } 
+				add_country_modifier = {
+					name = muge_banner
+					duration = -1
+				}
+			}
+			else_if = {
+				limit = { num_of_estate_privileges = { estate = estate_nomadic_tribes value = 3 }  } 
+				add_country_modifier = {
+					name = muge_looter
+					duration = -1
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = muge_slayer
+					duration = -1
+				}
+			}
+		}
 	}
 
 	improved_arrowtip = {
@@ -216,8 +283,33 @@ muge_mission_tree_5 = {
 		position = 1
 		required_missions = { }
 		provinces_to_highlight = { }
-		trigger = { army_size_percentage = 1 }
-		effect = { }
+		trigger = { 
+		OR = { monthly_adm = 8 adm_tech = 7 }
+		}
+		effect = { 
+			if = { 
+				limit = { 
+					NOT = { tag = QNG } 
+				}
+				add_country_modifier = { 
+					name = muge_onoghuric_script
+					duration = -1 
+					desc = until_we_reform_our_administration_as_he_desc
+				}
+			}
+			else = {
+				if = { 
+					limit = { has_dlc = "Rule Britannia" } 
+					change_innovativeness = 5 
+				}
+				else = { 
+					change_ruler_stat = {
+						type = adm
+						amount = 2
+					}
+				}
+			}
+		}
 	}
 
 	venerate_confucius = {

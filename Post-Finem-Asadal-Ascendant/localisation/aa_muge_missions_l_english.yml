@@ -63,3 +63,7 @@
  hei_gaozu:0 "Hei Gaozu"
  hei_gaozu_title:0 "Hei Gaozu"
  hei_gaozu_desc:0 ""
+ 
+ yes_cavhalf:0 "£yes£ If we complete this mission while having §Y50% or more§! of our armies as cavalry, we shall gain the following:"
+ no_cavhalf:0 "£no£ If we complete this mission while having §Y50% or more§! of our armies as cavalry, we shall gain the following:"
+ muge_horse_archery:0 "Horse Archery Expertise"

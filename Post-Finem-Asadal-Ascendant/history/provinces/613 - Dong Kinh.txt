@@ -7,7 +7,10 @@ trade_goods = chinaware
 base_tax = 9
 base_production = 7
 base_manpower = 4
-
+is_city = yes
+add_core = SCT
+owner = SCT
+controller = SCT
 
 extra_cost = 8
 center_of_trade = 1

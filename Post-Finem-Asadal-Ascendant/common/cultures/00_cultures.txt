@@ -7442,7 +7442,7 @@ thai_group = {
 	}
 	tay = {
 		dynasty_names = { 
-			"Luang Prabang" "Champassak" Vientiane Phuan Nan
+			"Singkham" "Khwanheun" Mooreung Phuan Dengdech
 		}
 		male_names = {
 			"Fa Ngum" "Samsenethai" "Lan Kham Deng" "Phommathat" "Khamtum" "Meunsai" "Konekham" "Kham Tam Sa" "Lue Sai" 

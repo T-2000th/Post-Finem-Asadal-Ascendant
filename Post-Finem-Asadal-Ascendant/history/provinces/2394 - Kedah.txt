@@ -7,7 +7,10 @@ trade_goods = grain
 base_tax = 4
 base_production = 4
 base_manpower = 2
-
+is_city = yes
+add_core = TKL
+owner = TKL
+controller = TKL
 
 discovered_by = chinese
 discovered_by = indian

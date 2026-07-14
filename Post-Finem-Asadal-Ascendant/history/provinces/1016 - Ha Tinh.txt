@@ -7,7 +7,10 @@ trade_goods = fish
 base_tax = 5
 base_production = 3
 base_manpower = 3
-
+is_city = yes
+add_core = SCT
+owner = SCT
+controller = SCT
 
 discovered_by = chinese
 discovered_by = indian

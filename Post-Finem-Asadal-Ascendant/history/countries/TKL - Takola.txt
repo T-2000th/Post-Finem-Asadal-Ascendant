@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = mandala_reform
+technology_group = chinese
+primary_culture = malay
+religion = mahayana
+capital = 2391	#Tanjung Salang

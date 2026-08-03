@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = oligarchy_reform
+primary_culture = filipino
+religion = hinduism
+technology_group = chinese
+capital = 651 #Sulu
+government_rank = 2

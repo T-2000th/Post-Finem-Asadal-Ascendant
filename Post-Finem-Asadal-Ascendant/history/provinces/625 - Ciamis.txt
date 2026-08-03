@@ -7,6 +7,9 @@ trade_goods = tropical_wood
 base_tax = 4
 base_production = 4
 base_manpower = 2
-
+is_city = yes
+add_core = TRM
+owner = TRM
+controller = TRM
 discovered_by = chinese
 discovered_by = indian

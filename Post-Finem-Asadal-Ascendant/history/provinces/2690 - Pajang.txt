@@ -8,6 +8,9 @@ trade_goods = grain
 base_tax = 5
 base_production = 5
 base_manpower = 3
-
+is_city = yes
+add_core = CRU
+owner = CRU
+controller = CRU
 discovered_by = chinese
 discovered_by = indian

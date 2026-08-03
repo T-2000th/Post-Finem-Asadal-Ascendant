@@ -37,6 +37,29 @@ SKT = "countries/SriKshetra.txt"
 TKL = "countries/Takola.txt"
 THA = "countries/Thammarat.txt"
 
+LGK = "countries/Langasuka.txt"
+KDH = "countries/Kadaha.txt"
+
+#Oceanic Southeast Asia Nations
+IDG = "countries/Indragiri.txt"
+LMR = "countries/Lamuri.txt"
+BTK = "countries/Batak.txt"
+TRM = "countries/Taruma.txt"
+CRU = "countries/Caruban.txt"
+KDR = "countries/Kediri.txt"
+MDR = "countries/Madhura.txt"
+DPA = "countries/Dipa.txt"
+MPW = "countries/Mempawah.txt"
+TAJ = "countries/Tanjung.txt"
+BAU = "countries/Berau2.txt"
+
+SMG = "countries/Sembwangan.txt"
+BJA = "countries/Bajau.txt"
+BAU = "countries/Barunai.txt"
+SMA = "countries/Samar.txt"
+MGL = "countries/Matangal.txt"
+BIK = "countries/Bikol.txt"
+
 #Central Asia Horde
 KNM = "countries/Kunmo.txt"
 CDT = "countries/Cadota.txt"

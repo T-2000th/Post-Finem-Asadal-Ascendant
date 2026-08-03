@@ -4,7 +4,10 @@ culture = filipino
 religion = animism
 capital = "Marawi"
 trade_goods = spices
-
+is_city = yes
+add_core = SMG
+owner = SMG
+controller = SMG
 hre = no
 base_tax = 3 
 base_production = 3

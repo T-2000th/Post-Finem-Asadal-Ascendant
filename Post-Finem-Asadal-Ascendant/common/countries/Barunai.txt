@@ -1,0 +1,65 @@
+#Country Name: Please see filename.
+
+graphical_culture = asiangfx
+
+color = { 241  222  25 }
+
+revolutionary_colors = { 1 0 8 }
+
+historical_idea_groups = {
+	trade_ideas
+	maritime_ideas
+	defensive_ideas
+	offensive_ideas
+	religious_ideas
+	spy_ideas
+	quality_ideas
+	economic_ideas
+}
+
+historical_units = {
+	east_asian_spearmen
+	eastern_bow
+	asian_arquebusier
+	asian_charge_cavalry
+	asian_mass_infantry
+	asian_musketeer
+	reformed_asian_musketeer
+}
+
+monarch_names = {
+	"Avirjirkaya #0" = 30
+	"Bulkiah #0" = 20
+	"Salilla #0" = 30
+	"Matanda #0" = 30
+	"Sulayman #0" = 30
+	"Magisa #0" = 10
+	"Ladyangbata #0" = 10
+	"Timamanukum #0" = 10
+	
+	"Lela #0" = -5
+	"Ysmeria #0" = -5
+	"Malyag #0" = -5
+}
+
+leader_names = {
+	Agung
+	Batara
+	Bima
+	Elok
+	Karna
+	Rimba
+	Saleh
+	Satria
+	Sentosa
+	Yuda
+}
+
+ship_names = {
+	"Sungai Belait" "Sungai Tutong" "Sungai Tembureng"
+	Batang Trusan "Sungai Pandaruan" "Lungai Limbang"
+	"Batang Baram" "Sungai Bakong" "Sungai Tutoh"
+	"Sungai Tinjar" "Kuala Belait" "Batu Danau"
+	"Kuala Medamit" Bangar Penanjong Lumut Telingan
+	Labi Sukang "Kuala Baram"
+}

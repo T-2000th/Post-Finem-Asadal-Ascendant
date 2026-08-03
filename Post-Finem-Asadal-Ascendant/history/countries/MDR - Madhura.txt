@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = javanese
+religion = mahayana #maybe arabic_religion or punic_religion via event idk
+technology_group = chinese
+capital = 2692
+government_rank = 2

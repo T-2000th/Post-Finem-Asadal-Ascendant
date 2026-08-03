@@ -8,9 +8,9 @@ base_tax = 4
 base_production = 4
 base_manpower = 2
 is_city = yes
-add_core = TKL
-owner = TKL
-controller = TKL
+add_core = KDH
+owner = KDH
+controller = KDH
 
 discovered_by = chinese
 discovered_by = indian

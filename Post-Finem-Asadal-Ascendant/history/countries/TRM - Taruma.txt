@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = noble_elite_reform
+primary_culture = sundanese
+technology_group = chinese
+religion = hinduism
+capital = 2687	# Pakuan
+government_rank = 2

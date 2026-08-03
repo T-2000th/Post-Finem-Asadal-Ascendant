@@ -7,7 +7,10 @@ trade_goods = spices
 base_tax = 3
 base_production = 3
 base_manpower = 2
-
+is_city = yes
+add_core = TAJ
+owner = TAJ
+controller = TAJ
 
 discovered_by = chinese
 discovered_by = indian

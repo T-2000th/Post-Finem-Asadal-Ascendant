@@ -11,5 +11,7 @@ native_ferocity = 3
 native_hostileness = 2
 discovered_by = chinese
 discovered_by = indian
-
-is_city = no
+is_city = yes
+add_core = TRM
+owner = TRM
+controller = TRM

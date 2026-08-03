@@ -7,7 +7,10 @@ trade_goods = copper
 base_tax = 2
 base_production = 2
 base_manpower = 3
-
+is_city = yes
+add_core = IDG
+owner = IDG
+controller = IDG
 
 discovered_by = chinese
 discovered_by = indian

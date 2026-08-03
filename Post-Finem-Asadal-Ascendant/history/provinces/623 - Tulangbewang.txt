@@ -6,14 +6,12 @@ trade_goods = spices
 base_tax = 1
 base_production = 5
 base_manpower = 1
-native_size = 30
-native_ferocity = 9
-native_hostileness = 7
 discovered_by = chinese
 discovered_by = indian
-
+is_city = yes
+add_core = TRM
+owner = TRM
+controller = TRM
 add_core = PLB
 add_core = PLB
 add_core = BAN
-
-is_city = no

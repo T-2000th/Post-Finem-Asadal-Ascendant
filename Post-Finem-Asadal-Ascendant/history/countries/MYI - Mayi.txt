@@ -2,5 +2,5 @@ government = monarchy
 add_government_reform = confucian_bureaucracy
 technology_group = chinese
 religion = confucianism
-primary_culture = yue
-capital = 738 # Lingyun
+primary_culture = filipino
+capital = 2698 #Pangasinan

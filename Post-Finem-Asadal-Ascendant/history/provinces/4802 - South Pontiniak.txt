@@ -5,10 +5,9 @@ trade_goods = gold
 base_tax = 5
 base_production = 5
 base_manpower = 3
-native_size = 40
-native_ferocity = 8
-native_hostileness = 5
+is_city = yes
+add_core = TRM
+owner = TRM
+controller = TRM
 discovered_by = chinese
 discovered_by = indian
-
-is_city = no

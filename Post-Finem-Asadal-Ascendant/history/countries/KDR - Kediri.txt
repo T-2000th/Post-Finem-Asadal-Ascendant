@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = mandala_reform
+primary_culture = javanese
+religion = hinduism
+technology_group = chinese
+capital = 2691 #Cirebon
+government_rank = 2

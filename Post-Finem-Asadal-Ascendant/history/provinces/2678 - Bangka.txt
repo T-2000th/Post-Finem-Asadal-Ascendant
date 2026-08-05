@@ -1,5 +1,5 @@
 #2678 - Bangka
-culture = sumatran
+culture = swarbumi
 religion = hinduism
 capital = "Bangka"
 trade_goods = unknown

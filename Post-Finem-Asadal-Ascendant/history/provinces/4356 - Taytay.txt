@@ -1,6 +1,6 @@
 #4356 - Taytay
 
-culture = filipino
+culture = basilan
 religion = animism
 capital = "Taytay"
 trade_goods = unknown

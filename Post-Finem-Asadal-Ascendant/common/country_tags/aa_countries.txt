@@ -51,7 +51,7 @@ MDR = "countries/Madhura.txt"
 DPA = "countries/Dipa.txt"
 MPW = "countries/Mempawah.txt"
 TAJ = "countries/Tanjung.txt"
-BAU = "countries/Berau2.txt"
+BUT = "countries/Berau2.txt"
 
 SMG = "countries/Sembwangan.txt"
 BJA = "countries/Bajau.txt"

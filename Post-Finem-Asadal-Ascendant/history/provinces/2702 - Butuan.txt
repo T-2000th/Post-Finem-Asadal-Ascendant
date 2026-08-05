@@ -1,6 +1,6 @@
 #2702 - Butuan
 
-culture = filipino
+culture = mindanao
 religion = animism
 capital = "Butuan"
 trade_goods = gems

@@ -1,5 +1,5 @@
 #640 - Pontianak
-culture = bornean
+culture = otdanum
 religion = hinduism
 capital = "Pontianak"
 trade_goods = unknown

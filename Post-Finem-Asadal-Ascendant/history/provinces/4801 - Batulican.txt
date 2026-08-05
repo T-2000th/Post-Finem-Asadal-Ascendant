@@ -1,4 +1,4 @@
-culture = bornean
+culture = bugis
 religion = hinduism
 capital = "Batulican"
 trade_goods = unknown

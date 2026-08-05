@@ -1,6 +1,6 @@
 #654 - Samar
 
-culture = filipino
+culture = asamah
 religion = animism
 capital = "Samar"
 trade_goods = unknown

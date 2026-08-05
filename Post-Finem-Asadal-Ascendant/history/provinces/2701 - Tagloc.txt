@@ -1,6 +1,6 @@
 #2701 - Tagloc
 
-culture = filipino
+culture = bajau
 religion = animism
 capital = "Tagloc"
 trade_goods = unknown

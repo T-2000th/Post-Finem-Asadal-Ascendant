@@ -1,6 +1,6 @@
 #636 - Brunei
 
-culture = bornean
+culture = basilan
 religion = mahayana
 capital = "Brunei"
 trade_goods = spices

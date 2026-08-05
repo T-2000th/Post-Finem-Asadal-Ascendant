@@ -1,6 +1,6 @@
 #2703 - Lehad Datu
 
-culture = bornean
+culture = basilan
 religion = mahayana
 capital = "Lehad Datu"
 trade_goods = spices

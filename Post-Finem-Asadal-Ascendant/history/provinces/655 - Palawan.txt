@@ -1,5 +1,5 @@
 #655 - Palawan
-culture = filipino
+culture = basilan
 religion = mahayana
 capital = "Palawan"
 trade_goods = sugar

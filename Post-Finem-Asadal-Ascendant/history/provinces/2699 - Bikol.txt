@@ -1,6 +1,6 @@
 #2699 - Bikol
 
-culture = filipino
+culture = bikol
 religion = animism
 capital = "Bikol"
 trade_goods = unknown

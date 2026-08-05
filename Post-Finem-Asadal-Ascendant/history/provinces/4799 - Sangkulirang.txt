@@ -1,5 +1,5 @@
 
-culture = bornean
+culture = berau
 religion = hinduism
 capital = "Sangkulirang"
 trade_goods = spices

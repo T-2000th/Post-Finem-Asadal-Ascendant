@@ -1,5 +1,5 @@
 #651 - Sulu
-culture = filipino
+culture = basilan
 religion = mahayana
 capital = "Jolo"
 trade_goods = unknown

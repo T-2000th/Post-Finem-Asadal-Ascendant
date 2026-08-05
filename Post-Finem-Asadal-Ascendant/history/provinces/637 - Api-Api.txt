@@ -1,6 +1,6 @@
 #637 - Api-Api
 
-culture = bornean
+culture = basilan
 religion = mahayana
 capital = "Api-Api"
 trade_goods = spices

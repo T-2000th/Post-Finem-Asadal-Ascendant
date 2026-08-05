@@ -1,4 +1,4 @@
-culture = bornean
+culture = otdanum
 religion = hinduism
 capital = "Meliau"
 trade_goods = unknown

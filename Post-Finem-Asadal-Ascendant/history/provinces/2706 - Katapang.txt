@@ -1,5 +1,5 @@
 #2706 - Katapang
-culture = bornean
+culture = sundanese
 religion = hinduism
 capital = "Katapang"
 trade_goods = unknown

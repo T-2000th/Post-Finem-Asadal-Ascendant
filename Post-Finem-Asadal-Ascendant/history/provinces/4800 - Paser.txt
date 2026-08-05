@@ -1,4 +1,4 @@
-culture = bornean
+culture = bugis
 religion = hinduism
 capital = "Paser"
 trade_goods = unknown

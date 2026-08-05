@@ -1,7 +1,7 @@
 #4349 - Laguna
 
 
-culture = filipino
+culture = bikol
 religion = animism
 capital = "Laguna"
 trade_goods = grain

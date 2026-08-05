@@ -1,6 +1,6 @@
 #638 - Kutai
 
-culture = bornean
+culture = berau
 religion = hinduism
 capital = "Kutai"
 trade_goods = fish

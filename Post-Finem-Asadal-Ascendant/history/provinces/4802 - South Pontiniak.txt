@@ -1,4 +1,4 @@
-culture = bornean
+culture = sundanese
 religion = hinduism
 capital = "Pontiniak"
 trade_goods = gold

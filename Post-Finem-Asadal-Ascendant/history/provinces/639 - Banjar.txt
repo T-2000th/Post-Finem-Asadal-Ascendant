@@ -1,5 +1,5 @@
 #639 - Banjar
-culture = bornean
+culture = bugis
 religion = hinduism
 capital = "Banjar"
 trade_goods = unknown

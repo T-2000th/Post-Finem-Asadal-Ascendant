@@ -1,5 +1,5 @@
 #2708 - Sampit
-culture = bornean
+culture = bugis
 religion = hinduism
 capital = "Sampit"
 trade_goods = unknown

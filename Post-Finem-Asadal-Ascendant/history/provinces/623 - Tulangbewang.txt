@@ -1,5 +1,5 @@
 #623 - Tulangbewang
-culture = sumatran
+culture = swarbumi
 religion = hinduism
 capital = "Tulangbewang"
 trade_goods = spices

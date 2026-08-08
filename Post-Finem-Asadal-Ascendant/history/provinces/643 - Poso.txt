@@ -1,5 +1,5 @@
 #643 - Poso
-culture = sulawesi
+culture = bungku
 religion = animism
 capital = "Poso"
 trade_goods = unknown

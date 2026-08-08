@@ -1,7 +1,7 @@
 #617 - Lamuri
 
 culture = acehnese
-religion = hinduism
+religion = arabic_religion
 capital = "Lamuri"
 trade_goods = spices
 base_tax = 4

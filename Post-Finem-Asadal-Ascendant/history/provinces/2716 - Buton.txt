@@ -1,6 +1,6 @@
 #2716 - Buton
 
-culture = sulawesi
+culture = butonese
 religion = animism
 capital = "Buton"
 trade_goods = spices

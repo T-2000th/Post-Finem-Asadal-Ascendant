@@ -1,16 +1,16 @@
 #2681 - Pagarruyung
 
-culture = sumatran
-religion = hinduism
+culture = batak
+religion = arabic_religion
 capital = "Pagarruyung"
 trade_goods = gold
 base_tax = 3
 base_production = 3
 base_manpower = 3
 is_city = yes
-add_core = BTK
-owner = BTK
-controller = BTK
+add_core = ANK
+owner = ANK
+controller = ANK
 
 discovered_by = chinese
 discovered_by = indian

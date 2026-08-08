@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
 primary_culture = acehnese
-religion = hinduism
+religion = arabic_religion
 technology_group = chinese
 capital = 617 #Kutaraja

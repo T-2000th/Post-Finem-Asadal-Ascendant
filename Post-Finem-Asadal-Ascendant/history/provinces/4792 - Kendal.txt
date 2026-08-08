@@ -1,7 +1,7 @@
 #Kendal
 
 
-culture = javanese
+culture = makassar
 religion = hinduism
 capital = "Kendal"
 trade_goods = naval_supplies

@@ -1,7 +1,7 @@
 government = republic
 add_government_reform = oligarchy_reform
-primary_culture = filipino
-religion = hinduism
+primary_culture = basilan
+religion = mahayana
 technology_group = chinese
-capital = 651 #Sulu
+capital = 637
 government_rank = 2

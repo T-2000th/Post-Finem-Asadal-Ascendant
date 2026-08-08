@@ -52,6 +52,8 @@ DPA = "countries/Dipa.txt"
 MPW = "countries/Mempawah.txt"
 TAJ = "countries/Tanjung.txt"
 BUT = "countries/Berau2.txt"
+SNT = "countries/Siantar.txt"
+ANK = "countries/Angkola.txt"
 
 SMG = "countries/Sembwangan.txt"
 BJA = "countries/Bajau.txt"

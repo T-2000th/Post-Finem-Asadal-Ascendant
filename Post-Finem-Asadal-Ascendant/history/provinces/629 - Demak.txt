@@ -1,7 +1,7 @@
 #629 - Demak
 
 
-culture = javanese
+culture = makassar
 religion = hinduism
 capital = "Demak"
 trade_goods = cotton

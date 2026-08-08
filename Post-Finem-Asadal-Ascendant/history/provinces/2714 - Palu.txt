@@ -1,5 +1,5 @@
 #2714 - Palu
-culture = sulawesi
+culture = minahasan
 religion = animism
 capital = "Palu"
 trade_goods = unknown

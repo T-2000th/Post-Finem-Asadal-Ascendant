@@ -1,5 +1,5 @@
 
-culture = sulawesi
+culture = bonerate
 religion = animism
 capital = "Bone"
 trade_goods = spices

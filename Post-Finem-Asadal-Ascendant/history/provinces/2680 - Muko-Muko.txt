@@ -1,5 +1,5 @@
 #2680 - Muko-Muko
-culture = sumatran
+culture = batak
 religion = hinduism
 capital = "Muko-Muko"
 trade_goods = grain
@@ -9,6 +9,6 @@ base_manpower = 2
 discovered_by = chinese
 discovered_by = indian
 is_city = yes
-add_core = BTK
-owner = BTK
-controller = BTK
+add_core = SNT
+owner = SNT
+controller = SNT

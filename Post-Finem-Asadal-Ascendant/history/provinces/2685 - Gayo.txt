@@ -1,7 +1,7 @@
 #2685 - Gayo
 
 culture = acehnese
-religion = hinduism
+religion = arabic_religion
 capital = "Gayo"
 trade_goods = tropical_wood
 base_tax = 3

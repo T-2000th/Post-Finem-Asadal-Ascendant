@@ -1,5 +1,5 @@
 #644 - Manado
-culture = sulawesi
+culture = minahasan
 religion = animism
 capital = "Manado"
 trade_goods = unknown

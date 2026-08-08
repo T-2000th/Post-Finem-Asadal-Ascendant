@@ -1,5 +1,5 @@
 #2713 - Gorontalo
-culture = sulawesi
+culture = minahasan
 religion = animism
 capital = "Gorontalo"
 trade_goods = unknown

@@ -1,5 +1,5 @@
 #2684 - Nias
-culture = sumatran
+culture = batak
 religion = hinduism
 capital = "Nias"
 trade_goods = unknown

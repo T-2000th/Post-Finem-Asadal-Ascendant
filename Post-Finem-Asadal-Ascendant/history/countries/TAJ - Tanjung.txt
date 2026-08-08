@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-primary_culture = bornean
+primary_culture = bugis
 religion = hinduism
 technology_group = chinese
 capital = 4800 #Paser

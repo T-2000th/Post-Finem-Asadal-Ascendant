@@ -1,6 +1,6 @@
 
-culture = sumatran
-religion = hinduism
+culture = batak
+religion = arabic_religion
 capital = "Barus"
 trade_goods = spices
 base_tax = 4

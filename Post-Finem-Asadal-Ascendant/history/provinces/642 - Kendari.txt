@@ -1,6 +1,6 @@
 #642 - Kendari
 
-culture = sulawesi
+culture = bungku
 religion = animism
 capital = "Kolaka"
 trade_goods = spices

@@ -1,4 +1,4 @@
-culture = sulawesi
+culture = butonese
 religion = animism
 capital = "Kendari"
 trade_goods = unknown

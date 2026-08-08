@@ -1,6 +1,6 @@
 #641 - Makassar
 
-culture = sulawesi
+culture = bonerate
 religion = animism
 capital = "Makassar"
 trade_goods = spices

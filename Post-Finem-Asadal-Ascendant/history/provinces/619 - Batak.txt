@@ -1,7 +1,7 @@
 #619 - Batak
 
-culture = sumatran
-religion = hinduism
+culture = batak
+religion = arabic_religion
 capital = "Batak"
 trade_goods = incense
 base_tax = 2

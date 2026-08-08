@@ -1,7 +1,7 @@
 #2682 - Pariaman
 
-culture = sumatran
-religion = hinduism
+culture = batak
+religion = arabic_religion
 capital = "Pariaman"
 trade_goods = grain
 base_tax = 2

@@ -210,9 +210,9 @@
  WLH_ADJ: "Wolhui"
  WLH_ADJ2: "Wolhui"
  
- LGK: "Langasuka"
- LGK_ADJ: "Langasuka"
- LGK_ADJ2: "Langasuka"
+ LGK: "Gangga Negera"
+ LGK_ADJ: "Gangga Negera"
+ LGK_ADJ2: "Gangga Negera"
  
  KDH: "Kadaha"
  KDH_ADJ: "Kadaha"
@@ -229,6 +229,14 @@
  BTK: "Batak"
  BTK_ADJ: "Batak"
  BTK_ADJ2: "Batak"
+ 
+ SNT: "Siantar"
+ SNT_ADJ: "Siantar"
+ SNT_ADJ2: "Siantar"
+ 
+ ANK: "Angkola"
+ ANK_ADJ: "Angkolan"
+ ANK_ADJ2: "Angkolan"
  
  TRM: "Taruma"
  TRM_ADJ: "Taruma"

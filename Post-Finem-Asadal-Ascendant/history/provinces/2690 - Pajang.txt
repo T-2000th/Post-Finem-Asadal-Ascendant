@@ -1,7 +1,7 @@
 #2690 - Pajang
 
 
-culture = javanese
+culture = makassar
 religion = hinduism
 capital = "Kotagede"
 trade_goods = grain

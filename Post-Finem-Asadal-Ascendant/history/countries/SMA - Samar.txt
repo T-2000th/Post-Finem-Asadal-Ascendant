@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = plutocratic_reform
-primary_culture = filipino
+primary_culture = asamah
 religion = hinduism
 technology_group = chinese
 capital = 654 #Samar

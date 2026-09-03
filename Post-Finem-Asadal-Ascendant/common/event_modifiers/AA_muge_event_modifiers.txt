@@ -2,3 +2,31 @@ muge_horse_archery = {
 	cavalry_cost = -0.1
 	cavalry_shock = 0.4
 }
+muge_banner = {
+	cavalry_power = 0.25
+	army_tradition_from_battle = 0.01
+	army_tradition_decay = -0.01
+}
+muge_looter = {
+	cavalry_power = 0.2
+	raze_power_gain = 0.15
+	land_attrition = 0.05
+}
+muge_slayer = {
+	cavalry_power = 0.15
+	army_tradition_from_battle = 0.01
+	land_attrition = 0.05
+}
+muge_onoghuric_script = {
+	same_culture_advisor_cost = -0.1
+	global_institution_spread = 0.05
+	embracement_cost = -0.05
+}
+muge_improved_arrowtip = {
+	cavalry_fire = 1
+	cavalry_shock = 1
+}
+muge_scholar_of_kong = {
+	innovativeness_gain = 0.5
+	idea_cost = -0.1
+}

@@ -245,9 +245,26 @@ muge_mission_tree_4 = {
 		required_missions = {
 			reorganize_our_banner
 		}
-		provinces_to_highlight = { }
-		trigger = { }
-		effect = { }
+		provinces_to_highlight = {
+			country_or_non_sovereign_subject_holds = ROOT
+			trade_goods = irons
+			OR = {
+				NOT = { base_production = 6 } 
+			}
+		}
+		trigger = { 
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 5
+				trade_goods = irons
+				base_production = 6
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+ 					name = muge_improved_arrowtip
+ 					duration = 5475
+ 				}
+		}
 	}
 
 	greener_pasture = {
@@ -318,9 +335,26 @@ muge_mission_tree_5 = {
 		required_missions = {
 			onoghuric_script
 		}
-		provinces_to_highlight = { }
-		trigger = { }
-		effect = { }
+		provinces_to_highlight = {  
+			province_id = 2140
+		}
+		trigger = { 
+		owns_core_province = 2140
+			6 = {
+				has_great_project = {
+					type = temple_of_confucius
+					tier = 1
+				}
+			}
+		}
+		effect = { 
+			custom_tooltip = half_as_likely_to_get_negative_ruler_traits_tt
+			set_country_flag = half_as_likely_to_get_negative_ruler_traits_flag
+			add_dip_power = 50
+			add_ruler_modifier = {
+				name = muge_scholar_of_kong
+			}
+		}
 	}
 
 	formalize_the_blood_oath = {
@@ -330,8 +364,31 @@ muge_mission_tree_5 = {
 			venerate_confucius
 		}
 		provinces_to_highlight = { }
-		trigger = { }
-		effect = { }
+		trigger = {  
+			estate_loyalty = {
+				estate = all
+				loyalty = 60
+			}
+			NOT = {
+				corruption = 1
+			}
+			crown_land_share = 40
+		} 
+
+		effect = {  
+			custom_tooltip = muge_no_estate_revolt		
+			custom_tooltip = empty_line_tt
+			set_country_flag = disabled_rebels_from_seized_land_for_estate_nobles
+			set_country_flag = disabled_rebels_from_seized_land_for_estate_nomadic_tribes
+			set_country_flag = disabled_rebels_from_seized_land_for_estate_eunuchs
+			set_country_flag = disabled_rebels_from_seized_land_for_estate_burghers
+			set_country_flag = disabled_rebels_from_seized_land_for_estate_church
+			set_country_flag = disabled_rebels_from_seized_land_for_nobles
+			set_country_flag = disabled_rebels_from_seized_land_for_nomadic_tribes
+			set_country_flag = disabled_rebels_from_seized_land_for_eunuchs
+			set_country_flag = disabled_rebels_from_seized_land_for_burghers
+			set_country_flag = disabled_rebels_from_seized_land_for_church
+		}
 	}
 
 	hei_gaozu = {

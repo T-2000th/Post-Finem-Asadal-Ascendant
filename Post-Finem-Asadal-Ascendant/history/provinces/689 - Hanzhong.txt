@@ -2,7 +2,7 @@
 
 
 culture = tabgatch
-religion = confucianism
+religion = daoism
 capital = "Hanzhong"
 trade_goods = iron
 hre = no

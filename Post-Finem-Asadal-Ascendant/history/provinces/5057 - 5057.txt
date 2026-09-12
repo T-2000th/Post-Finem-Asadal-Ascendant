@@ -5,7 +5,7 @@
 # religion = 
 # hre = yes
 capital = "Gargara"
-trade_goods = wool
+trade_goods = marble
 # Total development: 8
 base_tax = 1
 base_production = 3

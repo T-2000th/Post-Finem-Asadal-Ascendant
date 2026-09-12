@@ -1,9 +1,9 @@
 #140 - Core of Bosnian kingdom, Soli+Usora+Most of Vrhbosna
 capital = "Bosona"
 trade_goods = salt
-base_tax = 3
-base_production = 3
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 3
 is_city = yes
 discovered_by = western
 discovered_by = celtic_tech
@@ -11,11 +11,10 @@ discovered_by = eastern
 discovered_by = euro_pagan_tech
 discovered_by = muslim
 discovered_by = ottoman
-owner = ILY
-controller = ILY
+owner = PNN
+controller = PNN
 hre = yes
-add_core = ILY
-religion = hellenic
+religion = tharanic
 culture = illyrian
-
 discovered_by = west_mongol_group
+add_core = PNN

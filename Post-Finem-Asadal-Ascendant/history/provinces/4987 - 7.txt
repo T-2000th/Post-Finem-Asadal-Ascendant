@@ -7,7 +7,7 @@ add_core = NMD
 # hre = yes
 is_city = yes
 capital = "Raidum"
-trade_goods = livestock
+trade_goods = marble
 # Total development: 6
 base_tax = 3
 base_production = 2

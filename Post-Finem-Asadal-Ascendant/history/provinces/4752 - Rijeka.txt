@@ -16,6 +16,5 @@ controller = ILY
 hre = yes
 add_core = ILY
 religion = punic_religion
-culture = illyrian
-
+culture = ardiaei
 discovered_by = west_mongol_group

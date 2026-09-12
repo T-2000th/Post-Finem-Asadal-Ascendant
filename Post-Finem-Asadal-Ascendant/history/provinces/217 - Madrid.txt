@@ -1,7 +1,7 @@
 #217 - Madrid
 base_tax = 3
 base_production = 2
-trade_goods = wool
+trade_goods = hemp
 base_manpower = 3
 capital = "Matrida"
 is_city = yes# Includes the population of Alcalá de Henares and Guadalajara, that at times were bigger than Madrid itself

@@ -1,7 +1,7 @@
 # 4731 - Spoleto
 base_tax = 4
 base_production = 3
-trade_goods = livestock
+trade_goods = hemp
 base_manpower = 5
 capital = "Spoletium"
 is_city = yes

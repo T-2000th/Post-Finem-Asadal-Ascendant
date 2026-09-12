@@ -1,6 +1,6 @@
 #2337 - Buraydeh
 capital = "Buraydeh"
-trade_goods = livestock
+trade_goods = hemp
 base_tax = 3
 base_production = 3
 base_manpower = 2

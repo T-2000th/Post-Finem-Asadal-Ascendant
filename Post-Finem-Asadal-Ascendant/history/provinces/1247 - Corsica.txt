@@ -2,7 +2,7 @@
 capital = "Abalos"
 base_tax = 4
 base_production = 3
-trade_goods = naval_supplies
+trade_goods = dyes
 base_manpower = 3
 is_city = yes
 discovered_by = western

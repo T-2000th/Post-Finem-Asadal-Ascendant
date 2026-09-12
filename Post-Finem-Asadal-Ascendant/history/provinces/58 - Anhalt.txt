@@ -1,6 +1,6 @@
 #58 - Anhalt
 capital = "Anhalden"
-trade_goods = wool
+trade_goods = hemp
 base_tax = 3
 base_production = 2
 base_manpower = 2
@@ -16,5 +16,4 @@ culture = cherusci
 add_core = ANH
 owner = ANH
 controller = ANH
-
 discovered_by = west_mongol_group

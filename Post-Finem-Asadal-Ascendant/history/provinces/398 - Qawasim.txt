@@ -1,6 +1,6 @@
 #398 - Qawasim
 capital = "Sharjah"
-trade_goods = livestock
+trade_goods = hemp
 base_tax = 2
 base_production = 2
 base_manpower = 1

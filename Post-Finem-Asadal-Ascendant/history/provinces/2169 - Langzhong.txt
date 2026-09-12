@@ -2,7 +2,7 @@
 
 
 culture = sichuanese
-religion = confucianism
+religion = daoism
 capital = "Langzhong"
 trade_goods = grain
 hre = no

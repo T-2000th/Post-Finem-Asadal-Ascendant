@@ -2,7 +2,7 @@
 
 
 culture = hubei
-religion = confucianism
+religion = mohism
 capital = "Jingzhou"
 trade_goods = grain
 hre = no

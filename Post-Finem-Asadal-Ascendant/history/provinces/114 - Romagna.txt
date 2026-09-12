@@ -15,6 +15,6 @@ hre = yes
 add_core = URB
 owner = URB
 controller = URB
-culture = etrusci
+culture = samnitii
 religion = punic_religion
 discovered_by = west_mongol_group

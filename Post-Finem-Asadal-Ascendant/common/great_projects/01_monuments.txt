@@ -4129,9 +4129,9 @@ temple_of_confucius = {
 	#can we build it?
 	build_trigger = {
 		OR = { 
-			province_is_or_accepts_religion = {
-				religion = confucianism
-			}	
+			province_is_or_accepts_religion_group = {
+			religion_group = eastern
+		}	
 			has_owner_harmonized_religion = yes
 		}
 	}
@@ -4149,9 +4149,9 @@ temple_of_confucius = {
 	#can our country use it?
 	can_use_modifiers_trigger = {
 		OR = { 
-			province_is_or_accepts_religion = {
-				religion = confucianism
-			}	
+			province_is_or_accepts_religion_group = {
+			religion_group = eastern
+		}	
 			has_owner_harmonized_religion = yes
 		}
 	}
@@ -4159,9 +4159,9 @@ temple_of_confucius = {
 	#can our country upgrade it?
 	can_upgrade_trigger = {
 		OR = { 
-			province_is_or_accepts_religion = {
-				religion = confucianism
-			}	
+			province_is_or_accepts_religion_group = {
+			religion_group = eastern
+		}	
 			has_owner_harmonized_religion = yes
 		}
 	}
@@ -8294,7 +8294,7 @@ gyeongbok_palace = {
 				province_is_or_accepts_culture = yes
 				OR = { 
 					province_is_or_accepts_religion = {
-						religion = confucianism
+						religion_group = eastern
 					}	
 					has_owner_harmonized_religion = yes
 				}	
@@ -8324,7 +8324,7 @@ gyeongbok_palace = {
 				province_is_or_accepts_culture = yes
 				OR = { 
 					province_is_or_accepts_religion = {
-						religion = confucianism
+						religion_group = eastern
 					}	
 					has_owner_harmonized_religion = yes
 				}	
@@ -8348,7 +8348,7 @@ gyeongbok_palace = {
 				province_is_or_accepts_culture = yes
 				OR = { 
 					province_is_or_accepts_religion = {
-						religion = confucianism
+						religion_group = eastern
 					}	
 					has_owner_harmonized_religion = yes
 				}	

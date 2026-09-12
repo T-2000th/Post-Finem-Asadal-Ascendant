@@ -2,7 +2,7 @@
 capital = "Tjau"
 is_city = yes
 base_manpower = 2
-trade_goods = livestock
+trade_goods = marble
 base_tax = 3
 base_production = 3
 discovered_by = eastern

@@ -1,4 +1,4 @@
-trade_goods = wool
+trade_goods = hemp
 capital = "Klifia"
 base_tax = 3
 base_production = 4

@@ -1,6 +1,6 @@
 #4290 - Hoveyzeh
 capital = "Hoveyzeh"
-trade_goods = grain
+trade_goods = marble
 base_tax = 2
 base_production = 2
 base_manpower = 2

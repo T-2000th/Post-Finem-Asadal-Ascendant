@@ -10,6 +10,7 @@ discovered_by = celtic_tech
 discovered_by = eastern
 discovered_by = euro_pagan_tech
 discovered_by = muslim
+discovered_by = west_mongol_group
 discovered_by = ottoman
 hre = yes
 culture = lucanian
@@ -17,4 +18,7 @@ religion = hellenic
 add_core = ESN
 owner = ESN
 controller = ESN
-discovered_by = west_mongol_group
+add_province_modifier = {
+	name = italian_protected_hellenic_minority
+	duration = -1
+}

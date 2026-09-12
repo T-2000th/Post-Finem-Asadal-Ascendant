@@ -1,7 +1,7 @@
 #771 - Vitebsk
 base_tax = 2
 base_production = 1
-trade_goods = grain
+trade_goods = hemp
 base_manpower = 3
 capital = "Vitkhan"
 is_city = yes

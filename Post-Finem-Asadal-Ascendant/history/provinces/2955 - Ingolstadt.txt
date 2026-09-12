@@ -1,7 +1,7 @@
 # - Ingolstadt + Neuburg
 base_tax = 2
 base_production = 3
-trade_goods = wine#Would shift to beer over time
+trade_goods = marble#Would shift to beer over time
 base_manpower = 2
 capital = "Ingoldum"
 is_city = yes

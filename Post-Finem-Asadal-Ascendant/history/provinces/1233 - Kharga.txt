@@ -2,7 +2,7 @@
 capital = "Hebte"
 is_city = yes
 base_manpower = 1
-trade_goods = livestock
+trade_goods = marble
 base_tax = 2
 base_production = 2
 add_local_autonomy = 50

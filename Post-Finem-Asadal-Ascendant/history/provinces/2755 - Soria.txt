@@ -1,7 +1,7 @@
 #2755 - Soria
 base_tax = 3
 base_production = 2
-trade_goods = wool
+trade_goods = hemp
 base_manpower = 3
 capital = "Sori"
 is_city = yes

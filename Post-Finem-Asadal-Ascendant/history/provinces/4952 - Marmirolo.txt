@@ -7,7 +7,7 @@
 capital = "Marmirolo"
 base_tax = 4
 base_production = 4
-trade_goods = livestock
+trade_goods = hemp
 base_manpower = 3
 is_city = yes
 discovered_by = western

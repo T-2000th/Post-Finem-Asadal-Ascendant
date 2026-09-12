@@ -15,9 +15,8 @@ owner = ILY
 controller = ILY
 hre = yes
 add_core = ILY
-religion = punic_religion
+religion = tharanic
 culture = dalmarian
-
 center_of_trade = 1
 add_core = DDA
 discovered_by = west_mongol_group

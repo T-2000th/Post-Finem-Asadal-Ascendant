@@ -16,8 +16,7 @@ controller = ILY
 hre = yes
 add_core = ILY
 religion = punic_religion
-culture = venetii
+culture = dalmarian
 add_core = DDA
-
 center_of_trade = 1
 discovered_by = west_mongol_group

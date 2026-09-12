@@ -1,7 +1,7 @@
 # 2160 - Ngaichow
 
 culture = cantonese
-religion = mahayana
+religion = mazuism
 capital = "Ngaichow"
 trade_goods = incense
 base_tax = 1

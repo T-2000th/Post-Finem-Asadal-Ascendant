@@ -19,3 +19,4 @@ add_province_triggered_modifier = religious_center
 is_city = no
 discovered_by = west_mongol_group
 fort_15th = yes
+add_province_triggered_modifier = monthly_event_trigger_modifier

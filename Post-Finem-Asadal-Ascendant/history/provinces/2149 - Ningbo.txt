@@ -2,7 +2,7 @@
 
 
 culture = wu
-religion = confucianism
+religion = mohism
 capital = "Ningbo"
 trade_goods = naval_supplies
 hre = no

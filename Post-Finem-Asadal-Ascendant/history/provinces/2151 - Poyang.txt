@@ -2,7 +2,7 @@
 
 
 culture = gan
-religion = confucianism
+religion = mohism
 capital = "Poyang"
 trade_goods = chinaware
 hre = no

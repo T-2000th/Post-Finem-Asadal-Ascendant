@@ -2,7 +2,7 @@
 
 
 culture = sichuanese
-religion = confucianism
+religion = daoism
 capital = "Luzhou"
 trade_goods = grain
 hre = no

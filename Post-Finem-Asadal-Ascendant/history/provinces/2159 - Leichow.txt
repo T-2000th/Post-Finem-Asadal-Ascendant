@@ -2,7 +2,7 @@
 
 
 culture = cantonese
-religion = mahayana
+religion = mazuism
 capital = "Leichow"
 trade_goods = sugar
 hre = no

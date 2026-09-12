@@ -2,7 +2,7 @@
 
 
 culture = sichuanese
-religion = confucianism
+religion = daoism
 capital = "Chongqing"
 trade_goods = spices
 hre = no

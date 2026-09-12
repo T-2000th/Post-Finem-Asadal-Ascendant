@@ -16,11 +16,10 @@ discovered_by = eastern
 discovered_by = euro_pagan_tech
 discovered_by = muslim
 discovered_by = ottoman
-owner = ILY
-controller = ILY
+owner = PNN
+controller = PNN
 hre = yes
-add_core = ILY
-religion = punic_religion
+religion = tharanic
 culture = illyrian
-
 discovered_by = west_mongol_group
+add_core = PNN

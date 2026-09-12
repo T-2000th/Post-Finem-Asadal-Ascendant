@@ -1,6 +1,6 @@
 #397 - Abu Dhabi
 capital = "Abu Dhabi"
-trade_goods = livestock#Pearls
+trade_goods = hemp#Pearls
 base_tax = 1
 base_production = 1
 base_manpower = 1

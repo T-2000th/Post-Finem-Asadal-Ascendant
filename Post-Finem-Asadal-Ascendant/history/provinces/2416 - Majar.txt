@@ -1,7 +1,7 @@
 #2416 - Majar
 base_tax = 2
 base_production = 2
-trade_goods = livestock
+trade_goods = hemp
 base_manpower = 2
 capital = "Majar"
 is_city = yes

@@ -1,6 +1,6 @@
 #340 - Constantine
 capital = "Ubon"
-trade_goods = naval_supplies
+trade_goods = marble
 base_tax = 4
 base_production = 3
 base_manpower = 2

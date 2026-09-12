@@ -2,7 +2,7 @@
 
 
 culture = xiang
-religion = confucianism
+religion = mohism
 capital = "Wulin"
 trade_goods = cotton
 hre = no

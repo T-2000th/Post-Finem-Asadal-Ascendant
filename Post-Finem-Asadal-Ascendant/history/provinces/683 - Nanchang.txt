@@ -2,7 +2,7 @@
 
 
 culture = gan
-religion = confucianism
+religion = mohism
 capital = "Nanchang"
 trade_goods = paper
 hre = no

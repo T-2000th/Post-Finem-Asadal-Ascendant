@@ -1,6 +1,6 @@
 #2348 - Chios
 capital = "Mytilene"
-trade_goods = fish
+trade_goods = marble
 base_tax = 3
 base_production = 3
 base_manpower = 1
@@ -18,7 +18,6 @@ religion = hellenic
 culture = dardanian
 discovered_by = ASH
 discovered_by = BUL
-
 discovered_by = ASG
 discovered_by = BRT
 discovered_by = CRI

@@ -2,7 +2,7 @@
 
 
 culture = sichuanese
-religion = confucianism
+religion = daoism
 capital = "Yichang"
 trade_goods = tea
 latent_trade_goods = { 

@@ -2,7 +2,7 @@
 
 
 culture = wu
-religion = confucianism
+religion = mohism
 capital = "Huizhou"
 trade_goods = paper
 hre = no

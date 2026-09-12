@@ -2,7 +2,7 @@
 
 
 culture = filipino
-religion = animism
+religion = mazuism
 capital = "Tondo"
 trade_goods = spices
 hre = no

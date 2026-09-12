@@ -224,6 +224,24 @@ christian = {
 		# 	reformed
 		# 	protestant
 		# }
+		allowed_center_conversion = {
+			punic_religion
+			tharanic
+			romana
+			hellenic
+			heliophoroi
+			paradosi
+			neterist
+			germanic_religion
+			south_germanic_religion
+		}
+		will_get_center = { 
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = concetus
+				}
+			}
+		}
 		country = {
 			improve_relation_modifier = 0.1
 			diplomatic_upkeep = 1
@@ -244,6 +262,21 @@ christian = {
 			arm_the_flock_aspect
 			temperedness_aspect
 			diplomatic_mediators_aspect
+			incorporate_prophecy_aspect
+			ancient_knowledge_aspect
+			bishop_in_residence_aspect
+			apocalypticism_aspect
+			knightly_orders_aspect
+			# Culture specific
+			saint_salvius_aspect
+			right_to_rule_aspect
+			# Nation specific
+			golden_donation_aspect		# Ancona
+			pragmatic_doctrine_aspect	# Angelcynn
+			christs_hunt_aspect			# Vildheim
+			breton_church_aspect		# Llidaw
+			roman_church_aspect			# Rome
+			urban_beliefs_aspect		# Heliopolis lol
 		}
 		aspects_name = CONCETUS_ASPECTS
 		
@@ -1496,7 +1529,7 @@ eastern = {
 
 	confucianism = {
 		color = { 214 229 140 }
-		icon = 9
+		icon = 55
 		country = {
 			tolerance_heretic = 2
 			adm_tech_cost_modifier = -0.1
@@ -1507,6 +1540,99 @@ eastern = {
 		}
 		heretic = { TAOIST }
 		uses_harmony = yes
+	}
+	
+	mohism = {
+		icon = 50
+		color = { 255 128 0 }
+		province = {
+			garrison_growth  = 0.5
+			local_defensiveness = 0.2
+			local_missionary_strength = 0.02
+		}
+		country = {
+			administrative_efficiency = 0.1
+			stability_cost_modifier = -0.1
+		}
+		country_as_secondary = {
+			production_efficiency = 0.05
+		}
+		allowed_center_conversion = {
+			confucianism
+		}
+		uses_harmony = yes
+		heretic = { MINGJIA XIANCULT }
+		
+		harmonized_modifier = harmonized_mohist
+	}
+	
+	mazuism = {
+		icon = 51
+		color = { 122 20 4 }
+		province = {
+			province_trade_power_value = 10
+			local_build_cost = -0.4
+			local_missionary_strength = 0.02
+		}
+		country = {
+			trade_efficiency = 0.2
+			navy_tradition = 1
+		}
+		country_as_secondary = {
+			naval_forcelimit_modifier = 0.1
+		}
+		allowed_center_conversion = {
+			confucianism
+		}
+		heretic = { XIANCULT }
+		
+		harmonized_modifier = harmonized_mazuist
+	}
+	
+	hmongism = {
+		icon = 64
+		color = { 69 42 69 }
+		country = {
+				tolerance_own = 2
+				global_unrest = -1
+		}
+		country_as_secondary = {
+			global_autonomy = -0.02
+		}
+		province = {
+			local_hostile_attrition = 1
+		}
+
+		
+		heretic = { SHAMANCULT JADEWORSHIP }
+		
+		harmonized_modifier = harmonized_hmong
+	}
+	
+	daoism = {
+
+		color = { 72 124 69 }
+		icon = 9
+		country = {
+			global_autonomy = -0.05
+			warscore_cost_vs_other_religion = -0.3
+		}
+		country_as_secondary = {
+				advisor_cost = -0.2
+		}
+		
+		declare_war_in_regency = yes
+		heretic = { XIANCULT }
+		
+		holy_sites = { 1838 1836 693 684 679 }
+		blessings = {
+			enlist_holy_warriors
+			establish_new_temples
+			promote_religious_values
+			espouse_territorial_integrity
+			send_religious_diplomats
+		}
+		harmonized_modifier = harmonized_daoist
 	}
 
 	shinto = {
@@ -3974,6 +4100,274 @@ punic_group = {
 			# religion_sub_modifier = no is possible, will hide icon in religious screen
 			global_trade_goods_size_modifier = 0.1
 		}
+		zakkim_school = {
+			potential_invite_scholar = {
+				religion = tharanic
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_zakkim_school
+					has_country_flag = privilege_can_always_invite_zakkim_school
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_zakkim_school }
+						NOT = { has_country_flag = privilege_can_always_invite_zakkim_school }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = zakkim_school_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = zakkim_school_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = zakkim_school_modifier
+
+			picture = "GFX_icon_tharanic_school_zakkim"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			global_heretic_missionary_strength = 0.02
+		}
+		narkotim_school = {
+			potential_invite_scholar = {
+				religion = tharanic
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_narkotim_school
+					has_country_flag = privilege_can_always_invite_narkotim_school
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_narkotim_school }
+						NOT = { has_country_flag = privilege_can_always_invite_narkotim_school }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = narkotim_school_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = narkotim_school_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = narkotim_school_modifier
+
+			picture = "GFX_icon_tharanic_school_narkesh"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			global_unrest = -1
+		}
+		terran_school = {
+			potential_invite_scholar = {
+				religion = tharanic
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_terran_school
+					has_country_flag = privilege_can_always_invite_terran_school
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_terran_school }
+						NOT = { has_country_flag = privilege_can_always_invite_terran_school }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = terran_school_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = terran_school_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = terran_school_modifier
+
+			picture = "GFX_icon_tharanic_school_terran"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			global_trade_goods_size_modifier = 0.1
+		}
+		qartid_school = {
+			potential_invite_scholar = {
+				religion = tharanic
+				OR = {
+					knows_of_scholar_country_capital_trigger = yes
+					has_country_flag = can_always_invite_qartid_school
+					has_country_flag = privilege_can_always_invite_qartid_school
+				}
+			}
+
+			# THIS = Nation wanting to invite the scholar, FROM = Nation that follows that school
+			can_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				if = {
+					limit = {
+						NOT = { has_country_flag = can_always_invite_qartid_school }
+						NOT = { has_country_flag = privilege_can_always_invite_qartid_school }
+					}
+					reverse_has_opinion = { who = FROM value = 150 }
+					OR = {
+						alliance_with = FROM
+						is_subject_of = FROM
+						overlord_of = FROM
+					}
+					hidden_progressive_opinion_for_scholar_trigger = yes
+				}
+				if = {
+					limit = {
+						ai = yes
+					}
+					NOT = { has_country_modifier = has_invited_scholar_recently }
+				}
+				NOT = { has_country_modifier = qartid_school_modifier }
+			}
+
+			# THIS = Nation wanting to invite the scholar, FORM = Nation that sends scholar
+			on_invite_scholar = {
+				if = {
+					limit = {
+						NOT = { has_country_flag = no_scholar_adm_cost }
+					}
+					adm_power_cost = 50
+				}
+				clear_religious_scholar_modifiers_effect = yes
+				custom_tooltip = INVITE_SCHOLAR_COUNTRY_TEXT
+				add_country_modifier = { name = qartid_school_modifier duration = 7300 }
+				if = {	#Ensures that the AI doesn't waste all of their ADM power on inviting scholars should they be able to invite them baseline
+					limit = {
+						ai = yes
+					}
+					add_country_modifier = { name = has_invited_scholar_recently duration = 7300 hidden = yes }
+				}
+			}
+
+			# If you don't set this it will expand on_invite_scholar effect which might be super big
+			invite_scholar_modifier_display = qartid_school_modifier
+
+			picture = "GFX_icon_tharanic_school_qartid"
+
+			# religion_sub_modifier = no is possible, will hide icon in religious screen
+			development_cost = -0.05
+		}
 	}
 	punic_religion = {
 		icon = 31
@@ -3994,13 +4388,47 @@ punic_group = {
 		on_convert = {
 			on_religion_change_effect = yes
 		}
+		# allowed_conversion = {
+		# 	tharanic
+		# }
 
 		heretic = { NUMIDIANS EGYPTIANS }	
+	}
+
+	tharanic = {
+		# date = 1900.01.01
+		icon = 49
+		color = { 100 100 100 }
+		country = {
+			manpower_recovery_speed = 0.1
+			production_efficiency = 0.1
+		}
+		country_as_secondary = {
+			global_manpower_modifier = 0.2
+		}
+		province = {
+			local_missionary_strength = -0.02
+		}
+		allowed_center_conversion = {
+			punic_religion
+			romana
+		}
+		will_get_center = { 
+			any_owned_province = {
+				is_reformation_center = no
+			}
+		}
+		# hre_heretic_religion = yes
+		
+		on_convert = {
+			on_religion_change_effect = yes
+		}
+
+		heretic = { KALARICS VESANS BRANIKS }	
 	}
 	
 	romana = {
 		icon = 35
-		hre_heretic_religion = yes
 		color = { 220 70 70 }
 		country = {
 			innovativeness_gain = 0.5
@@ -4019,12 +4447,14 @@ punic_group = {
 		holy_sites = { 104 118 124 341 146 }
 		allowed_center_conversion = {
 			punic_religion
+			tharanic
 		}
 		will_get_center = { 
 			any_owned_province = {
 				is_reformation_center = no
 			}
 		}
+		hre_heretic_religion = yes
 			
 		blessings = {
 			pf_romana_call_to_arms
@@ -4686,7 +5116,6 @@ hellenic_group = {
 		allowed_center_conversion = {
 			hellenic		
 		}
-		date = 1447.10.31
 		on_convert = {
 			hidden_effect = {
 				on_religion_change_effect = yes

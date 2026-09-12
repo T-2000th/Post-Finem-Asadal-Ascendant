@@ -553,6 +553,9 @@ chinese_warlord = {
 				religion = buddhism
 			}
 			religion = confucianism
+			religion = mazuism
+			religion = mohism
+			religion = daoism
 		}
 		technology_group = chinese
 		capital_scope = {
@@ -587,6 +590,9 @@ chinese_warlord = {
 				religion = buddhism
 			}
 			religion = confucianism
+			religion = mazuism
+			religion = mohism
+			religion = daoism
 		}
 		technology_group = chinese
 		capital_scope = {
@@ -626,6 +632,9 @@ chinese_warlord = {
 				religion = buddhism
 			}
 			religion = confucianism
+			religion = mazuism
+			religion = mohism
+			religion = daoism
 		}
 		capital_scope = {
 			OR = {
@@ -2893,7 +2902,7 @@ mandala_reform = {
 	allow_normal_conversion = yes
 	potential = {
 		NOT = { religion = shinto }
-		NOT = { religion = confucianism }
+		NOT = { religion = confucianism religion = mazuism religion = mohism religion = daoism }
 		OR = {
 			religion_group = eastern
 			religion_group = dharmic
@@ -2910,7 +2919,7 @@ mandala_reform = {
 	nation_designer_cost = 10
 	nation_designer_trigger = {
 		NOT = { religion = shinto }
-		NOT = { religion = confucianism }
+		NOT = { religion = confucianism religion = mazuism religion = mohism religion = daoism }
 		OR = {
 			religion_group = eastern
 			religion_group = dharmic
@@ -3046,6 +3055,9 @@ confucian_bureaucracy = {
 	nation_designer_trigger = {
 		OR = {
 			religion = confucianism
+			religion = mazuism
+			religion = mohism
+			religion = daoism
 			primary_culture = vietnamese
 			primary_culture = vietnamese_new
 			culture_group = east_asian
@@ -3054,6 +3066,9 @@ confucian_bureaucracy = {
 	potential = {
 		OR = {
 			religion = confucianism
+			religion = mazuism
+			religion = mohism
+			religion = daoism
 			primary_culture = vietnamese
 			primary_culture = vietnamese_new
 			culture_group = east_asian
@@ -5206,6 +5221,9 @@ examination_system_reform = {
 	potential = {
 		OR = {
 			religion = confucianism
+			religion = mazuism
+			religion = mohism
+			religion = daoism
 			primary_culture = vietnamese
 			primary_culture = vietnamese_new
 		}

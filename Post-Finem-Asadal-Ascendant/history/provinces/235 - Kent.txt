@@ -1,7 +1,7 @@
 #235 - Kent
 base_tax = 4
 base_production = 3
-trade_goods = livestock
+trade_goods = hemp
 base_manpower = 2
 capital = "Cant"
 is_city = yes

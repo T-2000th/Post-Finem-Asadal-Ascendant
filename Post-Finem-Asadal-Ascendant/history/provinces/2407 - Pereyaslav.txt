@@ -1,7 +1,7 @@
 #2407 - Pereyaslav
 base_tax = 2
 base_production = 2
-trade_goods = grain
+trade_goods = hemp
 base_manpower = 2
 capital = "Perayaslag"
 is_city = yes

@@ -1,6 +1,6 @@
 #1871 - Wallis
 capital = "Valisium"
-trade_goods = livestock
+trade_goods = marble
 base_tax = 3
 base_production = 2
 base_manpower = 2

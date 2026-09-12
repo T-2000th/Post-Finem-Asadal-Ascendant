@@ -12,7 +12,7 @@ discovered_by = euro_pagan_tech
 discovered_by = muslim
 discovered_by = ottoman
 1420.1.1 = { 
-capital = "Gurza"
+	capital = "Gurza"
 }
 hre = yes
 culture = venetii
@@ -20,5 +20,4 @@ religion = punic_religion
 add_core = CLI
 owner = CLI
 controller = CLI
-
 discovered_by = west_mongol_group

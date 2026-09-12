@@ -2,7 +2,7 @@
 
 
 culture = chimin
-religion = mahayana
+religion = mazuism
 capital = "Fuzhou"
 trade_goods = tea
 hre = no

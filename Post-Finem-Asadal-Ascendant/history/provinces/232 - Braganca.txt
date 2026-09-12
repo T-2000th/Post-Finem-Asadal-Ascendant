@@ -1,6 +1,6 @@
 #232 - Bragança
 capital = "Braganik"
-trade_goods = wine
+trade_goods = hemp
 base_tax = 2
 base_production = 3
 base_manpower = 2

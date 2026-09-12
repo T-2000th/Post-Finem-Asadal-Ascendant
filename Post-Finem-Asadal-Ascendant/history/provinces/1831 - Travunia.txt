@@ -11,12 +11,11 @@ discovered_by = eastern
 discovered_by = euro_pagan_tech
 discovered_by = muslim
 discovered_by = ottoman
-owner = ILY
-controller = ILY
+owner = DMA
+controller = DMA
 hre = yes
-add_core = ILY
 religion = hellenic
-culture = lyros
-
+culture = delmati
 discovered_by = west_mongol_group
+add_core = DMA
 fort_15th = yes

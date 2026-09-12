@@ -1,7 +1,7 @@
 #4740 - Como
 base_tax = 3
 base_production = 3
-trade_goods = cloth
+trade_goods = iron
 base_manpower = 4
 capital = "Comum"
 is_city = yes# Estimated
@@ -15,6 +15,9 @@ owner = ITY
 controller = ITY
 hre = yes
 add_core = ITY
-culture = sabini
+culture = alpini
 religion = romana
 discovered_by = west_mongol_group
+latent_trade_goods = { 
+	coal 
+}

@@ -13,9 +13,8 @@ discovered_by = ottoman
 owner = DDA
 controller = DDA
 hre = yes
-religion = punic_religion
-culture = venetii
-
+religion = tharanic
+culture = dalmarian
 add_core = DDA
 discovered_by = west_mongol_group
 fort_15th = yes

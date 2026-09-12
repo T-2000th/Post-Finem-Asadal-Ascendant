@@ -5,3 +5,4 @@ discovered_by = euro_pagan_tech
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = west_mongol_group
+trade_goods = wine

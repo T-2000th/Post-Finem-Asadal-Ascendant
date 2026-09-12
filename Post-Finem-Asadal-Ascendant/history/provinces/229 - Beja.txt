@@ -1,6 +1,6 @@
 #229 - Baixo Alentejo
 capital = "Bejum"
-trade_goods = livestock
+trade_goods = hemp
 base_tax = 3
 base_production = 2
 base_manpower = 3

@@ -1,6 +1,6 @@
 #59 - Wittenberg
 capital = "Witenberk"
-trade_goods = wool
+trade_goods = hemp
 base_tax = 2
 base_production = 4
 base_manpower = 2
@@ -16,5 +16,4 @@ culture = semnones
 add_core = SMN
 owner = SMN
 controller = SMN
-
 discovered_by = west_mongol_group

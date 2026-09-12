@@ -1,0 +1,28 @@
+# 5152 - Alsa
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Alsa"
+# trade_goods = 
+#Total development: 3
+base_tax = 2
+base_production = 2
+base_manpower = 4
+# fort_15th = yes
+# center_of_trade = 
+is_city = no
+religion = punic_religion
+trade_goods = naval_supplies
+culture = corsi
+add_core = EYL
+owner = EYL
+controller = EYL
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group

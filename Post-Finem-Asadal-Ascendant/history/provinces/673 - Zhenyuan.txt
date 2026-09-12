@@ -3,7 +3,7 @@
 
 
 culture = miao
-religion = mahayana
+religion = hmongism
 capital = "Zhenyuan"
 trade_goods = tea
 hre = no

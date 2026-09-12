@@ -15,7 +15,6 @@ owner = ILY
 controller = ILY
 hre = yes
 add_core = ILY
-religion = hellenic
-culture = lyros
-
+religion = tharanic
+culture = delmati
 discovered_by = west_mongol_group

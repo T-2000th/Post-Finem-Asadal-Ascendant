@@ -1,7 +1,7 @@
 # 2979 - Novara
 base_tax = 3
 base_production = 3
-trade_goods = grain
+trade_goods = hemp
 base_manpower = 3
 capital = "Novara"
 is_city = yes# Estimated

@@ -1,7 +1,7 @@
 #290 - Poltava
 base_tax = 2
 base_production = 1
-trade_goods = grain
+trade_goods = hemp
 base_manpower = 2
 capital = "Poltag"
 is_city = yes

@@ -2,7 +2,7 @@
 
 
 culture = wu
-religion = confucianism
+religion = mohism
 capital = "Shaoxin"
 trade_goods = paper
 hre = no

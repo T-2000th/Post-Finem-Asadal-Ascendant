@@ -1,0 +1,29 @@
+# 5151 - Kerma
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Kerma"
+trade_goods = grain
+#Total development: 3
+base_tax = 4
+base_production = 6
+base_manpower = 4
+# fort_15th = yes
+# center_of_trade = 
+is_city = yes
+religion = punic_religion
+culture = siculi
+add_core = CLN
+owner = CLN
+controller = CLN
+add_core = THS
+hre = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group

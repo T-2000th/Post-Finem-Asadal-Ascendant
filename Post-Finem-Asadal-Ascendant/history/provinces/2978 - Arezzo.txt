@@ -1,7 +1,7 @@
 # 2978 - Arezzo
 base_tax = 4
 base_production = 2
-trade_goods = livestock
+trade_goods = hemp
 base_manpower = 5
 capital = "Arretium"
 is_city = yes# Estimated 
@@ -15,7 +15,7 @@ owner = RMA
 controller = RMA
 hre = yes
 add_core = RMA
-culture = etrusci
+culture = samnitii
 religion = punic_religion
 discovered_by = west_mongol_group
 fort_15th = yes

@@ -1,7 +1,7 @@
 #Blekinge
 base_tax = 3
 base_production = 3
-trade_goods = naval_supplies
+trade_goods = marble
 base_manpower = 2
 capital = "Ronneby"
 discovered_by = eastern

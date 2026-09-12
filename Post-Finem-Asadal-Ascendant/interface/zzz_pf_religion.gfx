@@ -1,0 +1,104 @@
+spriteTypes = {
+
+    spriteType = {
+        name = "GFX_icon_religion"
+        texturefile = "gfx//interface//icon_religion.dds"
+        noOfFrames = 66
+    }    
+    spriteType = {
+        name = "GFX_country_icon_religion"
+        texturefile = "gfx//interface//country_icon_religion.dds"
+        noOfFrames = 66
+    }
+    spriteType = {
+        name = "GFX_icon_religion_small"
+        texturefile = "gfx//interface//icon_religion_small.dds"
+        noOfFrames = 66
+        loadType = "INGAME"
+    }
+    spriteType = {
+        name = "GFX_religion_icon_strip"
+        texturefile = "gfx//interface//icon_religion_small.dds"
+        transparencecheck = yes
+        noOfFrames = 66
+    }
+    spriteType = {
+        name = "GFX_province_view_religion"
+        texturefile = "gfx//interface//province_view_religion.dds"
+        noOfFrames = 66
+        loadType = "INGAME"
+    }
+    spriteType = {
+		name = "GFX_alert_pick_church_aspect_slavic"
+		texturefile = "gfx/interface/alert_pick_church_aspect_protestant.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_alert_pick_church_aspect_enuma_elish"
+		texturefile = "gfx/interface/alert_pick_church_aspect_protestant.dds"
+		alwaystransparent = yes
+	}
+
+    spriteType = {
+		name = "GFX_execute_heretics_icon"
+		texturefile = "gfx/interface/zoroastrian/execute_heretics_icon.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_collect_additional_tax_icon"
+		texturefile = "gfx/interface/zoroastrian/collect_additional_tax_icon.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_inward_focus_icon"
+		texturefile = "gfx/interface/zoroastrian/inward_focus_icon.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_harvest_rituals_icon"
+		texturefile = "gfx/interface/zoroastrian/harvest_rituals_icon.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_inspire_zealotry_icon"
+		texturefile = "gfx/interface/zoroastrian/inspire_zealotry_icon.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_worship_fire_icon"
+		texturefile = "gfx/interface/zoroastrian/worship_fire_icon.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_promote_mobeds_icon"
+		texturefile = "gfx/interface/zoroastrian/promote_mobeds_icon.dds"
+		alwaystransparent = yes
+	}
+    spriteType = {
+		name = "GFX_conversion_efforts_icon"
+		texturefile = "gfx/interface/zoroastrian/conversion_efforts_icon.dds"
+		alwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_alert_pick_church_aspect_zoroastrian"
+		texturefile = "gfx\\interface\\alert_pick_church_aspect_zoroastrian.dds"
+		alwaystransparent = yes
+	}
+
+
+
+	#Modifier icons
+
+	spriteType = {
+		name = "GFX_country_admin_power"
+		texturefile = "gfx\\interface\\ideas_EU4\\country_admin_power.dds"
+	}	
+	spriteType = {
+		name = "GFX_country_diplomatic_power"
+		texturefile = "gfx\\interface\\ideas_EU4\\country_diplomatic_power.dds"
+	}
+	spriteType = {
+		name = "GFX_country_military_power"
+		texturefile = "gfx\\interface\\ideas_EU4\\country_military_power.dds"
+	}	
+}

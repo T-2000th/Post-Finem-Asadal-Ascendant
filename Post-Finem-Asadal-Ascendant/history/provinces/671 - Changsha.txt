@@ -2,7 +2,7 @@
 
 
 culture = xiang
-religion = confucianism
+religion = mohism
 capital = "Changsha"
 trade_goods = grain
 hre = no

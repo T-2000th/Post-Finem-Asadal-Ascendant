@@ -1,7 +1,7 @@
 #1747 - Caceres
 base_tax = 3
 base_production = 3
-trade_goods = wool
+trade_goods = hemp
 base_manpower = 2
 capital = "Kakiris"
 is_city = yes

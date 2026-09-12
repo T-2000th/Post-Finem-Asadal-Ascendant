@@ -13,10 +13,9 @@ discovered_by = muslim
 discovered_by = ottoman
 hre = yes
 religion = punic_religion
-culture = illyrian
-add_core = CLI
-owner = CLI
-controller = CLI
-
+culture = pannoni
+owner = VRD
+controller = VRD
 discovered_by = west_mongol_group
+add_core = VRD
 fort_15th = yes

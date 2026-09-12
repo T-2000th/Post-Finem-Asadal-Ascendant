@@ -1,6 +1,6 @@
 #1828 - Donji Kraji
 capital = "Adrion"
-trade_goods = livestock
+trade_goods = hemp
 base_tax = 2
 base_production = 3
 base_manpower = 2
@@ -15,9 +15,8 @@ owner = ILY
 controller = ILY
 hre = yes
 add_core = ILY
-religion = punic_religion
+religion = tharanic
 culture = illyrian
-
 add_core = DDA
 discovered_by = west_mongol_group
 fort_15th = yes

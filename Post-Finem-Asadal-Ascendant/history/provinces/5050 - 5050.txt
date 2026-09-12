@@ -5,7 +5,7 @@
 # religion = 
 # hre = yes
 capital = "Olympia"
-trade_goods = incense
+trade_goods = cloth
 # Total development: 5
 base_tax = 3
 base_production = 2

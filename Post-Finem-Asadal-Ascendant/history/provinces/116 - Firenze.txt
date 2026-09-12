@@ -1,7 +1,7 @@
 #116 - Firenze
 base_tax = 7
 base_production = 6
-trade_goods = wine
+trade_goods = marble
 base_manpower = 7
 capital = "Florentia"
 is_city = yes

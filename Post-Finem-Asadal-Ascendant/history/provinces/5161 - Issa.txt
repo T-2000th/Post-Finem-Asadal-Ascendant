@@ -1,0 +1,29 @@
+# 5161 - Issa
+# controller = 
+# owner = 
+# culture = 
+# religion = 
+# hre = yes
+capital = "Issa"
+# trade_goods = 
+#Total development: 3
+base_tax = 3
+base_production = 5
+base_manpower = 4
+# fort_15th = yes
+# center_of_trade = 
+religion = punic_religion
+is_city = no
+trade_goods = fish
+culture = dalmarian
+add_core = ISA
+owner = ISA
+controller = ISA
+hre = yes
+discovered_by = western
+discovered_by = celtic_tech
+discovered_by = eastern
+discovered_by = euro_pagan_tech
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = west_mongol_group

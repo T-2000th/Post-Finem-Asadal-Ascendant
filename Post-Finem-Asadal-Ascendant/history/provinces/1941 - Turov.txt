@@ -1,7 +1,7 @@
 #Turov
 base_tax = 2
 base_production = 2
-trade_goods = wool
+trade_goods = hemp
 base_manpower = 4
 capital = "Turov"
 is_city = yes

@@ -3,7 +3,7 @@ capital = "Amsterdam"
 is_city = yes
 base_tax = 4
 base_production = 4
-trade_goods = wool
+trade_goods = hemp
 base_manpower = 4
 discovered_by = eastern
 discovered_by = euro_pagan_tech
@@ -19,5 +19,4 @@ culture = norvegr
 religion = norse_pagan_reformed
 center_of_trade = 2
 discovered_by = west_mongol_group
-
 fort_15th = yes

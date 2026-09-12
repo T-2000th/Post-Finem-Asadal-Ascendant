@@ -3,7 +3,7 @@
 
 
 culture = yi
-religion = mahayana
+religion = hmongism
 capital = "Umung"
 trade_goods = copper
 hre = no

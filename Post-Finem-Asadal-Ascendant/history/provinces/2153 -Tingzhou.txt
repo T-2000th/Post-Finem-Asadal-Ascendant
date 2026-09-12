@@ -2,7 +2,7 @@
 
 
 culture = hakka
-religion = mahayana
+religion = mazuism
 capital = "Tingzhou"
 trade_goods = paper
 hre = no

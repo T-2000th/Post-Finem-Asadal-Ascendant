@@ -1,6 +1,5 @@
 discovered_by = ASH
 discovered_by = BUL
-
 discovered_by = ASG
 discovered_by = BRT
 discovered_by = CRI
@@ -12,3 +11,4 @@ is_city = no
 discovered_by = eastern
 discovered_by = euro_pagan_tech
 discovered_by = ottoman
+discovered_by = muslim

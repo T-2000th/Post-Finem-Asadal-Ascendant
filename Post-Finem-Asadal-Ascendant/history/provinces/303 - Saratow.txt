@@ -1,7 +1,7 @@
 #303 - Saratow
 base_tax = 2
 base_production = 1
-trade_goods = livestock
+trade_goods = hemp
 base_manpower = 1
 capital = "Ukek"
 is_city = yes

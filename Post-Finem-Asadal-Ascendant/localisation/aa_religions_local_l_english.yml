@@ -1,0 +1,161 @@
+﻿l_english:
+#RELIGON
+##Mohism religion
+ mohism:0 "Mojia"
+ mohism_religion_desc:0 "Mohism or Mojia is rationalist and ethical faith centered on universal love and impartiality. Mohists believe in aligning human behavior with the will of Heaven (Tian) through simplicity, justice, and the pursuit of collective welfare, rejecting extravagance and favoritism in favor of moral order and practical benefit."
+ mohism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ mohism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ mohism_rebels_title:0 "Religious"
+ mohism_rebels_name:0 "$RELIGION$ Zealots"
+ mohism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ mohism_rebels_army:0 "$RELIGION$ Army"
+ MINGJIA:0 "Mingjia"
+ XIANCULT:0 "Cult of Xian"
+
+#####Mazuism religion
+ mazuism:0 "Mazuism"
+ mazuism_religion_desc:0 "A mystical and philosophical faith rooted in the worship of Mazu, the water goddess, who is seen as The One — the ultimate, indivisible source of all creation. Mazuism teaches that all gods, spirits, and forces of the world are emanations of Mazu’s divine essence, imperfect reflections of her unity and perfection. Through devotion, contemplation, and harmony with the flow of existence, believers seek to transcend the material world and approach closer to Mazu’s pure, eternal presence."
+ mazuism_rebels_title:0 "Religious"
+ mazuism_rebels_name:0 "$RELIGION$ Zealots"
+ mazuism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ mazuism_rebels_army:0 "$RELIGION$ Army"
+ mazuism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ mazuism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+
+#####Hmong religion
+ hmongism:0 "Kev Dab Qhuas"
+ hmongism_religion_desc:0 "Kev Dab Qhuas blended animism and ancestral worship. It teaches that all spirits (dab) are part of a cosmic order, with shamans mediating between worlds through ritual and trance to maintain harmony and protect the living."
+ hmongism_rebels_title:0 "Religious"
+ hmongism_rebels_name:0 "$RELIGION$ Zealots"
+ hmongism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ hmongism_rebels_army:0 "$RELIGION$ Army"
+ hmongism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ hmongism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ SHAMANCULT:0 "Siv Yis Follower"
+ JADEWORSHIP:0 "Zue Nyuu's Worshipper"
+ 
+ #####Daoism religion
+ daoism:0 "Daojia"
+ daoism_religion_desc:0 "A philosophical and spiritual faith centered on harmony with the Dao, the fundamental way of the universe. It emphasizes balance, natural order, and non-interference (wu wei), teaching that enlightenment comes through simplicity, humility, and attunement to the flow of existence."
+ daoism_rebels_title:0 "Religious"
+ daoism_rebels_name:0 "$RELIGION$ Zealots"
+ daoism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ daoism_rebels_army:0 "$RELIGION$ Army"
+ daoism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ daoism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+
+#####Mahasamghika religion
+ mahasamghika:0 "Mahasamghika"
+ mahasamghika_religion_desc:0 "The school of the Great Sangha (Mahasamghika) is the oldest yet the most restricted of the Buddhist nikayas. Restricted mainly to the old Buddhist stronghold of Vajjika and to the west in Gujarat, this nikaya is known mainly for advocating the supramundane nature of buddhas and bodhisattvas as well as a rejection of most forms of syncretism. They have mainly spread via trade and colonialism in the east."
+ mahasamghika_rebels_title:0 "Religious"
+ mahasamghika_rebels_name:0 "$RELIGION$ Zealots"
+ mahasamghika_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ mahasamghika_rebels_army:0 "$RELIGION$ Army"
+ mahasamghika_rebels_demand:0 "Convert $COUNTRYNAME$"
+ mahasamghika_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Tamraparniya/Theravada religion(pls replace all theravada with this)
+ tamraparniya:0 "Tamraparniya"
+ tamraparniya_religion_desc:0 "The Tamraparniya nikaya is the last direct descendant of the Sthaviras, who broke away from the Mahasamghika over changes to the vinaya. This nikaya rejects the concept of Bodhisattvas and emphasizes a powerful, austere clergy based around various sanghas and headed by the powerful Sangha of Anuradhapura."
+ tamraparniya_rebels_title:0 "Religious"
+ tamraparniya_rebels_name:0 "$RELIGION$ Zealots"
+ tamraparniya_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ tamraparniya_rebels_army:0 "$RELIGION$ Army"
+ tamraparniya_rebels_demand:0 "Convert $COUNTRYNAME$"
+ tamraparniya_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Bodhisattvayana/Mahayana religion(pls replace all mahayana with this)
+ bodhisattvayana:0 "Bodhisattvayana"
+ bodhisattvayana_religion_desc:0 "The Bodhisattvayana nikaya has unclear origins. Descended from a mixture of various Mahasamghika and Sthavira sanghas, it embraces the core doctrine of the Mahasamghikas along with several other sutras and a healthy dose of syncretism. Monks have spread this nikaya along the trade routes all the way to the lands of the Yavana and Rum in the distant west."
+ bodhisattvayana_rebels_title:0 "Religious"
+ bodhisattvayana_rebels_name:0 "$RELIGION$ Zealots"
+ bodhisattvayana_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ bodhisattvayana_rebels_army:0 "$RELIGION$ Army"
+ bodhisattvayana_rebels_demand:0 "Convert $COUNTRYNAME$"
+ bodhisattvayana_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Lingayatism religion
+ lingayatism:0 "Lingayatism"
+ lingayatism_religion_desc:0 "Considered by many to be nastika, the Lingayats, or Veerashaivas as they call themselves, are a reformation of Hinduism. Rejecting the authority of the Vedas, Puranas and all scriptures, they emphasize a strong personal devotion to Shiva in the form of Ishtalinga, the One True reality. They reject all distinctions of caste and gender, and the legacy of their oppression before they came to power has endowed them with a strong desire to spread faith and freedom to all Jambudvipa."
+ lingayatism_rebels_title:0 "Religious"
+ lingayatism_rebels_name:0 "$RELIGION$ Zealots"
+ lingayatism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ lingayatism_rebels_army:0 "$RELIGION$ Army"
+ lingayatism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ lingayatism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Kaumaram religion
+ kaumaram:0 "Kaumaram"
+ kaumaram_religion_desc:0 "A localised, warlike interpretation of Hinduism based on the Shaiva agamas and the Kanda Puranam, Kaumaram is a sect that places Murugan(known to others as Skanda) and his family as the primary objects of veneration. This tradition has wholeheartedly embraced royal deification to a severe degree. The most important ritual sites for Kaumaram are the Arupadai Veedu, the Six Abodes of Murugan."
+ kaumaram_rebels_title:0 "Religious"
+ kaumaram_rebels_name:0 "$RELIGION$ Zealots"
+ kaumaram_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ kaumaram_rebels_army:0 "$RELIGION$ Army"
+ kaumaram_rebels_demand:0 "Convert $COUNTRYNAME$"
+ kaumaram_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Mangal religion
+ mangal:0 "Mangal"
+ mangal_religion_desc:0 "Mangal isn't a unified faith. Rather, it is a catch-all term that has evolved over millenia to refer to the various folk and tribal faiths of Vanga and the east, all having been influenced by Hinduism to some degree. From Chumdeo, the royal deity of the Ahoms to Dakshin Rai, the great Tiger King of the Sundarbans and even Chandi, the supreme deity often equated to Hindu Durga; all are referred to as Mangal."
+ mangal_rebels_title:0 "Religious"
+ mangal_rebels_name:0 "$RELIGION$ Zealots"
+ mangal_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ mangal_rebels_army:0 "$RELIGION$ Army"
+ mangal_rebels_demand:0 "Convert $COUNTRYNAME$"
+ mangal_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Sarnaism religion
+ sarnaism:0 "Sarnaism"
+ sarnaism_religion_desc:0 "Sarna Dharma, the way of the sacred groves, is the form of nature-worship embraced by the Adivasis of Central Jambudvipa. Adherents revere the Sarnas(sacred groves) found in every village where the gram deoti resides. Great emphasis is placed on the jal(water), jangal(forest) and jamin(land) and on living harmoniously with nature."
+ sarnaism_rebels_title:0 "Religious"
+ sarnaism_rebels_name:0 "$RELIGION$ Zealots"
+ sarnaism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ sarnaism_rebels_army:0 "$RELIGION$ Army"
+ sarnaism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ sarnaism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Nanaism religion
+ nanaism:0 "Nanaism"
+ nanaism_religion_desc:0 "Neither Mazdean nor Hindu nor Sinitic, the faith of Sogdia has been influenced by all three surrounding civilizations owing to it's position on the Silk Road. From Nana, the most revered goddess of the Sogdians and a clear import from Mesopotamia, to Adbad, the Sogdian Ohrmuzd who is garbed as Vedic Indra-the faith of Sogdia stands as a testament to the rich history of religious syncretism in the old Indo-Iranian world and the Silk Road."
+ nanaism_rebels_title:0 "Religious"
+ nanaism_rebels_name:0 "$RELIGION$ Zealots"
+ nanaism_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ nanaism_rebels_army:0 "$RELIGION$ Army"
+ nanaism_rebels_demand:0 "Convert $COUNTRYNAME$"
+ nanaism_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Ramayana religion
+ ramalayu:0 "Ajita Dharma"
+ ramalayu_religion_desc:0 "."
+ ramalayu_rebels_title:0 "Religious"
+ ramalayu_rebels_name:0 "$RELIGION$ Zealots"
+ ramalayu_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ ramalayu_rebels_army:0 "$RELIGION$ Army"
+ ramalayu_rebels_demand:0 "Convert $COUNTRYNAME$"
+ ramalayu_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Tagalog Ramayana religion
+ rakshalog:0 "Sugribangsa"
+ rakshalog_religion_desc:0 "."
+ rakshalog_rebels_title:0 "Religious"
+ rakshalog_rebels_name:0 "$RELIGION$ Zealots"
+ rakshalog_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ rakshalog_rebels_army:0 "$RELIGION$ Army"
+ rakshalog_rebels_demand:0 "Convert $COUNTRYNAME$"
+ rakshalog_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Ravanist religion
+ ravanites:0 "Ravana's Tantra"
+ ravanites_religion_desc:0 "."
+ ravanites_rebels_title:0 "Religious"
+ ravanites_rebels_name:0 "$RELIGION$ Zealots"
+ ravanites_rebels_desc:0 "Religious fanatics tend to rise up in provinces controlled by nations of a different faith. They seek to spread their faith and smite all unbelievers."
+ ravanites_rebels_army:0 "$RELIGION$ Army"
+ ravanites_rebels_demand:0 "Convert $COUNTRYNAME$"
+ ravanites_rebels_demand_desc:0 "The religious rebels fight for the $RELIGION$ religion. They demand that we recognize its supremacy or at the very least cease our efforts to convert them and let them worship in peace."
+ 
+ #####Religious Groups loc
+ malaysantara_group:0 "Suvarnadvipa Group"
+ sanskrit_non_hindu_group:0 "Non-Brahmanic Sanskrit Group"
+ astika_group:0 "Astika Group"
+ buddhist_group:0 "Buddhist Group"

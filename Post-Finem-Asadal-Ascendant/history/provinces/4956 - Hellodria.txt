@@ -1,5 +1,5 @@
 capital = "Hellodria"
-trade_goods = livestock
+trade_goods = hemp
 base_tax = 3
 base_production = 3
 base_manpower = 3
@@ -14,8 +14,7 @@ owner = ILY
 controller = ILY
 hre = yes
 add_core = ILY
-religion = punic_religion
-culture = venetii
+religion = tharanic
+culture = illyrian
 add_core = DDA
-
 discovered_by = west_mongol_group

@@ -11,6 +11,13 @@
  mohism_rebels_army:0 "$RELIGION$ Army"
  MINGJIA:0 "Mingjia"
  XIANCULT:0 "Cult of Xian"
+ daoism_blessings: "Dogma of Dao"
+ pick_daoism_blessing: "Pick Daoist Dogma"
+ aa_daoism_kungfu: "Kungfu Fighting"
+ aa_daoism_divination: "Positive Divination"
+ aa_daoism_thousand_school: "Build Thousand Schools"
+ aa_daoism_venerate_ancestor: "Worship Ancestors"
+ aa_daoism_we_are_all_han: "Heir of The Han"
 
 #####Mazuism religion
  mazuism:0 "Mazuism"

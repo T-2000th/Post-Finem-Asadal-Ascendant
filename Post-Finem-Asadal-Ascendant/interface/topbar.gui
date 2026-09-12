@@ -1,0 +1,3083 @@
+guiTypes = {
+
+	windowType = {
+		name = "topbar"
+		backGround=""
+		position = { x=0 y=-1 }
+		size = { x=2048 y=100 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = yes
+
+		show_position = { x = 0 y = -1 }
+		hide_position = { x = 0 y = -165 }
+		animation_type = "decelerated"
+		animation_time = 600
+
+
+		iconType = {
+			name = "brown_bg"
+			spriteType ="GFX_brown_bg"
+			position = { x= 676 y = 20 }
+			alwaystransparent = yes
+		}
+
+
+		iconType =
+		{
+			name ="topbar_1"
+			spriteType = "GFX_remove"
+			position = { x= 99512 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="topbar_2"
+			spriteType = "GFX_remove"
+			position = { x= 991024 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="topbar_3"
+			spriteType = "GFX_remove"
+			position = { x= 991532 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+
+
+
+
+		iconType =
+		{
+			name ="topbar_upper_left_bg"
+			spriteType = "GFX_topbar_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="topbar_upper_left_bg4"
+			spriteType = "GFX_topbar_banner"
+			position = { x= 70 y = 40 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		iconType = {
+			name = "government_reforms_button_base"
+			quadTextureSprite ="GFX_government_reforms_button_base"
+			position = { x= 93 y = 104 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		
+		guiButtonType = {
+			name = "player_shield"
+			quadTextureSprite ="GFX_shield_fancy"
+			position = { x= -5 y = 2 }
+			Orientation = "UPPER_LEFT"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			shortcut = "F1"
+		}
+
+		iconType = {
+			name = "player_shield_glow"
+			quadTextureSprite ="GFX_shield_fancy_great_power_glow"
+			position = { x= -5 y = 2 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "open_build_interface_button"
+			position = { x = 6 y = 109 }
+			quadTextureSprite ="GFX_open_build_interface"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			clicksound = macro_build
+			hint_tag = "hint_macrobuild"
+			shortcut = "b"
+		}
+
+		iconType = {
+			name = "great_power_button_base"
+			quadTextureSprite ="GFX_great_power_button_base"
+			position = { x= 111 y = 80 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "great_power_button"
+			position = { x = 115 y = 84 }
+			quadTextureSprite ="GFX_great_power_button"
+			buttonFont = "Main_14_black"
+			clicksound = macro_build
+			shortcut = "Shift+G"
+		}
+
+
+		iconType = {
+			name = "government_reforms_progress"
+			position = { x = 100 y = 110 }
+			quadTextureSprite ="GFX_government_reforms_progress"
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "government_reforms_button"
+			position = { x = 100 y = 110 }
+			quadTextureSprite ="GFX_government_reforms_button"
+			buttonFont = "Main_14_black"
+			clicksound = macro_build
+		}
+
+	######### top bar portraits ###########
+
+
+		guiButtonType =
+		{
+			name ="icon_merchant"
+			quadTextureSprite = "GFX_icon_merchant"
+			position = { x= 739 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_merchant"
+		}
+
+		guiButtonType =
+		{
+			name ="icon_settler"
+			quadTextureSprite = "GFX_icon_settler"
+			position = { x= 780 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_colonist"
+		}
+
+
+		guiButtonType =
+		{
+			name ="icon_diplomat"
+			quadTextureSprite = "GFX_icon_diplomat"
+			position = { x= 821 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_diplomat"
+		}
+
+		guiButtonType =
+		{
+			name ="icon_missionary"
+			quadTextureSprite = "GFX_icon_missionary"
+			position = { x= 862 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_missionary"
+		}
+
+	##########################################
+
+		iconType =
+		{
+			name ="topbar_upper_left_bg2"
+			spriteType = "GFX_topbar_portrait_value_bg"
+			position = { x= 731 y = 30 }
+			Orientation = "UPPER_LEFT"
+		}
+
+	#############  portrait values #############
+
+		instantTextBoxType = {
+			name = "text_merchants"
+			position = { x = 732 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "text_settlers"
+			position = { x = 773 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "text_diplomats"
+			position = { x = 814 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "text_missionaries"
+			position = { x = 855 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+
+	###########  top bar icons and values #############
+
+		iconType =
+		{
+			name ="icon_gold"
+			spriteType = "GFX_icon_gold_strip"
+			position = { x= 146 y = 10 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ducats"
+		}
+		instantTextBoxType = {
+			name = "text_gold"
+			position = { x = 152 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 60
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_manpower"
+			spriteType = "GFX_icon_manpower"
+			position = { x= 228 y = 11 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_manpower"
+		}
+		instantTextBoxType = {
+			name = "text_manpower"
+			position = { x = 248 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+		}
+
+
+		iconType =
+		{
+			name ="icon_sailors"
+			spriteType = "GFX_icon_sailors"
+			position = { x= 311 y = 14 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "text_sailors"
+			position = { x = 331 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+		}
+
+
+		iconType =
+		{
+			name ="icon_stability"
+			spriteType = "GFX_icon_stability"
+			position = { x= 394 y = 10 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_stability"
+		}
+		instantTextBoxType = {
+			name = "text_stability"
+			position = { x = 405 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+
+
+
+
+		iconType =
+		{
+			name ="icon_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 524 y = 10 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_prestige"
+		}
+		instantTextBoxType = {
+			name = "text_prestige"
+			position = { x = 536 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_dev"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 588 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 3
+			hint_tag = "hint_legitimacy"
+		}
+		instantTextBoxType = {
+			name = "text_dev"
+			position = { x = 605 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_meritocracy"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 588 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 5
+			hint_tag = "hint_meritocracy"
+		}
+		instantTextBoxType = {
+			name = "text_meritocracy"
+			position = { x = 605 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+
+		iconType =
+		{
+			name ="icon_leg"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 590 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+			hint_tag = "hint_legitimacy"
+		}
+		instantTextBoxType = {
+			name = "text_leg"
+			position = { x = 605 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_rep"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 590 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 2
+			hint_tag = "hint_republican"
+		}
+		instantTextBoxType = {
+			name = "text_rep"
+			position = { x = 606 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_unity"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 590 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 4
+		}
+		instantTextBoxType = {
+			name = "text_unity"
+			position = { x = 606 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		windowType = {
+			name = "powerprojection_topbar"
+			backGround=""
+			position = { x = 148 y = 0 }
+			size = { x=100 y=100 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+				iconType =
+				{
+					name ="topbar_liberty_overlay"
+					spriteType = "GFX_topbar_liberty_overlay"
+					position = { x= 491 y = -1 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType =
+				{
+					name ="icon_powerprojection"
+					spriteType = "GFX_icon_powerprojection"
+					position = { x= 518 y = 10 }
+					Orientation = "UPPER_LEFT"
+					hint_tag = "hint_powerprojection"
+				}
+
+				instantTextBoxType = {
+					name = "text_powerprojection"
+					position = { x = 527 y = 13 }
+					textureFile = ""
+					font = "vic_18"
+					borderSize = {x = 4 y = 4}
+					text = ""
+					maxWidth = 40
+					maxHeight = 32
+					format = right
+				}
+
+		}
+
+		windowType = {
+			name = "liberty_desire_topbar"
+			backGround=""
+			position = { x = 148 y = 0 }
+			size = { x=100 y=100 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+				iconType =
+				{
+					name ="topbar_liberty_overlay"
+					spriteType = "GFX_topbar_liberty_overlay"
+					position = { x= 491 y = -1 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType =
+				{
+					name ="topbar_liberty_icon"
+					spriteType = "GFX_liberty_icon"
+					position = { x= 512 y = 10 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType =
+				{
+					name = "topbar_liberty_value"
+					position = { x = 527 y = 13 }
+					textureFile = ""
+					font = "vic_18"
+					borderSize = {x = 4 y = 4}
+					text = "100"
+					maxWidth = 40
+					maxHeight = 32
+					format = right
+				}
+
+		}
+	#######################################
+
+
+
+#Viking Age
+
+	windowType = {
+		name = "viking_age_window"
+		backGround=""
+		position = { x = 745 y = 72 }
+		size = { x=150	y=30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		scripted = yes
+
+			iconType = {
+				name ="viking_age_background"
+				spriteType = "GFX_viking_age_background"
+				position = { x= 5 y = 0 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "viking_age_text"
+				position = { x = 18 y = 5 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 2 y = 2}
+				text = viking_age_gui_text
+				maxWidth = 120
+				maxHeight = 20
+				format = center
+				scripted = yes
+			}
+
+	}
+
+	windowType = {
+		name = "division_age_window"
+		backGround=""
+		position = { x = 745 y = 72 }
+		size = { x=150	y=30 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = no
+		scripted = yes
+
+			iconType = {
+				name ="division_age_background"
+				spriteType = "GFX_viking_age_background"
+				position = { x= 5 y = 0 }
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+			}
+
+			instantTextBoxType = {
+				name = "division_age_text"
+				position = { x = 18 y = 5 }
+				textureFile = ""
+				font = "vic_18"
+				borderSize = {x = 2 y = 2}
+				text = division_age_gui_text
+				maxWidth = 120
+				maxHeight = 20
+				format = center
+				scripted = yes
+			}
+
+	}
+
+
+
+
+
+	############### Power mechanics for a country ################
+
+
+
+
+		iconType =
+		{
+			name ="icon_corruption"
+			spriteType = "GFX_icon_corruption_small"
+			position = { x= 458 y = 11 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "text_corruption"
+			position = { x = 463 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 46
+			maxHeight = 32
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "text_ADM"
+			position = { x = 520 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "5"
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+		}
+		iconType = {
+			name ="icon_ADM"
+			spriteType = "GFX_icon_powers_administrative"
+			position = { x= 498 y = 49 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_adm"
+		}
+
+
+		instantTextBoxType = {
+			name = "text_DIP"
+			position = { x = 581 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "5"
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+		}
+		iconType = {
+			name ="icon_DIP"
+			spriteType = "GFX_icon_powers_diplomatic"
+			position = { x= 558 y = 49 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_dip"
+		}
+
+		instantTextBoxType = {
+			name = "text_MIL"
+			position = { x = 639 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "5"
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+		}
+		iconType = {
+			name = "icon_MIL"
+			spriteType ="GFX_icon_powers_military"
+			position = { x= 616 y = 49 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_mil"
+		}
+
+		iconType = {
+			name = "button_base"
+			spriteType ="GFX_age_frame_addon"
+			position = { x= 690 y = 30 }
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "current_age_button"
+			position = { x = 722 y = 32 }
+			quadTextureSprite ="GFX_age_button"
+			clicksound = macro_build
+			shortcut = "Shift+A"
+		}
+
+		guiButtonType = {
+			name = "age_icon"
+			spriteType ="GFX_icon_age_s"
+			position = { x= 705 y = 47 }
+			frame = 1
+		}
+
+		instantTextBoxType = {
+			name = "age_title"
+			position = { x = 740 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "AgeText"
+			maxWidth = 160
+			maxHeight = 32
+			format = left
+			alwaystransparent = yes
+		}
+
+		
+
+
+
+
+	#################################################
+
+
+
+		instantTextBoxType = {
+			name = "PlayerNationText"
+			position = { x = 151 y = 50 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 340
+			maxHeight = 32
+			fixedsize = yes
+		}
+
+
+	############### DATE PANEL ###################
+
+
+
+
+
+		windowType = {
+			name = "pause_window"
+			backGround=""
+			position = { x=-203 y= 100 }
+			size = { x=406 y=70 }
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			moveable = 0
+			Orientation = "CENTER_UP"
+
+			iconType ={
+				name ="pause_banner"
+				spriteType = "GFX_pause_banner"
+				position = { x = 0 y = -15 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			#Needs localisation change
+			instantTextBoxType = {
+				name = "pause_banner_text"
+				position = { x = 140 y = 9 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				text = "CORE_PAUSED"
+				maxWidth = 120
+				maxHeight = 32
+				format = center
+			}
+		}
+		
+		guiButtonType = {
+			name = "pf_achievements_button"
+			quadTextureSprite ="GFX_button_achievements"
+			position = { x = -61 y = 57 }
+			Orientation = "UPPER_RIGHT"
+			scripted = yes
+		}		
+		
+		#Achievement Topbar
+		windowType = {	
+			name = "pf_achievement_window"	
+			backGround=""
+			position = { x=-380 y=-290 }	
+			size = { x=1000 y=1000 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			Orientation = "CENTER"
+			scripted = yes
+
+			iconType = {
+				name = "pf_achievement_window"
+				spriteType = "GFX_achievements_bg"
+				position = { x= -5 y = 0 }
+			}
+			instantTextBoxType = {
+				name = "pf_achievement_window_title"
+				position = { x = 140 y =15 }
+				font = "vic_29s"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 500
+				maxHeight = 32
+				format = centre
+				scripted = yes			
+			}	
+			guiButtonType = {
+				name ="pf_achievement_window_back"
+				quadTextureSprite ="GFX_standard_button_88"
+				position = { x= 184 y = 564 }
+				buttonText = "BACK"
+				buttonFont = "vic_18"
+				scripted = yes
+				# shortcut = "ESCAPE"
+			}	
+			guiButtonType = {
+				name ="pf_achievement_window_close"
+				quadTextureSprite ="button_type_4"
+				position = { x= 284 y = 564 }
+				buttonText = "CLOSE"
+				buttonFont = "vic_18"
+				scripted = yes
+				shortcut = "ESCAPE"
+			}	
+			guiButtonType = {
+				name ="pf_achievement_window_next"
+				quadTextureSprite ="GFX_standard_button_88"
+				position = { x= 520 y = 564 }
+				buttonText = "NEXT"
+				buttonFont = "vic_18"
+				scripted = yes
+				# shortcut = "ESCAPE"
+			}
+
+			#Third Odyssey Achievement
+			windowType = {
+				name = "third_odyssey_achievement_window"
+				position = { x = 33 y = 76 } #Row 1 Column 1
+				scripted = yes
+				iconType = {
+					name = "third_odyssey_achievement"
+					spriteType = "GFX_third_odyssey_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "third_odyssey_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "third_odyssey_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="third_odyssey_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#An Empire Once Again
+			windowType = {
+				name = "an_empire_once_again_achievement_window"
+				position = { x = 219 y = 76 } #Row 1 Column 2
+				scripted = yes
+				iconType = {
+					name = "an_empire_once_again_achievement"
+					spriteType = "GFX_an_empire_once_again_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "an_empire_once_again_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "an_empire_once_again_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="an_empire_once_again_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#Never Too Old
+			windowType = {
+				name = "never_too_old_achievement_window"
+				position = { x = 405 y = 76 } #Row 1 Column 3
+				scripted = yes
+				iconType = {
+					name = "never_too_old_achievement"
+					spriteType = "GFX_never_too_old_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "never_too_old_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "never_too_old_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="never_too_old_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#Argead Restoration
+			windowType = {
+				name = "argead_restoration_achievement_window"
+				position = { x = 591 y = 76 } #Row 1 Column 4
+				scripted = yes
+				iconType = {
+					name = "argead_restoration_achievement"
+					spriteType = "GFX_argead_restoration_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "argead_restoration_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "argead_restoration_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="argead_restoration_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#Teach a Man To Fish 
+			windowType = {
+				name = "teach_a_man_to_fish_achievement_window"
+				position = { x = 33 y = 237 } #Row 2 Column 1
+				scripted = yes
+				iconType = {
+					name = "teach_a_man_to_fish_achievement"
+					spriteType = "GFX_teach_a_man_to_fish_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "teach_a_man_to_fish_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "teach_a_man_to_fish_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="teach_a_man_to_fish_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 5 }
+					scripted = yes
+				}
+			}
+
+			#It's All Greek To Me
+			windowType = {
+				name = "its_all_greek_to_me_achievement_window"
+				position = { x = 219 y = 237 } #Row 2 Column 2
+				scripted = yes
+				iconType = {
+					name = "its_all_greek_to_me_achievement"
+					spriteType = "GFX_its_all_greek_to_me_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "its_all_greek_to_me_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "its_all_greek_to_me_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="its_all_greek_to_me_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#The Polyponnesians
+			windowType = {
+				name = "the_polyponnesians_achievement_window"
+				position = { x = 405 y = 237 } #Row 2 Column 3
+				scripted = yes
+				iconType = {
+					name = "the_polyponnesians_achievement"
+					spriteType = "GFX_the_polyponnesians_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "the_polyponnesians_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "the_polyponnesians_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="the_polyponnesians_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#A True Emerald Green
+			windowType = {
+				name = "a_true_emerald_green_achievement_window"
+				position = { x = 591 y = 237 } #Row 2 Column 4
+				scripted = yes
+				iconType = {
+					name = "a_true_emerald_green_achievement"
+					spriteType = "GFX_a_true_emerald_green_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "a_true_emerald_green_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "a_true_emerald_green_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="a_true_emerald_green_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#A Holy. Roman. Empire.
+			windowType = {
+				name = "a_holy_roman_empire_achievement_window"
+				position = { x = 33 y = 398 } #Row 3 Column 1
+				scripted = yes
+				iconType = {
+					name = "a_holy_roman_empire_achievement"
+					spriteType = "GFX_a_holy_roman_empire_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "a_holy_roman_empire_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "a_holy_roman_empire_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="a_holy_roman_empire_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#The Stormbringer Cometh
+			windowType = {
+				name = "the_stormbringer_cometh_achievement_window"
+				position = { x = 219 y = 398 } #Row 3 Column 2
+				scripted = yes
+				iconType = {
+					name = "the_stormbringer_cometh_achievement"
+					spriteType = "GFX_the_stormbringer_cometh_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "the_stormbringer_cometh_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "the_stormbringer_cometh_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="the_stormbringer_cometh_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#Allfather's Forge
+			windowType = {
+				name = "allfathers_forge_achievement_window"
+				position = { x = 405 y = 398 } #Row 3 Column 3
+				scripted = yes
+				iconType = {
+					name = "allfathers_forge_achievement"
+					spriteType = "GFX_allfathers_forge_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "allfathers_forge_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "allfathers_forge_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="allfathers_forge_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#Homecoming
+			windowType = {
+				name = "homecoming_achievement_window"
+				position = { x = 591 y = 398 } #Row 3 Column 4
+				scripted = yes
+				iconType = {
+					name = "homecoming_achievement"
+					spriteType = "GFX_homecoming_achievement"
+					position = { x= -5 y = 0 }
+					scripted = yes
+				}
+				iconType = {
+					name = "homecoming_achievement_banner"
+					spriteType = "GFX_achievement_name_banner"
+					position = { x= -5 y = 115 }
+				}
+				instantTextBoxType = {
+					name = "homecoming_achievement_banner_text"
+					position = { x= 0 y = 117 }
+					maxHeight = 20
+					maxWidth = 157
+					font = "vic_22_black"
+					format = center
+					scripted = yes
+				}
+				guiButtonType = {					
+					name ="homecoming_achievement_overlay"
+					quadTextureSprite ="GFX_achievement_overlay"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+			}
+
+			#Achievements Page 2
+			windowType = {
+				name = "pf_achievement_page_2"
+				position = { x = 0 y = 0 }
+				scripted = yes
+
+			#Kemeted
+				windowType = {
+					name = "kemeted_achievement_window"
+					position = { x = 33 y = 76 } #Row 1 Column 1
+					scripted = yes
+					iconType = {
+						name = "kemeted_achievement"
+						spriteType = "GFX_kemeted_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "kemeted_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "kemeted_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="kemeted_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#Crown Control
+				windowType = {
+					name = "crown_control_achievement_window"
+					position = { x = 219 y = 76 } #Row 1 Column 2
+					scripted = yes
+
+					iconType = {
+						name = "crown_control_achievement"
+						spriteType = "GFX_crown_control_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "crown_control_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "crown_control_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="crown_control_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#Trust the Process
+				windowType = {
+					name = "trust_the_process_achievement_window"
+					position = { x = 405 y = 76 } #Row 1 Column 3
+					scripted = yes
+					
+					iconType = {
+						name = "trust_the_process_achievement"
+						spriteType = "GFX_trust_the_process_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "trust_the_process_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "trust_the_process_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="trust_the_process_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#Nicator
+				windowType = {
+					name = "nicator_achievement_window"
+					position = { x = 591 y = 76 } #Row 1 Column 4
+					scripted = yes
+					
+					iconType = {
+						name = "nicator_achievement"
+						spriteType = "GFX_nicator_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "nicator_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "nicator_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="nicator_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#Staying Together
+				windowType = {
+					name = "staying_together_achievement_window"
+					position = { x = 33 y = 237 } #Row 2 Column 1
+					scripted = yes
+					
+					iconType = {
+						name = "staying_together_achievement"
+						spriteType = "GFX_staying_together_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "staying_together_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "staying_together_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="staying_together_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#The Empire Strikes Back
+				windowType = {
+					name = "empire_strikes_back_achievement_window"
+					position = { x = 219 y = 237 } #Row 2 Column 2
+					scripted = yes
+					
+					iconType = {
+						name = "empire_strikes_back_achievement"
+						spriteType = "GFX_empire_strikes_back_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "empire_strikes_back_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "empire_strikes_back_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="empire_strikes_back_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#The Other Northmen
+				windowType = {
+					name = "other_northmen_achievement_window"
+					position = { x = 405 y = 237 } #Row 2 Column 3
+					scripted = yes
+					
+					iconType = {
+						name = "other_northmen_achievement"
+						spriteType = "GFX_other_northmen_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "other_northmen_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "other_northmen_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="other_northmen_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#Emerald Entrepreneurs
+				windowType = {
+					name = "emerald_entrepreneurs_achievement_window"
+					position = { x = 591 y = 237 } #Row 2 Column 4
+					scripted = yes
+					
+					iconType = {
+						name = "emerald_entrepreneurs_achievement"
+						spriteType = "GFX_emerald_entrepreneurs_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "emerald_entrepreneurs_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "emerald_entrepreneurs_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="emerald_entrepreneurs_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#High Quality Copper
+				windowType = {
+					name = "high_quality_copper_achievement_window"
+					position = { x = 33 y = 398 } #Row 3 Column 1
+					scripted = yes
+					
+					iconType = {
+						name = "high_quality_copper_achievement"
+						spriteType = "GFX_high_quality_copper_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "high_quality_copper_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "high_quality_copper_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="high_quality_copper_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#Pyrrhic Victory
+				windowType = {
+					name = "pyrrhic_victory_achievement_window"
+					position = { x = 219 y = 398 } #Row 3 Column 2
+					scripted = yes
+					
+					iconType = {
+						name = "pyrrhic_victory_achievement"
+						spriteType = "GFX_pyrrhic_victory_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "pyrrhic_victory_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "pyrrhic_victory_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="pyrrhic_victory_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#This is SPARTA!
+				windowType = {
+					name = "this_is_sparta_achievement_window"
+					position = { x = 405 y = 398 } #Row 3 Column 3
+					scripted = yes
+					
+					iconType = {
+						name = "this_is_sparta_achievement"
+						spriteType = "GFX_this_is_sparta_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "this_is_sparta_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "this_is_sparta_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="this_is_sparta_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+
+				#Hellenic Dusk
+				windowType = {
+					name = "hellenic_dusk_achievement_window"
+					position = { x = 591 y = 398 } #Row 3 Column 4
+					scripted = yes
+					
+					iconType = {
+						name = "hellenic_dusk_achievement"
+						spriteType = "GFX_hellenic_dusk_achievement"
+						position = { x= -5 y = 0 }
+						scripted = yes
+					}
+					iconType = {
+						name = "hellenic_dusk_achievement_banner"
+						spriteType = "GFX_achievement_name_banner"
+						position = { x= -5 y = 115 }
+					}
+					instantTextBoxType = {
+						name = "hellenic_dusk_achievement_banner_text"
+						position = { x= 0 y = 117 }
+						maxHeight = 20
+						maxWidth = 157
+						font = "vic_22_black"
+						format = center
+						scripted = yes
+					}
+					guiButtonType = {					
+						name ="hellenic_dusk_achievement_overlay"
+						quadTextureSprite ="GFX_achievement_overlay"
+						position = { x= 0 y = 0 }
+						scripted = yes
+					}
+				}
+			}
+		}
+
+		# MONGOL ILK KHAN WINDOW
+		guiButtonType = {
+			name = "mongol_toggle_button"
+			position = { x = -339 y = -187 }
+			quadTextureSprite = "GFX_mongols_toggle_button"
+			Orientation = "LOWER_RIGHT"
+			scripted = yes
+		}
+		windowType = {	
+			name = "mongol_ilk_khan_window"	
+			backGround=""
+			position = { x=-280 y=-350 }	
+			size = { x=1000 y=1000 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			Orientation = "CENTER"
+			scripted = yes
+			
+			iconType = {
+				name = "mongol_ilk_khan_window"
+				spriteType = "GFX_mongol_ilk_khan_window_bg"
+				position = { x= -5 y = 0 }
+			}
+			instantTextBoxType = {
+				name = "mongol_window_title"
+				position = { x = 46 y = 43 }
+				font = "vic_29s"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 500
+				maxHeight = 32
+				format = center
+				scripted = yes			
+			}		
+			guiButtonType = {
+				name ="mongol_window_close"
+				quadTextureSprite ="button_type_4"
+				position = { x= 190 y = 663 }
+				buttonText = "CLOSE"
+				buttonFont = "vic_18"
+				scripted = yes
+				shortcut = "ESCAPE"
+			}	
+			windowType = {	
+				name = "mongol_decree_window"	
+				backGround=""
+				position = { x=5 y=367 }	
+				size = { x=1000 y=1000 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				fullScreen = no
+				Orientation = "UPPER_LEFT"
+				scripted = yes
+				guiButtonType = {
+					name ="mongol_decree_1"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 33 y = 0 }
+					buttonText = "MONGOL_DECREE_1"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_2"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 33 y = 53 }
+					buttonText = "MONGOL_DECREE_2"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_3"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 33 y = 108 }
+					buttonText = "MONGOL_DECREE_3"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_4"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 33 y = 163 }
+					buttonText = "MONGOL_DECREE_4"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_5"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 33 y = 218 }
+					buttonText = "MONGOL_DECREE_5"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_6"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 297 y = 0 }
+					buttonText = "MONGOL_DECREE_6"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_7"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 297 y = 53 }
+					buttonText = "MONGOL_DECREE_7"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_8"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 297 y = 108 }
+					buttonText = "MONGOL_DECREE_8"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_9"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 297 y = 163 }
+					buttonText = "MONGOL_DECREE_9"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}
+				guiButtonType = {
+					name ="mongol_decree_10"
+					quadTextureSprite = "GFX_mongol_decree_button"
+					position = { x= 297 y = 218 }
+					buttonText = "MONGOL_DECREE_10"
+					buttonFont = "vic_22_black"
+					scripted = yes
+				}		
+				guiButtonType = {
+					name = "mongol_decree_passed_1"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 33 y = 0 }
+					buttonText = "MONGOL_DECREE_1"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_2"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 33 y = 53 }
+					buttonText = "MONGOL_DECREE_2"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_3"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 33 y = 108 }
+					buttonText = "MONGOL_DECREE_3"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_4"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 33 y = 163 }
+					buttonText = "MONGOL_DECREE_4"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_5"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 33 y = 218 }
+					buttonText = "MONGOL_DECREE_5"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_6"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 297 y = 0 }
+					buttonText = "MONGOL_DECREE_6"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_7"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 297 y = 53 }
+					buttonText = "MONGOL_DECREE_7"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_8"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 297 y = 108 }
+					buttonText = "MONGOL_DECREE_8"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_9"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 297 y = 163 }
+					buttonText = "MONGOL_DECREE_9"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+				guiButtonType = {
+					name = "mongol_decree_passed_10"
+					spriteType = "GFX_mongol_decree_passed"
+					position = { x= 297 y = 218 }
+					buttonText = "MONGOL_DECREE_10"
+					buttonFont = "vic_22_black"
+					scripted = yes
+					alwaystransparent = yes
+				}
+			}
+			guiButtonType = {
+				name ="mongol_ilk_khan_shield"
+				scripted = yes
+				quadTextureSprite = "GFX_mongol_ilk_khan_shield_frame"
+				position = { x= 166 y = 70 }
+				buttonFont = "vic_18_black"
+			}
+			iconType = {
+				name = "ilk_khan_name_banner"
+				spriteType = "GFX_province_banner_foreign"
+				position = { x= 135 y = 233 }
+				scripted = yes
+				scale = 0.6
+			}
+			instantTextBoxType = {
+				name = "ilk_khan_name"
+				position = { x = 182 y = 240 }
+				font = "vic_22s"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 235
+				maxHeight = 32
+				format = center
+				scripted = yes			
+			}	
+			iconType = {
+				name = "mongol_ilk_khan_benefits"
+				spriteType = "GFX_ilk_khan_benefits"
+				position = { x= 345 y = 168 }
+				scripted = yes
+			}
+			iconType = {
+				name = "mongol_legitimacy_frame"
+				spriteType = "GFX_mongol_legitimacy_frame"
+				position = { x= -7 y = 114 }
+				scripted = yes
+			}
+			instantTextBoxType = {
+				name = "mongol_legitimacy_value"
+				position = { x = 105 y = 148 }
+				font = "vic_29"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 35
+				maxHeight = 30
+				format = center
+				scripted = yes			
+			}	
+			instantTextBoxType = {
+				name = "mongol_legitimacy_growth_value"
+				position = { x = 105 y = 185 }
+				font = "vic_29"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 35
+				maxHeight = 30
+				format = center
+				scripted = yes			
+			}	
+			instantTextBoxType = {
+				name = "mongol_legitimacy_name"
+				position = { x = 68 y = 117 }
+				font = "vic_22"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 75
+				maxHeight = 22
+				format = center
+				scripted = yes			
+			}	
+			windowType = {
+				name = "root_claim_frame"	
+				backGround=""
+				position = { x=-43 y=-317 }	
+				size = { x=1000 y=1000 }
+				moveable = 0
+				dontRender = ""
+				horizontalBorder= ""
+				verticalBorder= ""
+				fullScreen = no
+				Orientation = "CENTER"
+				scripted = yes			
+
+				iconType = {
+					name = "root_claim_frame"
+					spriteType = "GFX_small_frame_border"
+					position = { x= 0 y = 0 }
+					scripted = yes
+				}
+				instantTextBoxType = {
+					name = "root_claim_value"
+					position = { x = 2 y = 6 }
+					font = "vic_22s"
+					borderSize = {x = 0 y = 0}
+					maxWidth = 75
+					maxHeight = 48
+					format = center
+					scripted = yes			
+				}	
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_1"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}	
+			guiButtonType = {
+				name = "mongol_root_claim_shield_2"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_3"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_4"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_5"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_6"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_7"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_8"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_9"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}
+			guiButtonType = {
+				name = "mongol_root_claim_shield_10"
+				quadTextureSprite ="GFX_shield_thin"
+				position = { x= 450 y = 95 }
+				scripted = yes
+			}			
+			iconType = {
+				name = "mongol_ilk_khan_decrees"
+				spriteType = "GFX_mongol_ilk_khan_decrees"
+				position = { x= 40 y = 260 }
+			}			
+			instantTextBoxType = {
+				name = "mongol_ilk_khan_decrees_title"
+				position = { x = 168 y = 273 }
+				font = "vic_29s"
+				borderSize = {x = 0 y = 0}
+				maxWidth = 250
+				maxHeight = 30
+				format = center
+				scripted = yes			
+			}
+		}
+
+	} ### end of "topbar"
+
+	windowType = {
+		name = "alerts_parent"
+		backGround=""
+		position = { x=0 y=-1 }
+		size = { x=2048 y=100 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = yes
+
+		show_position = { x = 0 y = -1 }
+		hide_position = { x = 0 y = -165 }
+		animation_type = "decelerated"
+		animation_time = 600
+	}
+
+	windowType = {
+		name = "hotkey_assign_parent"
+		backGround=""
+		position = { x=-202 y=-38 }
+		size = { x=404 y=76 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		orientation = "CENTER"
+
+		iconType = {
+			name ="assign_hotkey_pick_button_hint"
+			spriteType = "GFX_nation_designer_hint_bg"
+			position = { x= 0 y = 0 }
+		}
+		instantTextBoxType = {
+			name = "assign_hotkey_pick_button_hint_text"
+			position = { x = 40 y = 27 }
+			font = "vic_22"
+			text = "PICK_HOTKEY_BUTTON_HINT"
+			maxWidth = 320
+			maxHeight = 60
+			format = centre
+		}
+	}
+	
+##Daoist Gaming
+	windowType = {
+		name = "topbar"
+		backGround=""
+		position = { x=0 y=-1 }
+		size = { x=2048 y=100 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = yes
+		scripted = yes
+
+		show_position = { x = 0 y = -1 }
+		hide_position = { x = 0 y = -165 }
+		animation_type = "decelerated"
+		animation_time = 600
+
+
+		iconType = {
+			name = "brown_bg"
+			spriteType ="GFX_brown_bg"
+			position = { x= 676 y = 20 }
+			alwaystransparent = yes
+		}
+
+
+		iconType =
+		{
+			name ="topbar_1"
+			spriteType = "GFX_remove"
+			position = { x= 99512 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="topbar_2"
+			spriteType = "GFX_remove"
+			position = { x= 991024 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="topbar_3"
+			spriteType = "GFX_remove"
+			position = { x= 991532 y = -1 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		
+		iconType = {
+			name = "hh_sacred_cities_buttonholder_icon"
+			spriteType = "GFX_hh_sacred_cities_buttonholder_icon"
+			scripted = yes
+			position = { x = 922 y = 0 }
+		}
+
+		guiButtonType = {
+			name = "hh_sacred_cities_open_button"
+			spriteType ="GFX_hh_sacred_cities_open_button"
+			position = { x= 924 y = 20 }
+			scripted = yes
+		}
+
+
+		windowType = {
+			name = "sacred_cities_window"
+			backGround=""
+			position = { x=-345 y=-340  }
+			size = { x=569 y=660 }
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			moveable = 0
+			Orientation = "CENTER"
+			scripted = yes
+			
+			
+			iconType = {
+				name = "hh_sacred_cities_big_background_icon"
+				spriteType = "GFX_hh_sacred_cities_big_background_icon"
+				scripted = yes
+				position = { x = 0 y = 0 }
+			}
+			
+			
+			instantTextBoxType = {
+				name = "hh_sacred_cities_big_title"
+				position = { x = 240 y = 100 }
+				font = "vic_29"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 20
+				format = centre
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name = "hh_beijing_sacred_city"
+				spriteType = "GFX_hh_beijing_sacred_city"
+				scripted = yes
+				position = { x = 135 y = 164 }
+			}
+			instantTextBoxType = {
+				name = "hh_beijing_sacred_city_text"
+				position = { x = 140 y = 270 }
+				font = "vic_18"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 40
+				format = left
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name = "hh_hangzhou_sacred_city"
+				spriteType = "GFX_hh_hangzhou_sacred_city"
+				scripted = yes
+				position = { x = 364 y = 164 }
+			}
+			instantTextBoxType = {
+				name = "hh_hangzhou_sacred_city_text"
+				position = { x = 370 y = 270 }
+				font = "vic_18"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 40
+				format = left
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name = "hh_luoyang_sacred_city"
+				spriteType = "GFX_hh_luoyang_sacred_city"
+				scripted = yes
+				position = { x = 135 y = 306 }
+			}
+			instantTextBoxType = {
+				name = "hh_luoyang_sacred_city_text"
+				position = { x = 140 y = 409 }
+				font = "vic_18"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 40
+				format = left
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name = "hh_hanzhong_sacred_city"
+				spriteType = "GFX_hh_hanzhong_sacred_city"
+				scripted = yes
+				position = { x = 364 y = 306 }
+			}
+			instantTextBoxType = {
+				name = "hh_hanzhong_sacred_city_text"
+				position = { x = 370 y = 409 }
+				font = "vic_18"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 40
+				format = left
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name = "hh_nanjing_sacred_city"
+				spriteType = "GFX_hh_nanjing_sacred_city"
+				scripted = yes
+				position = { x = 135 y = 448 }
+			}
+			instantTextBoxType = {
+				name = "hh_nanjing_sacred_city_text"
+				position = { x = 140 y = 551 }
+				font = "vic_18"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 40
+				format = left
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name = "hh_xian_sacred_city"
+				spriteType = "GFX_hh_xian_sacred_city"
+				scripted = yes
+				position = { x = 364 y = 448 }
+			}
+			instantTextBoxType = {
+				name = "hh_xian_sacred_city_text"
+				position = { x = 370 y = 551 }
+				font = "vic_18"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 40
+				format = left
+				scripted = yes
+			}
+			
+			
+			
+			
+			guiButtonType = {
+				name = "hh_sacred_cities_close_button"
+				spriteType ="GFX_hh_sacred_cities_close_button"
+				position = { x = 10 y = 297 }
+				Orientation = "CENTER"
+				tooltip = ""
+				tooltipText =""
+				delayedTooltipText = ""
+				scripted = yes
+				shortcut = "ESCAPE"
+			}
+			
+			instantTextBoxType = {
+				name = "hh_sacred_cities_close_button_text"
+				position = { x = 249 y = 634 }
+				font = "vic_18"
+				text = "123"
+				maxWidth = 200
+				maxHeight = 20
+				format = centre
+				alwaystransparent = yes
+				scripted = yes
+			}
+		}
+
+		iconType =
+		{
+			name ="topbar_upper_left_bg"
+			spriteType = "GFX_topbar_bg"
+			position = { x= 0 y = 0 }
+			Orientation = "UPPER_LEFT"
+		}
+
+		iconType =
+		{
+			name ="topbar_upper_left_bg4"
+			spriteType = "GFX_topbar_banner"
+			position = { x= 70 y = 40 }
+			Orientation = "UPPER_LEFT"
+
+		}
+
+		iconType = {
+			name = "government_reforms_button_base"
+			quadTextureSprite ="GFX_government_reforms_button_base"
+			position = { x= 93 y = 104 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+		
+		
+		guiButtonType = {
+			name = "player_shield"
+			quadTextureSprite ="GFX_shield_fancy"
+			position = { x= -5 y = 2 }
+			Orientation = "UPPER_LEFT"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			shortcut = "F1"
+		}
+
+		iconType = {
+			name = "player_shield_glow"
+			quadTextureSprite ="GFX_shield_fancy_great_power_glow"
+			position = { x= -5 y = 2 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "open_build_interface_button"
+			position = { x = 6 y = 109 }
+			quadTextureSprite ="GFX_open_build_interface"
+			tooltip = ""
+			tooltipText =""
+			delayedTooltipText = ""
+			buttonFont = "Main_14_black"
+			clicksound = macro_build
+			hint_tag = "hint_macrobuild"
+			shortcut = "b"
+		}
+
+		iconType = {
+			name = "great_power_button_base"
+			quadTextureSprite ="GFX_great_power_button_base"
+			position = { x= 111 y = 80 }
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "great_power_button"
+			position = { x = 115 y = 84 }
+			quadTextureSprite ="GFX_great_power_button"
+			buttonFont = "Main_14_black"
+			clicksound = macro_build
+			shortcut = "Shift+G"
+		}
+
+
+		iconType = {
+			name = "government_reforms_progress"
+			position = { x = 100 y = 110 }
+			quadTextureSprite ="GFX_government_reforms_progress"
+			Orientation = "UPPER_LEFT"
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "government_reforms_button"
+			position = { x = 100 y = 110 }
+			quadTextureSprite ="GFX_government_reforms_button"
+			buttonFont = "Main_14_black"
+			clicksound = macro_build
+		}
+
+	######### top bar portraits ###########
+
+
+		guiButtonType =
+		{
+			name ="icon_merchant"
+			quadTextureSprite = "GFX_icon_merchant"
+			position = { x= 739 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_merchant"
+		}
+
+		guiButtonType =
+		{
+			name ="icon_settler"
+			quadTextureSprite = "GFX_icon_settler"
+			position = { x= 780 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_colonist"
+		}
+
+
+		guiButtonType =
+		{
+			name ="icon_diplomat"
+			quadTextureSprite = "GFX_icon_diplomat"
+			position = { x= 821 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_diplomat"
+		}
+
+		guiButtonType =
+		{
+			name ="icon_missionary"
+			quadTextureSprite = "GFX_icon_missionary"
+			position = { x= 862 y = 9 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_missionary"
+		}
+
+	##########################################
+
+		iconType =
+		{
+			name ="topbar_upper_left_bg2"
+			spriteType = "GFX_topbar_portrait_value_bg"
+			position = { x= 731 y = 30 }
+			Orientation = "UPPER_LEFT"
+		}
+
+	#############  portrait values #############
+
+		instantTextBoxType = {
+			name = "text_merchants"
+			position = { x = 732 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "text_settlers"
+			position = { x = 773 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "text_diplomats"
+			position = { x = 814 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+		instantTextBoxType = {
+			name = "text_missionaries"
+			position = { x = 855 y = 34 }
+			textureFile = ""
+			font = "ToolTip_Font"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			font = "vic_18"
+			maxWidth = 42
+			maxHeight = 32
+			format = centre
+		}
+
+
+	###########  top bar icons and values #############
+
+		iconType =
+		{
+			name ="icon_gold"
+			spriteType = "GFX_icon_gold_strip"
+			position = { x= 146 y = 10 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_ducats"
+		}
+		instantTextBoxType = {
+			name = "text_gold"
+			position = { x = 152 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 60
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_manpower"
+			spriteType = "GFX_icon_manpower"
+			position = { x= 228 y = 11 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_manpower"
+		}
+		instantTextBoxType = {
+			name = "text_manpower"
+			position = { x = 248 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+		}
+
+
+		iconType =
+		{
+			name ="icon_sailors"
+			spriteType = "GFX_icon_sailors"
+			position = { x= 311 y = 14 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "text_sailors"
+			position = { x = 331 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 50
+			maxHeight = 32
+			format = right
+		}
+
+
+		iconType =
+		{
+			name ="icon_stability"
+			spriteType = "GFX_icon_stability"
+			position = { x= 394 y = 10 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_stability"
+		}
+		instantTextBoxType = {
+			name = "text_stability"
+			position = { x = 405 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+
+
+
+
+		iconType =
+		{
+			name ="icon_prestige"
+			spriteType = "GFX_icon_prestige"
+			position = { x= 524 y = 10 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_prestige"
+		}
+		instantTextBoxType = {
+			name = "text_prestige"
+			position = { x = 536 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_dev"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 588 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 3
+			hint_tag = "hint_legitimacy"
+		}
+		instantTextBoxType = {
+			name = "text_dev"
+			position = { x = 605 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_meritocracy"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 588 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 5
+			hint_tag = "hint_meritocracy"
+		}
+		instantTextBoxType = {
+			name = "text_meritocracy"
+			position = { x = 605 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+
+		iconType =
+		{
+			name ="icon_leg"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 590 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 1
+			hint_tag = "hint_legitimacy"
+		}
+		instantTextBoxType = {
+			name = "text_leg"
+			position = { x = 605 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_rep"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 590 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 2
+			hint_tag = "hint_republican"
+		}
+		instantTextBoxType = {
+			name = "text_rep"
+			position = { x = 606 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		iconType =
+		{
+			name ="icon_unity"
+			spriteType = "GFX_icon_legitimacy"
+			position = { x= 590 y = 10 }
+			Orientation = "UPPER_LEFT"
+			frame = 4
+		}
+		instantTextBoxType = {
+			name = "text_unity"
+			position = { x = 606 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "100"
+			maxWidth = 40
+			maxHeight = 32
+			format = right
+		}
+
+		windowType = {
+			name = "powerprojection_topbar"
+			backGround=""
+			position = { x = 148 y = 0 }
+			size = { x=100 y=100 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+				iconType =
+				{
+					name ="topbar_liberty_overlay"
+					spriteType = "GFX_topbar_liberty_overlay"
+					position = { x= 491 y = -1 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType =
+				{
+					name ="icon_powerprojection"
+					spriteType = "GFX_icon_powerprojection"
+					position = { x= 518 y = 10 }
+					Orientation = "UPPER_LEFT"
+					hint_tag = "hint_powerprojection"
+				}
+
+				instantTextBoxType = {
+					name = "text_powerprojection"
+					position = { x = 527 y = 13 }
+					textureFile = ""
+					font = "vic_18"
+					borderSize = {x = 4 y = 4}
+					text = ""
+					maxWidth = 40
+					maxHeight = 32
+					format = right
+				}
+
+		}
+
+		windowType = {
+			name = "liberty_desire_topbar"
+			backGround=""
+			position = { x = 148 y = 0 }
+			size = { x=100 y=100 }
+			moveable = 0
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+
+				iconType =
+				{
+					name ="topbar_liberty_overlay"
+					spriteType = "GFX_topbar_liberty_overlay"
+					position = { x= 491 y = -1 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				iconType =
+				{
+					name ="topbar_liberty_icon"
+					spriteType = "GFX_liberty_icon"
+					position = { x= 512 y = 10 }
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType =
+				{
+					name = "topbar_liberty_value"
+					position = { x = 527 y = 13 }
+					textureFile = ""
+					font = "vic_18"
+					borderSize = {x = 4 y = 4}
+					text = "100"
+					maxWidth = 40
+					maxHeight = 32
+					format = right
+				}
+
+		}
+	#######################################
+
+
+
+
+
+
+
+
+
+	############### Power mechanics for a country ################
+
+
+
+
+		iconType =
+		{
+			name ="icon_corruption"
+			spriteType = "GFX_icon_corruption_small"
+			position = { x= 458 y = 11 }
+			Orientation = "UPPER_LEFT"
+		}
+		instantTextBoxType = {
+			name = "text_corruption"
+			position = { x = 463 y = 13 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 46
+			maxHeight = 32
+			format = right
+		}
+
+		instantTextBoxType = {
+			name = "text_ADM"
+			position = { x = 520 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "5"
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+		}
+		iconType = {
+			name ="icon_ADM"
+			spriteType = "GFX_icon_powers_administrative"
+			position = { x= 498 y = 49 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_adm"
+		}
+
+
+		instantTextBoxType = {
+			name = "text_DIP"
+			position = { x = 581 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "5"
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+		}
+		iconType = {
+			name ="icon_DIP"
+			spriteType = "GFX_icon_powers_diplomatic"
+			position = { x= 558 y = 49 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_dip"
+		}
+
+		instantTextBoxType = {
+			name = "text_MIL"
+			position = { x = 639 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "5"
+			maxWidth = 36
+			maxHeight = 32
+			format = left
+		}
+		iconType = {
+			name = "icon_MIL"
+			spriteType ="GFX_icon_powers_military"
+			position = { x= 616 y = 49 }
+			Orientation = "UPPER_LEFT"
+			hint_tag = "hint_mil"
+		}
+
+		iconType = {
+			name = "button_base"
+			spriteType ="GFX_age_frame_addon"
+			position = { x= 690 y = 30 }
+			alwaystransparent = yes
+		}
+
+		guiButtonType = {
+			name = "current_age_button"
+			position = { x = 722 y = 32 }
+			quadTextureSprite ="GFX_age_button"
+			clicksound = macro_build
+			shortcut = "Shift+A"
+		}
+
+		guiButtonType = {
+			name = "age_icon"
+			spriteType ="GFX_icon_age_s"
+			position = { x= 705 y = 47 }
+			frame = 1
+		}
+
+		instantTextBoxType = {
+			name = "age_title"
+			position = { x = 740 y = 52 }
+			textureFile = ""
+			font = "vic_18"
+			borderSize = {x = 4 y = 4}
+			text = "AgeText"
+			maxWidth = 160
+			maxHeight = 32
+			format = left
+			alwaystransparent = yes
+		}
+
+
+
+
+
+
+	#################################################
+
+
+
+		instantTextBoxType = {
+			name = "PlayerNationText"
+			position = { x = 151 y = 50 }
+			textureFile = ""
+			font = "vic_22"
+			borderSize = {x = 4 y = 4}
+			text = ""
+			maxWidth = 340
+			maxHeight = 32
+			fixedsize = yes
+		}
+
+
+	############### DATE PANEL ###################
+
+
+
+
+
+		windowType = {
+			name = "pause_window"
+			backGround=""
+			position = { x=-203 y= 100 }
+			size = { x=406 y=70 }
+			dontRender = ""
+			horizontalBorder= ""
+			verticalBorder= ""
+			fullScreen = no
+			moveable = 0
+			Orientation = "CENTER_UP"
+
+			iconType ={
+				name ="pause_banner"
+				spriteType = "GFX_pause_banner"
+				position = { x = 0 y = -15 }
+				Orientation = "UPPER_LEFT"
+			}
+
+			#Needs localisation change
+			instantTextBoxType = {
+				name = "pause_banner_text"
+				position = { x = 140 y = 9 }
+				textureFile = ""
+				font = "vic_22"
+				borderSize = {x = 4 y = 4}
+				text = "CORE_PAUSED"
+				maxWidth = 120
+				maxHeight = 32
+				format = center
+			}
+		}
+	} ### end of "topbar"
+
+	windowType = {
+		name = "alerts_parent"
+		backGround=""
+		position = { x=0 y=-1 }
+		size = { x=2048 y=100 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		fullScreen = yes
+
+		show_position = { x = 0 y = -1 }
+		hide_position = { x = 0 y = -165 }
+		animation_type = "decelerated"
+		animation_time = 600
+	}
+
+	windowType = {
+		name = "hotkey_assign_parent"
+		backGround=""
+		position = { x=-202 y=-38 }
+		size = { x=404 y=76 }
+		moveable = 0
+		dontRender = ""
+		horizontalBorder= ""
+		verticalBorder= ""
+		orientation = "CENTER"
+
+		iconType = {
+			name ="assign_hotkey_pick_button_hint"
+			spriteType = "GFX_nation_designer_hint_bg"
+			position = { x= 0 y = 0 }
+		}
+		instantTextBoxType = {
+			name = "assign_hotkey_pick_button_hint_text"
+			position = { x = 40 y = 27 }
+			font = "vic_22"
+			text = "PICK_HOTKEY_BUTTON_HINT"
+			maxWidth = 320
+			maxHeight = 60
+			format = centre
+		}
+	}
+}

@@ -1,0 +1,86 @@
+aa_daoism_kungfu = {
+	is_blessing = yes
+
+	modifier = {
+		land_morale = 0.15
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			NOT = {
+				manpower_percentage = 0.25
+			}
+		}
+	}
+}
+aa_daoism_divination = {
+	is_blessing = yes
+
+	modifier = {
+		stability_cost_modifier = -0.25
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 3
+			NOT = {
+				stability = 0
+			}
+		}
+	}
+}
+aa_daoism_thousand_school = {
+	is_blessing = yes
+
+	modifier = {
+		global_missionary_strength = 0.02
+	}
+	ai_will_do = {
+		factor = 10
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.9
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.7
+			}
+		}
+		modifier = {
+			factor = 2
+			NOT = {
+				religious_unity = 0.5
+			}
+		}
+	}
+}
+
+aa_daoism_venerate_ancestor = {
+	is_blessing = yes
+
+	modifier = {
+		production_efficiency = 0.1
+	}
+	ai_will_do = {
+		factor = 15
+	}
+}
+
+aa_daoism_we_are_all_han = {
+	is_blessing = yes
+
+	modifier = {
+		years_of_nationalism = -5
+	}
+	ai_will_do = {
+		factor = 15
+		modifier = {
+			factor = 3
+			num_of_cities = 20
+		}
+	}
+}

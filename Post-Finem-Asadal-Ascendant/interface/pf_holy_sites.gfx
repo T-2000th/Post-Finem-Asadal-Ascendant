@@ -1,0 +1,121 @@
+spriteTypes = {		
+	spriteType = {
+		name = "GFX_romana_blessing_select"
+		texturefile = "gfx//interface//romana_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+  }    
+
+  spriteType = {
+		name = "GFX_romana_blessing_select_glow"
+		texturefile = "gfx//interface//romana_blessing_select_glow.dds"
+		loadType = "INGAME"
+  }		
+	spriteType = {
+		name = "GFX_dubhnoic_blessing_select"
+		texturefile = "gfx//interface//dubhnoic_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+  }    
+
+  spriteType = {
+		name = "GFX_dubhnoic_blessing_select_glow"
+		texturefile = "gfx//interface//romana_blessing_select_glow.dds"
+		loadType = "INGAME"
+  }
+	spriteType = {
+		name = "GFX_daoism_blessing_select"
+		texturefile = "gfx//interface//daoism_blessing_select.dds"
+		effectFile = "gfx/FX/buttonstate.lua"
+		loadType = "INGAME"
+  }    
+
+  spriteType = {
+		name = "GFX_daoism_blessing_select_glow"
+		texturefile = "gfx//interface//romana_blessing_select_glow.dds"
+		loadType = "INGAME"
+  }
+	spriteType = {
+		name = "GFX_holy_site_104"
+		texturefile = "gfx//interface//holy_sites//medlanum_castle.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_118"
+		texturefile = "gfx//interface//holy_sites//aricia_castle_rome.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_124"
+		texturefile = "gfx//interface//holy_sites//messina.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_341"
+		texturefile = "gfx//interface//holy_sites//carthage_port.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_146"
+		texturefile = "gfx//interface//holy_sites//athens_hill.dds"
+		loadType = "INGAME"
+	}
+	
+	spriteType = {
+		name = "GFX_holy_site_171"
+		texturefile = "gfx//interface//holy_sites//karnag.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_210"
+		texturefile = "gfx//interface//holy_sites//aralar_dolmen.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_4739"
+		texturefile = "gfx//interface//holy_sites//val_camonica.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_203"
+		texturefile = "gfx//interface//holy_sites//lugdunon.dds"
+		loadType = "INGAME"
+	}
+	spriteType = {
+		name = "GFX_holy_site_373"
+		texturefile = "gfx//interface//holy_sites//tara_hill.dds"
+		loadType = "INGAME"
+	}
+	# spriteType = {
+   #     name = "GFX_holy_site_1816"
+   #     texturefile = "gfx/interface/sacred_cities/beijing_city.dds"
+   # }
+	#
+   # spriteType = {
+   #     name = "GFX_holy_site_684"
+   #     texturefile = "gfx/interface/sacred_cities/hangzhou_city.dds"
+   # }
+	#
+  #  spriteType = {
+  #      name = "GFX_holy_site_1836"
+  #      texturefile = "gfx/interface/sacred_cities/luoyang_city.dds"
+  #  }
+#	
+   # spriteType = {
+  #      name = "GFX_holy_site_689"
+   #     texturefile = "gfx/interface/sacred_cities/hanzhong_city.dds"
+  #  }
+	#
+ #   spriteType = {
+   #     name = "GFX_holy_site_1821"
+ #       texturefile = "gfx/interface/sacred_cities/nanjing_city.dds"
+ #   }
+#	
+  #  spriteType = {
+ #       name = "GFX_holy_site_700"
+ #       texturefile = "gfx/interface/sacred_cities/xian_city.dds"
+ #   }
+
+
+}
+

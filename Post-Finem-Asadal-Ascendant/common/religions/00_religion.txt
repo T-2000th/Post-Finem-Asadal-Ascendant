@@ -1624,13 +1624,13 @@ eastern = {
 		declare_war_in_regency = yes
 		heretic = { XIANCULT }
 		
-		holy_sites = { 1838 1836 693 684 679 }
+		holy_sites = { 1816 1836 689 684 700 }
 		blessings = {
-			enlist_holy_warriors
-			establish_new_temples
-			promote_religious_values
-			espouse_territorial_integrity
-			send_religious_diplomats
+			aa_daoism_kungfu
+			aa_daoism_divination
+			aa_daoism_thousand_school
+			aa_daoism_venerate_ancestor
+			aa_daoism_we_are_all_han
 		}
 		harmonized_modifier = harmonized_daoist
 	}

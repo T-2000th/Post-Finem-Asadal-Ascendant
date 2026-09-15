@@ -86,35 +86,30 @@ spriteTypes = {
 		texturefile = "gfx//interface//holy_sites//tara_hill.dds"
 		loadType = "INGAME"
 	}
-	# spriteType = {
-   #     name = "GFX_holy_site_1816"
-   #     texturefile = "gfx/interface/sacred_cities/beijing_city.dds"
-   # }
-	#
-   # spriteType = {
-   #     name = "GFX_holy_site_684"
-   #     texturefile = "gfx/interface/sacred_cities/hangzhou_city.dds"
-   # }
-	#
-  #  spriteType = {
-  #      name = "GFX_holy_site_1836"
-  #      texturefile = "gfx/interface/sacred_cities/luoyang_city.dds"
-  #  }
-#	
-   # spriteType = {
-  #      name = "GFX_holy_site_689"
-   #     texturefile = "gfx/interface/sacred_cities/hanzhong_city.dds"
-  #  }
-	#
- #   spriteType = {
-   #     name = "GFX_holy_site_1821"
- #       texturefile = "gfx/interface/sacred_cities/nanjing_city.dds"
- #   }
-#	
-  #  spriteType = {
- #       name = "GFX_holy_site_700"
- #       texturefile = "gfx/interface/sacred_cities/xian_city.dds"
- #   }
+	spriteType = {
+       name = "GFX_holy_site_1816"
+       texturefile = "gfx/interface/sacred_cities/beijing_city.dds"
+   }
+   spriteType = {
+       name = "GFX_holy_site_684"
+       texturefile = "gfx/interface/sacred_cities/hangzhou_city.dds"
+   }
+   spriteType = {
+       name = "GFX_holy_site_1836"
+       texturefile = "gfx/interface/sacred_cities/luoyang_city.dds"
+   }	
+   spriteType = {
+       name = "GFX_holy_site_689"
+       texturefile = "gfx/interface/sacred_cities/hanzhong_city.dds"
+   }
+   spriteType = {
+       name = "GFX_holy_site_1821"
+       texturefile = "gfx/interface/sacred_cities/nanjing_city.dds"
+   }
+   spriteType = {
+       name = "GFX_holy_site_700"
+       texturefile = "gfx/interface/sacred_cities/xian_city.dds"
+   }
 
 
 }
